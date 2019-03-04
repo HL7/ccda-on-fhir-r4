@@ -1,4 +1,4 @@
-{ 
+{
 	"tool": "jekyll",
 	"source": "implementationguide/CCDA-on-FHIR-R4.xml",
 	"npm-name": "hl7.fhir.us.ccda",
