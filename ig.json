@@ -1,7 +1,7 @@
 {
 	"tool": "jekyll",
 	"source": "implementationguide/CCDA-on-FHIR-R4.xml",
-	"npm-name": "hl7.fhir.us.ccda",
+	"npm-name": "hl7.fhir.us.ccda.r4",
 	"license": "CC0-1.0",
 	"paths": {
 		"qa": "generated_output/qa",
@@ -27,7 +27,7 @@
 		"https://trifolia-on-fhir.lantanagroup.com"
 	],
 	"sct-edition": "http://snomed.info/sct/731000124108",
-	"canonicalBase": "http://hl7.org/fhir/us/ccda",
+	"canonicalBase": "http://hl7.org/fhir/us/ccda-r4",
 	"defaults": {
 		"Location": {
 			"template-base": "ex.html"
@@ -94,53 +94,9 @@
 		}
 	},
 	"resources": {
-		"StructureDefinition/CCDA-on-FHIR-Care-Plan": {
-			"base": "StructureDefinition-CCDA-on-FHIR-Care-Plan.html",
-			"defns": "StructureDefinition-CCDA-on-FHIR-Care-Plan-definitions.html"
-		},
 		"StructureDefinition/CCDA-on-FHIR-Consent": {
 			"base": "StructureDefinition-CCDA-on-FHIR-Consent.html",
 			"defns": "StructureDefinition-CCDA-on-FHIR-Consent-definitions.html"
-		},
-		"StructureDefinition/CCDA-on-FHIR-Consultation-Note": {
-			"base": "StructureDefinition-CCDA-on-FHIR-Consultation-Note.html",
-			"defns": "StructureDefinition-CCDA-on-FHIR-Consultation-Note-definitions.html"
-		},
-		"StructureDefinition/CCDA-on-FHIR-Continuity-of-Care-Document": {
-			"base": "StructureDefinition-CCDA-on-FHIR-Continuity-of-Care-Document.html",
-			"defns": "StructureDefinition-CCDA-on-FHIR-Continuity-of-Care-Document-definitions.html"
-		},
-		"StructureDefinition/CCDA-on-FHIR-Data-Enterer": {
-			"base": "StructureDefinition-CCDA-on-FHIR-Data-Enterer.html",
-			"defns": "StructureDefinition-CCDA-on-FHIR-Data-Enterer-definitions.html"
-		},
-		"StructureDefinition/CCDA-on-FHIR-Diagnostic-Imaging-Report": {
-			"base": "StructureDefinition-CCDA-on-FHIR-Diagnostic-Imaging-Report.html",
-			"defns": "StructureDefinition-CCDA-on-FHIR-Diagnostic-Imaging-Report-definitions.html"
-		},
-		"StructureDefinition/CCDA-on-FHIR-Discharge-Summary": {
-			"base": "StructureDefinition-CCDA-on-FHIR-Discharge-Summary.html",
-			"defns": "StructureDefinition-CCDA-on-FHIR-Discharge-Summary-definitions.html"
-		},
-		"StructureDefinition/CCDA-on-FHIR-History-and-Physical": {
-			"base": "StructureDefinition-CCDA-on-FHIR-History-and-Physical.html",
-			"defns": "StructureDefinition-CCDA-on-FHIR-History-and-Physical-definitions.html"
-		},
-		"StructureDefinition/CCDA-on-FHIR-Informant": {
-			"base": "StructureDefinition-CCDA-on-FHIR-Informant.html",
-			"defns": "StructureDefinition-CCDA-on-FHIR-Informant-definitions.html"
-		},
-		"StructureDefinition/CCDA-on-FHIR-Information-Recipient": {
-			"base": "StructureDefinition-CCDA-on-FHIR-Information-Recipient.html",
-			"defns": "StructureDefinition-CCDA-on-FHIR-Information-Recipient-definitions.html"
-		},
-		"StructureDefinition/CCDA-on-FHIR-In-Fulfillment-Of-Order": {
-			"base": "StructureDefinition-CCDA-on-FHIR-In-Fulfillment-Of-Order.html",
-			"defns": "StructureDefinition-CCDA-on-FHIR-In-Fulfillment-Of-Order-definitions.html"
-		},
-		"StructureDefinition/CCDA-on-FHIR-Operative-Note": {
-			"base": "StructureDefinition-CCDA-on-FHIR-Operative-Note.html",
-			"defns": "StructureDefinition-CCDA-on-FHIR-Operative-Note-definitions.html"
 		},
 		"StructureDefinition/CCDA-on-FHIR-Participant": {
 			"base": "StructureDefinition-CCDA-on-FHIR-Participant.html",
@@ -154,6 +110,54 @@
 			"base": "StructureDefinition-CCDA-on-FHIR-Procedure-Note.html",
 			"defns": "StructureDefinition-CCDA-on-FHIR-Procedure-Note-definitions.html"
 		},
+		"StructureDefinition/CCDA-on-FHIR-Informant": {
+			"base": "StructureDefinition-CCDA-on-FHIR-Informant.html",
+			"defns": "StructureDefinition-CCDA-on-FHIR-Informant-definitions.html"
+		},
+		"StructureDefinition/CCDA-on-FHIR-Information-Recipient": {
+			"base": "StructureDefinition-CCDA-on-FHIR-Information-Recipient.html",
+			"defns": "StructureDefinition-CCDA-on-FHIR-Information-Recipient-definitions.html"
+		},
+		"StructureDefinition/CCDA-on-FHIR-In-Fulfillment-Of-Order": {
+			"base": "StructureDefinition-CCDA-on-FHIR-In-Fulfillment-Of-Order.html",
+			"defns": "StructureDefinition-CCDA-on-FHIR-In-Fulfillment-Of-Order-definitions.html"
+		},
+		"StructureDefinition/CCDA-on-FHIR-Data-Enterer": {
+			"base": "StructureDefinition-CCDA-on-FHIR-Data-Enterer.html",
+			"defns": "StructureDefinition-CCDA-on-FHIR-Data-Enterer-definitions.html"
+		},
+		"StructureDefinition/CCDA-on-FHIR-US-Realm-Header": {
+			"base": "StructureDefinition-CCDA-on-FHIR-US-Realm-Header.html",
+			"defns": "StructureDefinition-CCDA-on-FHIR-US-Realm-Header-definitions.html"
+		},
+		"StructureDefinition/CCDA-on-FHIR-Care-Plan": {
+			"base": "StructureDefinition-CCDA-on-FHIR-Care-Plan.html",
+			"defns": "StructureDefinition-CCDA-on-FHIR-Care-Plan-definitions.html"
+		},
+		"StructureDefinition/CCDA-on-FHIR-Consultation-Note": {
+			"base": "StructureDefinition-CCDA-on-FHIR-Consultation-Note.html",
+			"defns": "StructureDefinition-CCDA-on-FHIR-Consultation-Note-definitions.html"
+		},
+		"StructureDefinition/CCDA-on-FHIR-Continuity-of-Care-Document": {
+			"base": "StructureDefinition-CCDA-on-FHIR-Continuity-of-Care-Document.html",
+			"defns": "StructureDefinition-CCDA-on-FHIR-Continuity-of-Care-Document-definitions.html"
+		},
+		"StructureDefinition/CCDA-on-FHIR-Diagnostic-Imaging-Report": {
+			"base": "StructureDefinition-CCDA-on-FHIR-Diagnostic-Imaging-Report.html",
+			"defns": "StructureDefinition-CCDA-on-FHIR-Diagnostic-Imaging-Report-definitions.html"
+		},
+		"StructureDefinition/CCDA-on-FHIR-Discharge-Summary": {
+			"base": "StructureDefinition-CCDA-on-FHIR-Discharge-Summary.html",
+			"defns": "StructureDefinition-CCDA-on-FHIR-Discharge-Summary-definitions.html"
+		},
+		"StructureDefinition/CCDA-on-FHIR-History-and-Physical": {
+			"base": "StructureDefinition-CCDA-on-FHIR-History-and-Physical.html",
+			"defns": "StructureDefinition-CCDA-on-FHIR-History-and-Physical-definitions.html"
+		},
+		"StructureDefinition/CCDA-on-FHIR-Operative-Note": {
+			"base": "StructureDefinition-CCDA-on-FHIR-Operative-Note.html",
+			"defns": "StructureDefinition-CCDA-on-FHIR-Operative-Note-definitions.html"
+		},
 		"StructureDefinition/CCDA-on-FHIR-Progress-Note": {
 			"base": "StructureDefinition-CCDA-on-FHIR-Progress-Note.html",
 			"defns": "StructureDefinition-CCDA-on-FHIR-Progress-Note-definitions.html"
@@ -166,10 +170,6 @@
 			"base": "StructureDefinition-CCDA-on-FHIR-Transfer-Summary.html",
 			"defns": "StructureDefinition-CCDA-on-FHIR-Transfer-Summary-definitions.html"
 		},
-		"StructureDefinition/CCDA-on-FHIR-US-Realm-Header": {
-			"base": "StructureDefinition-CCDA-on-FHIR-US-Realm-Header.html",
-			"defns": "StructureDefinition-CCDA-on-FHIR-US-Realm-Header-definitions.html"
-		},
 		"StructureDefinition/CCDA-on-FHIR-VersionNumber": {
 			"base": "StructureDefinition-CCDA-on-FHIR-VersionNumber.html",
 			"defns": "StructureDefinition-CCDA-on-FHIR-VersionNumber-definitions.html"
@@ -177,6 +177,50 @@
 		"StructureDefinition/CCDA-on-FHIR-Authorization": {
 			"base": "StructureDefinition-CCDA-on-FHIR-Authorization.html",
 			"defns": "StructureDefinition-CCDA-on-FHIR-Authorization-definitions.html"
+		},
+		"ValueSet/care-plan-document-type": {
+			"base": "ValueSet-care-plan-document-type.html",
+			"defns": "ValueSet-care-plan-document-type-definitions.html"
+		},
+		"ValueSet/2.16.840.1.113883.1.11.20.2.3": {
+			"base": "ValueSet-2.16.840.1.113883.1.11.20.2.3.html",
+			"defns": "ValueSet-2.16.840.1.113883.1.11.20.2.3-definitions.html"
+		},
+		"ValueSet/2.16.840.1.113883.1.11.20.2.4": {
+			"base": "ValueSet-2.16.840.1.113883.1.11.20.2.4.html",
+			"defns": "ValueSet-2.16.840.1.113883.1.11.20.2.4-definitions.html"
+		},
+		"ValueSet/2.16.840.1.113883.1.11.20.22": {
+			"base": "ValueSet-2.16.840.1.113883.1.11.20.22.html",
+			"defns": "ValueSet-2.16.840.1.113883.1.11.20.22-definitions.html"
+		},
+		"ValueSet/2.16.840.1.113883.11.20.1.1": {
+			"base": "ValueSet-2.16.840.1.113883.11.20.1.1.html",
+			"defns": "ValueSet-2.16.840.1.113883.11.20.1.1-definitions.html"
+		},
+		"ValueSet/2.16.840.1.113883.11.20.4.1": {
+			"base": "ValueSet-2.16.840.1.113883.11.20.4.1.html",
+			"defns": "ValueSet-2.16.840.1.113883.11.20.4.1-definitions.html"
+		},
+		"ValueSet/2.16.840.1.113883.11.20.6.1": {
+			"base": "ValueSet-2.16.840.1.113883.11.20.6.1.html",
+			"defns": "ValueSet-2.16.840.1.113883.11.20.6.1-definitions.html"
+		},
+		"ValueSet/2.16.840.1.113883.11.20.8.1": {
+			"base": "ValueSet-2.16.840.1.113883.11.20.8.1.html",
+			"defns": "ValueSet-2.16.840.1.113883.11.20.8.1-definitions.html"
+		},
+		"ValueSet/2.16.840.1.113883.11.20.9.31": {
+			"base": "ValueSet-2.16.840.1.113883.11.20.9.31.html",
+			"defns": "ValueSet-2.16.840.1.113883.11.20.9.31-definitions.html"
+		},
+		"ValueSet/2.16.840.1.113883.11.20.9.59": {
+			"base": "ValueSet-2.16.840.1.113883.11.20.9.59.html",
+			"defns": "ValueSet-2.16.840.1.113883.11.20.9.59-definitions.html"
+		},
+		"ValueSet/1.3.6.1.4.1.12009.10.2.5": {
+			"base": "ValueSet-1.3.6.1.4.1.12009.10.2.5.html",
+			"defns": "ValueSet-1.3.6.1.4.1.12009.10.2.5-definitions.html"
 		}
 	},
 	"dependencyList": [
