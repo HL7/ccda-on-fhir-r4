@@ -13,19 +13,3 @@ active: other
 
 <!-- end TOC -->
 
-### Other Resources
-
-<table>
-<thead>
-<tr>
-<th>Type</th>
-<th>Name</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>ImplementationGuide</td>
-<td><a href="CapabilityStatement-CCDA-on-FHIR-R4.html">C-CDA on FHIR R4</a></td>
-</tr>
-</tbody>
-</table>

@@ -1,1 +1,58 @@
-<?xml version="1.0" encoding="UTF-8"?><StructureDefinition xmlns="http://hl7.org/fhir"><id value="CCDA-on-FHIR-Data-Enterer"/><meta><versionId value="5"/><lastUpdated value="2019-03-10T22:30:16.000-04:00"/></meta><extension url="https://trifolia-fhir.lantanagroup.com/r4/StructureDefinition/github-branch"><valueString value="master"/></extension><extension url="https://trifolia-fhir.lantanagroup.com/r4/StructureDefinition/github-path"><valueString value="HL7/ccda-on-fhir-r4/source/resources/structuredefinition/CCDA-on-FHIR-Data-Enterer.xml"/></extension><url value="http://hl7.org/fhir/us/ccda-r4/StructureDefinition/CCDA-on-FHIR-Data-Enterer"/><name value="C-CDA on FHIR Data Enterer"/><status value="draft"/><publisher value="Lantana Consulting Group"/><contact><name value="Sarah Gaunt"/><telecom><system value="phone"/><value value="+6 141-029-2506"/><use value="work"/></telecom><telecom><system value="email"/><value value="sarah.gaunt@lantanagroup.com"/><use value="work"/></telecom></contact><contact><name value="Rick Geimer"/><telecom><system value="email"/><value value="rick.geimer@lantanagroup.com"/><use value="work"/></telecom></contact><description value="The C-CDA on FHIR Data Enterer Extension represents the person who transferred the content, written or dictated, into the clinical document. To clarify, an author provides the content, subject to their own interpretation; a dataEnterer adds an author's information to the electronic system.&#xA;&#xA;For further information see the C-CDA specification here: http://www.hl7.org/implement/standards/product_brief.cfm?product_id=408."/><fhirVersion value="4.0.0"/><kind value="complex-type"/><abstract value="false"/><type value="Extension"/><baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension"/><derivation value="constraint"/><differential><element id="Extension"><path value="Extension"/></element><element id="Extension.value[x]:valueReference"><path value="Extension.valueReference"/><sliceName value="valueReference"/><type><code value="Reference"/><targetProfile value="http://hl7.org/fhir/us/core-r4/StructureDefinition/us-core-practitioner"/></type></element></differential></StructureDefinition>
+<?xml version="1.0" encoding="UTF-8"?>
+<StructureDefinition
+    xmlns="http://hl7.org/fhir">
+    <id value="CCDA-on-FHIR-Data-Enterer"/>
+    <meta>
+        <versionId value="6"/>
+        <lastUpdated value="2019-03-11T03:23:30.000-04:00"/>
+    </meta>
+    <url value="http://hl7.org/fhir/us/ccda-r4/StructureDefinition/CCDA-on-FHIR-Data-Enterer"/>
+    <name value="C-CDA on FHIR Data Enterer"/>
+    <status value="draft"/>
+    <publisher value="Lantana Consulting Group"/>
+    <contact>
+        <name value="Sarah Gaunt"/>
+        <telecom>
+            <system value="phone"/>
+            <value value="+6 141-029-2506"/>
+            <use value="work"/>
+        </telecom>
+        <telecom>
+            <system value="email"/>
+            <value value="sarah.gaunt@lantanagroup.com"/>
+            <use value="work"/>
+        </telecom>
+    </contact>
+    <contact>
+        <name value="Rick Geimer"/>
+        <telecom>
+            <system value="email"/>
+            <value value="rick.geimer@lantanagroup.com"/>
+            <use value="work"/>
+        </telecom>
+    </contact>
+    <description value="The C-CDA on FHIR Data Enterer Extension represents the person who transferred the content, written or dictated, into the clinical document. To clarify, an author provides the content, subject to their own interpretation; a dataEnterer adds an author's information to the electronic system.&#xA;&#xA;For further information see the C-CDA specification here: http://www.hl7.org/implement/standards/product_brief.cfm?product_id=408."/>
+    <fhirVersion value="4.0.0"/>
+    <kind value="complex-type"/>
+    <abstract value="false"/>
+    <context>
+        <type value="element"/>
+        <expression value="Composition"/>
+    </context>
+    <type value="Extension"/>
+    <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension"/>
+    <derivation value="constraint"/>
+    <differential>
+        <element id="Extension">
+            <path value="Extension"/>
+        </element>
+        <element id="Extension.value[x]:valueReference">
+            <path value="Extension.valueReference"/>
+            <sliceName value="valueReference"/>
+            <type>
+                <code value="Reference"/>
+                <targetProfile value="http://hl7.org/fhir/us/core-r4/StructureDefinition/us-core-practitioner"/>
+            </type>
+        </element>
+    </differential>
+</StructureDefinition>
