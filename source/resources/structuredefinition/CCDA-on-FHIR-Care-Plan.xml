@@ -3,8 +3,8 @@
     xmlns="http://hl7.org/fhir">
     <id value="CCDA-on-FHIR-Care-Plan"/>
     <meta>
-        <versionId value="8"/>
-        <lastUpdated value="2019-03-11T03:31:16.000-04:00"/>
+        <versionId value="9"/>
+        <lastUpdated value="2019-03-18T23:58:18.000-04:00"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ccda-r4/StructureDefinition/CCDA-on-FHIR-Care-Plan"/>
     <name value="C-CDA on FHIR Care Plan"/>
@@ -47,6 +47,7 @@
             <short value="Care Plan Document"/>
             <binding>
                 <strength value="preferred"/>
+                <valueSet value="http://hl7.org/fhir/us/ccda-r4/ValueSet/care-plan-document-type"/>
             </binding>
         </element>
         <element id="Composition.event">
