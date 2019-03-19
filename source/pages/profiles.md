@@ -168,20 +168,8 @@ Examples of referral situations are:
 For further information see the C-CDA specification here: http://www.hl7.org/implement/standards/product_brief.cfm?product_id=408.</td>
 </tr>
 <tr>
-<td><a href="StructureDefinition-CCDA-on-FHIR-Data-Enterer.html">C-CDA on FHIR Data Enterer</a></td>
-<td>The C-CDA on FHIR Data Enterer Extension represents the person who transferred the content, written or dictated, into the clinical document. To clarify, an author provides the content, subject to their own interpretation; a dataEnterer adds an author's information to the electronic system.
-
-For further information see the C-CDA specification here: http://www.hl7.org/implement/standards/product_brief.cfm?product_id=408.</td>
-</tr>
-<tr>
 <td><a href="StructureDefinition-CCDA-on-FHIR-In-Fulfillment-Of-Order.html">C-CDA on FHIR In Fulfillment Of Order</a></td>
 <td>The C-CDA on FHIR In Fulfillment Of Order Extension represents orders that are fulfilled by this document such as a radiologists report of an x-ray.
-
-For further information see the C-CDA specification here: http://www.hl7.org/implement/standards/product_brief.cfm?product_id=408.</td>
-</tr>
-<tr>
-<td><a href="StructureDefinition-CCDA-on-FHIR-Informant.html">C-CDA on FHIR Informant</a></td>
-<td>The C-CDA on FHIR Informant Extension describes an information source for any content within the clinical document. This informant is constrained for use when the source of information is an assigned health care provider for the patient.
 
 For further information see the C-CDA specification here: http://www.hl7.org/implement/standards/product_brief.cfm?product_id=408.</td>
 </tr>
@@ -206,6 +194,18 @@ For further information see the C-CDA specification here: http://www.hl7.org/imp
 <tr>
 <td><a href="StructureDefinition-CCDA-on-FHIR-VersionNumber.html">CCDA-on-FHIR-VersionNumber</a></td>
 <td>The CCDA on FHIR VersionNumber Extension represents a numeric value used to version successive replacement documents.
+
+For further information see the C-CDA specification here: http://www.hl7.org/implement/standards/product_brief.cfm?product_id=408.</td>
+</tr>
+<tr>
+<td><a href="StructureDefinition-CCDA-on-FHIR-Data-Enterer.html">CCDAonFHIRDataEnterer</a></td>
+<td>The C-CDA on FHIR Data Enterer Extension represents the person who transferred the content, written or dictated, into the clinical document. To clarify, an author provides the content, subject to their own interpretation; a dataEnterer adds an author's information to the electronic system.
+
+For further information see the C-CDA specification here: http://www.hl7.org/implement/standards/product_brief.cfm?product_id=408.</td>
+</tr>
+<tr>
+<td><a href="StructureDefinition-CCDA-on-FHIR-Informant.html">CCDAonFHIRInformant</a></td>
+<td>The C-CDA on FHIR Informant Extension describes an information source for any content within the clinical document. This informant is constrained for use when the source of information is an assigned health care provider for the patient.
 
 For further information see the C-CDA specification here: http://www.hl7.org/implement/standards/product_brief.cfm?product_id=408.</td>
 </tr>

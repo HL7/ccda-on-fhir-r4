@@ -3,11 +3,12 @@
     xmlns="http://hl7.org/fhir">
     <id value="CCDA-on-FHIR-Informant"/>
     <meta>
-        <versionId value="6"/>
-        <lastUpdated value="2019-03-19T11:57:08.000-04:00"/>
+        <versionId value="8"/>
+        <lastUpdated value="2019-03-19T17:31:40.000-04:00"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ccda-r4/StructureDefinition/CCDA-on-FHIR-Informant"/>
-    <name value="C-CDA on FHIR Informant"/>
+    <name value="CCDAonFHIRInformant"/>
+    <title value="C-CDA on FHIR Informant"/>
     <status value="draft"/>
     <publisher value="Lantana Consulting Group"/>
     <contact>
@@ -52,13 +53,8 @@
             <type>
                 <code value="Reference"/>
                 <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner"/>
-            </type>
-            <type>
-                <code value="Reference"/>
+                <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitionerrole"/>
                 <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"/>
-            </type>
-            <type>
-                <code value="Reference"/>
                 <targetProfile value="http://hl7.org/fhir/StructureDefinition/RelatedPerson"/>
             </type>
         </element>

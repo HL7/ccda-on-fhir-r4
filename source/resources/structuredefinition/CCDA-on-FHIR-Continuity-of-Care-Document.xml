@@ -3,8 +3,8 @@
     xmlns="http://hl7.org/fhir">
     <id value="CCDA-on-FHIR-Continuity-of-Care-Document"/>
     <meta>
-        <versionId value="6"/>
-        <lastUpdated value="2019-03-19T11:03:23.000-04:00"/>
+        <versionId value="7"/>
+        <lastUpdated value="2019-03-19T17:19:36.000-04:00"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ccda-r4/StructureDefinition/CCDA-on-FHIR-Continuity-of-Care-Document"/>
     <name value="C-CDA on FHIR Continuity of Care Document"/>
@@ -362,9 +362,6 @@
             <type>
                 <code value="Reference"/>
                 <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-smokingstatus"/>
-            </type>
-            <type>
-                <code value="Reference"/>
                 <targetProfile value="http://hl7.org/fhir/StructureDefinition/Observation"/>
             </type>
         </element>
@@ -472,45 +469,15 @@
             <type>
                 <code value="Reference"/>
                 <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-goal"/>
-            </type>
-            <type>
-                <code value="Reference"/>
                 <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest"/>
-            </type>
-            <type>
-                <code value="Reference"/>
                 <targetProfile value="http://hl7.org/fhir/StructureDefinition/Communication"/>
-            </type>
-            <type>
-                <code value="Reference"/>
                 <targetProfile value="http://hl7.org/fhir/StructureDefinition/Appointment"/>
-            </type>
-            <type>
-                <code value="Reference"/>
                 <targetProfile value="http://hl7.org/fhir/StructureDefinition/CommunicationRequest"/>
-            </type>
-            <type>
-                <code value="Reference"/>
                 <targetProfile value="http://hl7.org/fhir/StructureDefinition/DeviceRequest"/>
-            </type>
-            <type>
-                <code value="Reference"/>
                 <targetProfile value="http://hl7.org/fhir/StructureDefinition/NutritionOrder"/>
-            </type>
-            <type>
-                <code value="Reference"/>
                 <targetProfile value="http://hl7.org/fhir/StructureDefinition/Task"/>
-            </type>
-            <type>
-                <code value="Reference"/>
                 <targetProfile value="http://hl7.org/fhir/StructureDefinition/ServiceRequest"/>
-            </type>
-            <type>
-                <code value="Reference"/>
                 <targetProfile value="http://hl7.org/fhir/StructureDefinition/VisionPrescription"/>
-            </type>
-            <type>
-                <code value="Reference"/>
                 <targetProfile value="http://hl7.org/fhir/StructureDefinition/RequestGroup"/>
             </type>
         </element>
@@ -880,9 +847,6 @@
             <type>
                 <code value="Reference"/>
                 <targetProfile value="http://hl7.org/fhir/StructureDefinition/NutritionOrder"/>
-            </type>
-            <type>
-                <code value="Reference"/>
                 <targetProfile value="http://hl7.org/fhir/StructureDefinition/ClinicalImpression"/>
             </type>
         </element>
@@ -1145,41 +1109,14 @@
             <type>
                 <code value="Reference"/>
                 <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-allergyintolerance"/>
-            </type>
-            <type>
-                <code value="Reference"/>
                 <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition"/>
-            </type>
-            <type>
-                <code value="Reference"/>
                 <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-observationresults"/>
-            </type>
-            <type>
-                <code value="Reference"/>
                 <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-smokingstatus"/>
-            </type>
-            <type>
-                <code value="Reference"/>
                 <targetProfile value="http://hl7.org/fhir/StructureDefinition/vitalsigns"/>
-            </type>
-            <type>
-                <code value="Reference"/>
                 <targetProfile value="http://hl7.org/fhir/StructureDefinition/ClinicalImpression"/>
-            </type>
-            <type>
-                <code value="Reference"/>
                 <targetProfile value="http://hl7.org/fhir/StructureDefinition/Observation"/>
-            </type>
-            <type>
-                <code value="Reference"/>
                 <targetProfile value="http://hl7.org/fhir/StructureDefinition/RiskAssessment"/>
-            </type>
-            <type>
-                <code value="Reference"/>
                 <targetProfile value="http://hl7.org/fhir/StructureDefinition/List"/>
-            </type>
-            <type>
-                <code value="Reference"/>
                 <targetProfile value="http://hl7.org/fhir/StructureDefinition/DocumentReference"/>
             </type>
         </element>

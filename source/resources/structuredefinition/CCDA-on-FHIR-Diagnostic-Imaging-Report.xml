@@ -3,8 +3,8 @@
     xmlns="http://hl7.org/fhir">
     <id value="CCDA-on-FHIR-Diagnostic-Imaging-Report"/>
     <meta>
-        <versionId value="7"/>
-        <lastUpdated value="2019-03-19T11:03:23.000-04:00"/>
+        <versionId value="8"/>
+        <lastUpdated value="2019-03-19T17:26:55.000-04:00"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ccda-r4/StructureDefinition/CCDA-on-FHIR-Diagnostic-Imaging-Report"/>
     <name value="C-CDA on FHIR Diagnostic Imaging Report"/>
@@ -255,9 +255,6 @@
             <type>
                 <code value="Reference"/>
                 <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-procedure"/>
-            </type>
-            <type>
-                <code value="Reference"/>
                 <targetProfile value="http://hl7.org/fhir/StructureDefinition/Observation"/>
             </type>
         </element>

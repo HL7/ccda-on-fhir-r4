@@ -3,11 +3,12 @@
     xmlns="http://hl7.org/fhir">
     <id value="CCDA-on-FHIR-Data-Enterer"/>
     <meta>
-        <versionId value="7"/>
-        <lastUpdated value="2019-03-19T11:57:08.000-04:00"/>
+        <versionId value="9"/>
+        <lastUpdated value="2019-03-19T16:02:49.000-04:00"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ccda-r4/StructureDefinition/CCDA-on-FHIR-Data-Enterer"/>
-    <name value="C-CDA on FHIR Data Enterer"/>
+    <name value="CCDAonFHIRDataEnterer"/>
+    <title value="C-CDA on FHIR Data Enterer"/>
     <status value="draft"/>
     <publisher value="Lantana Consulting Group"/>
     <contact>
@@ -52,6 +53,7 @@
             <type>
                 <code value="Reference"/>
                 <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner"/>
+                <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitionerrole"/>
             </type>
         </element>
     </differential>
