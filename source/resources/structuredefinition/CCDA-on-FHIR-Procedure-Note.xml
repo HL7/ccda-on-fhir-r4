@@ -3,8 +3,8 @@
     xmlns="http://hl7.org/fhir">
     <id value="CCDA-on-FHIR-Procedure-Note"/>
     <meta>
-        <versionId value="4"/>
-        <lastUpdated value="2019-03-10T22:30:15.000-04:00"/>
+        <versionId value="5"/>
+        <lastUpdated value="2019-03-19T11:03:23.000-04:00"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ccda-r4/StructureDefinition/CCDA-on-FHIR-Procedure-Note"/>
     <name value="C-CDA on FHIR Procedure Note"/>
@@ -125,7 +125,7 @@
             <sliceName value="sliceEntry"/>
             <type>
                 <code value="Reference"/>
-                <targetProfile value="http://hl7.org/fhir/us/core-r4/StructureDefinition/us-core-condition"/>
+                <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition"/>
             </type>
         </element>
         <element id="Composition.section:procedure_description_section">
@@ -243,7 +243,7 @@
             <sliceName value="sliceEntry"/>
             <type>
                 <code value="Reference"/>
-                <targetProfile value="http://hl7.org/fhir/us/core-r4/StructureDefinition/us-core-condition"/>
+                <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition"/>
             </type>
         </element>
         <element id="Composition.section:allergies_and_intolerances_section">
@@ -294,7 +294,7 @@
             <sliceName value="sliceEntry"/>
             <type>
                 <code value="Reference"/>
-                <targetProfile value="http://hl7.org/fhir/us/core-r4/StructureDefinition/us-core-allergyintolerance"/>
+                <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-allergyintolerance"/>
             </type>
         </element>
         <element id="Composition.section:assessment_section">
@@ -377,7 +377,7 @@
             <short value="This section contains unprofiled resources not covered by US Core. Please refer to C-CDA R2.1 for guidance on terminology, etc. "/>
             <type>
                 <code value="Reference"/>
-                <targetProfile value="http://hl7.org/fhir/us/core-r4/StructureDefinition/us-core-condition"/>
+                <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition"/>
             </type>
             <type>
                 <code value="Reference"/>
@@ -436,11 +436,11 @@
             <sliceName value="sliceEntry"/>
             <type>
                 <code value="Reference"/>
-                <targetProfile value="http://hl7.org/fhir/us/core-r4/StructureDefinition/us-core-medicationstatement"/>
+                <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationstatement"/>
             </type>
             <type>
                 <code value="Reference"/>
-                <targetProfile value="http://hl7.org/fhir/us/core-r4/StructureDefinition/us-core-procedure"/>
+                <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-procedure"/>
             </type>
         </element>
         <element id="Composition.section:chief_complaint_and_reason_for_visit_section">
@@ -603,7 +603,7 @@
             <sliceName value="sliceEntry"/>
             <type>
                 <code value="Reference"/>
-                <targetProfile value="http://hl7.org/fhir/us/core-r4/StructureDefinition/us-core-condition"/>
+                <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition"/>
             </type>
         </element>
         <element id="Composition.section:history_of_present_illness_section">
@@ -717,7 +717,7 @@
             <sliceName value="sliceEntry"/>
             <type>
                 <code value="Reference"/>
-                <targetProfile value="http://hl7.org/fhir/us/core-r4/StructureDefinition/us-core-medicationstatement"/>
+                <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationstatement"/>
             </type>
         </element>
         <element id="Composition.section:medications_administered_section">
@@ -768,7 +768,7 @@
             <sliceName value="sliceEntry"/>
             <type>
                 <code value="Reference"/>
-                <targetProfile value="http://hl7.org/fhir/us/core-r4/StructureDefinition/us-core-medicationstatement"/>
+                <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationstatement"/>
             </type>
         </element>
         <element id="Composition.section:physical_exam_section">
@@ -872,11 +872,11 @@
             <short value="This section contains unprofiled resources not covered by US Core. Please refer to C-CDA R2.1 for guidance on terminology, etc. "/>
             <type>
                 <code value="Reference"/>
-                <targetProfile value="http://hl7.org/fhir/us/core-r4/StructureDefinition/us-core-goal"/>
+                <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-goal"/>
             </type>
             <type>
                 <code value="Reference"/>
-                <targetProfile value="http://hl7.org/fhir/us/core-r4/StructureDefinition/us-core-medicationrequest"/>
+                <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest"/>
             </type>
             <type>
                 <code value="Reference"/>
@@ -1155,7 +1155,7 @@
             <sliceName value="sliceEntry"/>
             <type>
                 <code value="Reference"/>
-                <targetProfile value="http://hl7.org/fhir/us/core-r4/StructureDefinition/us-core-procedure"/>
+                <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-procedure"/>
             </type>
         </element>
         <element id="Composition.section:reason_for_visit_section">
@@ -1269,7 +1269,7 @@
             <short value="This section contains unprofiled resources not covered by US Core. Please refer to C-CDA R2.1 for guidance on terminology, etc. "/>
             <type>
                 <code value="Reference"/>
-                <targetProfile value="http://hl7.org/fhir/us/core-r4/StructureDefinition/us-core-smokingstatus"/>
+                <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-smokingstatus"/>
             </type>
             <type>
                 <code value="Reference"/>

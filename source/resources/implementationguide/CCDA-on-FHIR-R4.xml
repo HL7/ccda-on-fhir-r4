@@ -3,12 +3,13 @@
     xmlns="http://hl7.org/fhir">
     <id value="CCDA-on-FHIR-R4"/>
     <meta>
-        <versionId value="18"/>
-        <lastUpdated value="2019-03-14T23:26:54.000-04:00"/>
+        <versionId value="20"/>
+        <lastUpdated value="2019-03-19T11:10:54.000-04:00"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ccda-r4/ImplementationGuide/CCDA-on-FHIR-R4"/>
     <version value="1.2.0"/>
-    <name value="C-CDA on FHIR R4"/>
+    <name value="CCDAonFHIRR4"/>
+    <title value="C-CDA on FHIR R4"/>
     <status value="draft"/>
     <publisher value="HL7"/>
     <contact>
@@ -121,6 +122,22 @@
         </resource>
         <resource>
             <reference>
+                <reference value="StructureDefinition/CCDA-on-FHIR-VersionNumber"/>
+                <display value="CCDA-on-FHIR-VersionNumber"/>
+            </reference>
+            <name value="CCDA-on-FHIR-VersionNumber"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/CCDA-on-FHIR-Authorization"/>
+                <display value="C-CDA on FHIR Authorization"/>
+            </reference>
+            <name value="C-CDA on FHIR Authorization"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
                 <reference value="StructureDefinition/CCDA-on-FHIR-US-Realm-Header"/>
                 <display value="C-CDA on FHIR US Realm Header"/>
             </reference>
@@ -205,22 +222,6 @@
                 <display value="C-CDA on FHIR Transfer Summary"/>
             </reference>
             <name value="C-CDA on FHIR Transfer Summary"/>
-            <exampleBoolean value="false"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="StructureDefinition/CCDA-on-FHIR-VersionNumber"/>
-                <display value="CCDA-on-FHIR-VersionNumber"/>
-            </reference>
-            <name value="CCDA-on-FHIR-VersionNumber"/>
-            <exampleBoolean value="false"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="StructureDefinition/CCDA-on-FHIR-Authorization"/>
-                <display value="C-CDA on FHIR Authorization"/>
-            </reference>
-            <name value="C-CDA on FHIR Authorization"/>
             <exampleBoolean value="false"/>
         </resource>
         <resource>

@@ -126,6 +126,14 @@
 			"base": "StructureDefinition-CCDA-on-FHIR-Data-Enterer.html",
 			"defns": "StructureDefinition-CCDA-on-FHIR-Data-Enterer-definitions.html"
 		},
+		"StructureDefinition/CCDA-on-FHIR-VersionNumber": {
+			"base": "StructureDefinition-CCDA-on-FHIR-VersionNumber.html",
+			"defns": "StructureDefinition-CCDA-on-FHIR-VersionNumber-definitions.html"
+		},
+		"StructureDefinition/CCDA-on-FHIR-Authorization": {
+			"base": "StructureDefinition-CCDA-on-FHIR-Authorization.html",
+			"defns": "StructureDefinition-CCDA-on-FHIR-Authorization-definitions.html"
+		},
 		"StructureDefinition/CCDA-on-FHIR-US-Realm-Header": {
 			"base": "StructureDefinition-CCDA-on-FHIR-US-Realm-Header.html",
 			"defns": "StructureDefinition-CCDA-on-FHIR-US-Realm-Header-definitions.html"
@@ -169,14 +177,6 @@
 		"StructureDefinition/CCDA-on-FHIR-Transfer-Summary": {
 			"base": "StructureDefinition-CCDA-on-FHIR-Transfer-Summary.html",
 			"defns": "StructureDefinition-CCDA-on-FHIR-Transfer-Summary-definitions.html"
-		},
-		"StructureDefinition/CCDA-on-FHIR-VersionNumber": {
-			"base": "StructureDefinition-CCDA-on-FHIR-VersionNumber.html",
-			"defns": "StructureDefinition-CCDA-on-FHIR-VersionNumber-definitions.html"
-		},
-		"StructureDefinition/CCDA-on-FHIR-Authorization": {
-			"base": "StructureDefinition-CCDA-on-FHIR-Authorization.html",
-			"defns": "StructureDefinition-CCDA-on-FHIR-Authorization-definitions.html"
 		},
 		"ValueSet/care-plan-document-type": {
 			"base": "ValueSet-care-plan-document-type.html",

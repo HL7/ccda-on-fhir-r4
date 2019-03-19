@@ -3,8 +3,8 @@
     xmlns="http://hl7.org/fhir">
     <id value="CCDA-on-FHIR-Consent"/>
     <meta>
-        <versionId value="4"/>
-        <lastUpdated value="2019-03-11T02:20:28.000-04:00"/>
+        <versionId value="5"/>
+        <lastUpdated value="2019-03-19T11:03:23.000-04:00"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ccda-r4/StructureDefinition/CCDA-on-FHIR-Consent"/>
     <name value="C-CDA on FHIR Consent"/>
