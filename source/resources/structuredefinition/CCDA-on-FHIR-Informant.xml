@@ -3,8 +3,8 @@
     xmlns="http://hl7.org/fhir">
     <id value="CCDA-on-FHIR-Informant"/>
     <meta>
-        <versionId value="5"/>
-        <lastUpdated value="2019-03-19T11:03:23.000-04:00"/>
+        <versionId value="6"/>
+        <lastUpdated value="2019-03-19T11:57:08.000-04:00"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ccda-r4/StructureDefinition/CCDA-on-FHIR-Informant"/>
     <name value="C-CDA on FHIR Informant"/>
@@ -35,6 +35,10 @@
     <fhirVersion value="4.0.0"/>
     <kind value="complex-type"/>
     <abstract value="false"/>
+    <context>
+        <type value="element"/>
+        <expression value="Composition"/>
+    </context>
     <type value="Extension"/>
     <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension"/>
     <derivation value="constraint"/>
