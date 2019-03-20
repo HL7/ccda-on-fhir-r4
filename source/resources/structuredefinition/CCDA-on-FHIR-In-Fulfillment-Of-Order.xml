@@ -3,11 +3,12 @@
     xmlns="http://hl7.org/fhir">
     <id value="CCDA-on-FHIR-In-Fulfillment-Of-Order"/>
     <meta>
-        <versionId value="6"/>
-        <lastUpdated value="2019-03-19T11:57:08.000-04:00"/>
+        <versionId value="7"/>
+        <lastUpdated value="2019-03-20T00:53:01.000-04:00"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ccda-r4/StructureDefinition/CCDA-on-FHIR-In-Fulfillment-Of-Order"/>
-    <name value="C-CDA on FHIR In Fulfillment Of Order"/>
+    <name value="CCDAonFHIRInFulfillmentOfOrder"/>
+    <title value="C-CDA on FHIR In Fulfillment Of Order"/>
     <status value="draft"/>
     <publisher value="Lantana Consulting Group"/>
     <contact>

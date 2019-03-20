@@ -3,15 +3,15 @@
     xmlns="http://hl7.org/fhir">
     <id value="CCDA-on-FHIR-R4"/>
     <meta>
-        <versionId value="22"/>
-        <lastUpdated value="2019-03-19T16:58:47.000-04:00"/>
+        <versionId value="23"/>
+        <lastUpdated value="2019-03-20T00:47:07.000-04:00"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ccda-r4/ImplementationGuide/CCDA-on-FHIR-R4"/>
     <version value="1.2.0"/>
     <name value="CCDAonFHIRR4"/>
     <title value="C-CDA on FHIR R4"/>
     <status value="draft"/>
-    <publisher value="HL7"/>
+    <publisher value="HL7 Structured Documents Working Group"/>
     <contact>
         <name value="Rick Geimer"/>
         <telecom>

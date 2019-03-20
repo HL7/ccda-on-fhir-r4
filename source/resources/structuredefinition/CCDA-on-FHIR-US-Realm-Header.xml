@@ -3,11 +3,12 @@
     xmlns="http://hl7.org/fhir">
     <id value="CCDA-on-FHIR-US-Realm-Header"/>
     <meta>
-        <versionId value="10"/>
-        <lastUpdated value="2019-03-19T11:03:23.000-04:00"/>
+        <versionId value="11"/>
+        <lastUpdated value="2019-03-20T00:47:56.000-04:00"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ccda-r4/StructureDefinition/CCDA-on-FHIR-US-Realm-Header"/>
-    <name value="C-CDA on FHIR US Realm Header"/>
+    <name value="CCDAonFHIRUSRealmHeader"/>
+    <title value="C-CDA on FHIR US Realm Header"/>
     <status value="draft"/>
     <contact>
         <name value="Rick Geimer"/>
