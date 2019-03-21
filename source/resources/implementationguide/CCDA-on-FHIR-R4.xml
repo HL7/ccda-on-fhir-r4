@@ -3,11 +3,11 @@
     xmlns="http://hl7.org/fhir">
     <id value="CCDA-on-FHIR-R4"/>
     <meta>
-        <versionId value="23"/>
-        <lastUpdated value="2019-03-20T00:47:07.000-04:00"/>
+        <versionId value="27"/>
+        <lastUpdated value="2019-03-21T00:31:55.000-04:00"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ccda-r4/ImplementationGuide/CCDA-on-FHIR-R4"/>
-    <version value="1.2.0"/>
+    <version value="1.1.0"/>
     <name value="CCDAonFHIRR4"/>
     <title value="C-CDA on FHIR R4"/>
     <status value="draft"/>
@@ -51,7 +51,7 @@
     <packageId value="hl7.fhir.us.ccda.r4"/>
     <fhirVersion value="4.0.0"/>
     <dependsOn>
-        <uri value="http://hl7.org/fhir/us/core-r4/ImplementationGuide/ig"/>
+        <uri value="http://hl7.org/fhir/us/core/ImplementationGuide/ig"/>
         <packageId value="hl7.fhir.us.core.r4"/>
         <version value="current"/>
     </dependsOn>
@@ -226,14 +226,6 @@
         </resource>
         <resource>
             <reference>
-                <reference value="ValueSet/care-plan-document-type"/>
-                <display value="Care Plan Document Codes"/>
-            </reference>
-            <name value="Care Plan Document Codes"/>
-            <exampleBoolean value="false"/>
-        </resource>
-        <resource>
-            <reference>
                 <reference value="ValueSet/2.16.840.1.113883.1.11.20.2.3"/>
                 <display value="ReferralDocumentType"/>
             </reference>
@@ -310,6 +302,14 @@
                 <display value="LOINC Imaging Document Codes"/>
             </reference>
             <name value="LOINC Imaging Document Codes"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/2.16.840.1.113762.1.4.1099.10"/>
+                <display value="Care Plan Document Type"/>
+            </reference>
+            <name value="Care Plan Document Type"/>
             <exampleBoolean value="false"/>
         </resource>
     </definition>

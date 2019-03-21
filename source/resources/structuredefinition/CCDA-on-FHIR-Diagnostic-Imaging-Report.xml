@@ -3,11 +3,12 @@
     xmlns="http://hl7.org/fhir">
     <id value="CCDA-on-FHIR-Diagnostic-Imaging-Report"/>
     <meta>
-        <versionId value="8"/>
-        <lastUpdated value="2019-03-19T17:26:55.000-04:00"/>
+        <versionId value="10"/>
+        <lastUpdated value="2019-03-21T01:05:43.000-04:00"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ccda-r4/StructureDefinition/CCDA-on-FHIR-Diagnostic-Imaging-Report"/>
-    <name value="C-CDA on FHIR Diagnostic Imaging Report"/>
+    <name value="CCDAonFHIRDiagnosticImagingReport"/>
+    <title value="C-CDA on FHIR Diagnostic Imaging Report"/>
     <status value="draft"/>
     <publisher value="Lantana Consulting Group"/>
     <contact>
@@ -23,7 +24,7 @@
             <use value="work"/>
         </telecom>
     </contact>
-    <description value="A Diagnostic Imaging Report (DIR) is a document that contains a consulting specialist's interpretation of image data. It conveys the interpretation to the referring (ordering) physician and becomes part of the patient's medical record. It is for use in Radiology, Endoscopy, Cardiology, and other imaging specialties. Note: this document type overlaps with the FHIR DiagnosticReport resource. Most use cases will want to use the specific resource type, but this document type is still useful for CDA to FHIR conversion and other such use cases. "/>
+    <description value="A Diagnostic Imaging Report (DIR) is a document that contains a consulting specialist's interpretation of image data. It conveys the interpretation to the referring (ordering) physician and becomes part of the patient's medical record. It is for use in Radiology, Endoscopy, Cardiology, and other imaging specialties. Note: this document type overlaps with the FHIR DiagnosticReport resource. Most use cases will want to use the specific resource type, but this document type is still useful for CDA to FHIR conversion and other such use cases."/>
     <fhirVersion value="4.0.0"/>
     <kind value="resource"/>
     <abstract value="false"/>
@@ -155,7 +156,7 @@
         <element id="Composition.section:findings_section.entry:DIR_section_slice_entry">
             <path value="Composition.section.entry"/>
             <sliceName value="findings_section_slice_entry"/>
-            <short value="This section contains unprofiled resources not covered by US Core. Please refer to C-CDA R2.1 for guidance on terminology, etc. "/>
+            <short value="This section contains unprofiled resources not covered by US Core. Please refer to C-CDA R2.1 for guidance on terminology, etc."/>
             <type>
                 <code value="Reference"/>
                 <targetProfile value="http://hl7.org/fhir/StructureDefinition/Observation"/>
@@ -207,7 +208,7 @@
         <element id="Composition.section:dicom_object_catalog_section.entry:sliceEntry">
             <path value="Composition.section.entry"/>
             <sliceName value="sliceEntry"/>
-            <short value="This section contains unprofiled resources not covered by US Core. Please refer to C-CDA R2.1 for guidance on terminology, etc. "/>
+            <short value="This section contains unprofiled resources not covered by US Core. Please refer to C-CDA R2.1 for guidance on terminology, etc."/>
             <type>
                 <code value="Reference"/>
                 <targetProfile value="http://hl7.org/fhir/StructureDefinition/ImagingStudy"/>
@@ -251,7 +252,7 @@
         <element id="Composition.section:DIR_section.entry:DIR_section_slice_entry">
             <path value="Composition.section.entry"/>
             <sliceName value="DIR_section_slice_entry"/>
-            <short value="This section contains unprofiled resources not covered by US Core. Please refer to C-CDA R2.1 for guidance on terminology, etc. "/>
+            <short value="This section contains unprofiled resources not covered by US Core. Please refer to C-CDA R2.1 for guidance on terminology, etc."/>
             <type>
                 <code value="Reference"/>
                 <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-procedure"/>

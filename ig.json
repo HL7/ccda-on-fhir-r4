@@ -178,10 +178,6 @@
 			"base": "StructureDefinition-CCDA-on-FHIR-Transfer-Summary.html",
 			"defns": "StructureDefinition-CCDA-on-FHIR-Transfer-Summary-definitions.html"
 		},
-		"ValueSet/care-plan-document-type": {
-			"base": "ValueSet-care-plan-document-type.html",
-			"defns": "ValueSet-care-plan-document-type-definitions.html"
-		},
 		"ValueSet/2.16.840.1.113883.1.11.20.2.3": {
 			"base": "ValueSet-2.16.840.1.113883.1.11.20.2.3.html",
 			"defns": "ValueSet-2.16.840.1.113883.1.11.20.2.3-definitions.html"
@@ -221,9 +217,14 @@
 		"ValueSet/1.3.6.1.4.1.12009.10.2.5": {
 			"base": "ValueSet-1.3.6.1.4.1.12009.10.2.5.html",
 			"defns": "ValueSet-1.3.6.1.4.1.12009.10.2.5-definitions.html"
+		},
+		"ValueSet/2.16.840.1.113762.1.4.1099.10": {
+			"base": "ValueSet-2.16.840.1.113762.1.4.1099.10.html",
+			"defns": "ValueSet-2.16.840.1.113762.1.4.1099.10-definitions.html"
 		}
 	},
 	"version": "4.0.0",
+	"fixed-business-version": "1.1.0",
 	"dependencyList": [
 		{
 			"location": "http://hl7.org/fhir/us/core",

@@ -3,8 +3,8 @@
     xmlns="http://hl7.org/fhir">
     <id value="CCDA-on-FHIR-Care-Plan"/>
     <meta>
-        <versionId value="14"/>
-        <lastUpdated value="2019-03-20T00:45:43.000-04:00"/>
+        <versionId value="16"/>
+        <lastUpdated value="2019-03-21T00:23:44.000-04:00"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ccda-r4/StructureDefinition/CCDA-on-FHIR-Care-Plan"/>
     <name value="CCDAonFHIRCarePlan"/>
@@ -47,8 +47,8 @@
             <path value="Composition.type"/>
             <short value="Care Plan Document"/>
             <binding>
-                <strength value="preferred"/>
-                <valueSet value="http://hl7.org/fhir/us/ccda-r4/ValueSet/care-plan-document-type"/>
+                <strength value="required"/>
+                <valueSet value="http://hl7.org/fhir/us/ccda-r4/ValueSet/2.16.840.1.113762.1.4.1099.10"/>
             </binding>
         </element>
         <element id="Composition.event">
@@ -136,7 +136,7 @@
         <element id="Composition.section:health_concerns_section.entry:health_concerns_entry_slice">
             <path value="Composition.section.entry"/>
             <sliceName value="health_concerns_entry_slice"/>
-            <short value="This section contains unprofiled resources not covered by US Core. Please refer to C-CDA R2.1 for guidance on terminology, etc. "/>
+            <short value="This section contains unprofiled resources not covered by US Core. Please refer to C-CDA R2.1 for guidance on terminology, etc."/>
             <type>
                 <code value="Reference"/>
                 <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-allergyintolerance"/>
@@ -247,7 +247,7 @@
         <element id="Composition.section:interventions_section.entry:interventions_section_slice">
             <path value="Composition.section.entry"/>
             <sliceName value="interventions_section_slice"/>
-            <short value="This section contains unprofiled resources not covered by US Core. Please refer to C-CDA R2.1 for guidance on terminology, etc. "/>
+            <short value="This section contains unprofiled resources not covered by US Core. Please refer to C-CDA R2.1 for guidance on terminology, etc."/>
             <type>
                 <code value="Reference"/>
                 <targetProfile value="http://hl7.org/fhir/StructureDefinition/List"/>
@@ -305,7 +305,7 @@
         <element id="Composition.section:eval_outcomes_section.entry:eval_outcomes_entry_slice">
             <path value="Composition.section.entry"/>
             <sliceName value="eval_outcomes_entry_slice"/>
-            <short value="This section contains unprofiled resources not covered by US Core. Please refer to C-CDA R2.1 for guidance on terminology, etc. "/>
+            <short value="This section contains unprofiled resources not covered by US Core. Please refer to C-CDA R2.1 for guidance on terminology, etc."/>
             <type>
                 <code value="Reference"/>
                 <targetProfile value="http://hl7.org/fhir/StructureDefinition/Observation"/>

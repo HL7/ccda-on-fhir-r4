@@ -3,11 +3,12 @@
     xmlns="http://hl7.org/fhir">
     <id value="1.3.6.1.4.1.12009.10.2.5"/>
     <meta>
-        <versionId value="1"/>
-        <lastUpdated value="2019-03-10T22:55:45.000-04:00"/>
+        <versionId value="2"/>
+        <lastUpdated value="2019-03-21T01:20:58.000-04:00"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ccda-r4/ValueSet/1.3.6.1.4.1.12009.10.2.5"/>
-    <name value="LOINC Imaging Document Codes"/>
+    <name value="LOINCImagingDocumentCodes"/>
+    <title value="LOINC Imaging Document Codes"/>
     <status value="active"/>
     <description value="A value set of LOINC document type codes for Diagnostic Imaging Reports."/>
     <compose>

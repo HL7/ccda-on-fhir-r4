@@ -13,7 +13,7 @@ active: terminology
 
 ### Value Sets
 
-- [Care Plan Document Codes](ValueSet-care-plan-document-type.html)
+- [Care Plan Document Type](ValueSet-2.16.840.1.113762.1.4.1099.10.html)
 - [ConsultDocumentType](ValueSet-2.16.840.1.113883.11.20.9.31.html)
 - [DIRSectionTypeCodes](ValueSet-2.16.840.1.113883.11.20.9.59.html)
 - [DischargeSummaryDocumentTypeCode](ValueSet-2.16.840.1.113883.11.20.4.1.html)
