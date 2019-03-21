@@ -27,17 +27,6 @@ active: profiles
 </thead>
 <tbody>
 <tr>
-<td><a href="StructureDefinition-CCDA-on-FHIR-History-and-Physical.html">C-CDA on FHIR History and Physical</a></td>
-<td>A History and Physical (H&P) note is a medical report that documents the current and past conditions of the patient. It contains essential information that helps determine an individual's health status.  
-
-The first portion of the report is a current collection of organized information unique to an individual. This is typically supplied by the patient or the caregiver, concerning the current medical problem or the reason for the patient encounter. This information is followed by a description of any past or ongoing medical issues, including current medications and allergies. Information is also obtained about the patient's lifestyle, habits, and diseases among family members.
-The next portion of the report contains information obtained by physically examining the patient and gathering diagnostic information in the form of laboratory tests, imaging, or other diagnostic procedures.
- 
-The report ends with the clinician's assessment of the patient's situation and the intended plan to address those issues.
- 
-A History and Physical Examination is required upon hospital admission as well as before operative procedures. An initial evaluation in an ambulatory setting is often documented in the form of an H&P note.</td>
-</tr>
-<tr>
 <td><a href="StructureDefinition-CCDA-on-FHIR-Procedure-Note.html">C-CDA on FHIR Procedure Note</a></td>
 <td>A Procedure Note encompasses many types of non-operative procedures including interventional cardiology, gastrointestinal endoscopy, osteopathic manipulation, and many other specialty fields. Procedure Notes are differentiated from Operative Notes because they do not involve incision or excision as the primary act.
 
@@ -122,6 +111,17 @@ More specific use cases, such as a Discharge Summary, Transfer Summary, Referral
   Provisions for follow-up care
 
 The best practice for a Discharge Summary is to include the discharge disposition in the display of the header.</td>
+</tr>
+<tr>
+<td><a href="StructureDefinition-CCDA-on-FHIR-History-and-Physical.html">CCDAonFHIRHistoryAndPhysical</a></td>
+<td>A History and Physical (H&P) note is a medical report that documents the current and past conditions of the patient. It contains essential information that helps determine an individual's health status.  
+
+The first portion of the report is a current collection of organized information unique to an individual. This is typically supplied by the patient or the caregiver, concerning the current medical problem or the reason for the patient encounter. This information is followed by a description of any past or ongoing medical issues, including current medications and allergies. Information is also obtained about the patient's lifestyle, habits, and diseases among family members.
+The next portion of the report contains information obtained by physically examining the patient and gathering diagnostic information in the form of laboratory tests, imaging, or other diagnostic procedures.
+ 
+The report ends with the clinician's assessment of the patient's situation and the intended plan to address those issues.
+ 
+A History and Physical Examination is required upon hospital admission as well as before operative procedures. An initial evaluation in an ambulatory setting is often documented in the form of an H&P note.</td>
 </tr>
 <tr>
 <td><a href="StructureDefinition-CCDA-on-FHIR-Operative-Note.html">CCDAonFHIROperativeNote</a></td>
