@@ -174,12 +174,6 @@ For further information see the C-CDA specification here: http://www.hl7.org/imp
 For further information see the C-CDA specification here: http://www.hl7.org/implement/standards/product_brief.cfm?product_id=408.</td>
 </tr>
 <tr>
-<td><a href="StructureDefinition-CCDA-on-FHIR-In-Fulfillment-Of-Order.html">CCDAonFHIRInFulfillmentOfOrder</a></td>
-<td>The C-CDA on FHIR In Fulfillment Of Order Extension represents orders that are fulfilled by this document such as a radiologists report of an x-ray.
-
-For further information see the C-CDA specification here: http://www.hl7.org/implement/standards/product_brief.cfm?product_id=408.</td>
-</tr>
-<tr>
 <td><a href="StructureDefinition-CCDA-on-FHIR-Informant.html">CCDAonFHIRInformant</a></td>
 <td>The C-CDA on FHIR Informant Extension describes an information source for any content within the clinical document. This informant is constrained for use when the source of information is an assigned health care provider for the patient.
 
@@ -188,6 +182,12 @@ For further information see the C-CDA specification here: http://www.hl7.org/imp
 <tr>
 <td><a href="StructureDefinition-CCDA-on-FHIR-Information-Recipient.html">CCDAonFHIRInformationRecipient</a></td>
 <td>The C-CDA on FHIR Information Recipient Extension records the intended recipient of the information at the time the document was created.
+
+For further information see the C-CDA specification here: http://www.hl7.org/implement/standards/product_brief.cfm?product_id=408.</td>
+</tr>
+<tr>
+<td><a href="StructureDefinition-CCDA-on-FHIR-In-Fulfillment-Of-Order.html">CCDAonFHIRInFulfillmentOfOrder</a></td>
+<td>The C-CDA on FHIR In Fulfillment Of Order Extension represents orders that are fulfilled by this document such as a radiologists report of an x-ray.
 
 For further information see the C-CDA specification here: http://www.hl7.org/implement/standards/product_brief.cfm?product_id=408.</td>
 </tr>

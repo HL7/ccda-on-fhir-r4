@@ -4,7 +4,7 @@
     <id value="CCDA-on-FHIR-VersionNumber"/>
     <meta>
         <versionId value="9"/>
-        <lastUpdated value="2019-03-20T00:56:25.000-04:00"/>
+        <lastUpdated value="2019-03-20T00:55:57.000-04:00"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ccda-r4/StructureDefinition/CCDA-on-FHIR-VersionNumber"/>
     <name value="CCDAonFHIRVersionNumber"/>
