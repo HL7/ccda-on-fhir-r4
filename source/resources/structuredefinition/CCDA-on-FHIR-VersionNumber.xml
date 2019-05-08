@@ -3,13 +3,13 @@
     xmlns="http://hl7.org/fhir">
     <id value="CCDA-on-FHIR-VersionNumber"/>
     <meta>
-        <versionId value="9"/>
-        <lastUpdated value="2019-03-20T00:55:57.000-04:00"/>
+        <versionId value="10"/>
+        <lastUpdated value="2019-05-08T16:44:47.000-04:00"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ccda-r4/StructureDefinition/CCDA-on-FHIR-VersionNumber"/>
     <name value="CCDAonFHIRVersionNumber"/>
     <title value="CCDA on FHIR Version Number"/>
-    <status value="draft"/>
+    <status value="active"/>
     <publisher value="HL7 Structured Documents Working Group"/>
     <contact>
         <name value="Meenaxi Gosai"/>

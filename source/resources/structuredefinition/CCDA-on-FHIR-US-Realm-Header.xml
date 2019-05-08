@@ -3,13 +3,13 @@
     xmlns="http://hl7.org/fhir">
     <id value="CCDA-on-FHIR-US-Realm-Header"/>
     <meta>
-        <versionId value="11"/>
-        <lastUpdated value="2019-03-20T00:47:56.000-04:00"/>
+        <versionId value="17"/>
+        <lastUpdated value="2019-05-08T16:39:40.000-04:00"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ccda-r4/StructureDefinition/CCDA-on-FHIR-US-Realm-Header"/>
     <name value="CCDAonFHIRUSRealmHeader"/>
     <title value="C-CDA on FHIR US Realm Header"/>
-    <status value="draft"/>
+    <status value="active"/>
     <contact>
         <name value="Rick Geimer"/>
         <telecom>
@@ -214,6 +214,7 @@
             <type>
                 <code value="Reference"/>
                 <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner"/>
+                <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitionerrole"/>
             </type>
         </element>
         <element id="Composition.attester:professional_attester">
@@ -233,6 +234,7 @@
             <type>
                 <code value="Reference"/>
                 <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner"/>
+                <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitionerrole"/>
             </type>
         </element>
         <element id="Composition.attester:personal_attester">
@@ -252,6 +254,7 @@
             <type>
                 <code value="Reference"/>
                 <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"/>
+                <targetProfile value="http://hl7.org/fhir/StructureDefinition/RelatedPerson"/>
             </type>
         </element>
         <element id="Composition.custodian">

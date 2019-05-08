@@ -3,13 +3,13 @@
     xmlns="http://hl7.org/fhir">
     <id value="CCDA-on-FHIR-Care-Plan"/>
     <meta>
-        <versionId value="16"/>
-        <lastUpdated value="2019-03-21T00:23:44.000-04:00"/>
+        <versionId value="18"/>
+        <lastUpdated value="2019-05-08T16:52:23.000-04:00"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ccda-r4/StructureDefinition/CCDA-on-FHIR-Care-Plan"/>
     <name value="CCDAonFHIRCarePlan"/>
     <title value="C-CDA on FHIR Care Plan"/>
-    <status value="draft"/>
+    <status value="active"/>
     <publisher value="HL7 Structured Documents Working Group"/>
     <contact>
         <name value="Sarah Gaunt"/>
@@ -46,6 +46,7 @@
         <element id="Composition.type">
             <path value="Composition.type"/>
             <short value="Care Plan Document"/>
+            <mustSupport value="true"/>
             <binding>
                 <strength value="required"/>
                 <valueSet value="http://hl7.org/fhir/us/ccda-r4/ValueSet/2.16.840.1.113762.1.4.1099.10"/>
@@ -54,10 +55,12 @@
         <element id="Composition.event">
             <path value="Composition.event"/>
             <max value="1"/>
+            <mustSupport value="true"/>
         </element>
         <element id="Composition.event.period">
             <path value="Composition.event.period"/>
             <min value="1"/>
+            <mustSupport value="true"/>
         </element>
         <element id="Composition.event.detail">
             <path value="Composition.event.detail"/>
@@ -68,6 +71,7 @@
                 </discriminator>
                 <rules value="open"/>
             </slicing>
+            <mustSupport value="true"/>
         </element>
         <element id="Composition.event.detail:care_plan_slice">
             <path value="Composition.event.detail"/>
@@ -77,6 +81,7 @@
                 <code value="Reference"/>
                 <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-careplan"/>
             </type>
+            <mustSupport value="false"/>
         </element>
         <element id="Composition.section">
             <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-explicit-type-name">
@@ -90,6 +95,7 @@
                 </discriminator>
                 <rules value="open"/>
             </slicing>
+            <mustSupport value="false"/>
         </element>
         <element id="Composition.section:health_concerns_section">
             <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-explicit-type-name">
@@ -100,11 +106,13 @@
             <short value="Health Concerns Section"/>
             <min value="1"/>
             <max value="1"/>
+            <mustSupport value="true"/>
         </element>
         <element id="Composition.section:health_concerns_section.title">
             <path value="Composition.section.title"/>
             <short value="title"/>
             <min value="1"/>
+            <mustSupport value="true"/>
         </element>
         <element id="Composition.section:health_concerns_section.code">
             <path value="Composition.section.code"/>
@@ -116,11 +124,13 @@
                     <code value="75310-3"/>
                 </coding>
             </patternCodeableConcept>
+            <mustSupport value="true"/>
         </element>
         <element id="Composition.section:health_concerns_section.text">
             <path value="Composition.section.text"/>
             <short value="text"/>
             <min value="1"/>
+            <mustSupport value="true"/>
         </element>
         <element id="Composition.section:health_concerns_section.entry">
             <path value="Composition.section.entry"/>
@@ -150,6 +160,7 @@
                 <targetProfile value="http://hl7.org/fhir/StructureDefinition/List"/>
                 <targetProfile value="http://hl7.org/fhir/StructureDefinition/DocumentReference"/>
             </type>
+            <mustSupport value="true"/>
         </element>
         <element id="Composition.section:goals_section">
             <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-explicit-type-name">
@@ -160,11 +171,13 @@
             <short value="Goals Section"/>
             <min value="1"/>
             <max value="1"/>
+            <mustSupport value="true"/>
         </element>
         <element id="Composition.section:goals_section.title">
             <path value="Composition.section.title"/>
             <short value="title"/>
             <min value="1"/>
+            <mustSupport value="true"/>
         </element>
         <element id="Composition.section:goals_section.code">
             <path value="Composition.section.code"/>
@@ -176,11 +189,13 @@
                     <code value="61146-7"/>
                 </coding>
             </patternCodeableConcept>
+            <mustSupport value="true"/>
         </element>
         <element id="Composition.section:goals_section.text">
             <path value="Composition.section.text"/>
             <short value="text"/>
             <min value="1"/>
+            <mustSupport value="true"/>
         </element>
         <element id="Composition.section:goals_section.entry">
             <path value="Composition.section.entry"/>
@@ -201,6 +216,7 @@
                 <code value="Reference"/>
                 <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-goal"/>
             </type>
+            <mustSupport value="true"/>
         </element>
         <element id="Composition.section:interventions_section">
             <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-explicit-type-name">
@@ -211,11 +227,13 @@
             <short value="Interventions Section"/>
             <comment value="Interventions Section"/>
             <max value="1"/>
+            <mustSupport value="true"/>
         </element>
         <element id="Composition.section:interventions_section.title">
             <path value="Composition.section.title"/>
             <short value="title"/>
             <min value="1"/>
+            <mustSupport value="true"/>
         </element>
         <element id="Composition.section:interventions_section.code">
             <path value="Composition.section.code"/>
@@ -227,11 +245,13 @@
                     <code value="62387-6"/>
                 </coding>
             </patternCodeableConcept>
+            <mustSupport value="true"/>
         </element>
         <element id="Composition.section:interventions_section.text">
             <path value="Composition.section.text"/>
             <short value="text"/>
             <min value="1"/>
+            <mustSupport value="true"/>
         </element>
         <element id="Composition.section:interventions_section.entry">
             <path value="Composition.section.entry"/>
@@ -259,6 +279,7 @@
                 <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationstatement"/>
                 <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest"/>
             </type>
+            <mustSupport value="true"/>
         </element>
         <element id="Composition.section:eval_outcomes_section">
             <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-explicit-type-name">
@@ -269,11 +290,13 @@
             <short value="Health Status Evaluations and Outcomes Section"/>
             <comment value="Health Status Evaluations and Outcomes Section"/>
             <max value="1"/>
+            <mustSupport value="true"/>
         </element>
         <element id="Composition.section:eval_outcomes_section.title">
             <path value="Composition.section.title"/>
             <short value="title"/>
             <min value="1"/>
+            <mustSupport value="true"/>
         </element>
         <element id="Composition.section:eval_outcomes_section.code">
             <path value="Composition.section.code"/>
@@ -285,11 +308,13 @@
                     <code value="11383-7"/>
                 </coding>
             </patternCodeableConcept>
+            <mustSupport value="true"/>
         </element>
         <element id="Composition.section:eval_outcomes_section.text">
             <path value="Composition.section.text"/>
             <short value="text"/>
             <min value="1"/>
+            <mustSupport value="true"/>
         </element>
         <element id="Composition.section:eval_outcomes_section.entry">
             <path value="Composition.section.entry"/>
@@ -310,6 +335,7 @@
                 <code value="Reference"/>
                 <targetProfile value="http://hl7.org/fhir/StructureDefinition/Observation"/>
             </type>
+            <mustSupport value="true"/>
         </element>
     </differential>
 </StructureDefinition>

@@ -3,13 +3,13 @@
     xmlns="http://hl7.org/fhir">
     <id value="CCDA-on-FHIR-Referral-Note"/>
     <meta>
-        <versionId value="8"/>
-        <lastUpdated value="2019-03-21T01:15:06.000-04:00"/>
+        <versionId value="10"/>
+        <lastUpdated value="2019-05-08T16:38:48.000-04:00"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ccda-r4/StructureDefinition/CCDA-on-FHIR-Referral-Note"/>
     <name value="CCDAonFHIRReferralNote"/>
     <title value="C-CDA on FHIR Referral Note"/>
-    <status value="draft"/>
+    <status value="active"/>
     <publisher value="River Rock Associates"/>
     <contact>
         <name value="Brett Marquard"/>
@@ -48,6 +48,7 @@
             <short value="type"/>
             <binding>
                 <strength value="required"/>
+                <valueSet value="http://hl7.org/fhir/us/ccda-r4/ValueSet/2.16.840.1.113883.1.11.20.2.3"/>
             </binding>
         </element>
         <element id="Composition.section">

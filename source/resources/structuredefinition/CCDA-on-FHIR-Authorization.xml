@@ -3,13 +3,13 @@
     xmlns="http://hl7.org/fhir">
     <id value="CCDA-on-FHIR-Authorization"/>
     <meta>
-        <versionId value="7"/>
-        <lastUpdated value="2019-03-20T00:57:17.000-04:00"/>
+        <versionId value="8"/>
+        <lastUpdated value="2019-05-08T16:45:02.000-04:00"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ccda-r4/StructureDefinition/CCDA-on-FHIR-Authorization"/>
     <name value="CCDAonFHIRAuthorization"/>
     <title value="C-CDA on FHIR Authorization"/>
-    <status value="draft"/>
+    <status value="active"/>
     <publisher value="HL7 Structured Documents Working Group"/>
     <contact>
         <name value="Sarah Gaunt"/>

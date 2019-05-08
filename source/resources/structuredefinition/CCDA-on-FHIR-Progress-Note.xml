@@ -3,12 +3,13 @@
     xmlns="http://hl7.org/fhir">
     <id value="CCDA-on-FHIR-Progress-Note"/>
     <meta>
-        <versionId value="6"/>
-        <lastUpdated value="2019-03-19T17:38:41.000-04:00"/>
+        <versionId value="9"/>
+        <lastUpdated value="2019-05-08T16:38:31.000-04:00"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ccda-r4/StructureDefinition/CCDA-on-FHIR-Progress-Note"/>
-    <name value="C-CDA on FHIR Progress Note"/>
-    <status value="draft"/>
+    <name value="CCDAonFHIRProgressNote"/>
+    <title value="C-CDA on FHIR Progress Note"/>
+    <status value="active"/>
     <publisher value="Lantana Consulting Group"/>
     <contact>
         <name value="Sarah Gaunt"/>
@@ -39,6 +40,7 @@
             <short value="type"/>
             <binding>
                 <strength value="required"/>
+                <valueSet value="http://hl7.org/fhir/us/ccda-r4/ValueSet/2.16.840.1.113883.11.20.8.1"/>
             </binding>
         </element>
         <element id="Composition.section">

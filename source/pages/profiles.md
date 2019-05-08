@@ -27,22 +27,6 @@ active: profiles
 </thead>
 <tbody>
 <tr>
-<td><a href="StructureDefinition-CCDA-on-FHIR-Procedure-Note.html">C-CDA on FHIR Procedure Note</a></td>
-<td>A Procedure Note encompasses many types of non-operative procedures including interventional cardiology, gastrointestinal endoscopy, osteopathic manipulation, and many other specialty fields. Procedure Notes are differentiated from Operative Notes because they do not involve incision or excision as the primary act.
-
-The Procedure Note is created immediately following a non-operative procedure. It records the indications for the procedure and, when applicable, postprocedure diagnosis, pertinent events of the procedure, and the patients tolerance for the procedure. It should be detailed enough to justify the procedure, describe the course of the procedure, and provide continuity of care. </td>
-</tr>
-<tr>
-<td><a href="StructureDefinition-CCDA-on-FHIR-Progress-Note.html">C-CDA on FHIR Progress Note</a></td>
-<td>This profile represents a patient's clinical status during a hospitalization, outpatient visit, treatment with a LTPAC provider, or other healthcare encounter.
-
-Taber's medical dictionary defines a Progress Note as An ongoing record of a patient's illness and treatment. Physicians, nurses, consultants, and therapists record their notes concerning the progress or lack of progress made by the patient between the time of the previous note and the most recent note.
-
-Mosby's medical dictionary defines a Progress Note as Notes made by a nurse, physician, social worker, physical therapist, and other health care professionals that describe the patient's condition and the treatment given or planned.
-
-A Progress Note is not a re-evaluation note. A Progress Note is not intended to be a Progress Report for Medicare. Medicare B Section 1833(e) defines the requirements of a Medicare Progress Report. </td>
-</tr>
-<tr>
 <td><a href="StructureDefinition-CCDA-on-FHIR-Care-Plan.html">CCDAonFHIRCarePlan</a></td>
 <td>CARE PLAN FRAMEWORK: A Care Plan (including Home Health Plan of Care (HHPoC)) is a consensus-driven dynamic plan that represents a patient and Care Team Members prioritized concerns, goals, and planned interventions. It serves as a blueprint shared by all Care Team Members (including the patient, their caregivers and providers), to guide the patients care. A Care Plan integrates multiple interventions proposed by multiple providers and disciplines for multiple conditions.
 
@@ -130,6 +114,22 @@ A History and Physical Examination is required upon hospital admission as well a
 The Operative Note is created immediately following a surgical or other high-risk procedure. It records the pre- and post-surgical diagnosis, pertinent events of the procedure, as well as the condition of the patient following the procedure. The report should be sufficiently detailed to support the diagnoses, justify the treatment, document the course of the procedure, and provide continuity of care.</td>
 </tr>
 <tr>
+<td><a href="StructureDefinition-CCDA-on-FHIR-Procedure-Note.html">CCDAonFHIRProcedureNote</a></td>
+<td>A Procedure Note encompasses many types of non-operative procedures including interventional cardiology, gastrointestinal endoscopy, osteopathic manipulation, and many other specialty fields. Procedure Notes are differentiated from Operative Notes because they do not involve incision or excision as the primary act.
+
+The Procedure Note is created immediately following a non-operative procedure. It records the indications for the procedure and, when applicable, postprocedure diagnosis, pertinent events of the procedure, and the patients tolerance for the procedure. It should be detailed enough to justify the procedure, describe the course of the procedure, and provide continuity of care. </td>
+</tr>
+<tr>
+<td><a href="StructureDefinition-CCDA-on-FHIR-Progress-Note.html">CCDAonFHIRProgressNote</a></td>
+<td>This profile represents a patient's clinical status during a hospitalization, outpatient visit, treatment with a LTPAC provider, or other healthcare encounter.
+
+Taber's medical dictionary defines a Progress Note as An ongoing record of a patient's illness and treatment. Physicians, nurses, consultants, and therapists record their notes concerning the progress or lack of progress made by the patient between the time of the previous note and the most recent note.
+
+Mosby's medical dictionary defines a Progress Note as Notes made by a nurse, physician, social worker, physical therapist, and other health care professionals that describe the patient's condition and the treatment given or planned.
+
+A Progress Note is not a re-evaluation note. A Progress Note is not intended to be a Progress Report for Medicare. Medicare B Section 1833(e) defines the requirements of a Medicare Progress Report. </td>
+</tr>
+<tr>
 <td><a href="StructureDefinition-CCDA-on-FHIR-Referral-Note.html">CCDAonFHIRReferralNote</a></td>
 <td>A Referral Note communicates pertinent information from a provider who is requesting services of another provider of clinical or non-clinical services. The information in this document includes the reason for the referral and additional information that would augment decision making and care delivery.
  
@@ -174,6 +174,12 @@ For further information see the C-CDA specification here: http://www.hl7.org/imp
 For further information see the C-CDA specification here: http://www.hl7.org/implement/standards/product_brief.cfm?product_id=408.</td>
 </tr>
 <tr>
+<td><a href="StructureDefinition-CCDA-on-FHIR-In-Fulfillment-Of-Order.html">CCDAonFHIRInFulfillmentOfOrder</a></td>
+<td>The C-CDA on FHIR In Fulfillment Of Order Extension represents orders that are fulfilled by this document such as a radiologists report of an x-ray.
+
+For further information see the C-CDA specification here: http://www.hl7.org/implement/standards/product_brief.cfm?product_id=408.</td>
+</tr>
+<tr>
 <td><a href="StructureDefinition-CCDA-on-FHIR-Informant.html">CCDAonFHIRInformant</a></td>
 <td>The C-CDA on FHIR Informant Extension describes an information source for any content within the clinical document. This informant is constrained for use when the source of information is an assigned health care provider for the patient.
 
@@ -182,12 +188,6 @@ For further information see the C-CDA specification here: http://www.hl7.org/imp
 <tr>
 <td><a href="StructureDefinition-CCDA-on-FHIR-Information-Recipient.html">CCDAonFHIRInformationRecipient</a></td>
 <td>The C-CDA on FHIR Information Recipient Extension records the intended recipient of the information at the time the document was created.
-
-For further information see the C-CDA specification here: http://www.hl7.org/implement/standards/product_brief.cfm?product_id=408.</td>
-</tr>
-<tr>
-<td><a href="StructureDefinition-CCDA-on-FHIR-In-Fulfillment-Of-Order.html">CCDAonFHIRInFulfillmentOfOrder</a></td>
-<td>The C-CDA on FHIR In Fulfillment Of Order Extension represents orders that are fulfilled by this document such as a radiologists report of an x-ray.
 
 For further information see the C-CDA specification here: http://www.hl7.org/implement/standards/product_brief.cfm?product_id=408.</td>
 </tr>

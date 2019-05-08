@@ -3,13 +3,13 @@
     xmlns="http://hl7.org/fhir">
     <id value="CCDA-on-FHIR-Transfer-Summary"/>
     <meta>
-        <versionId value="8"/>
-        <lastUpdated value="2019-03-21T01:13:29.000-04:00"/>
+        <versionId value="10"/>
+        <lastUpdated value="2019-05-08T16:39:07.000-04:00"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ccda-r4/StructureDefinition/CCDA-on-FHIR-Transfer-Summary"/>
     <name value="CCDAonFHIRTransferSummary"/>
     <title value="C-CDA on FHIR Transfer Summary"/>
-    <status value="draft"/>
+    <status value="active"/>
     <publisher value="Lantana Consulting Group"/>
     <contact>
         <name value="Corey Spears"/>
@@ -44,6 +44,7 @@
             <short value="Transfer Summary"/>
             <binding>
                 <strength value="required"/>
+                <valueSet value="http://hl7.org/fhir/us/ccda-r4/ValueSet/2.16.840.1.113883.1.11.20.2.4"/>
             </binding>
         </element>
         <element id="Composition.event">

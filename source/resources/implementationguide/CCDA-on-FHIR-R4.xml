@@ -3,8 +3,8 @@
     xmlns="http://hl7.org/fhir">
     <id value="CCDA-on-FHIR-R4"/>
     <meta>
-        <versionId value="33"/>
-        <lastUpdated value="2019-03-21T03:22:12.000-04:00"/>
+        <versionId value="42"/>
+        <lastUpdated value="2019-05-08T16:25:20.000-04:00"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ccda-r4/ImplementationGuide/CCDA-on-FHIR-R4"/>
     <version value="1.1.0"/>
@@ -51,8 +51,8 @@
     <packageId value="hl7.fhir.us.ccda.r4"/>
     <fhirVersion value="4.0.0"/>
     <dependsOn>
-        <uri value="http://hl7.org/fhir/us/core/ImplementationGuide/ig"/>
-        <packageId value="hl7.fhir.us.core"/>
+        <uri value="http://hl7.org/fhir/us/core/ImplementationGuide/hl7.fhir.us.core.r4-4.0.0"/>
+        <packageId value="hl7.fhir.us.core.r4"/>
         <version value="current"/>
     </dependsOn>
     <definition>
@@ -311,6 +311,46 @@
             </reference>
             <name value="Care Plan Document Type"/>
             <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="Composition/CCDA-on-FHIR-Care-Plan-Example"/>
+                <display value="Care Plan"/>
+            </reference>
+            <name value="Care Plan"/>
+            <exampleBoolean value="true"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="PractitionerRole/ccda-practitionerrole-example"/>
+                <display value="ccda-practitionerrole-example"/>
+            </reference>
+            <name value="ccda-practitionerrole-example"/>
+            <exampleBoolean value="true"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="Practitioner/ccda-practitioner-example"/>
+                <display value="Practitioner Brenda Jennings Richard"/>
+            </reference>
+            <name value="Practitioner Brenda Jennings Richard"/>
+            <exampleBoolean value="true"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="Organization/acme-lab"/>
+                <display value="Acme Lab"/>
+            </reference>
+            <name value="Acme Lab"/>
+            <exampleBoolean value="true"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="Patient/example"/>
+                <display value="Patient Amy V. Shaw"/>
+            </reference>
+            <name value="Patient Amy V. Shaw"/>
+            <exampleBoolean value="true"/>
         </resource>
     </definition>
 </ImplementationGuide>

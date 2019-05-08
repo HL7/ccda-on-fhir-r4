@@ -3,13 +3,13 @@
     xmlns="http://hl7.org/fhir">
     <id value="CCDA-on-FHIR-History-and-Physical"/>
     <meta>
-        <versionId value="8"/>
-        <lastUpdated value="2019-03-21T02:19:56.000-04:00"/>
+        <versionId value="10"/>
+        <lastUpdated value="2019-05-08T16:21:59.000-04:00"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ccda-r4/StructureDefinition/CCDA-on-FHIR-History-and-Physical"/>
     <name value="CCDAonFHIRHistoryAndPhysical"/>
     <title value="C-CDA on FHIR History and Physical"/>
-    <status value="draft"/>
+    <status value="active"/>
     <publisher value="Lantana Consulting Group"/>
     <contact>
         <name value="Sarah Gaunt"/>
@@ -41,6 +41,7 @@
             <short value="History and Physical"/>
             <binding>
                 <strength value="required"/>
+                <valueSet value="http://hl7.org/fhir/us/ccda-r4/ValueSet/2.16.840.1.113883.1.11.20.22"/>
             </binding>
         </element>
         <element id="Composition.section">

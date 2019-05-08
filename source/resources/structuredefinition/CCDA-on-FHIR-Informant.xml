@@ -3,13 +3,13 @@
     xmlns="http://hl7.org/fhir">
     <id value="CCDA-on-FHIR-Informant"/>
     <meta>
-        <versionId value="8"/>
-        <lastUpdated value="2019-03-19T17:31:40.000-04:00"/>
+        <versionId value="9"/>
+        <lastUpdated value="2019-05-08T16:22:13.000-04:00"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ccda-r4/StructureDefinition/CCDA-on-FHIR-Informant"/>
     <name value="CCDAonFHIRInformant"/>
     <title value="C-CDA on FHIR Informant"/>
-    <status value="draft"/>
+    <status value="active"/>
     <publisher value="Lantana Consulting Group"/>
     <contact>
         <name value="Sarah Gaunt"/>

@@ -3,13 +3,13 @@
     xmlns="http://hl7.org/fhir">
     <id value="CCDA-on-FHIR-Continuity-of-Care-Document"/>
     <meta>
-        <versionId value="9"/>
-        <lastUpdated value="2019-03-21T00:53:04.000-04:00"/>
+        <versionId value="10"/>
+        <lastUpdated value="2019-05-08T16:20:17.000-04:00"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ccda-r4/StructureDefinition/CCDA-on-FHIR-Continuity-of-Care-Document"/>
     <name value="CCDAonFHIRContinuityOfCareDocument"/>
     <title value="C-CDA on FHIR Continuity of Care Document"/>
-    <status value="draft"/>
+    <status value="active"/>
     <publisher value="Lantana Consulting Group"/>
     <contact>
         <name value="Sarah Gaunt"/>
