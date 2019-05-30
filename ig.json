@@ -247,9 +247,9 @@
 	"fixed-business-version": "1.1.0",
 	"dependencyList": [
 		{
-			"package": "hl7.fhir.us.core.r4",
-			"name": "USCoreR4",
-			"version": "current"
+			"name": "core",
+			"version": "current",
+			"package": "hl7.fhir.us.core.r4"
 		}
 	]
 }
