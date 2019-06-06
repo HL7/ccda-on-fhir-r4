@@ -6,6 +6,14 @@
         <versionId value="5"/>
         <lastUpdated value="2019-05-06T21:19:48.000-04:00"/>
         <profile value="http://hl7.org/fhir/us/ccda-r4/StructureDefinition/CCDA-on-FHIR-Care-Plan"/>
+        <security>
+            <system value="https://trifolia-fhir.lantanagroup.com/security"/>
+            <code value="everyone^read"/>
+        </security>
+        <security>
+            <system value="https://trifolia-fhir.lantanagroup.com/security"/>
+            <code value="everyone^write"/>
+        </security>
     </meta>
     <language value="en-US"/>
     <text>

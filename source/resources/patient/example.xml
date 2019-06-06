@@ -3,9 +3,17 @@
     xmlns="http://hl7.org/fhir">
     <id value="example"/>
     <meta>
-        <versionId value="2"/>
-        <lastUpdated value="2019-03-17T23:48:30.000-04:00"/>
+        <versionId value="3"/>
+        <lastUpdated value="2019-06-06T15:29:52.000-04:00"/>
         <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"/>
+        <security>
+            <system value="https://trifolia-fhir.lantanagroup.com/security"/>
+            <code value="user^t1^read"/>
+        </security>
+        <security>
+            <system value="https://trifolia-fhir.lantanagroup.com/security"/>
+            <code value="user^t1^write"/>
+        </security>
     </meta>
     <text>
         <status value="generated"/>
@@ -122,7 +130,7 @@
         <use value="usual"/>
         <type>
             <coding>
-                <system value="http://hl7.org/fhir/v2/0203"/>
+                <system value="http://terminology.hl7.org/CodeSystem/v2-0203"/>
                 <code value="MR"/>
                 <display value="Medical Record Number"/>
             </coding>

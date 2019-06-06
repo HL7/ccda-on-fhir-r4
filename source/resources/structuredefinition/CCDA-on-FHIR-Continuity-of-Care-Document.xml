@@ -4,7 +4,15 @@
     <id value="CCDA-on-FHIR-Continuity-of-Care-Document"/>
     <meta>
         <versionId value="10"/>
-        <lastUpdated value="2019-05-08T16:20:17.000-04:00"/>
+        <lastUpdated value="2019-05-08T16:18:24.000-04:00"/>
+        <security>
+            <system value="https://trifolia-fhir.lantanagroup.com/security"/>
+            <code value="everyone^read"/>
+        </security>
+        <security>
+            <system value="https://trifolia-fhir.lantanagroup.com/security"/>
+            <code value="everyone^write"/>
+        </security>
     </meta>
     <url value="http://hl7.org/fhir/us/ccda-r4/StructureDefinition/CCDA-on-FHIR-Continuity-of-Care-Document"/>
     <name value="CCDAonFHIRContinuityOfCareDocument"/>

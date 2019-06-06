@@ -5,6 +5,14 @@
     <meta>
         <versionId value="8"/>
         <lastUpdated value="2019-05-08T16:45:02.000-04:00"/>
+        <security>
+            <system value="https://trifolia-fhir.lantanagroup.com/security"/>
+            <code value="everyone^read"/>
+        </security>
+        <security>
+            <system value="https://trifolia-fhir.lantanagroup.com/security"/>
+            <code value="everyone^write"/>
+        </security>
     </meta>
     <url value="http://hl7.org/fhir/us/ccda-r4/StructureDefinition/CCDA-on-FHIR-Authorization"/>
     <name value="CCDAonFHIRAuthorization"/>

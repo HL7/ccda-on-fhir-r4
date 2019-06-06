@@ -3,9 +3,17 @@
     xmlns="http://hl7.org/fhir">
     <id value="ccda-practitionerrole-example"/>
     <meta>
-        <versionId value="2"/>
-        <lastUpdated value="2019-05-06T20:42:53.000-04:00"/>
+        <versionId value="6"/>
+        <lastUpdated value="2019-06-06T16:28:18.000-04:00"/>
         <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitionerrole"/>
+        <security>
+            <system value="https://trifolia-fhir.lantanagroup.com/security"/>
+            <code value="user^t1^read"/>
+        </security>
+        <security>
+            <system value="https://trifolia-fhir.lantanagroup.com/security"/>
+            <code value="user^t1^write"/>
+        </security>
     </meta>
     <text>
         <status value="generated"/>
@@ -15,54 +23,43 @@
                 <b>Generated Narrative with Details</b>
             </p>
             <p>
-                <b>id</b>: PractitionerRole-1
+                <b>id</b>: ccda-practitionerrole-example
+            
             
             </p>
             <p>
                 <b>meta</b>: 
             
+            
             </p>
             <p>
-                <b>practitioner</b>: 
-                
-                <a href="Practitioner/Practitioner-1011">Brenda Jennings Richard MD</a>
+                <b>practitioner</b>:  Brenda Jennings Richard MD
+            
             </p>
             <p>
                 <b>organization</b>: 
                 
+                
                 <a href="Organization-acme-lab.html">Acme Lab. Generated Summary: id: acme-lab; 1144221847, 2523423456; active; 
                     
+                    
                     <span title="Codes: {http://terminology.hl7.org/CodeSystem/organization-type prov}">Healthcare Provider</span>; name: Acme Labs; ph: (+1) 734-677-7777, hq@acme.org
+                
                 
                 </a>
             </p>
             <p>
                 <b>code</b>: Doctor 
                 
+                
                 <span style="background: LightGoldenRodYellow">(Details : {http://nucc.org/provider-taxonomy code '261QP2300X' = 'Primary Care', given as 'Doctor'})</span>
             </p>
             <p>
                 <b>specialty</b>: General Practice 
                 
+                
                 <span style="background: LightGoldenRodYellow">(Details : {http://nucc.org/provider-taxonomy code '208D00000X' = 'General Practice', given as 'General Practice'})</span>
             </p>
-            <p>
-                <b>location</b>: 
-                
-                <a href="Location-hl7east.html">Health Level Seven International. Generated Summary: id: hl7east; 29; status: active; name: Health Level Seven International - Amherst; description: HL7 Headquarters - East; ph: (+1) 734-677-7777</a>
-            </p>
-            <p>
-                <b>endpoint</b>: 
-            
-            </p>
-            <ul>
-                <li>
-                    <a href="http://52.90.126.238:8080/fhir/baseDstu3/Endpoint/Endpoint-71">Westwood Physicians Organization ADT</a>
-                </li>
-                <li>
-                    <a href="http://52.90.126.238:8080/fhir/baseDstu3/Endpoint/Endpoint-71">Brenda.Jennings.Richard.MD@direct.example.org</a>
-                </li>
-            </ul>
         </div>
     </text>
     <practitioner>
@@ -87,8 +84,14 @@
             <display value="General Practice"/>
         </coding>
     </specialty>
-    <location>
-        <reference value="Location/hl7east"/>
-        <display value="Health Level Seven International"/>
-    </location>
+    <telecom>
+        <system value="phone"/>
+        <value value="313-555-6868"/>
+        <use value="home"/>
+    </telecom>
+    <telecom>
+        <system value="phone"/>
+        <value value="313-555-6443"/>
+        <use value="work"/>
+    </telecom>
 </PractitionerRole>

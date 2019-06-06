@@ -36,12 +36,12 @@ active: other
 <td><a href="Patient-example.html">example</a></td>
 </tr>
 <tr>
-<td>PractitionerRole</td>
-<td><a href="PractitionerRole-ccda-practitionerrole-example.html">ccda-practitionerrole-example</a></td>
-</tr>
-<tr>
 <td>Practitioner</td>
 <td><a href="Practitioner-ccda-practitioner-example.html">ccda-practitioner-example</a></td>
+</tr>
+<tr>
+<td>PractitionerRole</td>
+<td><a href="PractitionerRole-ccda-practitionerrole-example.html">ccda-practitionerrole-example</a></td>
 </tr>
 </tbody>
 </table>

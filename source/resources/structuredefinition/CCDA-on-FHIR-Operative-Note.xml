@@ -4,7 +4,15 @@
     <id value="CCDA-on-FHIR-Operative-Note"/>
     <meta>
         <versionId value="10"/>
-        <lastUpdated value="2019-05-08T16:34:59.000-04:00"/>
+        <lastUpdated value="2019-05-08T16:32:03.000-04:00"/>
+        <security>
+            <system value="https://trifolia-fhir.lantanagroup.com/security"/>
+            <code value="everyone^read"/>
+        </security>
+        <security>
+            <system value="https://trifolia-fhir.lantanagroup.com/security"/>
+            <code value="everyone^write"/>
+        </security>
     </meta>
     <url value="http://hl7.org/fhir/us/ccda-r4/StructureDefinition/CCDA-on-FHIR-Operative-Note"/>
     <name value="CCDAonFHIROperativeNote"/>
