@@ -3,16 +3,8 @@
     xmlns="http://hl7.org/fhir">
     <id value="CCDA-on-FHIR-History-and-Physical"/>
     <meta>
-        <versionId value="10"/>
-        <lastUpdated value="2019-05-08T16:21:59.000-04:00"/>
-        <security>
-            <system value="https://trifolia-fhir.lantanagroup.com/security"/>
-            <code value="everyone^read"/>
-        </security>
-        <security>
-            <system value="https://trifolia-fhir.lantanagroup.com/security"/>
-            <code value="everyone^write"/>
-        </security>
+        <versionId value="11"/>
+        <lastUpdated value="2019-07-07T16:43:04.000-04:00"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ccda-r4/StructureDefinition/CCDA-on-FHIR-History-and-Physical"/>
     <name value="CCDAonFHIRHistoryAndPhysical"/>
@@ -408,7 +400,7 @@
             <sliceName value="sliceEntry"/>
             <type>
                 <code value="Reference"/>
-                <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-observationresults"/>
+                <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"/>
             </type>
         </element>
         <element id="Composition.section:review_of_systems_section">

@@ -3,16 +3,8 @@
     xmlns="http://hl7.org/fhir">
     <id value="CCDA-on-FHIR-Care-Plan"/>
     <meta>
-        <versionId value="18"/>
-        <lastUpdated value="2019-05-08T16:52:23.000-04:00"/>
-        <security>
-            <system value="https://trifolia-fhir.lantanagroup.com/security"/>
-            <code value="everyone^read"/>
-        </security>
-        <security>
-            <system value="https://trifolia-fhir.lantanagroup.com/security"/>
-            <code value="everyone^write"/>
-        </security>
+        <versionId value="19"/>
+        <lastUpdated value="2019-07-06T21:32:40.000-04:00"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ccda-r4/StructureDefinition/CCDA-on-FHIR-Care-Plan"/>
     <name value="CCDAonFHIRCarePlan"/>
@@ -159,7 +151,7 @@
                 <code value="Reference"/>
                 <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-allergyintolerance"/>
                 <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition"/>
-                <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-observationresults"/>
+                <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"/>
                 <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-smokingstatus"/>
                 <targetProfile value="http://hl7.org/fhir/StructureDefinition/vitalsigns"/>
                 <targetProfile value="http://hl7.org/fhir/StructureDefinition/ClinicalImpression"/>

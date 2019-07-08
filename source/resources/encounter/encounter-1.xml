@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Encounter
+    xmlns="http://hl7.org/fhir">
+    <id value="encounter-1"/>
+    <meta>
+        <versionId value="1"/>
+        <lastUpdated value="2019-05-06T19:50:06.000-04:00"/>
+    </meta>
+</Encounter>

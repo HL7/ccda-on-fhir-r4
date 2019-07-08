@@ -3,17 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="CCDA-on-FHIR-Care-Plan-Example"/>
     <meta>
-        <versionId value="5"/>
-        <lastUpdated value="2019-05-06T21:19:48.000-04:00"/>
+        <versionId value="6"/>
+        <lastUpdated value="2019-07-07T17:29:06.000-04:00"/>
         <profile value="http://hl7.org/fhir/us/ccda-r4/StructureDefinition/CCDA-on-FHIR-Care-Plan"/>
-        <security>
-            <system value="https://trifolia-fhir.lantanagroup.com/security"/>
-            <code value="everyone^read"/>
-        </security>
-        <security>
-            <system value="https://trifolia-fhir.lantanagroup.com/security"/>
-            <code value="everyone^write"/>
-        </security>
     </meta>
     <language value="en-US"/>
     <text>
@@ -66,9 +58,12 @@
                         </td>
                         <td class="td_header_role_value">1003 Healthcare Drive
                             
+                            
                             <br/>Amherst MA 01002, US
                             
+                            
                             <br/>Tel:  +1(555)555-1003
+                            
                             
                             <br/>
                         </td>
@@ -113,9 +108,12 @@
                         </td>
                         <td class="td_header_role_value">1003 Healthcare Drive
                             
+                            
                             <br/>Amherst MA 01002, US
                             
+                            
                             <br/>Tel:  +1(555)555-1003
+                            
                             
                             <br/>
                         </td>
@@ -130,6 +128,7 @@
                         </td>
                         <td class="td_header_role_value">Acme Laboratories
                             
+                            
                             <br/>
                         </td>
                     </tr>
@@ -138,6 +137,7 @@
                             <span class="td_label">Emergency contact</span>
                         </td>
                         <td class="td_header_role_value">Michael Shaw
+                            
                             
                             <br/>
                             <br/>
@@ -149,9 +149,12 @@
                         </td>
                         <td class="td_header_role_value">49 Meadow St
                             
+                            
                             <br/>Amherst MA 01003, US
                             
+                            
                             <br/>Tel:  (555)555-1212
+                            
                             
                             <br/>
                         </td>
@@ -162,6 +165,7 @@
                         </td>
                         <td class="td_header_role_value">Mrs. Lillian White
                             
+                            
                             <br/>
                         </td>
                     </tr>
@@ -171,9 +175,12 @@
                         </td>
                         <td class="td_header_role_value">49 Meadow St
                             
+                            
                             <br/>Amherst MA 01003, US
                             
+                            
                             <br/>Tel:  (555)555-1215
+                            
                             
                             <br/>
                         </td>
@@ -194,9 +201,12 @@
                         </td>
                         <td class="td_header_role_value">1003 Healthcare Drive
                             
+                            
                             <br/>Amherst MA 01002, US
                             
+                            
                             <br/>Tel:  +1(555)555-1003
+                            
                             
                             <br/>
                         </td>
@@ -217,9 +227,12 @@
                         </td>
                         <td class="td_header_role_value">1003 Healthcare Drive
                             
+                            
                             <br/>Amherst MA 01002, US
                             
+                            
                             <br/>Tel:  +1(555)555-1003
+                            
                             
                             <br/>
                         </td>
@@ -240,9 +253,12 @@
                         </td>
                         <td class="td_header_role_value">1007 Pharmacy Drive
                             
+                            
                             <br/>Portland, OR 99123, US
                             
+                            
                             <br/>Tel:  +1(555)555-1215
+                            
                             
                             <br/>
                         </td>
@@ -263,9 +279,12 @@
                         </td>
                         <td class="td_header_role_value">1005 St. Clair Avenue
                             
+                            
                             <br/>Amherst MA 01002, US
                             
+                            
                             <br/>Tel:  +1(555)555-1666
+                            
                             
                             <br/>
                         </td>
@@ -286,9 +305,12 @@
                         </td>
                         <td class="td_header_role_value">1003 Healthcare Drive
                             
+                            
                             <br/>Amherst MA 01002, US
                             
+                            
                             <br/>Tel:  +1(555)555-1003
+                            
                             
                             <br/>
                         </td>
@@ -309,9 +331,12 @@
                         </td>
                         <td class="td_header_role_value">1003 Healthcare Drive
                             
+                            
                             <br/>Amherst MA 01002, US
                             
+                            
                             <br/>Tel:  +1(555)555-1003
+                            
                             
                             <br/>
                         </td>
@@ -329,7 +354,7 @@
         <coding>
             <system value="http://loinc.org"/>
             <code value="52521-2"/>
-            <display value="Overall Plan of Care/​Advance Care Directives"/>
+            <display value="Deprecated Overall Plan of Care/Advance Care Directives"/>
         </coding>
     </type>
     <subject>
@@ -452,7 +477,7 @@
             <coding>
                 <system value="http://loinc.org"/>
                 <code value="62387-6"/>
-                <display value="Interventions provided"/>
+                <display value="Interventions Narrative"/>
             </coding>
         </code>
         <text>

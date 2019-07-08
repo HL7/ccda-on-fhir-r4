@@ -3,16 +3,8 @@
     xmlns="http://hl7.org/fhir">
     <id value="CCDA-on-FHIR-Continuity-of-Care-Document"/>
     <meta>
-        <versionId value="10"/>
-        <lastUpdated value="2019-05-08T16:18:24.000-04:00"/>
-        <security>
-            <system value="https://trifolia-fhir.lantanagroup.com/security"/>
-            <code value="everyone^read"/>
-        </security>
-        <security>
-            <system value="https://trifolia-fhir.lantanagroup.com/security"/>
-            <code value="everyone^write"/>
-        </security>
+        <versionId value="12"/>
+        <lastUpdated value="2019-07-07T16:40:09.000-04:00"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ccda-r4/StructureDefinition/CCDA-on-FHIR-Continuity-of-Care-Document"/>
     <name value="CCDAonFHIRContinuityOfCareDocument"/>
@@ -316,7 +308,7 @@
             <sliceName value="sliceEntry"/>
             <type>
                 <code value="Reference"/>
-                <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-observationresults"/>
+                <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"/>
             </type>
         </element>
         <element id="Composition.section:social_history_section">
@@ -1119,7 +1111,7 @@
                 <code value="Reference"/>
                 <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-allergyintolerance"/>
                 <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition"/>
-                <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-observationresults"/>
+                <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"/>
                 <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-smokingstatus"/>
                 <targetProfile value="http://hl7.org/fhir/StructureDefinition/vitalsigns"/>
                 <targetProfile value="http://hl7.org/fhir/StructureDefinition/ClinicalImpression"/>

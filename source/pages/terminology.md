@@ -26,3 +26,9 @@ active: terminology
 - [TransferDocumentType](ValueSet-2.16.840.1.113883.1.11.20.2.4.html)
 
 
+### Code Systems
+
+**No code systems are defined for this implementation guide**
+
+
+

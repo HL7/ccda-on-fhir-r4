@@ -3,16 +3,8 @@
     xmlns="http://hl7.org/fhir">
     <id value="CCDA-on-FHIR-R4"/>
     <meta>
-        <versionId value="42"/>
-        <lastUpdated value="2019-05-08T16:25:20.000-04:00"/>
-        <security>
-            <system value="https://trifolia-fhir.lantanagroup.com/security"/>
-            <code value="everyone^read"/>
-        </security>
-        <security>
-            <system value="https://trifolia-fhir.lantanagroup.com/security"/>
-            <code value="everyone^write"/>
-        </security>
+        <versionId value="48"/>
+        <lastUpdated value="2019-07-07T23:00:22.000-04:00"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ccda-r4/ImplementationGuide/CCDA-on-FHIR-R4"/>
     <version value="1.1.0"/>
@@ -59,9 +51,9 @@
     <packageId value="hl7.fhir.us.ccda.r4"/>
     <fhirVersion value="4.0.0"/>
     <dependsOn>
-        <uri value="http://hl7.org/fhir/us/core/ImplementationGuide/hl7.fhir.us.core.r4-4.0.0"/>
-        <packageId value="hl7.fhir.us.core.r4"/>
-        <version value="current"/>
+        <uri value="http://hl7.org/fhir/us/core/ImplementationGuide/hl7.fhir.us.core-3.0.0"/>
+        <packageId value="hl7.fhir.us.core"/>
+        <version value="3.0.0"/>
     </dependsOn>
     <definition>
         <resource>
@@ -358,6 +350,118 @@
                 <display value="Patient Amy V. Shaw"/>
             </reference>
             <name value="Patient Amy V. Shaw"/>
+            <exampleBoolean value="true"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="Composition/CCDA-on-FHIR-Consultation-Note-Example"/>
+                <display value="Consultation Note"/>
+            </reference>
+            <name value="Consultation Note"/>
+            <exampleBoolean value="true"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="Composition/CCDA-on-FHIR-Continuity-of-Care-Document-Example"/>
+                <display value="Continuity of Care Document"/>
+            </reference>
+            <name value="Continuity of Care Document"/>
+            <exampleBoolean value="true"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="Composition/CCDA-on-FHIR-Diagnostic-Imaging-Report-Example"/>
+                <display value="Diagnostic Imaging Report"/>
+            </reference>
+            <name value="Diagnostic Imaging Report"/>
+            <exampleBoolean value="true"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="Composition/CCDA-on-FHIR-Discharge-Summary-Example"/>
+                <display value="Discharge Summary(CCoF)"/>
+            </reference>
+            <name value="Discharge Summary(CCoF)"/>
+            <exampleBoolean value="true"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="Composition/CCDA-on-FHIR-History-and-Physical-Example"/>
+                <display value="History and Physical Note"/>
+            </reference>
+            <name value="History and Physical Note"/>
+            <exampleBoolean value="true"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="Composition/CCDA-on-FHIR-Operative-Note-Example"/>
+                <display value="Operative Note"/>
+            </reference>
+            <name value="Operative Note"/>
+            <exampleBoolean value="true"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="Composition/CCDA-on-FHIR-Procedure-Note-Example"/>
+                <display value="Procedure Note"/>
+            </reference>
+            <name value="Procedure Note"/>
+            <exampleBoolean value="true"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="Composition/CCDA-on-FHIR-Progress-Note-Example"/>
+                <display value="Progress Note"/>
+            </reference>
+            <name value="Progress Note"/>
+            <exampleBoolean value="true"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="Composition/CCDA-on-FHIR-Referral-Note-Example"/>
+                <display value="Referral Note"/>
+            </reference>
+            <name value="Referral Note"/>
+            <exampleBoolean value="true"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="Composition/CCDA-on-FHIR-Transfer-Summary-Example"/>
+                <display value="Transfer Summary"/>
+            </reference>
+            <name value="Transfer Summary"/>
+            <exampleBoolean value="true"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="Practitioner/practitioner-1"/>
+                <display value="Ronald Boone, MD"/>
+            </reference>
+            <name value="Ronald Boone, MD"/>
+            <exampleBoolean value="true"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="Encounter/example-1"/>
+                <display value="example-1"/>
+            </reference>
+            <name value="example-1"/>
+            <exampleBoolean value="true"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="Encounter/encounter-1"/>
+                <display value="encounter-1"/>
+            </reference>
+            <name value="encounter-1"/>
+            <exampleBoolean value="true"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="AllergyIntolerance/allergy-intolerance"/>
+                <display value="allergy-intolerance"/>
+            </reference>
+            <name value="allergy-intolerance"/>
             <exampleBoolean value="true"/>
         </resource>
     </definition>

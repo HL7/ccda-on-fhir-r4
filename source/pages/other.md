@@ -24,8 +24,60 @@ active: other
 </thead>
 <tbody>
 <tr>
+<td>AllergyIntolerance</td>
+<td><a href="AllergyIntolerance-allergy-intolerance.html">allergy-intolerance</a></td>
+</tr>
+<tr>
 <td>Composition</td>
 <td><a href="Composition-CCDA-on-FHIR-Care-Plan-Example.html">Care Plan</a></td>
+</tr>
+<tr>
+<td>Composition</td>
+<td><a href="Composition-CCDA-on-FHIR-Consultation-Note-Example.html">Consultation Note</a></td>
+</tr>
+<tr>
+<td>Composition</td>
+<td><a href="Composition-CCDA-on-FHIR-Continuity-of-Care-Document-Example.html">Continuity of Care Document</a></td>
+</tr>
+<tr>
+<td>Composition</td>
+<td><a href="Composition-CCDA-on-FHIR-Diagnostic-Imaging-Report-Example.html">Diagnostic Imaging Report</a></td>
+</tr>
+<tr>
+<td>Composition</td>
+<td><a href="Composition-CCDA-on-FHIR-Discharge-Summary-Example.html">Discharge Summary(CCoF)</a></td>
+</tr>
+<tr>
+<td>Composition</td>
+<td><a href="Composition-CCDA-on-FHIR-History-and-Physical-Example.html">History and Physical Note</a></td>
+</tr>
+<tr>
+<td>Composition</td>
+<td><a href="Composition-CCDA-on-FHIR-Operative-Note-Example.html">Operative Note</a></td>
+</tr>
+<tr>
+<td>Composition</td>
+<td><a href="Composition-CCDA-on-FHIR-Procedure-Note-Example.html">Procedure Note</a></td>
+</tr>
+<tr>
+<td>Composition</td>
+<td><a href="Composition-CCDA-on-FHIR-Progress-Note-Example.html">Progress Note</a></td>
+</tr>
+<tr>
+<td>Composition</td>
+<td><a href="Composition-CCDA-on-FHIR-Referral-Note-Example.html">Referral Note</a></td>
+</tr>
+<tr>
+<td>Composition</td>
+<td><a href="Composition-CCDA-on-FHIR-Transfer-Summary-Example.html">Transfer Summary</a></td>
+</tr>
+<tr>
+<td>Encounter</td>
+<td><a href="Encounter-encounter-1.html">encounter-1</a></td>
+</tr>
+<tr>
+<td>Encounter</td>
+<td><a href="Encounter-example-1.html">example-1</a></td>
 </tr>
 <tr>
 <td>Organization</td>
@@ -38,6 +90,10 @@ active: other
 <tr>
 <td>Practitioner</td>
 <td><a href="Practitioner-ccda-practitioner-example.html">ccda-practitioner-example</a></td>
+</tr>
+<tr>
+<td>Practitioner</td>
+<td><a href="Practitioner-practitioner-1.html">practitioner-1</a></td>
 </tr>
 <tr>
 <td>PractitionerRole</td>

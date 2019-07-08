@@ -117,7 +117,7 @@ The Operative Note is created immediately following a surgical or other high-ris
 <td><a href="StructureDefinition-CCDA-on-FHIR-Procedure-Note.html">CCDAonFHIRProcedureNote</a></td>
 <td>A Procedure Note encompasses many types of non-operative procedures including interventional cardiology, gastrointestinal endoscopy, osteopathic manipulation, and many other specialty fields. Procedure Notes are differentiated from Operative Notes because they do not involve incision or excision as the primary act.
 
-The Procedure Note is created immediately following a non-operative procedure. It records the indications for the procedure and, when applicable, postprocedure diagnosis, pertinent events of the procedure, and the patients tolerance for the procedure. It should be detailed enough to justify the procedure, describe the course of the procedure, and provide continuity of care. </td>
+The Procedure Note is created immediately following a non-operative procedure. It records the indications for the procedure and, when applicable, postprocedure diagnosis, pertinent events of the procedure, and the patients tolerance for the procedure. It should be detailed enough to justify the procedure, describe the course of the procedure, and provide continuity of care.</td>
 </tr>
 <tr>
 <td><a href="StructureDefinition-CCDA-on-FHIR-Progress-Note.html">CCDAonFHIRProgressNote</a></td>
@@ -127,7 +127,7 @@ Taber's medical dictionary defines a Progress Note as An ongoing record of a pat
 
 Mosby's medical dictionary defines a Progress Note as Notes made by a nurse, physician, social worker, physical therapist, and other health care professionals that describe the patient's condition and the treatment given or planned.
 
-A Progress Note is not a re-evaluation note. A Progress Note is not intended to be a Progress Report for Medicare. Medicare B Section 1833(e) defines the requirements of a Medicare Progress Report. </td>
+A Progress Note is not a re-evaluation note. A Progress Note is not intended to be a Progress Report for Medicare. Medicare B Section 1833(e) defines the requirements of a Medicare Progress Report.</td>
 </tr>
 <tr>
 <td><a href="StructureDefinition-CCDA-on-FHIR-Referral-Note.html">CCDAonFHIRReferralNote</a></td>

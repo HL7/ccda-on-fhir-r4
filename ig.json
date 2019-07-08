@@ -1,5 +1,5 @@
 {
-	"tool": "jekyll", 
+	"tool": "jekyll",
 	"source": "implementationguide/CCDA-on-FHIR-R4.xml",
 	"npm-name": "hl7.fhir.us.ccda.r4",
 	"license": "CC0-1.0",
@@ -190,33 +190,85 @@
 			"base": "ValueSet-2.16.840.1.113762.1.4.1099.10.html",
 			"defns": "ValueSet-2.16.840.1.113762.1.4.1099.10-definitions.html"
 		},
-		"Composition/CCDA-on-FHIR-Care-Plan-Example": {
-			"base": "Composition-CCDA-on-FHIR-Care-Plan-Example.html",
-			"defns": "Composition-CCDA-on-FHIR-Care-Plan-Example-definitions.html"
-		},
-		"ValueSet/2.16.840.1.113883.1.11.20.2.3": {
-			"base": "ValueSet-2.16.840.1.113883.1.11.20.2.3.html",
-			"defns": "ValueSet-2.16.840.1.113883.1.11.20.2.3-definitions.html"
+		"Practitioner/practitioner-1": {
+			"base": "Practitioner-practitioner-1.html",
+			"defns": "Practitioner-practitioner-1-definitions.html"
 		},
 		"Patient/example": {
 			"base": "Patient-example.html",
 			"defns": "Patient-example-definitions.html"
 		},
+		"Organization/acme-lab": {
+			"base": "Organization-acme-lab.html",
+			"defns": "Organization-acme-lab-definitions.html"
+		},
+		"Composition/CCDA-on-FHIR-Care-Plan-Example": {
+			"base": "Composition-CCDA-on-FHIR-Care-Plan-Example.html",
+			"defns": "Composition-CCDA-on-FHIR-Care-Plan-Example-definitions.html"
+		},
+		"Composition/CCDA-on-FHIR-Consultation-Note-Example": {
+			"base": "Composition-CCDA-on-FHIR-Consultation-Note-Example.html",
+			"defns": "Composition-CCDA-on-FHIR-Consultation-Note-Example-definitions.html"
+		},
+		"Composition/CCDA-on-FHIR-Continuity-of-Care-Document-Example": {
+			"base": "Composition-CCDA-on-FHIR-Continuity-of-Care-Document-Example.html",
+			"defns": "Composition-CCDA-on-FHIR-Continuity-of-Care-Document-Example-definitions.html"
+		},
+		"Composition/CCDA-on-FHIR-Diagnostic-Imaging-Report-Example": {
+			"base": "Composition-CCDA-on-FHIR-Diagnostic-Imaging-Report-Example.html",
+			"defns": "Composition-CCDA-on-FHIR-Diagnostic-Imaging-Report-Example-definitions.html"
+		},
+		"Composition/CCDA-on-FHIR-Discharge-Summary-Example": {
+			"base": "Composition-CCDA-on-FHIR-Discharge-Summary-Example.html",
+			"defns": "Composition-CCDA-on-FHIR-Discharge-Summary-Example-definitions.html"
+		},
+		"Composition/CCDA-on-FHIR-History-and-Physical-Example": {
+			"base": "Composition-CCDA-on-FHIR-History-and-Physical-Example.html",
+			"defns": "Composition-CCDA-on-FHIR-History-and-Physical-Example-definitions.html"
+		},
+		"Encounter/example-1": {
+			"base": "Encounter-example-1.html",
+			"defns": "Encounter-example-1-definitions.html"
+		},
+		"Composition/CCDA-on-FHIR-Operative-Note-Example": {
+			"base": "Composition-CCDA-on-FHIR-Operative-Note-Example.html",
+			"defns": "Composition-CCDA-on-FHIR-Operative-Note-Example-definitions.html"
+		},
+		"Composition/CCDA-on-FHIR-Procedure-Note-Example": {
+			"base": "Composition-CCDA-on-FHIR-Procedure-Note-Example.html",
+			"defns": "Composition-CCDA-on-FHIR-Procedure-Note-Example-definitions.html"
+		},
+		"ValueSet/2.16.840.1.113883.1.11.20.2.3": {
+			"base": "ValueSet-2.16.840.1.113883.1.11.20.2.3.html",
+			"defns": "ValueSet-2.16.840.1.113883.1.11.20.2.3-definitions.html"
+		},
+		"Composition/CCDA-on-FHIR-Progress-Note-Example": {
+			"base": "Composition-CCDA-on-FHIR-Progress-Note-Example.html",
+			"defns": "Composition-CCDA-on-FHIR-Progress-Note-Example-definitions.html"
+		},
 		"ValueSet/2.16.840.1.113883.1.11.20.2.4": {
 			"base": "ValueSet-2.16.840.1.113883.1.11.20.2.4.html",
 			"defns": "ValueSet-2.16.840.1.113883.1.11.20.2.4-definitions.html"
 		},
-		"Organization/acme-lab": {
-			"base": "Organization-acme-lab.html",
-			"defns": "Organization-acme-lab-definitions.html"
+		"Composition/CCDA-on-FHIR-Referral-Note-Example": {
+			"base": "Composition-CCDA-on-FHIR-Referral-Note-Example.html",
+			"defns": "Composition-CCDA-on-FHIR-Referral-Note-Example-definitions.html"
 		},
 		"ValueSet/2.16.840.1.113883.1.11.20.22": {
 			"base": "ValueSet-2.16.840.1.113883.1.11.20.22.html",
 			"defns": "ValueSet-2.16.840.1.113883.1.11.20.22-definitions.html"
 		},
+		"Composition/CCDA-on-FHIR-Transfer-Summary-Example": {
+			"base": "Composition-CCDA-on-FHIR-Transfer-Summary-Example.html",
+			"defns": "Composition-CCDA-on-FHIR-Transfer-Summary-Example-definitions.html"
+		},
 		"ValueSet/2.16.840.1.113883.11.20.1.1": {
 			"base": "ValueSet-2.16.840.1.113883.11.20.1.1.html",
 			"defns": "ValueSet-2.16.840.1.113883.11.20.1.1-definitions.html"
+		},
+		"AllergyIntolerance/allergy-intolerance": {
+			"base": "AllergyIntolerance-allergy-intolerance.html",
+			"defns": "AllergyIntolerance-allergy-intolerance-definitions.html"
 		},
 		"ValueSet/2.16.840.1.113883.11.20.4.1": {
 			"base": "ValueSet-2.16.840.1.113883.11.20.4.1.html",
@@ -241,6 +293,10 @@
 		"ValueSet/1.3.6.1.4.1.12009.10.2.5": {
 			"base": "ValueSet-1.3.6.1.4.1.12009.10.2.5.html",
 			"defns": "ValueSet-1.3.6.1.4.1.12009.10.2.5-definitions.html"
+		},
+		"Encounter/encounter-1": {
+			"base": "Encounter-encounter-1.html",
+			"defns": "Encounter-encounter-1-definitions.html"
 		}
 	},
 	"version": "4.0.0",
@@ -249,8 +305,8 @@
 		{
 			"location": "http://hl7.org/fhir/us/core",
 			"name": "USCoreR4",
-			"version": "current",
-			"package": "hl7.fhir.us.core.r4"
+			"version": "3.0.0",
+			"package": "hl7.fhir.us.core"
 		}
 	]
 }
