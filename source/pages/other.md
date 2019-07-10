@@ -72,12 +72,48 @@ active: other
 <td><a href="Composition-CCDA-on-FHIR-Transfer-Summary-Example.html">Transfer Summary</a></td>
 </tr>
 <tr>
+<td>Condition</td>
+<td><a href="Condition-condition-problem.html">condition-problem</a></td>
+</tr>
+<tr>
 <td>Encounter</td>
 <td><a href="Encounter-encounter-1.html">encounter-1</a></td>
 </tr>
 <tr>
 <td>Encounter</td>
 <td><a href="Encounter-example-1.html">example-1</a></td>
+</tr>
+<tr>
+<td>Immunization</td>
+<td><a href="Immunization-imm-1.html">imm-1</a></td>
+</tr>
+<tr>
+<td>Immunization</td>
+<td><a href="Immunization-immunization.html">immunization</a></td>
+</tr>
+<tr>
+<td>MedicationStatement</td>
+<td><a href="MedicationStatement-medication-statement.html">medication-statement</a></td>
+</tr>
+<tr>
+<td>Observation</td>
+<td><a href="Observation-observation-lab-urine.html">observation-lab-urine</a></td>
+</tr>
+<tr>
+<td>Observation</td>
+<td><a href="Observation-observation-smoker.html">observation-smoker</a></td>
+</tr>
+<tr>
+<td>Observation</td>
+<td><a href="Observation-observation-vitals-temp.html">observation-vitals-temp</a></td>
+</tr>
+<tr>
+<td>Organization</td>
+<td><a href="Organization-organization-2.html">Acme Clinic</a></td>
+</tr>
+<tr>
+<td>Organization</td>
+<td><a href="Organization-organization-1.html">Acme Labs</a></td>
 </tr>
 <tr>
 <td>Organization</td>
@@ -98,6 +134,14 @@ active: other
 <tr>
 <td>PractitionerRole</td>
 <td><a href="PractitionerRole-ccda-practitionerrole-example.html">ccda-practitionerrole-example</a></td>
+</tr>
+<tr>
+<td>Procedure</td>
+<td><a href="Procedure-procedure-rehab.html">procedure-rehab</a></td>
+</tr>
+<tr>
+<td>Procedure</td>
+<td><a href="Procedure-rehab.html">rehab</a></td>
 </tr>
 </tbody>
 </table>

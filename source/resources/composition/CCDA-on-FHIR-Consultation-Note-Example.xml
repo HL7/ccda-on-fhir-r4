@@ -3,8 +3,8 @@
     xmlns="http://hl7.org/fhir">
     <id value="CCDA-on-FHIR-Consultation-Note-Example"/>
     <meta>
-        <versionId value="4"/>
-        <lastUpdated value="2019-07-07T22:55:11.000-04:00"/>
+        <versionId value="10"/>
+        <lastUpdated value="2019-07-09T21:17:17.000-04:00"/>
         <profile value="http://hl7.org/fhir/us/ccda-r4/StructureDefinition/CCDA-on-FHIR-Consultation-Note"/>
     </meta>
     <language value="en-US"/>
@@ -58,9 +58,21 @@
                         </td>
                         <td class="td_header_role_value">1003 Healthcare Drive
                             
+                            
+                            
+                            
+                            
                             <br/>Amherst MA 01002, US
                             
+                            
+                            
+                            
+                            
                             <br/>Tel:  +1(555)555-1003
+                            
+                            
+                            
+                            
                             
                             <br/>
                         </td>
@@ -105,9 +117,21 @@
                         </td>
                         <td class="td_header_role_value">1003 Healthcare Drive
                             
+                            
+                            
+                            
+                            
                             <br/>Amherst MA 01002, US
                             
+                            
+                            
+                            
+                            
                             <br/>Tel:  +1(555)555-1003
+                            
+                            
+                            
+                            
                             
                             <br/>
                         </td>
@@ -122,6 +146,10 @@
                         </td>
                         <td class="td_header_role_value">Community Health and Hospitals
                             
+                            
+                            
+                            
+                            
                             <br/>
                         </td>
                     </tr>
@@ -130,6 +158,10 @@
                             <span class="td_label">Emergency contact</span>
                         </td>
                         <td class="td_header_role_value">Michael Shaw
+                            
+                            
+                            
+                            
                             
                             <br/>
                             <br/>
@@ -141,9 +173,21 @@
                         </td>
                         <td class="td_header_role_value">49 Meadow St
                             
+                            
+                            
+                            
+                            
                             <br/>Amherst MA 01003, US
                             
+                            
+                            
+                            
+                            
                             <br/>Tel:  (555)555-1212
+                            
+                            
+                            
+                            
                             
                             <br/>
                         </td>
@@ -154,6 +198,10 @@
                         </td>
                         <td class="td_header_role_value">Mrs. Lillian White
                             
+                            
+                            
+                            
+                            
                             <br/>
                         </td>
                     </tr>
@@ -163,9 +211,21 @@
                         </td>
                         <td class="td_header_role_value">49 Meadow St
                             
+                            
+                            
+                            
+                            
                             <br/>Amherst MA 01003, US
                             
+                            
+                            
+                            
+                            
                             <br/>Tel:  (555)555-1215
+                            
+                            
+                            
+                            
                             
                             <br/>
                         </td>
@@ -186,9 +246,21 @@
                         </td>
                         <td class="td_header_role_value">1003 Healthcare Drive
                             
+                            
+                            
+                            
+                            
                             <br/>Amherst MA 01002, US
                             
+                            
+                            
+                            
+                            
                             <br/>Tel:  +1(555)555-1003
+                            
+                            
+                            
+                            
                             
                             <br/>
                         </td>
@@ -209,9 +281,21 @@
                         </td>
                         <td class="td_header_role_value">1003 Healthcare Drive
                             
+                            
+                            
+                            
+                            
                             <br/>Amherst MA 01002, US
                             
+                            
+                            
+                            
+                            
                             <br/>Tel:  +1(555)555-1003
+                            
+                            
+                            
+                            
                             
                             <br/>
                         </td>
@@ -232,9 +316,21 @@
                         </td>
                         <td class="td_header_role_value">1007 Pharmacy Drive
                             
+                            
+                            
+                            
+                            
                             <br/>Portland, OR 99123, US
                             
+                            
+                            
+                            
+                            
                             <br/>Tel:  +1(555)555-1215
+                            
+                            
+                            
+                            
                             
                             <br/>
                         </td>
@@ -255,9 +351,21 @@
                         </td>
                         <td class="td_header_role_value">1005 St. Clair Avenue
                             
+                            
+                            
+                            
+                            
                             <br/>Amherst MA 01002, US
                             
+                            
+                            
+                            
+                            
                             <br/>Tel:  +1(555)555-1666
+                            
+                            
+                            
+                            
                             
                             <br/>
                         </td>
@@ -278,9 +386,21 @@
                         </td>
                         <td class="td_header_role_value">1003 Healthcare Drive
                             
+                            
+                            
+                            
+                            
                             <br/>Amherst MA 01002, US
                             
+                            
+                            
+                            
+                            
                             <br/>Tel:  +1(555)555-1003
+                            
+                            
+                            
+                            
                             
                             <br/>
                         </td>
@@ -301,9 +421,21 @@
                         </td>
                         <td class="td_header_role_value">1003 Healthcare Drive
                             
+                            
+                            
+                            
+                            
                             <br/>Amherst MA 01002, US
                             
+                            
+                            
+                            
+                            
                             <br/>Tel:  +1(555)555-1003
+                            
+                            
+                            
+                            
                             
                             <br/>
                         </td>
@@ -334,8 +466,8 @@
     </encounter>
     <date value="2016-02-28T09:10:14Z"/>
     <author>
-        <reference value="Practitioner/practitioner-1"/>
-        <display value="Ronald Boone, MD"/>
+        <reference value="PractitionerRole/ccda-practitionerrole-example"/>
+        <display value="Ronald Bone, MD"/>
     </author>
     <title value="Consultation Note"/>
     <confidentiality value="N"/>
@@ -343,7 +475,7 @@
         <mode value="legal"/>
         <time value="2012-01-04T09:10:14Z"/>
         <party>
-            <reference value="Practitioner/practitioner-1"/>
+            <reference value="PractitionerRole/ccda-practitionerrole-example"/>
             <display value="Ronald Boone, MD"/>
         </party>
     </attester>
@@ -445,7 +577,7 @@
             <coding>
                 <system value="http://loinc.org"/>
                 <code value="51848-0"/>
-                <display value="Assessment (evaluation)"/>
+                <display value="Evaluation note"/>
             </coding>
         </code>
         <text>
@@ -465,7 +597,7 @@
             <coding>
                 <system value="http://loinc.org"/>
                 <code value="51847-2"/>
-                <display value="Assessment (evaluation) and plan"/>
+                <display value="Evaluation + Plan note"/>
             </coding>
         </code>
         <text>
@@ -487,7 +619,7 @@
             <coding>
                 <system value="http://loinc.org"/>
                 <code value="46239-0"/>
-                <display value="Chief complaint and reason for visit"/>
+                <display value="Chief complaint+Reason for visit Narrative"/>
             </coding>
         </code>
         <text>
@@ -504,7 +636,7 @@
             <coding>
                 <system value="http://loinc.org"/>
                 <code value="10154-3"/>
-                <display value="Chief complaint"/>
+                <display value="Chief complaint Narrative - Reported"/>
             </coding>
         </code>
         <text>
@@ -521,7 +653,7 @@
             <coding>
                 <system value="http://loinc.org"/>
                 <code value="10157-6"/>
-                <display value="History of family member diseases"/>
+                <display value="History of family member diseases Narrative"/>
             </coding>
         </code>
         <text>
@@ -553,9 +685,6 @@
                 </table>
             </div>
         </text>
-        <entry>
-            <reference value="http://hl7.org/fhir/StructureDefinition/FamilyMemberHistory"/>
-        </entry>
     </section>
     <section>
         <title value="Functional Status Section"/>
@@ -563,7 +692,7 @@
             <coding>
                 <system value="http://loinc.org"/>
                 <code value="47420-5"/>
-                <display value="Functional status"/>
+                <display value="Functional status assessment note"/>
             </coding>
         </code>
         <text>
@@ -613,7 +742,7 @@
             <coding>
                 <system value="http://loinc.org"/>
                 <code value="10210-3"/>
-                <display value="Physical findings of General status"/>
+                <display value="Physical findings of General status Narrative"/>
             </coding>
         </code>
         <text>
@@ -630,7 +759,7 @@
             <coding>
                 <system value="http://loinc.org"/>
                 <code value="11348-0"/>
-                <display value="History of past illness"/>
+                <display value="History of Past illness Narrative"/>
             </coding>
         </code>
         <text>
@@ -647,7 +776,7 @@
             <coding>
                 <system value="http://loinc.org"/>
                 <code value="10164-2"/>
-                <display value="History of present illness"/>
+                <display value="History of Present illness Narrative"/>
             </coding>
         </code>
         <text>
@@ -672,7 +801,7 @@
             <coding>
                 <system value="http://loinc.org"/>
                 <code value="11369-6"/>
-                <display value="History of immunization"/>
+                <display value="History of Immunization Narrative"/>
             </coding>
         </code>
         <text>
@@ -709,7 +838,7 @@
             <coding>
                 <system value="http://loinc.org"/>
                 <code value="46264-8"/>
-                <display value="Medical equipment"/>
+                <display value="History of medical device use"/>
             </coding>
         </code>
         <text>
@@ -743,7 +872,7 @@
             <coding>
                 <system value="http://loinc.org"/>
                 <code value="10160-0"/>
-                <display value="History of Medication Use"/>
+                <display value="History of Medication use Narrative"/>
             </coding>
         </code>
         <text>
@@ -848,7 +977,7 @@
             <coding>
                 <system value="http://loinc.org"/>
                 <code value="61144-2"/>
-                <display value="Diet and nutrition"/>
+                <display value="Diet and nutrition Narrative"/>
             </coding>
         </code>
         <text>
@@ -887,7 +1016,7 @@
             <coding>
                 <system value="http://loinc.org"/>
                 <code value="29545-1"/>
-                <display value="Physical findings"/>
+                <display value="Physical findings Narrative"/>
             </coding>
         </code>
         <text>
@@ -909,7 +1038,7 @@
             <coding>
                 <system value="http://loinc.org"/>
                 <code value="18776-5"/>
-                <display value="Plan of treatment"/>
+                <display value="Plan of care note"/>
             </coding>
         </code>
         <text>
@@ -948,7 +1077,7 @@
             <coding>
                 <system value="http://loinc.org"/>
                 <code value="11450-4"/>
-                <display value="Problem list"/>
+                <display value="Problem list - Reported"/>
             </coding>
         </code>
         <text>
@@ -974,10 +1103,10 @@
                         </td>
                     </tr>
                     <tr>
-                        <td>Fever</td>
+                        <td>Liveborn born in hospital</td>
                         <td>Condition</td>
-                        <td>2016-04-01</td>
-                        <td>2016-04-14</td>
+                        <td/>
+                        <td/>
                         <td>Complete</td>
                     </tr>
                 </table>

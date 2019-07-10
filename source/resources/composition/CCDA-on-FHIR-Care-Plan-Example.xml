@@ -3,8 +3,8 @@
     xmlns="http://hl7.org/fhir">
     <id value="CCDA-on-FHIR-Care-Plan-Example"/>
     <meta>
-        <versionId value="6"/>
-        <lastUpdated value="2019-07-07T17:29:06.000-04:00"/>
+        <versionId value="7"/>
+        <lastUpdated value="2019-07-09T11:54:01.000-04:00"/>
         <profile value="http://hl7.org/fhir/us/ccda-r4/StructureDefinition/CCDA-on-FHIR-Care-Plan"/>
     </meta>
     <language value="en-US"/>
@@ -59,10 +59,13 @@
                         <td class="td_header_role_value">1003 Healthcare Drive
                             
                             
+                            
                             <br/>Amherst MA 01002, US
                             
                             
+                            
                             <br/>Tel:  +1(555)555-1003
+                            
                             
                             
                             <br/>
@@ -109,10 +112,13 @@
                         <td class="td_header_role_value">1003 Healthcare Drive
                             
                             
+                            
                             <br/>Amherst MA 01002, US
                             
                             
+                            
                             <br/>Tel:  +1(555)555-1003
+                            
                             
                             
                             <br/>
@@ -129,6 +135,7 @@
                         <td class="td_header_role_value">Acme Laboratories
                             
                             
+                            
                             <br/>
                         </td>
                     </tr>
@@ -137,6 +144,7 @@
                             <span class="td_label">Emergency contact</span>
                         </td>
                         <td class="td_header_role_value">Michael Shaw
+                            
                             
                             
                             <br/>
@@ -150,10 +158,13 @@
                         <td class="td_header_role_value">49 Meadow St
                             
                             
+                            
                             <br/>Amherst MA 01003, US
                             
                             
+                            
                             <br/>Tel:  (555)555-1212
+                            
                             
                             
                             <br/>
@@ -166,6 +177,7 @@
                         <td class="td_header_role_value">Mrs. Lillian White
                             
                             
+                            
                             <br/>
                         </td>
                     </tr>
@@ -176,10 +188,13 @@
                         <td class="td_header_role_value">49 Meadow St
                             
                             
+                            
                             <br/>Amherst MA 01003, US
                             
                             
+                            
                             <br/>Tel:  (555)555-1215
+                            
                             
                             
                             <br/>
@@ -202,10 +217,13 @@
                         <td class="td_header_role_value">1003 Healthcare Drive
                             
                             
+                            
                             <br/>Amherst MA 01002, US
                             
                             
+                            
                             <br/>Tel:  +1(555)555-1003
+                            
                             
                             
                             <br/>
@@ -228,10 +246,13 @@
                         <td class="td_header_role_value">1003 Healthcare Drive
                             
                             
+                            
                             <br/>Amherst MA 01002, US
                             
                             
+                            
                             <br/>Tel:  +1(555)555-1003
+                            
                             
                             
                             <br/>
@@ -254,10 +275,13 @@
                         <td class="td_header_role_value">1007 Pharmacy Drive
                             
                             
+                            
                             <br/>Portland, OR 99123, US
                             
                             
+                            
                             <br/>Tel:  +1(555)555-1215
+                            
                             
                             
                             <br/>
@@ -280,10 +304,13 @@
                         <td class="td_header_role_value">1005 St. Clair Avenue
                             
                             
+                            
                             <br/>Amherst MA 01002, US
                             
                             
+                            
                             <br/>Tel:  +1(555)555-1666
+                            
                             
                             
                             <br/>
@@ -306,10 +333,13 @@
                         <td class="td_header_role_value">1003 Healthcare Drive
                             
                             
+                            
                             <br/>Amherst MA 01002, US
                             
                             
+                            
                             <br/>Tel:  +1(555)555-1003
+                            
                             
                             
                             <br/>
@@ -332,10 +362,13 @@
                         <td class="td_header_role_value">1003 Healthcare Drive
                             
                             
+                            
                             <br/>Amherst MA 01002, US
                             
                             
+                            
                             <br/>Tel:  +1(555)555-1003
+                            
                             
                             
                             <br/>

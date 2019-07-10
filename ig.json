@@ -190,9 +190,21 @@
 			"base": "ValueSet-2.16.840.1.113762.1.4.1099.10.html",
 			"defns": "ValueSet-2.16.840.1.113762.1.4.1099.10-definitions.html"
 		},
+		"Procedure/rehab": {
+			"base": "Procedure-rehab.html",
+			"defns": "Procedure-rehab-definitions.html"
+		},
 		"Practitioner/practitioner-1": {
 			"base": "Practitioner-practitioner-1.html",
 			"defns": "Practitioner-practitioner-1-definitions.html"
+		},
+		"Organization/organization-1": {
+			"base": "Organization-organization-1.html",
+			"defns": "Organization-organization-1-definitions.html"
+		},
+		"Organization/organization-2": {
+			"base": "Organization-organization-2.html",
+			"defns": "Organization-organization-2-definitions.html"
 		},
 		"Patient/example": {
 			"base": "Patient-example.html",
@@ -217,6 +229,10 @@
 		"Composition/CCDA-on-FHIR-Diagnostic-Imaging-Report-Example": {
 			"base": "Composition-CCDA-on-FHIR-Diagnostic-Imaging-Report-Example.html",
 			"defns": "Composition-CCDA-on-FHIR-Diagnostic-Imaging-Report-Example-definitions.html"
+		},
+		"Immunization/imm-1": {
+			"base": "Immunization-imm-1.html",
+			"defns": "Immunization-imm-1-definitions.html"
 		},
 		"Composition/CCDA-on-FHIR-Discharge-Summary-Example": {
 			"base": "Composition-CCDA-on-FHIR-Discharge-Summary-Example.html",
@@ -274,25 +290,53 @@
 			"base": "ValueSet-2.16.840.1.113883.11.20.4.1.html",
 			"defns": "ValueSet-2.16.840.1.113883.11.20.4.1-definitions.html"
 		},
+		"Condition/condition-problem": {
+			"base": "Condition-condition-problem.html",
+			"defns": "Condition-condition-problem-definitions.html"
+		},
 		"ValueSet/2.16.840.1.113883.11.20.6.1": {
 			"base": "ValueSet-2.16.840.1.113883.11.20.6.1.html",
 			"defns": "ValueSet-2.16.840.1.113883.11.20.6.1-definitions.html"
+		},
+		"Observation/observation-smoker": {
+			"base": "Observation-observation-smoker.html",
+			"defns": "Observation-observation-smoker-definitions.html"
 		},
 		"ValueSet/2.16.840.1.113883.11.20.8.1": {
 			"base": "ValueSet-2.16.840.1.113883.11.20.8.1.html",
 			"defns": "ValueSet-2.16.840.1.113883.11.20.8.1-definitions.html"
 		},
+		"Procedure/procedure-rehab": {
+			"base": "Procedure-procedure-rehab.html",
+			"defns": "Procedure-procedure-rehab-definitions.html"
+		},
 		"ValueSet/2.16.840.1.113883.11.20.9.31": {
 			"base": "ValueSet-2.16.840.1.113883.11.20.9.31.html",
 			"defns": "ValueSet-2.16.840.1.113883.11.20.9.31-definitions.html"
+		},
+		"Immunization/immunization": {
+			"base": "Immunization-immunization.html",
+			"defns": "Immunization-immunization-definitions.html"
 		},
 		"ValueSet/2.16.840.1.113883.11.20.9.59": {
 			"base": "ValueSet-2.16.840.1.113883.11.20.9.59.html",
 			"defns": "ValueSet-2.16.840.1.113883.11.20.9.59-definitions.html"
 		},
+		"Observation/observation-vitals-temp": {
+			"base": "Observation-observation-vitals-temp.html",
+			"defns": "Observation-observation-vitals-temp-definitions.html"
+		},
 		"ValueSet/1.3.6.1.4.1.12009.10.2.5": {
 			"base": "ValueSet-1.3.6.1.4.1.12009.10.2.5.html",
 			"defns": "ValueSet-1.3.6.1.4.1.12009.10.2.5-definitions.html"
+		},
+		"MedicationStatement/medication-statement": {
+			"base": "MedicationStatement-medication-statement.html",
+			"defns": "MedicationStatement-medication-statement-definitions.html"
+		},
+		"Observation/observation-lab-urine": {
+			"base": "Observation-observation-lab-urine.html",
+			"defns": "Observation-observation-lab-urine-definitions.html"
 		},
 		"Encounter/encounter-1": {
 			"base": "Encounter-encounter-1.html",

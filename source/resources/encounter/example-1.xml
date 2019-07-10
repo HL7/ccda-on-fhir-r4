@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="example-1"/>
     <meta>
-        <versionId value="1"/>
-        <lastUpdated value="2019-02-19T16:14:01.000-05:00"/>
-        <profile value="http://hl7.org/fhir/us/core-r4/StructureDefinition/us-core-encounter"/>
+        <versionId value="2"/>
+        <lastUpdated value="2019-07-09T11:19:00.000-04:00"/>
+        <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter"/>
     </meta>
     <text>
         <status value="generated"/>
@@ -21,10 +21,10 @@
                 <b>meta</b>: 
             </p>
             <p>
-                <b>status</b>: FINISHED
+                <b>status</b>: finished
             </p>
             <p>
-                <b>class</b>: ambulatory (Details: http://hl7.org/fhir/v3/ActCode code AMB = 'AMB', stated as 'ambulatory')
+                <b>class</b>: ambulatory (Details: http://terminology.hl7.org/CodeSystem/v3-ActCode code AMB = 'ambulatory', stated as 'ambulatory')
             </p>
             <p>
                 <b>type</b>: Office Visit 
@@ -41,7 +41,7 @@
     </text>
     <status value="finished"/>
     <class>
-        <system value="http://hl7.org/fhir/v3/ActCode"/>
+        <system value="http://terminology.hl7.org/CodeSystem/v3-ActCode"/>
         <code value="AMB"/>
         <display value="ambulatory"/>
     </class>

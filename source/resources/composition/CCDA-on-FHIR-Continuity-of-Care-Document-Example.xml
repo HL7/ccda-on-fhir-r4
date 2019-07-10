@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="CCDA-on-FHIR-Continuity-of-Care-Document-Example"/>
     <meta>
-        <versionId value="2"/>
-        <lastUpdated value="2019-07-07T23:05:35.000-04:00"/>
-        <profile value="http://hl7.org/fhir/us/ccda/StructureDefinition/CCDA-on-FHIR-Continuity-of-Care-Document"/>
+        <versionId value="8"/>
+        <lastUpdated value="2019-07-09T22:20:52.000-04:00"/>
+        <profile value="http://hl7.org/fhir/us/ccda-r4/StructureDefinition/CCDA-on-FHIR-Continuity-of-Care-Document"/>
     </meta>
     <language value="en-US"/>
     <text>
@@ -58,9 +58,21 @@
                         </td>
                         <td class="td_header_role_value">1003 Healthcare Drive
                             
+                            
+                            
+                            
+                            
                             <br/>Amherst MA 01002, US
                             
+                            
+                            
+                            
+                            
                             <br/>Tel:  +1(555)555-1003
+                            
+                            
+                            
+                            
                             
                             <br/>
                         </td>
@@ -105,9 +117,21 @@
                         </td>
                         <td class="td_header_role_value">1003 Healthcare Drive
                             
+                            
+                            
+                            
+                            
                             <br/>Amherst MA 01002, US
                             
+                            
+                            
+                            
+                            
                             <br/>Tel:  +1(555)555-1003
+                            
+                            
+                            
+                            
                             
                             <br/>
                         </td>
@@ -122,6 +146,10 @@
                         </td>
                         <td class="td_header_role_value">Community Health and Hospitals
                             
+                            
+                            
+                            
+                            
                             <br/>
                         </td>
                     </tr>
@@ -130,6 +158,10 @@
                             <span class="td_label">Emergency contact</span>
                         </td>
                         <td class="td_header_role_value">Michael Shaw
+                            
+                            
+                            
+                            
                             
                             <br/>
                             <br/>
@@ -141,9 +173,21 @@
                         </td>
                         <td class="td_header_role_value">49 Meadow St
                             
+                            
+                            
+                            
+                            
                             <br/>Amherst MA 01003, US
                             
+                            
+                            
+                            
+                            
                             <br/>Tel:  (555)555-1212
+                            
+                            
+                            
+                            
                             
                             <br/>
                         </td>
@@ -154,6 +198,10 @@
                         </td>
                         <td class="td_header_role_value">Mrs. Lillian White
                             
+                            
+                            
+                            
+                            
                             <br/>
                         </td>
                     </tr>
@@ -163,9 +211,21 @@
                         </td>
                         <td class="td_header_role_value">49 Meadow St
                             
+                            
+                            
+                            
+                            
                             <br/>Amherst MA 01003, US
                             
+                            
+                            
+                            
+                            
                             <br/>Tel:  (555)555-1215
+                            
+                            
+                            
+                            
                             
                             <br/>
                         </td>
@@ -186,9 +246,21 @@
                         </td>
                         <td class="td_header_role_value">1003 Healthcare Drive
                             
+                            
+                            
+                            
+                            
                             <br/>Amherst MA 01002, US
                             
+                            
+                            
+                            
+                            
                             <br/>Tel:  +1(555)555-1003
+                            
+                            
+                            
+                            
                             
                             <br/>
                         </td>
@@ -209,9 +281,21 @@
                         </td>
                         <td class="td_header_role_value">1003 Healthcare Drive
                             
+                            
+                            
+                            
+                            
                             <br/>Amherst MA 01002, US
                             
+                            
+                            
+                            
+                            
                             <br/>Tel:  +1(555)555-1003
+                            
+                            
+                            
+                            
                             
                             <br/>
                         </td>
@@ -232,9 +316,21 @@
                         </td>
                         <td class="td_header_role_value">1007 Pharmacy Drive
                             
+                            
+                            
+                            
+                            
                             <br/>Portland, OR 99123, US
                             
+                            
+                            
+                            
+                            
                             <br/>Tel:  +1(555)555-1215
+                            
+                            
+                            
+                            
                             
                             <br/>
                         </td>
@@ -255,9 +351,21 @@
                         </td>
                         <td class="td_header_role_value">1005 St. Clair Avenue
                             
+                            
+                            
+                            
+                            
                             <br/>Amherst MA 01002, US
                             
+                            
+                            
+                            
+                            
                             <br/>Tel:  +1(555)555-1666
+                            
+                            
+                            
+                            
                             
                             <br/>
                         </td>
@@ -278,9 +386,21 @@
                         </td>
                         <td class="td_header_role_value">1003 Healthcare Drive
                             
+                            
+                            
+                            
+                            
                             <br/>Amherst MA 01002, US
                             
+                            
+                            
+                            
+                            
                             <br/>Tel:  +1(555)555-1003
+                            
+                            
+                            
+                            
                             
                             <br/>
                         </td>
@@ -301,9 +421,21 @@
                         </td>
                         <td class="td_header_role_value">1003 Healthcare Drive
                             
+                            
+                            
+                            
+                            
                             <br/>Amherst MA 01002, US
                             
+                            
+                            
+                            
+                            
                             <br/>Tel:  +1(555)555-1003
+                            
+                            
+                            
+                            
                             
                             <br/>
                         </td>
@@ -330,8 +462,8 @@
     </subject>
     <date value="2016-02-28T09:10:14Z"/>
     <author>
-        <reference value="Practitioner/practitioner-1"/>
-        <display value="Ronald Boone, MD"/>
+        <reference value="PractitionerRole/ccda-practitionerrole-example"/>
+        <display value="Ronald Bone, MD"/>
     </author>
     <title value="Continuity of Care Document"/>
     <confidentiality value="N"/>
@@ -339,18 +471,18 @@
         <mode value="legal"/>
         <time value="2016-06-15T09:10:14Z"/>
         <party>
-            <reference value="Practitioner/practitioner-1"/>
+            <reference value="PractitionerRole/ccda-practitionerrole-example"/>
             <display value="Ronald Boone, MD"/>
         </party>
     </attester>
     <custodian>
-        <reference value="Organization/example-organization-2"/>
+        <reference value="Organization/organization-2"/>
         <display value="Acme Clinic"/>
     </custodian>
     <event>
         <code>
             <coding>
-                <system value="http://hl7.org/fhir/v3/ActClass"/>
+                <system value="http://terminology.hl7.org/CodeSystem/v3-ActClass"/>
                 <code value="PCPR"/>
                 <display value="Care Provision"/>
             </coding>
@@ -401,14 +533,6 @@
                 </table>
             </div>
         </text>
-        <mode value="snapshot"/>
-        <orderedBy>
-            <coding>
-                <system value="http://hl7.org/fhir/list-order"/>
-                <code value="event-date"/>
-                <display value="Sorted by Event Date"/>
-            </coding>
-        </orderedBy>
         <entry>
             <reference value="AllergyIntolerance/allergy-intolerance"/>
         </entry>

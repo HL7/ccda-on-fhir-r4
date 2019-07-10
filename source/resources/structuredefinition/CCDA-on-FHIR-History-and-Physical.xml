@@ -3,8 +3,8 @@
     xmlns="http://hl7.org/fhir">
     <id value="CCDA-on-FHIR-History-and-Physical"/>
     <meta>
-        <versionId value="11"/>
-        <lastUpdated value="2019-07-07T16:43:04.000-04:00"/>
+        <versionId value="14"/>
+        <lastUpdated value="2019-07-10T15:27:57.000-04:00"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ccda-r4/StructureDefinition/CCDA-on-FHIR-History-and-Physical"/>
     <name value="CCDAonFHIRHistoryAndPhysical"/>
@@ -95,7 +95,7 @@
             <slicing>
                 <discriminator>
                     <type value="profile"/>
-                    <path value="reference"/>
+                    <path value="resolve()"/>
                 </discriminator>
                 <rules value="open"/>
             </slicing>
@@ -147,7 +147,7 @@
             <slicing>
                 <discriminator>
                     <type value="profile"/>
-                    <path value="reference"/>
+                    <path value="resolve()"/>
                 </discriminator>
                 <rules value="open"/>
             </slicing>
@@ -232,7 +232,7 @@
             <slicing>
                 <discriminator>
                     <type value="profile"/>
-                    <path value="reference"/>
+                    <path value="resolve()"/>
                 </discriminator>
                 <rules value="open"/>
             </slicing>
@@ -284,7 +284,7 @@
             <slicing>
                 <discriminator>
                     <type value="profile"/>
-                    <path value="reference"/>
+                    <path value="resolve()"/>
                 </discriminator>
                 <rules value="open"/>
             </slicing>
@@ -336,7 +336,7 @@
             <slicing>
                 <discriminator>
                     <type value="profile"/>
-                    <path value="reference"/>
+                    <path value="resolve()"/>
                 </discriminator>
                 <rules value="open"/>
             </slicing>
@@ -389,7 +389,7 @@
             <slicing>
                 <discriminator>
                     <type value="profile"/>
-                    <path value="reference"/>
+                    <path value="resolve()"/>
                 </discriminator>
                 <rules value="open"/>
             </slicing>
@@ -473,19 +473,27 @@
             <slicing>
                 <discriminator>
                     <type value="profile"/>
-                    <path value="reference"/>
+                    <path value="resolve()"/>
                 </discriminator>
                 <rules value="open"/>
             </slicing>
             <short value="entry"/>
         </element>
-        <element id="Composition.section:social_history_section.entry:sliceEntry">
+        <element id="Composition.section:social_history_section.entry:smokingStatusSliceEntry">
             <path value="Composition.section.entry"/>
             <sliceName value="sliceEntry"/>
-            <short value="This section contains unprofiled resources not covered by US Core. Please refer to C-CDA R2.1 for guidance on terminology, etc."/>
+            <short value="Smoking status"/>
             <type>
                 <code value="Reference"/>
                 <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-smokingstatus"/>
+            </type>
+        </element>
+        <element id="Composition.section:social_history_section.entry:socialHistorySliceEntry">
+            <path value="Composition.section.entry"/>
+            <sliceName value="sliceEntry"/>
+            <short value="This slice is for social history not covered by US Core. Please refer to C-CDA R2.1 for guidance on terminology, etc."/>
+            <type>
+                <code value="Reference"/>
                 <targetProfile value="http://hl7.org/fhir/StructureDefinition/Observation"/>
             </type>
         </element>
@@ -527,7 +535,7 @@
             <slicing>
                 <discriminator>
                     <type value="profile"/>
-                    <path value="reference"/>
+                    <path value="resolve()"/>
                 </discriminator>
                 <rules value="open"/>
             </slicing>
@@ -611,7 +619,7 @@
             <slicing>
                 <discriminator>
                     <type value="profile"/>
-                    <path value="reference"/>
+                    <path value="resolve()"/>
                 </discriminator>
                 <rules value="open"/>
             </slicing>
@@ -760,7 +768,7 @@
             <slicing>
                 <discriminator>
                     <type value="profile"/>
-                    <path value="reference"/>
+                    <path value="resolve()"/>
                 </discriminator>
                 <rules value="open"/>
             </slicing>
@@ -811,7 +819,7 @@
             <slicing>
                 <discriminator>
                     <type value="profile"/>
-                    <path value="reference"/>
+                    <path value="resolve()"/>
                 </discriminator>
                 <rules value="open"/>
             </slicing>
@@ -873,7 +881,7 @@
             <slicing>
                 <discriminator>
                     <type value="profile"/>
-                    <path value="reference"/>
+                    <path value="resolve()"/>
                 </discriminator>
                 <rules value="open"/>
             </slicing>
@@ -924,7 +932,7 @@
             <slicing>
                 <discriminator>
                     <type value="profile"/>
-                    <path value="reference"/>
+                    <path value="resolve()"/>
                 </discriminator>
                 <rules value="open"/>
             </slicing>

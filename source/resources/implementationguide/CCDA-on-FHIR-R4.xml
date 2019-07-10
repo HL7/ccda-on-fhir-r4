@@ -3,8 +3,8 @@
     xmlns="http://hl7.org/fhir">
     <id value="CCDA-on-FHIR-R4"/>
     <meta>
-        <versionId value="48"/>
-        <lastUpdated value="2019-07-07T23:00:22.000-04:00"/>
+        <versionId value="58"/>
+        <lastUpdated value="2019-07-10T12:56:36.000-04:00"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ccda-r4/ImplementationGuide/CCDA-on-FHIR-R4"/>
     <version value="1.1.0"/>
@@ -462,6 +462,94 @@
                 <display value="allergy-intolerance"/>
             </reference>
             <name value="allergy-intolerance"/>
+            <exampleBoolean value="true"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="Immunization/imm-1"/>
+                <display value="imm-1"/>
+            </reference>
+            <name value="imm-1"/>
+            <exampleBoolean value="true"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="Immunization/immunization"/>
+                <display value="immunization"/>
+            </reference>
+            <name value="immunization"/>
+            <exampleBoolean value="true"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="MedicationStatement/medication-statement"/>
+                <display value="medication-statement"/>
+            </reference>
+            <name value="medication-statement"/>
+            <exampleBoolean value="true"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="Condition/condition-problem"/>
+                <display value="condition-problem"/>
+            </reference>
+            <name value="condition-problem"/>
+            <exampleBoolean value="true"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="Observation/observation-lab-urine"/>
+                <display value="observation-lab-urine"/>
+            </reference>
+            <name value="observation-lab-urine"/>
+            <exampleBoolean value="true"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="Observation/observation-smoker"/>
+                <display value="observation-smoker"/>
+            </reference>
+            <name value="observation-smoker"/>
+            <exampleBoolean value="true"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="Observation/observation-vitals-temp"/>
+                <display value="observation-vitals-temp"/>
+            </reference>
+            <name value="observation-vitals-temp"/>
+            <exampleBoolean value="true"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="Procedure/procedure-rehab"/>
+                <display value="procedure-rehab"/>
+            </reference>
+            <name value="procedure-rehab"/>
+            <exampleBoolean value="true"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="Procedure/rehab"/>
+                <display value="rehab"/>
+            </reference>
+            <name value="rehab"/>
+            <exampleBoolean value="true"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="Organization/organization-2"/>
+                <display value="Acme Clinic"/>
+            </reference>
+            <name value="Acme Clinic"/>
+            <exampleBoolean value="true"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="Organization/organization-1"/>
+                <display value="Acme Labs"/>
+            </reference>
+            <name value="Acme Labs"/>
             <exampleBoolean value="true"/>
         </resource>
     </definition>
