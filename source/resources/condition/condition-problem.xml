@@ -3,8 +3,8 @@
     xmlns="http://hl7.org/fhir">
     <id value="condition-problem"/>
     <meta>
-        <versionId value="3"/>
-        <lastUpdated value="2019-07-10T17:38:48.000-04:00"/>
+        <versionId value="4"/>
+        <lastUpdated value="2019-07-10T18:49:11.000-04:00"/>
         <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition"/>
     </meta>
     <text>
@@ -17,21 +17,26 @@
             <p>
                 <b>id</b>: example
             
+            
             </p>
             <p>
                 <b>meta</b>: 
+            
             
             </p>
             <p>
                 <b>clinicalStatus</b>: active
             
+            
             </p>
             <p>
                 <b>verificationStatus</b>: confirmed
             
+            
             </p>
             <p>
                 <b>category</b>: Problem 
+                
                 
                 <span style="background: LightGoldenRodYellow">(Details :
           {http://hl7.org/fhir/us/core/CodeSystem/condition-category code 'problem' = 'Problem',
@@ -40,6 +45,7 @@
             <p>
                 <b>code</b>: Single liveborn, born in hospital, delivered without mention of cesarean
         section 
+                
                 
                 <span style="background: LightGoldenRodYellow">(Details : {SNOMED CT code
           '442311008' = 'Liveborn born in hospital', given as 'Single liveborn, born in hospital,
@@ -50,9 +56,11 @@
           Medical Record Number = 1032702 (USUAL); active; Amy V. Shaw ; ph: 555-555-5555(HOME),
           amy.shaw@example.com; gender: female; birthDate: 20/02/2007
             
+            
             </p>
             <p>
                 <b>assertedDate</b>: 10/08/2016
+            
             
             </p>
         </div>
@@ -69,12 +77,12 @@
         <coding>
             <system value="http://snomed.info/sct"/>
             <code value="442311008"/>
-            <display value="Single liveborn, born in hospital, delivered without mention of cesarean section"/>
+            <display value="Liveborn born in hospital"/>
         </coding>
         <text value="Single liveborn, born in hospital, delivered without mention of cesarean section"/>
     </code>
     <subject>
-        <reference value="Patient/patient-example"/>
+        <reference value="Patient/example"/>
         <display value="Amy V. Shaw"/>
     </subject>
 </Condition>

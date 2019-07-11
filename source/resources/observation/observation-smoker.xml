@@ -3,8 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="observation-smoker"/>
     <meta>
-        <versionId value="2"/>
-        <lastUpdated value="2019-07-09T20:19:00.000-04:00"/>
+        <versionId value="3"/>
+        <lastUpdated value="2019-07-10T21:58:51.000-04:00"/>
+        <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-smokingstatus"/>
     </meta>
     <text>
         <status value="generated"/>
@@ -14,42 +15,39 @@
                 <b>Generated Narrative with Details</b>
             </p>
             <p>
-                <b>id</b>: some-day-smoker
+                <b>id</b>: observation-smoker
+            </p>
+            <p>
+                <b>meta</b>: 
             </p>
             <p>
                 <b>status</b>: final
             </p>
             <p>
                 <b>category</b>: Social History 
-                <span style="background: LightGoldenRodYellow">(Details :
-          {http://hl7.org/fhir/observation-category code 'social-history' = 'Social History', given
-          as 'Social History'})</span>
+                <span style="background: LightGoldenRodYellow">(Details : {http://terminology.hl7.org/CodeSystem/observation-category code 'social-history' = 'Social History', given as 'Social History'})</span>
             </p>
             <p>
-                <b>code</b>: Tobacco smoking status 
-                <span style="background: LightGoldenRodYellow">(Details
-          : {LOINC code '72166-2' = 'Tobacco smoking status NHIS', given as 'Tobacco smoking
-          status'})</span>
+                <b>code</b>: Tobacco smoking status NHIS 
+                <span style="background: LightGoldenRodYellow">(Details : {LOINC code '72166-2' = 'Tobacco smoking status NHIS', given as 'Tobacco smoking status NHIS'})</span>
             </p>
             <p>
-                <b>subject</b>: Amy Shaw. Generated Summary: id: example; Medical Record Number = 1032702
-        (USUAL); active; Amy V. Shaw ; ph: 555-555-5555(HOME), amy.shaw@example.com; gender: female;
-        birthDate: 20/02/2007
+                <b>subject</b>: 
+                <a href="Patient-example.html">Amy Shaw. Generated Summary: id: example; Medical Record Number = 1032702 (USUAL); active; Amy V. Shaw ; ph: 555-555-5555(HOME), amy.shaw@example.com; gender: female; birthDate: Feb 20, 2007</a>
             </p>
             <p>
-                <b>issued</b>: 18/03/2016 5:27:04 AM
+                <b>issued</b>: Mar 18, 2016 1:27:04 AM
             </p>
             <p>
                 <b>value</b>: Current some day smoker 
-                <span style="background: LightGoldenRodYellow">(Details : {SNOMED CT code '428041000124106' = 'Occasional tobacco smoker', given as
-          'Current some day smoker'})</span>
+                <span style="background: LightGoldenRodYellow">(Details : {SNOMED CT code '428041000124106' = 'Occasional tobacco smoker)</span>
             </p>
         </div>
     </text>
     <status value="final"/>
     <category>
         <coding>
-            <system value="http://hl7.org/fhir/observation-category"/>
+            <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
             <code value="social-history"/>
             <display value="Social History"/>
         </coding>
@@ -59,20 +57,19 @@
         <coding>
             <system value="http://loinc.org"/>
             <code value="72166-2"/>
-            <display value="Tobacco smoking status"/>
+            <display value="Tobacco smoking status NHIS"/>
         </coding>
-        <text value="Tobacco smoking status"/>
+        <text value="Tobacco smoking status NHIS"/>
     </code>
     <subject>
-        <reference value="Patient/patient-1"/>
+        <reference value="Patient/example"/>
         <display value="Amy Shaw"/>
     </subject>
-    <issued value="2016-03-18T05:27:04+00:00"/>
+    <issued value="2016-03-18T05:27:04Z"/>
     <valueCodeableConcept>
         <coding>
             <system value="http://snomed.info/sct"/>
             <code value="428041000124106"/>
-            <display value="Current some day smoker"/>
         </coding>
         <text value="Current some day smoker"/>
     </valueCodeableConcept>

@@ -3,8 +3,8 @@
     xmlns="http://hl7.org/fhir">
     <id value="observation-lab-urine"/>
     <meta>
-        <versionId value="2"/>
-        <lastUpdated value="2019-07-09T20:19:00.000-04:00"/>
+        <versionId value="3"/>
+        <lastUpdated value="2019-07-10T19:04:59.000-04:00"/>
         <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-observationresults"/>
     </meta>
     <text>
@@ -15,7 +15,7 @@
                 <b>Generated Narrative with Details</b>
             </p>
             <p>
-                <b>id</b>: usg
+                <b>id</b>: urine-sediment
             </p>
             <p>
                 <b>meta</b>: 
@@ -25,58 +25,28 @@
             </p>
             <p>
                 <b>category</b>: Laboratory 
-                <span style="background: LightGoldenRodYellow">(Details :
-          {http://hl7.org/fhir/observation-category code 'laboratory' = 'Laboratory', given as
-          'Laboratory'})</span>
+                <span style="background: LightGoldenRodYellow">(Details : {http://terminology.hl7.org/CodeSystem/observation-category code 'laboratory' = 'Laboratory', given as 'Laboratory'})</span>
             </p>
             <p>
-                <b>code</b>: SPEC GRAV 
-                <span style="background: LightGoldenRodYellow">(Details : {LOINC code
-          '5811-5' = 'Specific gravity of Urine by Test strip', given as 'Specific gravity of Urine
-          by Test strip'})</span>
+                <b>code</b>: COMMENT 
+                <span style="background: LightGoldenRodYellow">(Details : {LOINC code '11279-7' = 'Urine sediment comments by Light microscopy Narrative', given as 'Urine sediment comments by Light microscopy Narrative'})</span>
             </p>
             <p>
-                <b>subject</b>: Amy Shaw. Generated Summary: id: example;
-          Medical Record Number = 1032702 (USUAL); active; Amy V. Shaw ; ph: 555-555-5555(HOME),
-          amy.shaw@example.com; gender: female; birthDate: 20/02/2007
+                <b>subject</b>: 
+                <a href="Patient-example.html">Amy Shaw. Generated Summary: id: example; Medical Record Number = 1032702 (USUAL); active; Amy V. Shaw ; ph: 555-555-5555(HOME), amy.shaw@example.com; gender: female; birthDate: Feb 20, 2007</a>
             </p>
             <p>
-                <b>effective</b>: 05/07/2005
+                <b>effective</b>: Jul 5, 2005, 12:00:00 AM
             </p>
             <p>
-                <b>value</b>: 1.017 {urine specific gravity}
-                <span style="background: LightGoldenRodYellow">
-          (Details: UCUM code {urine specific gravity} = '{urine specific gravity}')</span>
+                <b>value</b>: Recommend Urine Culture
             </p>
-            <h3>ReferenceRanges</h3>
-            <table class="grid">
-                <tr>
-                    <td>-</td>
-                    <td>
-                        <b>Low</b>
-                    </td>
-                    <td>
-                        <b>High</b>
-                    </td>
-                </tr>
-                <tr>
-                    <td>*</td>
-                    <td>1.003 {urine specific gravity}
-                        <span style="background: LightGoldenRodYellow">
-              (Details: UCUM code {urine specific gravity} = '{urine specific gravity}')</span>
-                    </td>
-                    <td>1.035 {urine specific gravity}
-                        <span style="background: LightGoldenRodYellow">
-              (Details: UCUM code {urine specific gravity} = '{urine specific gravity}')</span>
-                    </td>
-                </tr>
-            </table>
         </div>
     </text>
     <status value="final"/>
     <category>
         <coding>
-            <system value="http://hl7.org/fhir/observation-category"/>
+            <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
             <code value="laboratory"/>
             <display value="Laboratory"/>
         </coding>
@@ -85,31 +55,15 @@
     <code>
         <coding>
             <system value="http://loinc.org"/>
-            <code value="5811-5"/>
-            <display value="Specific gravity of Urine by Test strip"/>
+            <code value="11279-7"/>
+            <display value="Urine sediment comments by Light microscopy Narrative"/>
         </coding>
-        <text value="SPEC GRAV"/>
+        <text value="COMMENT"/>
     </code>
     <subject>
-        <reference value="Patient/patient-1"/>
+        <reference value="Patient/example"/>
         <display value="Amy Shaw"/>
     </subject>
     <effectiveDateTime value="2005-07-05"/>
-    <valueQuantity>
-        <value value="1.017"/>
-        <system value="http://unitsofmeasure.org"/>
-        <code value="{urine specific gravity}"/>
-    </valueQuantity>
-    <referenceRange>
-        <low>
-            <value value="1.003"/>
-            <system value="http://unitsofmeasure.org"/>
-            <code value="{urine specific gravity}"/>
-        </low>
-        <high>
-            <value value="1.035"/>
-            <system value="http://unitsofmeasure.org"/>
-            <code value="{urine specific gravity}"/>
-        </high>
-    </referenceRange>
+    <valueString value="Recommend Urine Culture"/>
 </Observation>
