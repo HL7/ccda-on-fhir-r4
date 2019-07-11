@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="rehab"/>
     <meta>
-        <versionId value="1"/>
-        <lastUpdated value="2019-02-19T16:14:01.000-05:00"/>
-        <profile value="http://hl7.org/fhir/us/core-r4/StructureDefinition/us-core-procedure"/>
+        <versionId value="2"/>
+        <lastUpdated value="2019-07-10T23:30:05.000-04:00"/>
+        <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-procedure"/>
     </meta>
     <text>
         <status value="generated"/>
@@ -21,7 +21,7 @@
                 <b>meta</b>: 
             </p>
             <p>
-                <b>status</b>: COMPLETED
+                <b>status</b>: completed
             </p>
             <p>
                 <b>code</b>: Alcohol rehabilitation 
@@ -32,7 +32,7 @@
                 <a href="Patient-example.html">Amy Shaw. Generated Summary: id: example; Medical Record Number = 1032702 (USUAL); active; Amy V. Shaw ; ph: 555-555-5555(HOME), amy.shaw@example.com; gender: female; birthDate: Feb 20, 2007</a>
             </p>
             <p>
-                <b>performed</b>: May 23, 2002
+                <b>performed</b>: May 23, 2002 12:00:00 AM
             </p>
         </div>
     </text>

@@ -3,8 +3,8 @@
     xmlns="http://hl7.org/fhir">
     <id value="observation-vitals-temp"/>
     <meta>
-        <versionId value="2"/>
-        <lastUpdated value="2019-07-09T20:19:00.000-04:00"/>
+        <versionId value="3"/>
+        <lastUpdated value="2019-07-10T22:48:56.000-04:00"/>
         <profile value="http://hl7.org/fhir/StructureDefinition/vitalsigns"/>
     </meta>
     <text>
@@ -16,21 +16,26 @@
             </p>
             <p>
                 <b>id</b>: temperature
+            
             </p>
             <p>
                 <b>meta</b>: 
+            
             </p>
             <p>
                 <b>status</b>: final
+            
             </p>
             <p>
                 <b>category</b>: Vital Signs 
+                
                 <span style="background: LightGoldenRodYellow">(Details :
           {http://hl7.org/fhir/observation-category code 'vital-signs' = 'Vital Signs', given as
           'Vital Signs'})</span>
             </p>
             <p>
                 <b>code</b>: temperature 
+                
                 <span style="background: LightGoldenRodYellow">(Details : {LOINC
           code '8310-5' = 'Body temperature', given as 'Body temperature'})</span>
             </p>
@@ -38,15 +43,19 @@
                 <b>subject</b>: Amy Shaw. Generated Summary: id: example; Medical Record Number = 1032702
         (USUAL); active; Amy V. Shaw ; ph: 555-555-5555(HOME), amy.shaw@example.com; gender: female;
         birthDate: 20/02/2007
+            
             </p>
             <p>
                 <b>context</b>: GP Visit
+            
             </p>
             <p>
                 <b>effective</b>: 02/07/1999
+            
             </p>
             <p>
                 <b>value</b>: 36.55556 Cel
+                
                 <span style="background: LightGoldenRodYellow"> (Details: UCUM
           code Cel = 'Cel')</span>
             </p>
@@ -55,7 +64,7 @@
     <status value="final"/>
     <category>
         <coding>
-            <system value="http://hl7.org/fhir/observation-category"/>
+            <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
             <code value="vital-signs"/>
             <display value="Vital Signs"/>
         </coding>
@@ -70,7 +79,7 @@
         <text value="temperature"/>
     </code>
     <subject>
-        <reference value="Patient/patient-1"/>
+        <reference value="Patient/example"/>
         <display value="Amy Shaw"/>
     </subject>
     <effectiveDateTime value="1999-07-02"/>

@@ -3,8 +3,8 @@
     xmlns="http://hl7.org/fhir">
     <id value="CCDA-on-FHIR-Discharge-Summary"/>
     <meta>
-        <versionId value="14"/>
-        <lastUpdated value="2019-07-10T14:06:14.000-04:00"/>
+        <versionId value="15"/>
+        <lastUpdated value="2019-07-10T23:49:28.000-04:00"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ccda-r4/StructureDefinition/CCDA-on-FHIR-Discharge-Summary"/>
     <name value="CCDAonFHIRDischargeSummary"/>
@@ -1111,15 +1111,6 @@
             <type>
                 <code value="Reference"/>
                 <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-smokingstatus"/>
-            </type>
-        </element>
-        <element id="Composition.section:social_history_section.entry:socialHistorySliceEntry">
-            <path value="Composition.section.entry"/>
-            <sliceName value="sliceEntry"/>
-            <short value="This slice is for social history not covered by US Core. Please refer to C-CDA R2.1 for guidance on terminology, etc."/>
-            <type>
-                <code value="Reference"/>
-                <targetProfile value="http://hl7.org/fhir/StructureDefinition/Observation"/>
             </type>
         </element>
         <element id="Composition.section:vital_signs_section">
