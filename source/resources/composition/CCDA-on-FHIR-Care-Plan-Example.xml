@@ -3,8 +3,8 @@
     xmlns="http://hl7.org/fhir">
     <id value="CCDA-on-FHIR-Care-Plan-Example"/>
     <meta>
-        <versionId value="7"/>
-        <lastUpdated value="2019-07-09T11:54:01.000-04:00"/>
+        <versionId value="8"/>
+        <lastUpdated value="2019-07-25T05:23:49.000-04:00"/>
         <profile value="http://hl7.org/fhir/us/ccda-r4/StructureDefinition/CCDA-on-FHIR-Care-Plan"/>
     </meta>
     <language value="en-US"/>
@@ -60,11 +60,14 @@
                             
                             
                             
+                            
                             <br/>Amherst MA 01002, US
                             
                             
                             
+                            
                             <br/>Tel:  +1(555)555-1003
+                            
                             
                             
                             
@@ -113,11 +116,14 @@
                             
                             
                             
+                            
                             <br/>Amherst MA 01002, US
                             
                             
                             
+                            
                             <br/>Tel:  +1(555)555-1003
+                            
                             
                             
                             
@@ -136,6 +142,7 @@
                             
                             
                             
+                            
                             <br/>
                         </td>
                     </tr>
@@ -144,6 +151,7 @@
                             <span class="td_label">Emergency contact</span>
                         </td>
                         <td class="td_header_role_value">Michael Shaw
+                            
                             
                             
                             
@@ -159,11 +167,14 @@
                             
                             
                             
+                            
                             <br/>Amherst MA 01003, US
                             
                             
                             
+                            
                             <br/>Tel:  (555)555-1212
+                            
                             
                             
                             
@@ -178,6 +189,7 @@
                             
                             
                             
+                            
                             <br/>
                         </td>
                     </tr>
@@ -189,11 +201,14 @@
                             
                             
                             
+                            
                             <br/>Amherst MA 01003, US
                             
                             
                             
+                            
                             <br/>Tel:  (555)555-1215
+                            
                             
                             
                             
@@ -218,11 +233,14 @@
                             
                             
                             
+                            
                             <br/>Amherst MA 01002, US
                             
                             
                             
+                            
                             <br/>Tel:  +1(555)555-1003
+                            
                             
                             
                             
@@ -247,11 +265,14 @@
                             
                             
                             
+                            
                             <br/>Amherst MA 01002, US
                             
                             
                             
+                            
                             <br/>Tel:  +1(555)555-1003
+                            
                             
                             
                             
@@ -276,11 +297,14 @@
                             
                             
                             
+                            
                             <br/>Portland, OR 99123, US
                             
                             
                             
+                            
                             <br/>Tel:  +1(555)555-1215
+                            
                             
                             
                             
@@ -305,11 +329,14 @@
                             
                             
                             
+                            
                             <br/>Amherst MA 01002, US
                             
                             
                             
+                            
                             <br/>Tel:  +1(555)555-1666
+                            
                             
                             
                             
@@ -334,11 +361,14 @@
                             
                             
                             
+                            
                             <br/>Amherst MA 01002, US
                             
                             
                             
+                            
                             <br/>Tel:  +1(555)555-1003
+                            
                             
                             
                             
@@ -363,11 +393,14 @@
                             
                             
                             
+                            
                             <br/>Amherst MA 01002, US
                             
                             
                             
+                            
                             <br/>Tel:  +1(555)555-1003
+                            
                             
                             
                             
@@ -386,8 +419,8 @@
     <type>
         <coding>
             <system value="http://loinc.org"/>
-            <code value="52521-2"/>
-            <display value="Deprecated Overall Plan of Care/Advance Care Directives"/>
+            <code value="18776-5"/>
+            <display value="Plan of care note"/>
         </coding>
     </type>
     <subject>
