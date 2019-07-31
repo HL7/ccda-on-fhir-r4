@@ -57,9 +57,9 @@
         <coding>
             <system value="http://loinc.org"/>
             <code value="72166-2"/>
-            <display value="Tobacco smoking status NHIS"/>
+            <display value="Tobacco smoking status"/>
         </coding>
-        <text value="Tobacco smoking status NHIS"/>
+        <text value="Tobacco smoking status"/>
     </code>
     <subject>
         <reference value="Patient/example"/>
