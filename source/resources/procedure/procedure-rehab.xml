@@ -44,7 +44,7 @@
             <display value="Alcohol rehabilitation"/>
         </coding>
         <coding>
-            <system value=http://hl7.org/fhir/sid/icd-10/>
+            <system value="http://hl7.org/fhir/sid/icd-10/"/>
             <code value="HZ30ZZZ"/>
             <display value="Individual Counseling for Substance Abuse Treatment, Cognitive"/>
         </coding>
