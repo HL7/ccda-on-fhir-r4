@@ -7,7 +7,7 @@
         <lastUpdated value="2019-07-25T05:45:19.000-04:00"/>
     </meta>
     <url value="https://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1099.10"/>
-    <name value="Care Plan Document Type"/>
+    <name value="CarePlanDocumentType"/>
     <status value="active"/>
     <publisher value="HL7 Terminology"/>
     <description value="(Clinical Focus: Terms used to identify documents that represent a Care Plan),(Data Element Scope: ),(Inclusion Criteria: This value set expansion is currently missing two pending LOINC concepts: &#xA;93023-0  Pharmacist Plan of care note&#xA;and 93024-8 Pharmacist Consult Note.),(Exclusion Criteria: )&#xA;&#xA;This value set was imported on 6/24/2019 with a version of 20190425."/>
