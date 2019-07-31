@@ -569,7 +569,7 @@
             <coding>
                 <system value="http://loinc.org"/>
                 <code value="10154-3"/>
-                <display value="Chief complaint"/>
+                <display value="Chief complaint Narrative - Reported"/>
             </coding>
         </code>
         <text>
@@ -586,7 +586,7 @@
             <coding>
                 <system value="http://loinc.org"/>
                 <code value="10157-6"/>
-                <display value="History of family member diseases"/>
+                <display value="History of family member diseases Narrative"/>
             </coding>
         </code>
         <text>
@@ -625,7 +625,7 @@
             <coding>
                 <system value="http://loinc.org"/>
                 <code value="10210-3"/>
-                <display value="Physical findings of General status"/>
+                <display value="Physical findings of General status Narrative"/>
             </coding>
         </code>
         <text>
@@ -642,7 +642,7 @@
             <coding>
                 <system value="http://loinc.org"/>
                 <code value="11348-0"/>
-                <display value="History of past illness"/>
+                <display value="History of Past illness Narrative"/>
             </coding>
         </code>
         <text>
@@ -684,7 +684,7 @@
             <coding>
                 <system value="http://loinc.org"/>
                 <code value="10164-2"/>
-                <display value="History of present illness"/>
+                <display value="History of Present illness Narrative"/>
             </coding>
         </code>
         <text>
@@ -709,7 +709,7 @@
             <coding>
                 <system value="http://loinc.org"/>
                 <code value="11369-6"/>
-                <display value="History of immunization"/>
+                <display value="History of Immunization Narrative"/>
             </coding>
         </code>
         <text>
@@ -763,7 +763,7 @@
             <coding>
                 <system value="http://loinc.org"/>
                 <code value="10160-0"/>
-                <display value="History of Medication Use"/>
+                <display value="History of Medication use Narrative"/>
             </coding>
         </code>
         <text>
@@ -812,7 +812,7 @@
             <coding>
                 <system value="http://loinc.org"/>
                 <code value="29545-1"/>
-                <display value="Physical findings"/>
+                <display value="Physical findings Narrative"/>
             </coding>
         </code>
         <text>
@@ -834,7 +834,7 @@
             <coding>
                 <system value="http://loinc.org"/>
                 <code value="18776-5"/>
-                <display value="Plan of treatment"/>
+                <display value="Plan of care note"/>
             </coding>
         </code>
         <text>
@@ -873,7 +873,7 @@
             <coding>
                 <system value="http://loinc.org"/>
                 <code value="11450-4"/>
-                <display value="Problem list"/>
+                <display value="Problem list - Reported"/>
             </coding>
         </code>
         <text>
@@ -918,7 +918,7 @@
             <coding>
                 <system value="http://loinc.org"/>
                 <code value="47519-4"/>
-                <display value="History of procedures"/>
+                <display value="History of Procedures Document"/>
             </coding>
         </code>
         <text>
@@ -980,7 +980,7 @@
             <coding>
                 <system value="http://loinc.org"/>
                 <code value="30954-2"/>
-                <display value="Relevant diagnostic tests and laboratory data"/>
+                <display value="Relevant diagnostic tests/laboratory data Narrative"/>
             </coding>
         </code>
         <text>
@@ -1040,7 +1040,7 @@
             <coding>
                 <system value="http://loinc.org"/>
                 <code value="29762-2"/>
-                <display value="Social history"/>
+                <display value="Social history Narrative"/>
             </coding>
         </code>
         <text>
