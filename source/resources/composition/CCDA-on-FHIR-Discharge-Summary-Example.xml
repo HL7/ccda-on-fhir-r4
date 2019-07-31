@@ -411,7 +411,7 @@
             <coding>
                 <system value="http://loinc.org"/>
                 <code value="48765-2"/>
-                <display value="Allergies and adverse reactions"/>
+                <display value="Allergies and adverse reactions Document"/>
             </coding>
         </code>
         <text>
@@ -456,7 +456,7 @@
             <coding>
                 <system value="http://loinc.org"/>
                 <code value="46239-0"/>
-                <display value="Chief complaint and reason for visit"/>
+                <display value="Chief complaint+Reason for visit Narrative"/>
             </coding>
         </code>
         <text>
@@ -473,7 +473,7 @@
             <coding>
                 <system value="http://loinc.org"/>
                 <code value="10154-3"/>
-                <display value="Chief complaint"/>
+                <display value="Chief complaint Narrative - Reported"/>
             </coding>
         </code>
         <text>
@@ -507,7 +507,7 @@
             <coding>
                 <system value="http://loinc.org"/>
                 <code value="46241-6"/>
-                <display value="Hospital admission diagnosis"/>
+                <display value="Hospital admission diagnosis Narrative - Reported"/>
             </coding>
         </code>
         <text>
@@ -524,7 +524,7 @@
             <coding>
                 <system value="http://loinc.org"/>
                 <code value="42346-7"/>
-                <display value="Medications on admission"/>
+                <display value="Medications on admission (narrative)"/>
             </coding>
         </code>
         <text>
@@ -570,7 +570,7 @@
             <coding>
                 <system value="http://loinc.org"/>
                 <code value="11348-0"/>
-                <display value="History of past illness"/>
+                <display value="History of Past illness Narrative"/>
             </coding>
         </code>
         <text>
@@ -615,7 +615,7 @@
             <coding>
                 <system value="http://loinc.org"/>
                 <code value="10164-2"/>
-                <display value="History of present illness"/>
+                <display value="History of Present illness Narrative"/>
             </coding>
         </code>
         <text>
@@ -659,7 +659,7 @@
             <coding>
                 <system value="http://loinc.org"/>
                 <code value="10157-6"/>
-                <display value="History of family member diseases"/>
+                <display value="History of family member diseases Narrative"/>
             </coding>
         </code>
         <text>
@@ -698,7 +698,7 @@
             <coding>
                 <system value="http://loinc.org"/>
                 <code value="29762-2"/>
-                <display value="Social history"/>
+                <display value="Social history Narrative"/>
             </coding>
         </code>
         <text>
@@ -735,7 +735,7 @@
             <coding>
                 <system value="http://loinc.org"/>
                 <code value="47420-5"/>
-                <display value="Functional status"/>
+                <display value="Functional status assessment note"/>
             </coding>
         </code>
         <text>
@@ -807,7 +807,7 @@
             <coding>
                 <system value="http://loinc.org"/>
                 <code value="18841-7"/>
-                <display value="Hospital consultations"/>
+                <display value="Hospital consultations Document"/>
             </coding>
         </code>
         <text>
@@ -827,7 +827,7 @@
             <coding>
                 <system value="http://loinc.org"/>
                 <code value="18776-5"/>
-                <display value="Plan of treatment"/>
+                <display value="Plan of care note"/>
             </coding>
         </code>
         <text>
@@ -866,7 +866,7 @@
             <coding>
                 <system value="http://loinc.org"/>
                 <code value="11450-4"/>
-                <display value="Problem list"/>
+                <display value="Problem list - Reported"/>
             </coding>
         </code>
         <text>
@@ -911,7 +911,7 @@
             <coding>
                 <system value="http://loinc.org"/>
                 <code value="47519-4"/>
-                <display value="History of procedures"/>
+                <display value="History of Procedures Document"/>
             </coding>
         </code>
         <text>
@@ -956,7 +956,7 @@
             <coding>
                 <system value="http://loinc.org"/>
                 <code value="11535-2"/>
-                <display value="Hospital discharge diagnosis"/>
+                <display value="Hospital discharge Dx Narrative"/>
             </coding>
         </code>
         <text>
@@ -1078,7 +1078,7 @@
             <coding>
                 <system value="http://loinc.org"/>
                 <code value="10184-0"/>
-                <display value="Hospital discharge physical"/>
+                <display value="Hospital discharge physical findings Narrative"/>
             </coding>
         </code>
         <text>
@@ -1148,7 +1148,7 @@
             <coding>
                 <system value="http://loinc.org"/>
                 <code value="11369-6"/>
-                <display value="History of immunization"/>
+                <display value="History of Immunization Narrative"/>
             </coding>
         </code>
         <text>
@@ -1185,7 +1185,7 @@
             <coding>
                 <system value="http://loinc.org"/>
                 <code value="61144-2"/>
-                <display value="Diet and nutrition"/>
+                <display value="Diet and nutrition Narrative"/>
             </coding>
         </code>
         <text>
