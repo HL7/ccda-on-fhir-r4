@@ -354,6 +354,17 @@
 		}
 	],
 	"special-urls" : [
-		"https://cts.nlm.nih.gov/fhir/ValueSet/1.3.6.1.4.1.12009.10.2.5"
+		"https://cts.nlm.nih.gov/fhir/ValueSet/1.3.6.1.4.1.12009.10.2.5",
+		"https://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1099.10",
+		"https://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.1.11.20.2.3",
+		"https://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.1.11.20.2.4",
+		"https://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.1.11.20.22",
+		"https://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.11.20.1.1",
+		"https://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.11.20.4.1",
+		"https://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.11.20.6.1",
+		"https://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.11.20.8.1",
+		"https://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.11.20.9.31",
+		"https://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.11.20.9.59",
+		"https://cts.nlm.nih.gov/fhir/ValueSet/1.3.6.1.4.1.12009.10.2.5" 
    ]
 }
