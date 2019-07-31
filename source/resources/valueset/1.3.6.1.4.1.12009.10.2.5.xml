@@ -41872,7 +41872,7 @@
             </ul>
         </div>
     </text>
-    <url value="http://hl7.org/fhir/us/ccda-r4/ValueSet/1.3.6.1.4.1.12009.10.2.5"/>
+    <url value="https://cts.nlm.nih.gov/fhir/ValueSet/1.3.6.1.4.1.12009.10.2.5"/>
     <version value="20190517"/>
     <name value="LOINC Imaging Document Codes"/>
     <status value="active"/>
