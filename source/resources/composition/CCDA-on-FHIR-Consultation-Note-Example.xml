@@ -1122,7 +1122,7 @@
             <coding>
                 <system value="http://loinc.org"/>
                 <code value="47519-4"/>
-                <display value="History of procedures"/>
+                <display value="History of Procedures Document"/>
             </coding>
         </code>
         <text>
@@ -1184,7 +1184,7 @@
             <coding>
                 <system value="http://loinc.org"/>
                 <code value="30954-2"/>
-                <display value="Relevant diagnostic tests and laboratory data"/>
+                <display value="Relevant diagnostic tests/laboratory data Narrative"/>
             </coding>
         </code>
         <text>
@@ -1244,7 +1244,7 @@
             <coding>
                 <system value="http://loinc.org"/>
                 <code value="29762-2"/>
-                <display value="Social history"/>
+                <display value="Social history Narrative"/>
             </coding>
         </code>
         <text>
