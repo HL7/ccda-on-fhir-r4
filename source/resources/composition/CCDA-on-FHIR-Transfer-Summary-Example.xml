@@ -387,7 +387,7 @@
         <coding>
             <system value="http://loinc.org"/>
             <code value="18761-7"/>
-            <display value="Provider-unspecified Transfer summary"/>
+            <display value="Transfer summary note"/>
         </coding>
     </type>
     <subject>
@@ -558,7 +558,7 @@
             <coding>
                 <system value="http://loinc.org"/>
                 <code value="46241-6"/>
-                <display value="Hospital admission diagnosis"/>
+                <display value="Hospital admission diagnosis Narrative - Reported"/>
             </coding>
         </code>
         <text>
@@ -575,7 +575,7 @@
             <coding>
                 <system value="http://loinc.org"/>
                 <code value="42346-7"/>
-                <display value="Medications on admission"/>
+                <display value="Medications on admission (narrative)"/>
             </coding>
         </code>
         <text>
@@ -621,7 +621,7 @@
             <coding>
                 <system value="http://loinc.org"/>
                 <code value="46240-8"/>
-                <display value="Encounters"/>
+                <display value="History of Hospitalizations+Outpatient visits Narrative"/>
             </coding>
         </code>
         <text>
@@ -1011,7 +1011,7 @@
             <coding>
                 <system value="http://loinc.org"/>
                 <code value="48768-6"/>
-                <display value="Payers"/>
+                <display value="Payment sources Document"/>
             </coding>
         </code>
         <text>
@@ -1179,7 +1179,7 @@
             <coding>
                 <system value="http://loinc.org"/>
                 <code value="11535-2"/>
-                <display value="Hospital discharge diagnosis"/>
+                <display value="Hospital discharge Dx Narrative"/>
             </coding>
         </code>
         <text>
