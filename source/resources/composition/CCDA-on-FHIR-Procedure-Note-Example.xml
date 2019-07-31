@@ -542,7 +542,7 @@
             <coding>
                 <system value="http://loinc.org"/>
                 <code value="29554-3"/>
-                <display value="Procedure description"/>
+                <display value="Procedure Narrative"/>
             </coding>
         </code>
         <text>
@@ -561,7 +561,7 @@
             <coding>
                 <system value="http://loinc.org"/>
                 <code value="59768-2"/>
-                <display value="Procedure indications"/>
+                <display value="Procedure indications [Interpretation] Narrative"/>
             </coding>
         </code>
         <text>
@@ -595,7 +595,7 @@
             <coding>
                 <system value="http://loinc.org"/>
                 <code value="59775-7"/>
-                <display value="Procedure disposition"/>
+                <display value="Procedure disposition Narrative"/>
             </coding>
         </code>
         <text>
@@ -612,7 +612,7 @@
             <coding>
                 <system value="http://loinc.org"/>
                 <code value="59770-8"/>
-                <display value="Procedure estimated blood loss"/>
+                <display value="Procedure estimated blood loss Narrative"/>
             </coding>
         </code>
         <text>
@@ -629,7 +629,7 @@
             <coding>
                 <system value="http://loinc.org"/>
                 <code value="59776-5"/>
-                <display value="Procedure findings"/>
+                <display value="Procedure findings Narrative"/>
             </coding>
         </code>
         <text>
@@ -651,7 +651,7 @@
             <coding>
                 <system value="http://loinc.org"/>
                 <code value="59771-6"/>
-                <display value="Procedure implants"/>
+                <display value="Procedure implants Narrative"/>
             </coding>
         </code>
         <text>
@@ -668,7 +668,7 @@
             <coding>
                 <system value="http://loinc.org"/>
                 <code value="59773-2"/>
-                <display value="Procedure specimens taken"/>
+                <display value="Procedure specimens taken Narrative"/>
             </coding>
         </code>
         <text>
@@ -738,7 +738,7 @@
             <coding>
                 <system value="http://loinc.org"/>
                 <code value="55109-3"/>
-                <display value="Complications"/>
+                <display value="Complications Document"/>
             </coding>
         </code>
         <text>
