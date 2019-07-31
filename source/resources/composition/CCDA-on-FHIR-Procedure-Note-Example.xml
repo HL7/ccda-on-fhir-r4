@@ -387,7 +387,7 @@
         <coding>
             <system value="http://loinc.org"/>
             <code value="28570-0"/>
-            <display value="Provider-unspecified Procedure note"/>
+            <display value="Procedure note"/>
         </coding>
     </type>
     <subject>
@@ -685,7 +685,7 @@
             <coding>
                 <system value="http://loinc.org"/>
                 <code value="59769-0"/>
-                <display value="Postprocedure diagnosis"/>
+                <display value="Postprocedure diagnosis Narrative"/>
             </coding>
         </code>
         <text>
@@ -867,7 +867,7 @@
             <coding>
                 <system value="http://loinc.org"/>
                 <code value="11329-0"/>
-                <display value="Medical (general) history"/>
+                <display value="History general Narrative - Reported"/>
             </coding>
         </code>
         <text>
