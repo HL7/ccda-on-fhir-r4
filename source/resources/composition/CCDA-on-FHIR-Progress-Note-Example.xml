@@ -617,7 +617,7 @@
             <coding>
                 <system value="http://loinc.org"/>
                 <code value="61144-2"/>
-                <display value="Diet and nutrition"/>
+                <display value="Diet and nutrition Narrative"/>
             </coding>
         </code>
         <text>

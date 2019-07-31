@@ -805,7 +805,7 @@
             <coding>
                 <system value="http://loinc.org"/>
                 <code value="47420-5"/>
-                <display value="Functional status"/>
+                <display value="Functional status assessment note"/>
             </coding>
         </code>
         <text>
@@ -928,7 +928,7 @@
             <coding>
                 <system value="http://loinc.org"/>
                 <code value="46264-8"/>
-                <display value="Medical equipment"/>
+                <display value="History of medical device use"/>
             </coding>
         </code>
         <text>
@@ -1279,7 +1279,7 @@
             <coding>
                 <system value="http://loinc.org"/>
                 <code value="61144-2"/>
-                <display value="Diet and nutrition"/>
+                <display value="Diet and nutrition Narrative"/>
             </coding>
         </code>
         <text>
@@ -1318,7 +1318,7 @@
             <coding>
                 <system value="http://loinc.org"/>
                 <code value="42349-1"/>
-                <display value="Reason for Referral"/>
+                <display value="Reason for referral (narrative)"/>
             </coding>
         </code>
         <text>
