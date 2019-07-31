@@ -420,7 +420,7 @@
         <coding>
             <system value="http://loinc.org"/>
             <code value="11506-3"/>
-            <display value="Provider-unspecified Progress note"/>
+            <display value="Progress note"/>
         </coding>
     </type>
     <subject>
@@ -573,7 +573,7 @@
             <coding>
                 <system value="http://loinc.org"/>
                 <code value="62387-6"/>
-                <display value="Interventions provided"/>
+                <display value="Interventions Narrative"/>
             </coding>
         </code>
         <text>
