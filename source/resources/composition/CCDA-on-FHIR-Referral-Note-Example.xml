@@ -452,7 +452,7 @@
             <coding>
                 <system value="http://loinc.org"/>
                 <code value="48765-2"/>
-                <display value="Allergies and adverse reactions"/>
+                <display value="Allergies and adverse reactions Document"/>
             </coding>
         </code>
         <text>
@@ -527,7 +527,7 @@
             <coding>
                 <system value="http://loinc.org"/>
                 <code value="51848-0"/>
-                <display value="Assessment (evaluation)"/>
+                <display value="Evaluation note"/>
             </coding>
         </code>
         <text>
@@ -547,7 +547,7 @@
             <coding>
                 <system value="http://loinc.org"/>
                 <code value="51847-2"/>
-                <display value="Assessment (evaluation) and plan"/>
+                <display value="Evaluation + Plan note"/>
             </coding>
         </code>
         <text>
