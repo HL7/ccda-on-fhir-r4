@@ -6,7 +6,7 @@
         <versionId value="1"/>
         <lastUpdated value="2019-03-10T22:55:45.000-04:00"/>
     </meta>
-    <url value="http://hl7.org/fhir/us/ccda-r4/ValueSet/care-plan-document-type"/>
+    <url value="https://cts.nlm.nih.gov/fhir/ValueSet/care-plan-document-type"/>
     <name value="Care Plan Document Codes"/>
     <status value="active"/>
     <description value="A value set of LOINC document type codes for Care Plan documents."/>
