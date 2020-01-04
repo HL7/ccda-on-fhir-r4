@@ -1,10 +1,8 @@
 ---
-title: Implementation Guide HomePage
+title: Implementation Guide Home Page
 layout: default
 active: home
 ---
-
-{% include publish-box.html %}
 
 <!-- { :.no_toc } -->
 

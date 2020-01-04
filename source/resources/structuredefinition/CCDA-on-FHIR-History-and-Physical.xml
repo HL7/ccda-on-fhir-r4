@@ -3,8 +3,8 @@
     xmlns="http://hl7.org/fhir">
     <id value="CCDA-on-FHIR-History-and-Physical"/>
     <meta>
-        <versionId value="17"/>
-        <lastUpdated value="2019-07-25T05:45:47.000-04:00"/>
+        <versionId value="18"/>
+        <lastUpdated value="2019-08-09T15:38:20.000-04:00"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ccda-r4/StructureDefinition/CCDA-on-FHIR-History-and-Physical"/>
     <name value="CCDAonFHIRHistoryAndPhysical"/>

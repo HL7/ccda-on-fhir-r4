@@ -3,8 +3,8 @@
     xmlns="http://hl7.org/fhir">
     <id value="CCDA-on-FHIR-US-Realm-Header"/>
     <meta>
-        <versionId value="17"/>
-        <lastUpdated value="2019-05-08T16:39:40.000-04:00"/>
+        <versionId value="21"/>
+        <lastUpdated value="2019-12-24T14:41:10.000-05:00"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ccda-r4/StructureDefinition/CCDA-on-FHIR-US-Realm-Header"/>
     <name value="CCDAonFHIRUSRealmHeader"/>
@@ -38,6 +38,7 @@
             <path value="Composition.language"/>
             <short value="language"/>
             <min value="1"/>
+            <mustSupport value="true"/>
         </element>
         <element id="Composition.extension">
             <path value="Composition.extension"/>
@@ -57,6 +58,7 @@
                 <code value="Extension"/>
                 <profile value="http://hl7.org/fhir/us/ccda-r4/StructureDefinition/CCDA-on-FHIR-Data-Enterer"/>
             </type>
+            <mustSupport value="true"/>
         </element>
         <element id="Composition.extension:data_enterer_extension.url">
             <path value="Composition.extension.url"/>
@@ -71,6 +73,7 @@
                 <code value="Extension"/>
                 <profile value="http://hl7.org/fhir/us/ccda-r4/StructureDefinition/CCDA-on-FHIR-Informant"/>
             </type>
+            <mustSupport value="true"/>
         </element>
         <element id="Composition.extension:informant_extension.url">
             <path value="Composition.extension.url"/>
@@ -85,6 +88,7 @@
                 <code value="Extension"/>
                 <profile value="http://hl7.org/fhir/us/ccda-r4/StructureDefinition/CCDA-on-FHIR-Information-Recipient"/>
             </type>
+            <mustSupport value="true"/>
         </element>
         <element id="Composition.extension:information_recipient_extension.url">
             <path value="Composition.extension.url"/>
@@ -99,6 +103,7 @@
                 <code value="Extension"/>
                 <profile value="http://hl7.org/fhir/us/ccda-r4/StructureDefinition/CCDA-on-FHIR-Participant"/>
             </type>
+            <mustSupport value="true"/>
         </element>
         <element id="Composition.extension:participant_extension.url">
             <path value="Composition.extension.url"/>
@@ -113,6 +118,7 @@
                 <code value="Extension"/>
                 <profile value="http://hl7.org/fhir/us/ccda-r4/StructureDefinition/CCDA-on-FHIR-Performer"/>
             </type>
+            <mustSupport value="true"/>
         </element>
         <element id="Composition.extension:performer_extension.url">
             <path value="Composition.extension.url"/>
@@ -127,6 +133,7 @@
                 <code value="Extension"/>
                 <profile value="http://hl7.org/fhir/us/ccda-r4/StructureDefinition/CCDA-on-FHIR-Authorization"/>
             </type>
+            <mustSupport value="true"/>
         </element>
         <element id="Composition.extension:authorization_extension.url">
             <path value="Composition.extension.url"/>
@@ -141,6 +148,7 @@
                 <code value="Extension"/>
                 <profile value="http://hl7.org/fhir/us/ccda-r4/StructureDefinition/CCDA-on-FHIR-In-Fulfillment-Of-Order"/>
             </type>
+            <mustSupport value="true"/>
         </element>
         <element id="Composition.extension:order_extension.url">
             <path value="Composition.extension.url"/>
@@ -150,6 +158,11 @@
             <path value="Composition.identifier"/>
             <short value="identifier"/>
             <min value="1"/>
+            <mustSupport value="true"/>
+        </element>
+        <element id="Composition.type">
+            <path value="Composition.type"/>
+            <mustSupport value="true"/>
         </element>
         <element id="Composition.subject">
             <path value="Composition.subject"/>
@@ -158,10 +171,12 @@
                 <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"/>
                 <targetProfile value="http://hl7.org/fhir/StructureDefinition/Group"/>
             </type>
+            <mustSupport value="true"/>
         </element>
         <element id="Composition.date">
             <path value="Composition.date"/>
             <short value="date"/>
+            <mustSupport value="true"/>
         </element>
         <element id="Composition.author">
             <path value="Composition.author"/>
@@ -174,16 +189,22 @@
                 <targetProfile value="http://hl7.org/fhir/StructureDefinition/Device"/>
                 <targetProfile value="http://hl7.org/fhir/StructureDefinition/RelatedPerson"/>
             </type>
+            <mustSupport value="true"/>
         </element>
         <element id="Composition.title">
             <path value="Composition.title"/>
             <label value="Document Title"/>
             <short value="Document Title"/>
+            <mustSupport value="true"/>
         </element>
         <element id="Composition.confidentiality">
             <path value="Composition.confidentiality"/>
-            <short value="confidentiality"/>
-            <min value="1"/>
+            <label value="Use the confidentiality codes in Meta.security"/>
+            <short value="Use the confidentiality codes in Meta.security"/>
+            <definition value="Use the confidentiality codes in Meta.security (https://hl7.org/fhir/security-labels.html)"/>
+            <min value="0"/>
+            <max value="0"/>
+            <mustSupport value="false"/>
         </element>
         <element id="Composition.attester">
             <path value="Composition.attester"/>
@@ -194,18 +215,21 @@
                 </discriminator>
                 <rules value="open"/>
             </slicing>
+            <mustSupport value="false"/>
         </element>
         <element id="Composition.attester:legal_attester">
             <path value="Composition.attester"/>
             <sliceName value="legal_attester"/>
             <short value="attester"/>
             <max value="1"/>
+            <mustSupport value="true"/>
         </element>
         <element id="Composition.attester:legal_attester.mode">
             <path value="Composition.attester.mode"/>
             <short value="mode"/>
             <max value="1"/>
             <fixedCode value="legal"/>
+            <mustSupport value="true"/>
         </element>
         <element id="Composition.attester:legal_attester.party">
             <path value="Composition.attester.party"/>
@@ -216,16 +240,19 @@
                 <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner"/>
                 <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitionerrole"/>
             </type>
+            <mustSupport value="true"/>
         </element>
         <element id="Composition.attester:professional_attester">
             <path value="Composition.attester"/>
             <sliceName value="professional_attester"/>
             <short value="attester"/>
+            <mustSupport value="true"/>
         </element>
         <element id="Composition.attester:professional_attester.mode">
             <path value="Composition.attester.mode"/>
             <short value="mode"/>
             <fixedCode value="professional"/>
+            <mustSupport value="true"/>
         </element>
         <element id="Composition.attester:professional_attester.party">
             <path value="Composition.attester.party"/>
@@ -236,16 +263,19 @@
                 <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner"/>
                 <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitionerrole"/>
             </type>
+            <mustSupport value="true"/>
         </element>
         <element id="Composition.attester:personal_attester">
             <path value="Composition.attester"/>
             <sliceName value="personal_attester"/>
             <short value="attester"/>
+            <mustSupport value="true"/>
         </element>
         <element id="Composition.attester:personal_attester.mode">
             <path value="Composition.attester.mode"/>
             <short value="mode"/>
             <fixedCode value="personal"/>
+            <mustSupport value="true"/>
         </element>
         <element id="Composition.attester:personal_attester.party">
             <path value="Composition.attester.party"/>
@@ -256,6 +286,7 @@
                 <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"/>
                 <targetProfile value="http://hl7.org/fhir/StructureDefinition/RelatedPerson"/>
             </type>
+            <mustSupport value="true"/>
         </element>
         <element id="Composition.custodian">
             <path value="Composition.custodian"/>
@@ -266,6 +297,7 @@
                 <code value="Reference"/>
                 <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"/>
             </type>
+            <mustSupport value="true"/>
         </element>
         <element id="Composition.encounter">
             <path value="Composition.encounter"/>
@@ -273,6 +305,7 @@
                 <code value="Reference"/>
                 <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter"/>
             </type>
+            <mustSupport value="true"/>
         </element>
     </differential>
 </StructureDefinition>

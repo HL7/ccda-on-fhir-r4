@@ -3,8 +3,8 @@
     xmlns="http://hl7.org/fhir">
     <id value="CCDA-on-FHIR-Consent"/>
     <meta>
-        <versionId value="8"/>
-        <lastUpdated value="2019-05-08T16:17:57.000-04:00"/>
+        <versionId value="15"/>
+        <lastUpdated value="2019-12-24T15:16:24.000-05:00"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ccda-r4/StructureDefinition/CCDA-on-FHIR-Consent"/>
     <name value="CCDAonFHIRConsent"/>
@@ -32,7 +32,7 @@
             <use value="work"/>
         </telecom>
     </contact>
-    <description value="This profile represents information about the patients consent.&#xA;&#xA;The type of consent is conveyed in type. Consents in the header have been finalized and should be on file. This specification does not address how 'Privacy Consent' is represented, but does not preclude the inclusion of Privacy Consent.&#xA;&#xA;The authorization consent is used for referring to consents that are documented elsewhere in the EHR or medical record for a health condition and/or treatment that is described in the document. "/>
+    <description value="This profile represents information about the patients consent.The type of consent is conveyed in type. Consents in the header have been finalized and should be on file. The authorization consent is used for referring to consents that are documented elsewhere in the EHR or medical record for a health condition and/or treatment that is described in the document."/>
     <fhirVersion value="4.0.0"/>
     <kind value="resource"/>
     <abstract value="false"/>
@@ -40,37 +40,41 @@
         <type value="element"/>
         <expression value="Composition"/>
     </context>
-    <type value="Contract"/>
-    <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Contract"/>
+    <type value="Consent"/>
+    <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Consent"/>
     <derivation value="constraint"/>
     <differential>
-        <element id="Contract">
-            <path value="Contract"/>
+        <element id="Consent">
+            <path value="Consent"/>
         </element>
-        <element id="Contract.identifier">
-            <path value="Contract.identifier"/>
+        <element id="Consent.identifier">
+            <path value="Consent.identifier"/>
             <short value="identifier"/>
-            <definition value="MAY contain zero or one [0..1] identifier (CONF:2219-2007)."/>
+            <mustSupport value="true"/>
         </element>
-        <element id="Contract.type">
-            <path value="Contract.type"/>
-            <label value="Consent"/>
-            <short value="Consent"/>
-            <definition value="SHALL contain exactly one [1..1] type=&quot;CONS&quot; (CodeSystem: HL7ActClass urn:oid:2.16.840.1.113883.5.6) (CONF:2219-2008)."/>
+        <element id="Consent.status">
+            <path value="Consent.status"/>
+            <mustSupport value="true"/>
+        </element>
+        <element id="Consent.scope">
+            <path value="Consent.scope"/>
+            <mustSupport value="true"/>
+        </element>
+        <element id="Consent.category">
+            <path value="Consent.category"/>
+            <mustSupport value="true"/>
+        </element>
+        <element id="Consent.patient">
+            <path value="Consent.patient"/>
             <min value="1"/>
-            <patternCodeableConcept>
-                <coding>
-                    <system value="urn:oid:2.16.840.1.113883.5.6"/>
-                    <code value="CONS"/>
-                </coding>
-            </patternCodeableConcept>
+            <type>
+                <code value="Reference"/>
+                <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"/>
+            </type>
         </element>
-        <element id="Contract.subType">
-            <path value="Contract.subType"/>
-            <label value="Type of consent"/>
-            <short value="Type of consent"/>
-            <definition value="MAY contain zero or one [0..1] subType (CONF:2219-2009)."/>
-            <max value="1"/>
+        <element id="Consent.source[x]">
+            <path value="Consent.source[x]"/>
+            <mustSupport value="true"/>
         </element>
     </differential>
 </StructureDefinition>

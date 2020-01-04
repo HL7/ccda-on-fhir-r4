@@ -1,9 +1,3 @@
----
-title: StructureDefinition-CCDA-on-FHIR-Referral-Note-intro
-layout: default
-active: StructureDefinition-CCDA-on-FHIR-Referral-Note-intro
----
-
 A Referral Note communicates pertinent information from a provider who is requesting services of another provider of clinical or non-clinical services. The information in this document includes the reason for the referral and additional information that would augment decision making and care delivery.
  
 Examples of referral situations are: 

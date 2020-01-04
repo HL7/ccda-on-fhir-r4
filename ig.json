@@ -20,6 +20,7 @@
 	"pages": [
 		"pages"
 	],
+	"version": "4.0.1",
 	"extension-domains": [
 		"https://trifolia-on-fhir.lantanagroup.com"
 	],
@@ -27,6 +28,9 @@
 		"https://trifolia-on-fhir.lantanagroup.com"
 	],
 	"sct-edition": "http://snomed.info/sct/731000124108",
+	"extraTemplates": [
+		"mappings"
+	],
 	"canonicalBase": "http://hl7.org/fhir/us/ccda-r4",
 	"defaults": {
 		"Location": {
@@ -47,7 +51,8 @@
 		"StructureDefinition": {
 			"template-mappings": "sd-mappings.html",
 			"template-base": "sd.html",
-			"template-defns": "sd-definitions.html"
+			"template-defns": "sd-definitions.html",
+			"mappings": "StructureDefinition-{{[id]}}-mappings.html"
 		},
 		"Immunization": {
 			"template-base": "ex.html"
@@ -343,7 +348,6 @@
 			"defns": "Encounter-encounter-1-definitions.html"
 		}
 	},
-	"version": "4.0.0",
 	"fixed-business-version": "1.1.0",
 	"dependencyList": [
 		{
@@ -352,19 +356,5 @@
 			"version": "3.0.0",
 			"package": "hl7.fhir.us.core"
 		}
-	],
-	"special-urls" : [
-		"https://cts.nlm.nih.gov/fhir/ValueSet/1.3.6.1.4.1.12009.10.2.5",
-		"https://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1099.10",
-		"https://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.1.11.20.2.3",
-		"https://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.1.11.20.2.4",
-		"https://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.1.11.20.22",
-		"https://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.11.20.1.1",
-		"https://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.11.20.4.1",
-		"https://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.11.20.6.1",
-		"https://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.11.20.8.1",
-		"https://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.11.20.9.31",
-		"https://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.11.20.9.59",
-		"https://cts.nlm.nih.gov/fhir/ValueSet/1.3.6.1.4.1.12009.10.2.5" 
-   ]
+	]
 }

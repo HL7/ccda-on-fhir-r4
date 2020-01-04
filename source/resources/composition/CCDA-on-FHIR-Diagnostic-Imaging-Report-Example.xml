@@ -3,14 +3,15 @@
     xmlns="http://hl7.org/fhir">
     <id value="CCDA-on-FHIR-Diagnostic-Imaging-Report-Example"/>
     <meta>
-        <versionId value="5"/>
-        <lastUpdated value="2019-07-09T19:16:40.000-04:00"/>
+        <versionId value="7"/>
+        <lastUpdated value="2019-09-17T11:33:14.000-04:00"/>
         <profile value="http://hl7.org/fhir/us/ccda-r4/StructureDefinition/CCDA-on-FHIR-Diagnostic-Imaging-Report"/>
     </meta>
     <language value="en-US"/>
     <text>
         <status value="generated"/>
-        <div lang="en-US" xmlns="http://www.w3.org/1999/xhtml">
+        <div
+            xmlns="http://www.w3.org/1999/xhtml">
             <table style="border: 1pt inset #00008b; line-height: 10pt; width: 100%;" class="header_table">
                 <tbody>
                     <tr>
@@ -59,11 +60,14 @@
                             
                             
                             
+                            
                             <br/>Amherst MA 01002, US
                             
                             
                             
+                            
                             <br/>Tel:  +1(555)555-1003
+                            
                             
                             
                             
@@ -112,11 +116,14 @@
                             
                             
                             
+                            
                             <br/>Amherst MA 01002, US
                             
                             
                             
+                            
                             <br/>Tel:  +1(555)555-1003
+                            
                             
                             
                             
@@ -135,6 +142,7 @@
                             
                             
                             
+                            
                             <br/>
                         </td>
                     </tr>
@@ -143,6 +151,7 @@
                             <span class="td_label">Emergency contact</span>
                         </td>
                         <td class="td_header_role_value">Michael Shaw
+                            
                             
                             
                             
@@ -158,11 +167,14 @@
                             
                             
                             
+                            
                             <br/>Amherst MA 01003, US
                             
                             
                             
+                            
                             <br/>Tel:  (555)555-1212
+                            
                             
                             
                             
@@ -177,6 +189,7 @@
                             
                             
                             
+                            
                             <br/>
                         </td>
                     </tr>
@@ -188,11 +201,14 @@
                             
                             
                             
+                            
                             <br/>Amherst MA 01003, US
                             
                             
                             
+                            
                             <br/>Tel:  (555)555-1215
+                            
                             
                             
                             
@@ -217,11 +233,14 @@
                             
                             
                             
+                            
                             <br/>Amherst MA 01002, US
                             
                             
                             
+                            
                             <br/>Tel:  +1(555)555-1003
+                            
                             
                             
                             
@@ -246,11 +265,14 @@
                             
                             
                             
+                            
                             <br/>Amherst MA 01002, US
                             
                             
                             
+                            
                             <br/>Tel:  +1(555)555-1003
+                            
                             
                             
                             
@@ -275,11 +297,14 @@
                             
                             
                             
+                            
                             <br/>Portland, OR 99123, US
                             
                             
                             
+                            
                             <br/>Tel:  +1(555)555-1215
+                            
                             
                             
                             
@@ -304,11 +329,14 @@
                             
                             
                             
+                            
                             <br/>Amherst MA 01002, US
                             
                             
                             
+                            
                             <br/>Tel:  +1(555)555-1666
+                            
                             
                             
                             
@@ -333,11 +361,14 @@
                             
                             
                             
+                            
                             <br/>Amherst MA 01002, US
                             
                             
                             
+                            
                             <br/>Tel:  +1(555)555-1003
+                            
                             
                             
                             
@@ -362,11 +393,14 @@
                             
                             
                             
+                            
                             <br/>Amherst MA 01002, US
                             
                             
                             
+                            
                             <br/>Tel:  +1(555)555-1003
+                            
                             
                             
                             
@@ -399,7 +433,6 @@
         <display value="Ronald Bone, MD"/>
     </author>
     <title value="Diagnostic Imaging Report"/>
-    <confidentiality value="N"/>
     <attester>
         <mode value="legal"/>
         <time value="2016-06-15T09:10:14Z"/>

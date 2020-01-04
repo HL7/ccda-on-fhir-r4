@@ -3,8 +3,8 @@
     xmlns="http://hl7.org/fhir">
     <id value="CCDA-on-FHIR-Referral-Note"/>
     <meta>
-        <versionId value="17"/>
-        <lastUpdated value="2019-07-25T05:45:47.000-04:00"/>
+        <versionId value="18"/>
+        <lastUpdated value="2019-08-05T02:08:36.000-04:00"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ccda-r4/StructureDefinition/CCDA-on-FHIR-Referral-Note"/>
     <name value="CCDAonFHIRReferralNote"/>

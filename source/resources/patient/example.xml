@@ -3,8 +3,8 @@
     xmlns="http://hl7.org/fhir">
     <id value="example"/>
     <meta>
-        <versionId value="3"/>
-        <lastUpdated value="2019-06-06T15:29:52.000-04:00"/>
+        <versionId value="6"/>
+        <lastUpdated value="2019-08-05T02:07:48.000-04:00"/>
         <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"/>
     </meta>
     <text>
@@ -16,36 +16,47 @@
             </p>
             <p>
                 <b>id</b>: example
+            
             </p>
             <p>
                 <b>identifier</b>: Medical Record Number = 1032702 (USUAL)
+            
             </p>
             <p>
                 <b>active</b>: true
+            
             </p>
             <p>
                 <b>name</b>: Amy V. Shaw 
+            
             </p>
             <p>
                 <b>telecom</b>: ph: 555-555-5555(HOME), amy.shaw@example.com
+            
             </p>
             <p>
                 <b>gender</b>: 
+            
             </p>
             <p>
                 <b>birthsex</b>: Female
+            
             </p>
             <p>
                 <b>birthDate</b>: Feb 20, 2007
+            
             </p>
             <p>
                 <b>address</b>: 49 Meadow St Mounds OK 74047 US 
+            
             </p>
             <p>
                 <b>race</b>: White, American Indian or Alaska Native, Asian, Shoshone, Filipino
+            
             </p>
             <p>
                 <b>ethnicity</b>: Hispanic or Latino, Dominican, Mexican
+            
             </p>
         </div>
     </text>

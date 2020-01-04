@@ -3,8 +3,8 @@
     xmlns="http://hl7.org/fhir">
     <id value="medication-statement"/>
     <meta>
-        <versionId value="2"/>
-        <lastUpdated value="2019-07-09T15:07:30.000-04:00"/>
+        <versionId value="3"/>
+        <lastUpdated value="2019-07-31T12:13:55.000-04:00"/>
         <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationstatement"/>
     </meta>
     <text>
@@ -16,26 +16,33 @@
             </p>
             <p>
                 <b>id</b>: uscore-ms1
+            
             </p>
             <p>
                 <b>meta</b>: 
+            
             </p>
             <p>
                 <b>status</b>: active
+            
             </p>
             <p>
                 <b>medication</b>: lisinopril oral 10 mg 
+                
                 <span style="background: LightGoldenRodYellow">(Details : {RxNorm code '206765' = 'Prinivil 10 MG Oral Tablet', given as 'Lisinopril 10 MG Oral Tablet [Prinivil]'})</span>
             </p>
             <p>
                 <b>subject</b>: 
+                
                 <a href="Patient-example.html">Amy Shaw. Generated Summary: id: example; Medical Record Number = 1032702 (USUAL); active; Amy V. Shaw ; ph: 555-555-5555(HOME), amy.shaw@example.com; gender: female; birthDate: Feb 20, 2007</a>
             </p>
             <p>
                 <b>effective</b>: May 1, 2010 12:00:00 AM --&gt; (ongoing)
+            
             </p>
             <p>
                 <b>dateAsserted</b>: May 1, 2016 12:13:03 PM
+            
             </p>
         </div>
     </text>

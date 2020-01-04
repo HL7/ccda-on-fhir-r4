@@ -3,8 +3,8 @@
     xmlns="http://hl7.org/fhir">
     <id value="CCDA-on-FHIR-Authorization"/>
     <meta>
-        <versionId value="8"/>
-        <lastUpdated value="2019-05-08T16:45:02.000-04:00"/>
+        <versionId value="14"/>
+        <lastUpdated value="2019-12-24T14:46:48.000-05:00"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ccda-r4/StructureDefinition/CCDA-on-FHIR-Authorization"/>
     <name value="CCDAonFHIRAuthorization"/>
@@ -47,13 +47,20 @@
         <element id="Extension">
             <path value="Extension"/>
         </element>
+        <element id="Extension.url">
+            <path value="Extension.url"/>
+            <fixedUri value="http://hl7.org/fhir/us/ccda-r4/StructureDefinition/CCDA-on-FHIR-Authorization"/>
+            <mustSupport value="true"/>
+        </element>
         <element id="Extension.value[x]:valueReference">
             <path value="Extension.valueReference"/>
             <sliceName value="valueReference"/>
+            <min value="1"/>
             <type>
                 <code value="Reference"/>
                 <targetProfile value="http://hl7.org/fhir/us/ccda-r4/StructureDefinition/CCDA-on-FHIR-Consent"/>
             </type>
+            <mustSupport value="true"/>
         </element>
     </differential>
 </StructureDefinition>

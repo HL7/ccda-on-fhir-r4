@@ -3,8 +3,8 @@
     xmlns="http://hl7.org/fhir">
     <id value="ccda-practitionerrole-example"/>
     <meta>
-        <versionId value="6"/>
-        <lastUpdated value="2019-06-06T16:28:18.000-04:00"/>
+        <versionId value="7"/>
+        <lastUpdated value="2019-08-05T02:08:08.000-04:00"/>
         <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitionerrole"/>
     </meta>
     <text>
@@ -18,24 +18,30 @@
                 <b>id</b>: ccda-practitionerrole-example
             
             
+            
             </p>
             <p>
                 <b>meta</b>: 
+            
             
             
             </p>
             <p>
                 <b>practitioner</b>:  Brenda Jennings Richard MD
             
+            
             </p>
             <p>
                 <b>organization</b>: 
                 
                 
+                
                 <a href="Organization-acme-lab.html">Acme Lab. Generated Summary: id: acme-lab; 1144221847, 2523423456; active; 
                     
                     
+                    
                     <span title="Codes: {http://terminology.hl7.org/CodeSystem/organization-type prov}">Healthcare Provider</span>; name: Acme Labs; ph: (+1) 734-677-7777, hq@acme.org
+                
                 
                 
                 </a>
@@ -44,10 +50,12 @@
                 <b>code</b>: Doctor 
                 
                 
+                
                 <span style="background: LightGoldenRodYellow">(Details : {http://nucc.org/provider-taxonomy code '261QP2300X' = 'Primary Care', given as 'Doctor'})</span>
             </p>
             <p>
                 <b>specialty</b>: General Practice 
+                
                 
                 
                 <span style="background: LightGoldenRodYellow">(Details : {http://nucc.org/provider-taxonomy code '208D00000X' = 'General Practice', given as 'General Practice'})</span>

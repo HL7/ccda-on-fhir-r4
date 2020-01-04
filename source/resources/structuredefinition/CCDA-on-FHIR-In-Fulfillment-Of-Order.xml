@@ -3,8 +3,8 @@
     xmlns="http://hl7.org/fhir">
     <id value="CCDA-on-FHIR-In-Fulfillment-Of-Order"/>
     <meta>
-        <versionId value="8"/>
-        <lastUpdated value="2019-05-08T16:31:46.000-04:00"/>
+        <versionId value="9"/>
+        <lastUpdated value="2019-08-09T15:24:43.000-04:00"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ccda-r4/StructureDefinition/CCDA-on-FHIR-In-Fulfillment-Of-Order"/>
     <name value="CCDAonFHIRInFulfillmentOfOrder"/>

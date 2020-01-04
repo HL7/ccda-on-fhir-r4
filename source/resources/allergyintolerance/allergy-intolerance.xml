@@ -3,8 +3,8 @@
     xmlns="http://hl7.org/fhir">
     <id value="allergy-intolerance"/>
     <meta>
-        <versionId value="2"/>
-        <lastUpdated value="2019-07-09T20:50:50.000-04:00"/>
+        <versionId value="3"/>
+        <lastUpdated value="2019-07-31T12:12:56.000-04:00"/>
         <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-allergyintolerance"/>
     </meta>
     <clinicalStatus>

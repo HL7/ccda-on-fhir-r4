@@ -3,8 +3,8 @@
     xmlns="http://hl7.org/fhir">
     <id value="organization-1"/>
     <meta>
-        <versionId value="3"/>
-        <lastUpdated value="2019-07-09T21:54:44.000-04:00"/>
+        <versionId value="4"/>
+        <lastUpdated value="2019-07-31T12:13:55.000-04:00"/>
         <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"/>
     </meta>
     <text>
@@ -17,34 +17,42 @@
             <p>
                 <b>id</b>: acme-lab
             
+            
             </p>
             <p>
                 <b>meta</b>: 
+            
             
             </p>
             <p>
                 <b>identifier</b>: 1144221847, 2523423456
             
+            
             </p>
             <p>
                 <b>active</b>: true
             
+            
             </p>
             <p>
                 <b>type</b>: Healthcare Provider 
+                
                 
                 <span style="background: LightGoldenRodYellow">(Details : {http://terminology.hl7.org/CodeSystem/organization-type code 'prov' = 'Healthcare Provider', given as 'Healthcare Provider'})</span>
             </p>
             <p>
                 <b>name</b>: Acme Labs
             
+            
             </p>
             <p>
                 <b>telecom</b>: ph: (+1) 734-677-7777, hq@acme.org
             
+            
             </p>
             <p>
                 <b>address</b>: 3300 Washtenaw Avenue, Suite 227 Amherst MA 01002 USA 
+            
             
             </p>
         </div>

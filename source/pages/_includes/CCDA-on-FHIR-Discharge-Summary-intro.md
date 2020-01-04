@@ -1,9 +1,3 @@
----
-title: StructureDefinition-CCDA-on-FHIR-Discharge-Summary-intro
-layout: default
-active: StructureDefinition-CCDA-on-FHIR-Discharge-Summary-intro
----
-
 The Discharge Summary is a document which synopsizes a patient's admission to a hospital, LTPAC provider, or other setting. It provides information for the continuation of care following discharge. The Joint Commission requires the following information to be included in the Discharge Summary (http://www.jointcommission.org/):
 
   The reason for hospitalization (the admission) 

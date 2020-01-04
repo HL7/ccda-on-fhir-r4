@@ -1,9 +1,3 @@
----
-title: StructureDefinition-CCDA-on-FHIR-Continuity-of-Care-Document-intro
-layout: default
-active: StructureDefinition-CCDA-on-FHIR-Continuity-of-Care-Document-intro
----
-
 This profile was originally based on the Continuity of Care Document (CCD) Release 1.1 which itself was derived from HITSP C32 and CCD Release 1.0.
 
 The Continuity of Care Document (CCD) profile represents a core data set of the most relevant administrative, demographic, and clinical information facts about a patient's healthcare, covering one or more healthcare encounters. It provides a means for one healthcare practitioner, system, or setting to aggregate all of the pertinent data about a patient and forward it to another to support the continuity of care.  
