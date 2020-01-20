@@ -3,8 +3,8 @@
     xmlns="http://hl7.org/fhir">
     <id value="CCDA-on-FHIR-Progress-Note"/>
     <meta>
-        <versionId value="15"/>
-        <lastUpdated value="2019-08-09T15:38:22.000-04:00"/>
+        <versionId value="17"/>
+        <lastUpdated value="2020-01-20T01:21:56.000-05:00"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ccda-r4/StructureDefinition/CCDA-on-FHIR-Progress-Note"/>
     <name value="CCDAonFHIRProgressNote"/>
@@ -38,6 +38,7 @@
         <element id="Composition.type">
             <path value="Composition.type"/>
             <short value="type"/>
+            <mustSupport value="true"/>
             <binding>
                 <strength value="required"/>
                 <valueSet value="https://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.11.20.8.1"/>
@@ -65,11 +66,13 @@
             <label value="Assessment Section"/>
             <short value="Assessment Section"/>
             <max value="1"/>
+            <mustSupport value="true"/>
         </element>
         <element id="Composition.section:assessment_section.title">
             <path value="Composition.section.title"/>
             <short value="title"/>
             <min value="1"/>
+            <mustSupport value="true"/>
         </element>
         <element id="Composition.section:assessment_section.code">
             <path value="Composition.section.code"/>
@@ -82,11 +85,13 @@
                     <code value="51848-0"/>
                 </coding>
             </patternCodeableConcept>
+            <mustSupport value="true"/>
         </element>
         <element id="Composition.section:assessment_section.text">
             <path value="Composition.section.text"/>
             <short value="This section contains only human readable content"/>
             <min value="1"/>
+            <mustSupport value="true"/>
         </element>
         <element id="Composition.section:allergies_and_intolerances_section">
             <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-explicit-type-name">
@@ -97,11 +102,13 @@
             <label value="Allergies and Intolerances Section"/>
             <short value="Allergies and Intolerances Section"/>
             <max value="1"/>
+            <mustSupport value="true"/>
         </element>
         <element id="Composition.section:allergies_and_intolerances_section.title">
             <path value="Composition.section.title"/>
             <short value="title"/>
             <min value="1"/>
+            <mustSupport value="true"/>
         </element>
         <element id="Composition.section:allergies_and_intolerances_section.code">
             <path value="Composition.section.code"/>
@@ -114,6 +121,7 @@
                     <code value="48765-2"/>
                 </coding>
             </patternCodeableConcept>
+            <mustSupport value="true"/>
         </element>
         <element id="Composition.section:allergies_and_intolerances_section.text">
             <path value="Composition.section.text"/>
@@ -131,13 +139,14 @@
             </slicing>
             <short value="entry"/>
         </element>
-        <element id="Composition.section:allergies_and_intolerances_section.entry:sliceEntry">
+        <element id="Composition.section:allergies_and_intolerances_section.entry:allergies_and_intolerances_entry">
             <path value="Composition.section.entry"/>
-            <sliceName value="sliceEntry"/>
+            <sliceName value="allergies_and_intolerances_entry"/>
             <type>
                 <code value="Reference"/>
                 <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-allergyintolerance"/>
             </type>
+            <mustSupport value="true"/>
         </element>
         <element id="Composition.section:assessment_and_plan_section">
             <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-explicit-type-name">
@@ -148,11 +157,13 @@
             <label value="Assessment and Plan Section"/>
             <short value="Assessment and Plan Section. This section represents the clinicianâs conclusions and working assumptions that will guide treatment of the patient. The Assessment and Plan Section may be combined or separated to meet local policy requirements."/>
             <max value="1"/>
+            <mustSupport value="true"/>
         </element>
         <element id="Composition.section:assessment_and_plan_section.title">
             <path value="Composition.section.title"/>
             <short value="title"/>
             <min value="1"/>
+            <mustSupport value="true"/>
         </element>
         <element id="Composition.section:assessment_and_plan_section.code">
             <path value="Composition.section.code"/>
@@ -165,11 +176,13 @@
                     <code value="51847-2"/>
                 </coding>
             </patternCodeableConcept>
+            <mustSupport value="true"/>
         </element>
         <element id="Composition.section:assessment_and_plan_section.text">
             <path value="Composition.section.text"/>
             <short value="text"/>
             <min value="1"/>
+            <mustSupport value="true"/>
         </element>
         <element id="Composition.section:assessment_and_plan_section.entry">
             <path value="Composition.section.entry"/>
@@ -181,9 +194,9 @@
                 <rules value="open"/>
             </slicing>
         </element>
-        <element id="Composition.section:assessment_and_plan_section.entry:sliceEntry">
+        <element id="Composition.section:assessment_and_plan_section.entry:assessment_and_plan_entry">
             <path value="Composition.section.entry"/>
-            <sliceName value="sliceEntry"/>
+            <sliceName value="assessment_and_plan_entry"/>
             <short value="This section contains unprofiled resources not covered by US Core. Please refer to C-CDA R2.1 for guidance on terminology, etc."/>
             <type>
                 <code value="Reference"/>
@@ -191,6 +204,7 @@
                 <targetProfile value="http://hl7.org/fhir/StructureDefinition/Observation"/>
                 <targetProfile value="http://hl7.org/fhir/StructureDefinition/Communication"/>
             </type>
+            <mustSupport value="true"/>
         </element>
         <element id="Composition.section:chief_complaint_section">
             <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-explicit-type-name">
@@ -201,11 +215,13 @@
             <label value="Chief Complaint Section"/>
             <short value="Chief Complaint Section"/>
             <max value="1"/>
+            <mustSupport value="true"/>
         </element>
         <element id="Composition.section:chief_complaint_section.title">
             <path value="Composition.section.title"/>
             <short value="title"/>
             <min value="1"/>
+            <mustSupport value="true"/>
         </element>
         <element id="Composition.section:chief_complaint_section.code">
             <path value="Composition.section.code"/>
@@ -218,11 +234,13 @@
                     <code value="10154-3"/>
                 </coding>
             </patternCodeableConcept>
+            <mustSupport value="true"/>
         </element>
         <element id="Composition.section:chief_complaint_section.text">
             <path value="Composition.section.text"/>
             <short value="This section contains only human readable content"/>
             <min value="1"/>
+            <mustSupport value="true"/>
         </element>
         <element id="Composition.section:instructions_section">
             <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-explicit-type-name">
@@ -233,11 +251,13 @@
             <label value="Instructions Section"/>
             <short value="Instructions Section"/>
             <max value="1"/>
+            <mustSupport value="true"/>
         </element>
         <element id="Composition.section:instructions_section.title">
             <path value="Composition.section.title"/>
             <short value="title"/>
             <min value="1"/>
+            <mustSupport value="true"/>
         </element>
         <element id="Composition.section:instructions_section.code">
             <path value="Composition.section.code"/>
@@ -250,11 +270,13 @@
                     <code value="69730-0"/>
                 </coding>
             </patternCodeableConcept>
+            <mustSupport value="true"/>
         </element>
         <element id="Composition.section:instructions_section.text">
             <path value="Composition.section.text"/>
             <short value="This section contains only human readable content"/>
             <min value="1"/>
+            <mustSupport value="true"/>
         </element>
         <element id="Composition.section:interventions_section">
             <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-explicit-type-name">
@@ -265,11 +287,13 @@
             <label value="Interventions Section"/>
             <short value="Interventions Section"/>
             <max value="1"/>
+            <mustSupport value="true"/>
         </element>
         <element id="Composition.section:interventions_section.title">
             <path value="Composition.section.title"/>
             <short value="title"/>
             <min value="1"/>
+            <mustSupport value="true"/>
         </element>
         <element id="Composition.section:interventions_section.code">
             <path value="Composition.section.code"/>
@@ -282,11 +306,13 @@
                     <code value="62387-6"/>
                 </coding>
             </patternCodeableConcept>
+            <mustSupport value="true"/>
         </element>
         <element id="Composition.section:interventions_section.text">
             <path value="Composition.section.text"/>
             <short value="text"/>
             <min value="1"/>
+            <mustSupport value="true"/>
         </element>
         <element id="Composition.section:interventions_section.entry">
             <path value="Composition.section.entry"/>
@@ -308,6 +334,7 @@
                 <targetProfile value="http://hl7.org/fhir/StructureDefinition/List"/>
                 <targetProfile value="http://hl7.org/fhir/StructureDefinition/RequestGroup"/>
             </type>
+            <mustSupport value="true"/>
         </element>
         <element id="Composition.section:medications_section">
             <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-explicit-type-name">
@@ -318,11 +345,13 @@
             <label value="Medications Section"/>
             <short value="Medications Section"/>
             <max value="1"/>
+            <mustSupport value="true"/>
         </element>
         <element id="Composition.section:medications_section.title">
             <path value="Composition.section.title"/>
             <short value="title"/>
             <min value="1"/>
+            <mustSupport value="true"/>
         </element>
         <element id="Composition.section:medications_section.code">
             <path value="Composition.section.code"/>
@@ -335,11 +364,13 @@
                     <code value="10160-0"/>
                 </coding>
             </patternCodeableConcept>
+            <mustSupport value="true"/>
         </element>
         <element id="Composition.section:medications_section.text">
             <path value="Composition.section.text"/>
             <short value="text"/>
             <min value="1"/>
+            <mustSupport value="true"/>
         </element>
         <element id="Composition.section:medications_section.entry">
             <path value="Composition.section.entry"/>
@@ -352,13 +383,14 @@
             </slicing>
             <short value="entry"/>
         </element>
-        <element id="Composition.section:medications_section.entry:sliceEntry">
+        <element id="Composition.section:medications_section.entry:medications_entry">
             <path value="Composition.section.entry"/>
-            <sliceName value="sliceEntry"/>
+            <sliceName value="medications_entry"/>
             <type>
                 <code value="Reference"/>
                 <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationstatement"/>
             </type>
+            <mustSupport value="true"/>
         </element>
         <element id="Composition.section:nutrition_section">
             <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-explicit-type-name">
@@ -369,11 +401,13 @@
             <label value="Nutrition Section"/>
             <short value="Nutrition Section"/>
             <max value="1"/>
+            <mustSupport value="true"/>
         </element>
         <element id="Composition.section:nutrition_section.title">
             <path value="Composition.section.title"/>
             <short value="title"/>
             <min value="1"/>
+            <mustSupport value="true"/>
         </element>
         <element id="Composition.section:nutrition_section.code">
             <path value="Composition.section.code"/>
@@ -386,11 +420,13 @@
                     <code value="61144-2"/>
                 </coding>
             </patternCodeableConcept>
+            <mustSupport value="true"/>
         </element>
         <element id="Composition.section:nutrition_section.text">
             <path value="Composition.section.text"/>
             <short value="text"/>
             <min value="1"/>
+            <mustSupport value="true"/>
         </element>
         <element id="Composition.section:nutrition_section.entry">
             <path value="Composition.section.entry"/>
@@ -402,15 +438,17 @@
                 <rules value="open"/>
             </slicing>
             <short value="entry"/>
+            <mustSupport value="true"/>
         </element>
-        <element id="Composition.section:nutrition_section.entry:sliceEntry">
+        <element id="Composition.section:nutrition_section.entry:nutrition_entry">
             <path value="Composition.section.entry"/>
-            <sliceName value="sliceEntry"/>
+            <sliceName value="nutrition_entry"/>
             <short value="This section contains unprofiled resources not covered by US Core. Please refer to C-CDA R2.1 for guidance on terminology, etc."/>
             <type>
                 <code value="Reference"/>
                 <targetProfile value="http://hl7.org/fhir/StructureDefinition/Observation"/>
             </type>
+            <mustSupport value="true"/>
         </element>
         <element id="Composition.section:objective_section">
             <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-explicit-type-name">
@@ -421,11 +459,13 @@
             <label value="Objective Section"/>
             <short value="Objective Section"/>
             <max value="1"/>
+            <mustSupport value="true"/>
         </element>
         <element id="Composition.section:objective_section.title">
             <path value="Composition.section.title"/>
             <short value="title"/>
             <min value="1"/>
+            <mustSupport value="true"/>
         </element>
         <element id="Composition.section:objective_section.code">
             <path value="Composition.section.code"/>
@@ -438,11 +478,13 @@
                     <code value="61149-1"/>
                 </coding>
             </patternCodeableConcept>
+            <mustSupport value="true"/>
         </element>
         <element id="Composition.section:objective_section.text">
             <path value="Composition.section.text"/>
             <short value="This section contains only human readable content"/>
             <min value="1"/>
+            <mustSupport value="true"/>
         </element>
         <element id="Composition.section:physical_exam_section">
             <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-explicit-type-name">
@@ -454,11 +496,13 @@
             <short value="Physical Exam Section"/>
             <comment value="Physical Exam Section"/>
             <max value="1"/>
+            <mustSupport value="true"/>
         </element>
         <element id="Composition.section:physical_exam_section.title">
             <path value="Composition.section.title"/>
             <short value="title"/>
             <min value="1"/>
+            <mustSupport value="true"/>
         </element>
         <element id="Composition.section:physical_exam_section.code">
             <path value="Composition.section.code"/>
@@ -471,11 +515,13 @@
                     <code value="29545-1"/>
                 </coding>
             </patternCodeableConcept>
+            <mustSupport value="true"/>
         </element>
         <element id="Composition.section:physical_exam_section.text">
             <path value="Composition.section.text"/>
             <short value="text"/>
             <min value="1"/>
+            <mustSupport value="true"/>
         </element>
         <element id="Composition.section:physical_exam_section.entry">
             <path value="Composition.section.entry"/>
@@ -488,14 +534,15 @@
             </slicing>
             <short value="entry"/>
         </element>
-        <element id="Composition.section:physical_exam_section.entry:sliceEntry">
+        <element id="Composition.section:physical_exam_section.entry:physical_exam_entry">
             <path value="Composition.section.entry"/>
-            <sliceName value="sliceEntry"/>
+            <sliceName value="physical_exam_entry"/>
             <short value="This section contains unprofiled resources not covered by US Core. Please refer to C-CDA R2.1 for guidance on terminology, etc."/>
             <type>
                 <code value="Reference"/>
                 <targetProfile value="http://hl7.org/fhir/StructureDefinition/Observation"/>
             </type>
+            <mustSupport value="true"/>
         </element>
         <element id="Composition.section:plan_of_treatment_section">
             <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-explicit-type-name">
@@ -506,11 +553,13 @@
             <label value="Plan of Treatment Section"/>
             <short value="Plan of Treatment Section"/>
             <max value="1"/>
+            <mustSupport value="true"/>
         </element>
         <element id="Composition.section:plan_of_treatment_section.title">
             <path value="Composition.section.title"/>
             <short value="title"/>
             <min value="1"/>
+            <mustSupport value="true"/>
         </element>
         <element id="Composition.section:plan_of_treatment_section.code">
             <path value="Composition.section.code"/>
@@ -523,11 +572,13 @@
                     <code value="18776-5"/>
                 </coding>
             </patternCodeableConcept>
+            <mustSupport value="true"/>
         </element>
         <element id="Composition.section:plan_of_treatment_section.text">
             <path value="Composition.section.text"/>
             <short value="text"/>
             <min value="1"/>
+            <mustSupport value="true"/>
         </element>
         <element id="Composition.section:plan_of_treatment_section.entry">
             <path value="Composition.section.entry"/>
@@ -540,9 +591,9 @@
             </slicing>
             <short value="entry"/>
         </element>
-        <element id="Composition.section:plan_of_treatment_section.entry:sliceEntry">
+        <element id="Composition.section:plan_of_treatment_section.entry:plan_of_treatment_entry">
             <path value="Composition.section.entry"/>
-            <sliceName value="sliceEntry"/>
+            <sliceName value="plan_of_treatment_entry"/>
             <short value="This section contains unprofiled resources not covered by US Core. Please refer to C-CDA R2.1 for guidance on terminology, etc."/>
             <type>
                 <code value="Reference"/>
@@ -558,6 +609,7 @@
                 <targetProfile value="http://hl7.org/fhir/StructureDefinition/VisionPrescription"/>
                 <targetProfile value="http://hl7.org/fhir/StructureDefinition/RequestGroup"/>
             </type>
+            <mustSupport value="true"/>
         </element>
         <element id="Composition.section:problems_section">
             <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-explicit-type-name">
@@ -568,11 +620,13 @@
             <label value="Problems Section"/>
             <short value="Problems Section"/>
             <max value="1"/>
+            <mustSupport value="true"/>
         </element>
         <element id="Composition.section:problems_section.title">
             <path value="Composition.section.title"/>
             <short value="title"/>
             <min value="1"/>
+            <mustSupport value="true"/>
         </element>
         <element id="Composition.section:problems_section.code">
             <path value="Composition.section.code"/>
@@ -585,11 +639,13 @@
                     <code value="11450-4"/>
                 </coding>
             </patternCodeableConcept>
+            <mustSupport value="true"/>
         </element>
         <element id="Composition.section:problems_section.text">
             <path value="Composition.section.text"/>
             <short value="text"/>
             <min value="1"/>
+            <mustSupport value="true"/>
         </element>
         <element id="Composition.section:problem_section.entry">
             <path value="Composition.section.entry"/>
@@ -602,13 +658,14 @@
             </slicing>
             <short value="entry"/>
         </element>
-        <element id="Composition.section:problem_section.entry:sliceEntry">
+        <element id="Composition.section:problem_section.entry:problem_entry">
             <path value="Composition.section.entry"/>
-            <sliceName value="sliceEntry"/>
+            <sliceName value="problem_entry"/>
             <type>
                 <code value="Reference"/>
                 <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition"/>
             </type>
+            <mustSupport value="true"/>
         </element>
         <element id="Composition.section:results_section">
             <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-explicit-type-name">
@@ -619,11 +676,13 @@
             <label value="Results Section"/>
             <short value="Results Section"/>
             <max value="1"/>
+            <mustSupport value="true"/>
         </element>
         <element id="Composition.section:results_section.title">
             <path value="Composition.section.title"/>
             <short value="title"/>
             <min value="1"/>
+            <mustSupport value="true"/>
         </element>
         <element id="Composition.section:results_section.code">
             <path value="Composition.section.code"/>
@@ -636,11 +695,13 @@
                     <code value="30954-2"/>
                 </coding>
             </patternCodeableConcept>
+            <mustSupport value="true"/>
         </element>
         <element id="Composition.section:results_section.text">
             <path value="Composition.section.text"/>
             <short value="text"/>
             <min value="1"/>
+            <mustSupport value="true"/>
         </element>
         <element id="Composition.section:results_section.entry">
             <path value="Composition.section.entry"/>
@@ -652,14 +713,16 @@
                 <rules value="open"/>
             </slicing>
             <short value="entry"/>
+            <mustSupport value="true"/>
         </element>
-        <element id="Composition.section:results_section.entry:sliceEntry">
+        <element id="Composition.section:results_section.entry:results_entry">
             <path value="Composition.section.entry"/>
-            <sliceName value="sliceEntry"/>
+            <sliceName value="results_entry"/>
             <type>
                 <code value="Reference"/>
                 <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"/>
             </type>
+            <mustSupport value="true"/>
         </element>
         <element id="Composition.section:review_of_systems_section">
             <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-explicit-type-name">
@@ -670,11 +733,13 @@
             <label value="Review of Systems Section"/>
             <short value="Review of Systems Section"/>
             <max value="1"/>
+            <mustSupport value="true"/>
         </element>
         <element id="Composition.section:review_of_systems_section.title">
             <path value="Composition.section.title"/>
             <short value="title"/>
             <min value="1"/>
+            <mustSupport value="true"/>
         </element>
         <element id="Composition.section:review_of_systems_section.code">
             <path value="Composition.section.code"/>
@@ -687,11 +752,13 @@
                     <code value="10187-3"/>
                 </coding>
             </patternCodeableConcept>
+            <mustSupport value="true"/>
         </element>
         <element id="Composition.section:review_of_systems_section.text">
             <path value="Composition.section.text"/>
             <short value="This section contains only human readable content"/>
             <min value="1"/>
+            <mustSupport value="true"/>
         </element>
         <element id="Composition.section:subjective_section">
             <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-explicit-type-name">
@@ -702,11 +769,13 @@
             <label value="Subjective Section"/>
             <short value="Subjective Section"/>
             <max value="1"/>
+            <mustSupport value="true"/>
         </element>
         <element id="Composition.section:subjective_section.title">
             <path value="Composition.section.title"/>
             <short value="title"/>
             <min value="1"/>
+            <mustSupport value="true"/>
         </element>
         <element id="Composition.section:subjective_section.code">
             <path value="Composition.section.code"/>
@@ -719,11 +788,13 @@
                     <code value="61150-9"/>
                 </coding>
             </patternCodeableConcept>
+            <mustSupport value="true"/>
         </element>
         <element id="Composition.section:subjective_section.text">
             <path value="Composition.section.text"/>
             <short value="This section contains only human readable content"/>
             <min value="1"/>
+            <mustSupport value="true"/>
         </element>
         <element id="Composition.section:vital_signs_section">
             <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-explicit-type-name">
@@ -734,11 +805,13 @@
             <label value="Vital Signs Section"/>
             <short value="Vital Signs Section"/>
             <max value="1"/>
+            <mustSupport value="true"/>
         </element>
         <element id="Composition.section:vital_signs_section.title">
             <path value="Composition.section.title"/>
             <short value="title"/>
             <min value="1"/>
+            <mustSupport value="true"/>
         </element>
         <element id="Composition.section:vital_signs_section.code">
             <path value="Composition.section.code"/>
@@ -751,11 +824,13 @@
                     <code value="8716-3"/>
                 </coding>
             </patternCodeableConcept>
+            <mustSupport value="true"/>
         </element>
         <element id="Composition.section:vital_signs_section.text">
             <path value="Composition.section.text"/>
             <short value="text"/>
             <min value="1"/>
+            <mustSupport value="true"/>
         </element>
         <element id="Composition.section:vital_signs_section.entry">
             <path value="Composition.section.entry"/>
@@ -768,14 +843,15 @@
             </slicing>
             <short value="entry"/>
         </element>
-        <element id="Composition.section:vital_signs_section.entry:sliceEntry">
+        <element id="Composition.section:vital_signs_section.entry:vital_signs_entry">
             <path value="Composition.section.entry"/>
-            <sliceName value="sliceEntry"/>
+            <sliceName value="vital_signs_entry"/>
             <short value="This section contains unprofiled resources not covered by US Core. Please refer to C-CDA R2.1 for guidance on terminology, etc."/>
             <type>
                 <code value="Reference"/>
                 <targetProfile value="http://hl7.org/fhir/StructureDefinition/vitalsigns"/>
             </type>
+            <mustSupport value="true"/>
         </element>
     </differential>
 </StructureDefinition>
