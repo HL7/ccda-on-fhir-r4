@@ -183,10 +183,6 @@
 			"base": "StructureDefinition-CCDA-on-FHIR-US-Realm-Header.html",
 			"defns": "StructureDefinition-CCDA-on-FHIR-US-Realm-Header-definitions.html"
 		},
-		"StructureDefinition/CCDA-on-FHIR-VersionNumber": {
-			"base": "StructureDefinition-CCDA-on-FHIR-VersionNumber.html",
-			"defns": "StructureDefinition-CCDA-on-FHIR-VersionNumber-definitions.html"
-		},
 		"StructureDefinition/CCDA-on-FHIR-Authorization": {
 			"base": "StructureDefinition-CCDA-on-FHIR-Authorization.html",
 			"defns": "StructureDefinition-CCDA-on-FHIR-Authorization-definitions.html"

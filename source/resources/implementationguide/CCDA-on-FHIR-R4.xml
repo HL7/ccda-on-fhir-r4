@@ -3,8 +3,8 @@
     xmlns="http://hl7.org/fhir">
     <id value="CCDA-on-FHIR-R4"/>
     <meta>
-        <versionId value="58"/>
-        <lastUpdated value="2019-07-10T12:56:36.000-04:00"/>
+        <versionId value="69"/>
+        <lastUpdated value="2020-02-02T21:15:02.000-05:00"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ccda-r4/ImplementationGuide/CCDA-on-FHIR-R4"/>
     <version value="1.1.0"/>
@@ -12,6 +12,13 @@
     <title value="C-CDA on FHIR R4"/>
     <status value="draft"/>
     <publisher value="HL7 Structured Documents Working Group"/>
+    <contact>
+        <name value="HL7 Structured Documents Working Group"/>
+        <telecom>
+            <system value="url"/>
+            <value value="http://hl7.org/Special/committees/structure/index.cfm"/>
+        </telecom>
+    </contact>
     <contact>
         <name value="Rick Geimer"/>
         <telecom>
@@ -118,14 +125,6 @@
                 <display value="C-CDA on FHIR Data Enterer"/>
             </reference>
             <name value="C-CDA on FHIR Data Enterer"/>
-            <exampleBoolean value="false"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="StructureDefinition/CCDA-on-FHIR-VersionNumber"/>
-                <display value="CCDA-on-FHIR-VersionNumber"/>
-            </reference>
-            <name value="CCDA-on-FHIR-VersionNumber"/>
             <exampleBoolean value="false"/>
         </resource>
         <resource>

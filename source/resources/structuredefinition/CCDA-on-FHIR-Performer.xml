@@ -3,8 +3,8 @@
     xmlns="http://hl7.org/fhir">
     <id value="CCDA-on-FHIR-Performer"/>
     <meta>
-        <versionId value="8"/>
-        <lastUpdated value="2019-05-08T16:36:25.000-04:00"/>
+        <versionId value="10"/>
+        <lastUpdated value="2020-02-02T21:28:45.000-05:00"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ccda-r4/StructureDefinition/CCDA-on-FHIR-Performer"/>
     <name value="CCDAonFHIRPerformer"/>
@@ -36,13 +36,22 @@
     <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension"/>
     <derivation value="constraint"/>
     <differential>
+        <element id="Extension">
+            <path value="Extension"/>
+        </element>
+        <element id="Extension.url">
+            <path value="Extension.url"/>
+            <fixedUri value="http://hl7.org/fhir/us/ccda-r4/StructureDefinition/CCDA-on-FHIR-Performer"/>
+        </element>
         <element id="Extension.value[x]:valueReference">
             <path value="Extension.valueReference"/>
             <sliceName value="valueReference"/>
+            <min value="1"/>
             <type>
                 <code value="Reference"/>
                 <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner"/>
             </type>
+            <mustSupport value="true"/>
         </element>
     </differential>
 </StructureDefinition>

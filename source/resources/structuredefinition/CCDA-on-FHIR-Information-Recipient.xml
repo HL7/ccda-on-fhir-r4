@@ -3,8 +3,8 @@
     xmlns="http://hl7.org/fhir">
     <id value="CCDA-on-FHIR-Information-Recipient"/>
     <meta>
-        <versionId value="11"/>
-        <lastUpdated value="2019-08-05T02:08:36.000-04:00"/>
+        <versionId value="14"/>
+        <lastUpdated value="2020-02-02T21:21:57.000-05:00"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ccda-r4/StructureDefinition/CCDA-on-FHIR-Information-Recipient"/>
     <name value="CCDAonFHIRInformationRecipient"/>
@@ -47,14 +47,20 @@
         <element id="Extension">
             <path value="Extension"/>
         </element>
+        <element id="Extension.url">
+            <path value="Extension.url"/>
+            <fixedUri value="http://hl7.org/fhir/us/ccda-r4/StructureDefinition/CCDA-on-FHIR-Information-Recipient"/>
+        </element>
         <element id="Extension.value[x]:valueReference">
             <path value="Extension.valueReference"/>
             <sliceName value="valueReference"/>
+            <min value="1"/>
             <type>
                 <code value="Reference"/>
                 <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner"/>
                 <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitionerrole"/>
             </type>
+            <mustSupport value="true"/>
         </element>
     </differential>
 </StructureDefinition>

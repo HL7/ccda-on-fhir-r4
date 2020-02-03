@@ -59,6 +59,10 @@ We encourage implementers to refer to the ongoing C-CDA to FHIR mapping work tha
 </thead>
 <tbody>
 <tr>
+<td>HL7 Structured Documents Working Group</td>
+<td></td>
+</tr>
+<tr>
 <td>Rick Geimer</td>
 <td><a href="mailto:rick.geimer@lantanagroup.com">rick.geimer@lantanagroup.com</a></td>
 </tr>

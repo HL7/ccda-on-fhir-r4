@@ -120,10 +120,6 @@ active: profiles
 <td><a href="StructureDefinition-CCDA-on-FHIR-Performer.html">CCDAonFHIRPerformer</a></td>
 <td>{% capture profile-intro %}{% include CCDA-on-FHIR-Performer-intro.md id="{{[id]}}" %}{% endcapture %}{{ profile-intro | markdownify }}</td>
 </tr>
-<tr>
-<td><a href="StructureDefinition-CCDA-on-FHIR-VersionNumber.html">CCDAonFHIRVersionNumber</a></td>
-<td>{% capture profile-intro %}{% include CCDA-on-FHIR-VersionNumber-intro.md id="{{[id]}}" %}{% endcapture %}{{ profile-intro | markdownify }}</td>
-</tr>
 </tbody>
 </table>
 

@@ -3,8 +3,8 @@
     xmlns="http://hl7.org/fhir">
     <id value="CCDA-on-FHIR-US-Realm-Header"/>
     <meta>
-        <versionId value="21"/>
-        <lastUpdated value="2019-12-24T14:41:10.000-05:00"/>
+        <versionId value="22"/>
+        <lastUpdated value="2020-01-28T11:54:47.000-05:00"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ccda-r4/StructureDefinition/CCDA-on-FHIR-US-Realm-Header"/>
     <name value="CCDAonFHIRUSRealmHeader"/>
@@ -173,6 +173,14 @@
             </type>
             <mustSupport value="true"/>
         </element>
+        <element id="Composition.encounter">
+            <path value="Composition.encounter"/>
+            <type>
+                <code value="Reference"/>
+                <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter"/>
+            </type>
+            <mustSupport value="true"/>
+        </element>
         <element id="Composition.date">
             <path value="Composition.date"/>
             <short value="date"/>
@@ -296,14 +304,6 @@
             <type>
                 <code value="Reference"/>
                 <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"/>
-            </type>
-            <mustSupport value="true"/>
-        </element>
-        <element id="Composition.encounter">
-            <path value="Composition.encounter"/>
-            <type>
-                <code value="Reference"/>
-                <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter"/>
             </type>
             <mustSupport value="true"/>
         </element>
