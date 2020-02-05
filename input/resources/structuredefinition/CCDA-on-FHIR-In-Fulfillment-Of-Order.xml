@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StructureDefinition
+    xmlns="http://hl7.org/fhir">
+    <id value="CCDA-on-FHIR-In-Fulfillment-Of-Order"/>
+    <meta>
+        <versionId value="12"/>
+        <lastUpdated value="2020-02-02T21:25:16.000-05:00"/>
+    </meta>
+    <url value="http://hl7.org/fhir/us/ccda-r4/StructureDefinition/CCDA-on-FHIR-In-Fulfillment-Of-Order"/>
+    <name value="CCDAonFHIRInFulfillmentOfOrder"/>
+    <title value="C-CDA on FHIR In Fulfillment Of Order"/>
+    <status value="active"/>
+    <publisher value="Lantana Consulting Group"/>
+    <contact>
+        <name value="Sarah Gaunt"/>
+        <telecom>
+            <system value="phone"/>
+            <value value="+6 141-029-2506"/>
+            <use value="work"/>
+        </telecom>
+        <telecom>
+            <system value="email"/>
+            <value value="sarah.gaunt@lantanagroup.com"/>
+            <use value="work"/>
+        </telecom>
+    </contact>
+    <contact>
+        <name value="Rick Geimer"/>
+        <telecom>
+            <system value="email"/>
+            <value value="rick.geimer@lantanagroup.com"/>
+            <use value="work"/>
+        </telecom>
+    </contact>
+    <description value="The C-CDA on FHIR In Fulfillment Of Order Extension represents orders that are fulfilled by this document such as a radiologists report of an x-ray.&#xA;&#xA;For further information see the C-CDA specification here: http://www.hl7.org/implement/standards/product_brief.cfm?product_id=408."/>
+    <fhirVersion value="4.0.1"/>
+    <kind value="complex-type"/>
+    <abstract value="false"/>
+    <context>
+        <type value="element"/>
+        <expression value="Composition"/>
+    </context>
+    <type value="Extension"/>
+    <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension"/>
+    <derivation value="constraint"/>
+    <differential>
+        <element id="Extension">
+            <path value="Extension"/>
+        </element>
+        <element id="Extension.url">
+            <path value="Extension.url"/>
+            <fixedUri value="http://hl7.org/fhir/us/ccda-r4/StructureDefinition/CCDA-on-FHIR-In-Fulfillment-Of-Order"/>
+        </element>
+        <element id="Extension.value[x]:valueReference">
+            <path value="Extension.valueReference"/>
+            <sliceName value="valueReference"/>
+            <min value="1"/>
+            <type>
+                <code value="Reference"/>
+                <targetProfile value="http://hl7.org/fhir/StructureDefinition/ServiceRequest"/>
+            </type>
+            <mustSupport value="true"/>
+        </element>
+    </differential>
+</StructureDefinition>
