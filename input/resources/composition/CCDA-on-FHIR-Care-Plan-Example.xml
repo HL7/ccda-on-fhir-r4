@@ -3,8 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="CCDA-on-FHIR-Care-Plan-Example"/>
     <meta>
-        <versionId value="15"/>
-        <lastUpdated value="2020-02-04T20:47:28.000-05:00"/>
+        <versionId value="1"/>
+        <lastUpdated value="2020-02-11T23:10:02.120+00:00"/>
+        <source value="#C5H1f1YkvohATs7F"/>
         <profile value="http://hl7.org/fhir/us/ccda-r4/StructureDefinition/CCDA-on-FHIR-Care-Plan"/>
     </meta>
     <language value="en-US"/>

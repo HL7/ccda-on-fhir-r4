@@ -3,8 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="ccda-practitionerrole-example"/>
     <meta>
-        <versionId value="10"/>
-        <lastUpdated value="2020-02-04T20:47:28.000-05:00"/>
+        <versionId value="2"/>
+        <lastUpdated value="2020-02-27T06:37:45.115+00:00"/>
+        <source value="#ukXygDXI1ahRgpaT"/>
         <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitionerrole"/>
     </meta>
     <text>
@@ -25,23 +26,23 @@
             </p>
             <p>
                 <b>organization</b>: 
-                <a href="Organization-acme-lab.html">Acme Lab.
-                                Generated Summary: id: acme-lab; 1144221847, 2523423456; active;
-								
-                    <span title="Codes: {http://terminology.hl7.org/CodeSystem/organization-type prov}">Healthcare Provider</span>; name: Acme Labs; ph: (+1)
-                                734-677-7777, hq@acme.org 
+                <a href="Organization-acme-lab.html">Acme Lab. Generated
+                        Summary: id: acme-lab; 1144221847, 2523423456; active; 
+                    <span title="Codes: {http://terminology.hl7.org/CodeSystem/organization-type prov}">Healthcare Provider</span>; name: Acme Labs; ph: (+1) 734-677-7777,
+                        hq@acme.org 
                 </a>
             </p>
             <p>
                 <b>code</b>: Doctor 
-                <span style="background: LightGoldenRodYellow">(Details : {http://nucc.org/provider-taxonomy code '261QP2300X' =
-                                'Primary Care', given as 'Doctor'})</span>
+                <span style="background: LightGoldenRodYellow">(Details :
+                        {http://nucc.org/provider-taxonomy code '261QP2300X' = 'Primary Care', given
+                        as 'Doctor'})</span>
             </p>
             <p>
                 <b>specialty</b>: General Practice 
                 <span style="background: LightGoldenRodYellow">(Details :
-                                {http://nucc.org/provider-taxonomy code '208D00000X' = 'General
-                                Practice', given as 'General Practice'})</span>
+                        {http://nucc.org/provider-taxonomy code '208D00000X' = 'General Practice',
+                        given as 'General Practice'})</span>
             </p>
         </div>
     </text>

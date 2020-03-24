@@ -3,8 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="encounter-1"/>
     <meta>
-        <versionId value="4"/>
-        <lastUpdated value="2020-02-04T05:03:58.000-05:00"/>
+        <versionId value="1"/>
+        <lastUpdated value="2020-02-11T23:09:43.470+00:00"/>
+        <source value="#AtOfxbOSHl0HOxHt"/>
     </meta>
     <text>
         <status value="generated"/>

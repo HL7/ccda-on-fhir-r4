@@ -3,8 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="observation-lab-urine"/>
     <meta>
-        <versionId value="6"/>
-        <lastUpdated value="2020-02-04T05:03:58.000-05:00"/>
+        <versionId value="2"/>
+        <lastUpdated value="2020-02-27T06:37:46.394+00:00"/>
+        <source value="#ukXygDXI1ahRgpaT"/>
         <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"/>
     </meta>
     <text>
@@ -25,22 +26,21 @@
             </p>
             <p>
                 <b>category</b>: Laboratory 
-                <span style="background: LightGoldenRodYellow">(Details :
-                                {http://terminology.hl7.org/CodeSystem/observation-category code
-                                'laboratory' = 'Laboratory', given as 'Laboratory'})</span>
+                <span style="background: LightGoldenRodYellow">(Details : {http://terminology.hl7.org/CodeSystem/observation-category code
+                        'laboratory' = 'Laboratory', given as 'Laboratory'})</span>
             </p>
             <p>
                 <b>code</b>: SPEC GRAV 
-                <span style="background: LightGoldenRodYellow">(Details : {LOINC code '5811-5' = 'Specific gravity of Urine by
-                                Test strip', given as 'Specific gravity of Urine by Test
-                                strip'})</span>
+                <span style="background: LightGoldenRodYellow">(Details
+                        : {LOINC code '5811-5' = 'Specific gravity of Urine by Test strip', given as
+                        'Specific gravity of Urine by Test strip'})</span>
             </p>
             <p>
                 <b>subject</b>: 
-                <a href="Patient-example.html">Amy Shaw. Generated
-                                Summary: id: example; Medical Record Number = 1032702 (USUAL);
-                                active; Amy V. Shaw ; ph: 555-555-5555(HOME), amy.shaw@example.com;
-                                gender: female; birthDate: Feb 20, 2007</a>
+                <a href="Patient-example.html">Amy Shaw. Generated Summary: id:
+                        example; Medical Record Number = 1032702 (USUAL); active; Amy V. Shaw ; ph:
+                        555-555-5555(HOME), amy.shaw@example.com; gender: female; birthDate: Feb 20,
+                        2007</a>
             </p>
             <p>
                 <b>effective</b>: Jul 5, 2005 12:00:00 AM 
@@ -48,7 +48,7 @@
             <p>
                 <b>value</b>: 1.017 {urine specific gravity} 
                 <span style="background: LightGoldenRodYellow"> (Details: UCUM code {urine
-                                specific gravity} = '{urine specific gravity}')</span>
+                        specific gravity} = '{urine specific gravity}')</span>
             </p>
             <h3>ReferenceRanges</h3>
             <table class="grid">
@@ -64,14 +64,12 @@
                 <tr>
                     <td>*</td>
                     <td>1.003 {urine specific gravity} 
-                        <span style="background: LightGoldenRodYellow"> (Details: UCUM
-                                        code {urine specific gravity} = '{urine specific
-                                        gravity}')</span>
+                        <span style="background: LightGoldenRodYellow"> (Details: UCUM code {urine
+                              specific gravity} = '{urine specific gravity}')</span>
                     </td>
                     <td>1.035 {urine specific gravity} 
-                        <span style="background: LightGoldenRodYellow"> (Details: UCUM
-                                        code {urine specific gravity} = '{urine specific
-                                        gravity}')</span>
+                        <span style="background: LightGoldenRodYellow"> (Details: UCUM code {urine
+                              specific gravity} = '{urine specific gravity}')</span>
                     </td>
                 </tr>
             </table>

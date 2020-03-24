@@ -3,8 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="imm-1"/>
     <meta>
-        <versionId value="5"/>
-        <lastUpdated value="2020-02-04T05:03:55.000-05:00"/>
+        <versionId value="1"/>
+        <lastUpdated value="2020-02-11T23:09:36.949+00:00"/>
+        <source value="#7baNFej5wq809nmK"/>
         <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-immunization"/>
     </meta>
     <text>

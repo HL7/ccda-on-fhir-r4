@@ -3,8 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="2.16.840.1.113883.11.20.1.1"/>
     <meta>
-        <versionId value="6"/>
-        <lastUpdated value="2020-02-04T05:03:58.000-05:00"/>
+        <versionId value="2"/>
+        <lastUpdated value="2020-02-27T06:37:46.029+00:00"/>
+        <source value="#ukXygDXI1ahRgpaT"/>
     </meta>
     <text>
         <status value="generated"/>
@@ -30,305 +31,266 @@
                             <td>
                                 <a href="http://details.loinc.org/LOINC/11504-8.html">11504-8</a>
                             </td>
-                            <td>Surgical operation
-                                        note</td>
+                            <td>Surgical operation note</td>
                             <td/>
                         </tr>
                         <tr>
                             <td>
                                 <a href="http://details.loinc.org/LOINC/28573-4.html">28573-4</a>
                             </td>
-                            <td>Physician, Operation
-                                        note</td>
+                            <td>Physician, Operation note</td>
                             <td/>
                         </tr>
                         <tr>
                             <td>
                                 <a href="http://details.loinc.org/LOINC/28583-3.html">28583-3</a>
                             </td>
-                            <td>Dentist Operation
-                                        note</td>
+                            <td>Dentist Operation note</td>
                             <td/>
                         </tr>
                         <tr>
                             <td>
                                 <a href="http://details.loinc.org/LOINC/28624-5.html">28624-5</a>
                             </td>
-                            <td>Podiatry Operation
-                                        note</td>
+                            <td>Podiatry Operation note</td>
                             <td/>
                         </tr>
                         <tr>
                             <td>
                                 <a href="http://details.loinc.org/LOINC/34137-0.html">34137-0</a>
                             </td>
-                            <td>Outpatient Surgical operation
-                                            note</td>
+                            <td>Outpatient Surgical operation note</td>
                             <td/>
                         </tr>
                         <tr>
                             <td>
                                 <a href="http://details.loinc.org/LOINC/34818-5.html">34818-5</a>
                             </td>
-                            <td>Otolaryngology Surgical
-                                            operation note</td>
+                            <td>Otolaryngology Surgical operation note</td>
                             <td/>
                         </tr>
                         <tr>
                             <td>
                                 <a href="http://details.loinc.org/LOINC/34868-0.html">34868-0</a>
                             </td>
-                            <td>Orthopaedic surgery Surgical
-                                            operation note</td>
+                            <td>Orthopaedic surgery Surgical operation note</td>
                             <td/>
                         </tr>
                         <tr>
                             <td>
                                 <a href="http://details.loinc.org/LOINC/34870-6.html">34870-6</a>
                             </td>
-                            <td>Plastic surgery Surgical
-                                            operation note</td>
+                            <td>Plastic surgery Surgical operation note</td>
                             <td/>
                         </tr>
                         <tr>
                             <td>
                                 <a href="http://details.loinc.org/LOINC/34871-4.html">34871-4</a>
                             </td>
-                            <td>Deprecated Podiatry operative
-                                            note</td>
+                            <td>Deprecated Podiatry operative note</td>
                             <td/>
                         </tr>
                         <tr>
                             <td>
                                 <a href="http://details.loinc.org/LOINC/34874-8.html">34874-8</a>
                             </td>
-                            <td>Surgery Surgical operation
-                                            note</td>
+                            <td>Surgery Surgical operation note</td>
                             <td/>
                         </tr>
                         <tr>
                             <td>
                                 <a href="http://details.loinc.org/LOINC/34877-1.html">34877-1</a>
                             </td>
-                            <td>Urology Surgical operation
-                                            note</td>
+                            <td>Urology Surgical operation note</td>
                             <td/>
                         </tr>
                         <tr>
                             <td>
                                 <a href="http://details.loinc.org/LOINC/78240-9.html">78240-9</a>
                             </td>
-                            <td>Trauma Surgical operation
-                                            note</td>
+                            <td>Trauma Surgical operation note</td>
                             <td/>
                         </tr>
                         <tr>
                             <td>
                                 <a href="http://details.loinc.org/LOINC/78241-7.html">78241-7</a>
                             </td>
-                            <td>Gastroenterology Surgical
-                                            operation note</td>
+                            <td>Gastroenterology Surgical operation note</td>
                             <td/>
                         </tr>
                         <tr>
                             <td>
                                 <a href="http://details.loinc.org/LOINC/78242-5.html">78242-5</a>
                             </td>
-                            <td>Hematology+Medical oncology
-                                            Surgical operation note</td>
+                            <td>Hematology+Medical oncology Surgical operation note</td>
                             <td/>
                         </tr>
                         <tr>
                             <td>
                                 <a href="http://details.loinc.org/LOINC/78243-3.html">78243-3</a>
                             </td>
-                            <td>Vascular surgery Surgical
-                                            operation note</td>
+                            <td>Vascular surgery Surgical operation note</td>
                             <td/>
                         </tr>
                         <tr>
                             <td>
                                 <a href="http://details.loinc.org/LOINC/78244-1.html">78244-1</a>
                             </td>
-                            <td>Transplant surgery Surgical
-                                            operation note</td>
+                            <td>Transplant surgery Surgical operation note</td>
                             <td/>
                         </tr>
                         <tr>
                             <td>
                                 <a href="http://details.loinc.org/LOINC/78380-3.html">78380-3</a>
                             </td>
-                            <td>Critical care medicine Surgical
-                                            operation note</td>
+                            <td>Critical care medicine Surgical operation note</td>
                             <td/>
                         </tr>
                         <tr>
                             <td>
                                 <a href="http://details.loinc.org/LOINC/78381-1.html">78381-1</a>
                             </td>
-                            <td>Colon and rectal surgery
-                                            Surgical operation note</td>
+                            <td>Colon and rectal surgery Surgical operation note</td>
                             <td/>
                         </tr>
                         <tr>
                             <td>
                                 <a href="http://details.loinc.org/LOINC/78487-6.html">78487-6</a>
                             </td>
-                            <td>Neurological surgery Surgical
-                                            operation note</td>
+                            <td>Neurological surgery Surgical operation note</td>
                             <td/>
                         </tr>
                         <tr>
                             <td>
                                 <a href="http://details.loinc.org/LOINC/78678-0.html">78678-0</a>
                             </td>
-                            <td>Oral and Maxillofacial Surgery
-                                            Surgical operation note</td>
+                            <td>Oral and Maxillofacial Surgery Surgical operation note</td>
                             <td/>
                         </tr>
                         <tr>
                             <td>
                                 <a href="http://details.loinc.org/LOINC/78679-8.html">78679-8</a>
                             </td>
-                            <td>Cardiothoracic surgery Surgical
-                                            operation note</td>
+                            <td>Cardiothoracic surgery Surgical operation note</td>
                             <td/>
                         </tr>
                         <tr>
                             <td>
                                 <a href="http://details.loinc.org/LOINC/78714-3.html">78714-3</a>
                             </td>
-                            <td>Ophthalmology Surgical
-                                            operation note</td>
+                            <td>Ophthalmology Surgical operation note</td>
                             <td/>
                         </tr>
                         <tr>
                             <td>
                                 <a href="http://details.loinc.org/LOINC/78719-2.html">78719-2</a>
                             </td>
-                            <td>Obstetrics and Gynecology
-                                            Surgical operation note</td>
+                            <td>Obstetrics and Gynecology Surgical operation note</td>
                             <td/>
                         </tr>
                         <tr>
                             <td>
                                 <a href="http://details.loinc.org/LOINC/78725-9.html">78725-9</a>
                             </td>
-                            <td>Pediatric surgery Surgical
-                                            operation note</td>
+                            <td>Pediatric surgery Surgical operation note</td>
                             <td/>
                         </tr>
                         <tr>
                             <td>
                                 <a href="http://details.loinc.org/LOINC/80579-6.html">80579-6</a>
                             </td>
-                            <td>Cardiac surgery Surgical
-                                            operation note</td>
+                            <td>Cardiac surgery Surgical operation note</td>
                             <td/>
                         </tr>
                         <tr>
                             <td>
                                 <a href="http://details.loinc.org/LOINC/80668-7.html">80668-7</a>
                             </td>
-                            <td>Vascular neurology Surgical
-                                            operation note</td>
+                            <td>Vascular neurology Surgical operation note</td>
                             <td/>
                         </tr>
                         <tr>
                             <td>
                                 <a href="http://details.loinc.org/LOINC/80807-1.html">80807-1</a>
                             </td>
-                            <td>Surgical oncology Surgical
-                                            operation note</td>
+                            <td>Surgical oncology Surgical operation note</td>
                             <td/>
                         </tr>
                         <tr>
                             <td>
                                 <a href="http://details.loinc.org/LOINC/82824-4.html">82824-4</a>
                             </td>
-                            <td>Clinical neurophysiology
-                                            Surgical operation note</td>
+                            <td>Clinical neurophysiology Surgical operation note</td>
                             <td/>
                         </tr>
                         <tr>
                             <td>
                                 <a href="http://details.loinc.org/LOINC/83535-5.html">83535-5</a>
                             </td>
-                            <td>Cardiology Surgical operation
-                                            note</td>
+                            <td>Cardiology Surgical operation note</td>
                             <td/>
                         </tr>
                         <tr>
                             <td>
                                 <a href="http://details.loinc.org/LOINC/83614-8.html">83614-8</a>
                             </td>
-                            <td>Surgery Nurse Surgical
-                                            operation note</td>
+                            <td>Surgery Nurse Surgical operation note</td>
                             <td/>
                         </tr>
                         <tr>
                             <td>
                                 <a href="http://details.loinc.org/LOINC/83673-4.html">83673-4</a>
                             </td>
-                            <td>Surgery Physician attending
-                                            Surgical operation note</td>
+                            <td>Surgery Physician attending Surgical operation note</td>
                             <td/>
                         </tr>
                         <tr>
                             <td>
                                 <a href="http://details.loinc.org/LOINC/83692-4.html">83692-4</a>
                             </td>
-                            <td>Ophthalmology Physician
-                                            attending Surgical operation
-                                                note</td>
+                            <td>Ophthalmology Physician attending Surgical operation note</td>
                             <td/>
                         </tr>
                         <tr>
                             <td>
                                 <a href="http://details.loinc.org/LOINC/83815-1.html">83815-1</a>
                             </td>
-                            <td>Physician attending Surgical
-                                            operation note</td>
+                            <td>Physician attending Surgical operation note</td>
                             <td/>
                         </tr>
                         <tr>
                             <td>
                                 <a href="http://details.loinc.org/LOINC/84020-7.html">84020-7</a>
                             </td>
-                            <td>Surgery Outpatient Surgical
-                                            operation note</td>
+                            <td>Surgery Outpatient Surgical operation note</td>
                             <td/>
                         </tr>
                         <tr>
                             <td>
                                 <a href="http://details.loinc.org/LOINC/84079-3.html">84079-3</a>
                             </td>
-                            <td>Dermatology Surgical operation
-                                            note</td>
+                            <td>Dermatology Surgical operation note</td>
                             <td/>
                         </tr>
                         <tr>
                             <td>
                                 <a href="http://details.loinc.org/LOINC/84175-9.html">84175-9</a>
                             </td>
-                            <td>Interventional cardiology
-                                            Surgical operation note</td>
+                            <td>Interventional cardiology Surgical operation note</td>
                             <td/>
                         </tr>
                         <tr>
                             <td>
                                 <a href="http://details.loinc.org/LOINC/84264-1.html">84264-1</a>
                             </td>
-                            <td>Nurse Surgical operation
-                                            note</td>
+                            <td>Nurse Surgical operation note</td>
                             <td/>
                         </tr>
                         <tr>
                             <td>
                                 <a href="http://details.loinc.org/LOINC/84268-2.html">84268-2</a>
                             </td>
-                            <td>Nurse Outpatient Surgical
-                                            operation note</td>
+                            <td>Nurse Outpatient Surgical operation note</td>
                             <td/>
                         </tr>
                     </table>

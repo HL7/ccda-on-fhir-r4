@@ -3,8 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="CCDA-on-FHIR-US-Realm-Header"/>
     <meta>
-        <versionId value="22"/>
-        <lastUpdated value="2020-01-28T11:54:47.000-05:00"/>
+        <versionId value="1"/>
+        <lastUpdated value="2020-02-11T23:00:05.659+00:00"/>
+        <source value="#P1Bo3OPI2E7M2Ost"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ccda-r4/StructureDefinition/CCDA-on-FHIR-US-Realm-Header"/>
     <name value="CCDAonFHIRUSRealmHeader"/>

@@ -3,8 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="CCDA-on-FHIR-Referral-Note"/>
     <meta>
-        <versionId value="20"/>
-        <lastUpdated value="2020-02-04T05:03:54.000-05:00"/>
+        <versionId value="3"/>
+        <lastUpdated value="2020-03-23T15:36:32.113+00:00"/>
+        <source value="#VsngpULvvVo3hFO3"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ccda-r4/StructureDefinition/CCDA-on-FHIR-Referral-Note"/>
     <name value="CCDAonFHIRReferralNote"/>
@@ -164,7 +165,9 @@
             <sliceName value="medications_entry"/>
             <type>
                 <code value="Reference"/>
-                <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationstatement"/>
+                <targetProfile value="http://hl7.org/fhir/StructureDefinition/MedicationStatement"/>
+                <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-medication"/>
+                <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest"/>
             </type>
             <mustSupport value="true"/>
         </element>
@@ -254,6 +257,26 @@
             <path value="Composition.section.text"/>
             <short value="This section contains only human readable content"/>
             <min value="1"/>
+            <mustSupport value="true"/>
+        </element>
+        <element id="Composition.section:reason_for_referral_section.entry">
+            <path value="Composition.section.entry"/>
+            <slicing>
+                <discriminator>
+                    <type value="profile"/>
+                    <path value="resolve()"/>
+                </discriminator>
+                <rules value="open"/>
+            </slicing>
+            <short value="entry"/>
+        </element>
+        <element id="Composition.section:reason_for_referral_section.entry:reason_for_referral_entry">
+            <path value="Composition.section.entry"/>
+            <sliceName value="reason_for_referral_entry"/>
+            <type>
+                <code value="Reference"/>
+                <targetProfile value="http://hl7.org/fhir/StructureDefinition/ServiceRequest"/>
+            </type>
             <mustSupport value="true"/>
         </element>
         <element id="Composition.section:functional_status_section">

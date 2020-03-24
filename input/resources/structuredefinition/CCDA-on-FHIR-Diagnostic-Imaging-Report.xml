@@ -3,8 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="CCDA-on-FHIR-Diagnostic-Imaging-Report"/>
     <meta>
-        <versionId value="33"/>
-        <lastUpdated value="2020-02-04T05:03:58.000-05:00"/>
+        <versionId value="1"/>
+        <lastUpdated value="2020-02-11T22:59:58.565+00:00"/>
+        <source value="#WFMMTllwIuYdI5o1"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ccda-r4/StructureDefinition/CCDA-on-FHIR-Diagnostic-Imaging-Report"/>
     <name value="CCDAonFHIRDiagnosticImagingReport"/>

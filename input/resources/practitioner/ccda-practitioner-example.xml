@@ -3,8 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="ccda-practitioner-example"/>
     <meta>
-        <versionId value="4"/>
-        <lastUpdated value="2020-02-04T05:03:57.000-05:00"/>
+        <versionId value="2"/>
+        <lastUpdated value="2020-02-27T06:37:45.253+00:00"/>
+        <source value="#ukXygDXI1ahRgpaT"/>
         <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner"/>
     </meta>
     <text>
@@ -22,8 +23,8 @@
             </p>
             <p>
                 <b>identifier</b>: US Social Security Number = 000001011 (OFFICIAL), US
-                            National Provider Identifier = 9999991011 (OFFICIAL), Michigan Common
-                            Key Service Identifier = d46f70565a1042f6a6ece48dd81b408f (OFFICIAL) 
+                     National Provider Identifier = 9999991011 (OFFICIAL), Michigan Common Key
+                     Service Identifier = d46f70565a1042f6a6ece48dd81b408f (OFFICIAL) 
             </p>
             <p>
                 <b>name</b>: Brenda Jennings Richard 
@@ -58,8 +59,9 @@
                     <td>*</td>
                     <td>Michigan Medical License = LARA-1011 (OFFICIAL)</td>
                     <td>Medical Doctor 
-                        <span style="background: LightGoldenRodYellow">(Details : {http://michigan.gov/lara/license-type code
-                                        '4305' = '4305', given as 'Medical Doctor'})</span>
+                        <span style="background: LightGoldenRodYellow">(Details :
+                              {http://michigan.gov/lara/license-type code '4305' = '4305', given as
+                              'Medical Doctor'})</span>
                     </td>
                     <td>Michigan Department of Licensing and Regulatory Affairs</td>
                 </tr>

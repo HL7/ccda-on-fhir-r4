@@ -3,8 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="observation-vitals-temp"/>
     <meta>
-        <versionId value="5"/>
-        <lastUpdated value="2020-02-04T05:03:59.000-05:00"/>
+        <versionId value="2"/>
+        <lastUpdated value="2020-02-27T06:37:47.736+00:00"/>
+        <source value="#ukXygDXI1ahRgpaT"/>
         <profile value="http://hl7.org/fhir/StructureDefinition/vitalsigns"/>
     </meta>
     <text>
@@ -25,19 +26,18 @@
             </p>
             <p>
                 <b>category</b>: Vital Signs 
-                <span style="background: LightGoldenRodYellow">(Details :
-                                {http://hl7.org/fhir/observation-category code 'vital-signs' =
-                                'Vital Signs', given as 'Vital Signs'})</span>
+                <span style="background: LightGoldenRodYellow">(Details : {http://hl7.org/fhir/observation-category code 'vital-signs' =
+                        'Vital Signs', given as 'Vital Signs'})</span>
             </p>
             <p>
                 <b>code</b>: temperature 
-                <span style="background: LightGoldenRodYellow">(Details : {LOINC code '8310-5' = 'Body temperature', given as
-                                'Body temperature'})</span>
+                <span style="background: LightGoldenRodYellow">(Details : {LOINC code '8310-5' = 'Body temperature', given as 'Body
+                        temperature'})</span>
             </p>
             <p>
-                <b>subject</b>: Amy Shaw. Generated Summary: id: example; Medical Record
-                            Number = 1032702 (USUAL); active; Amy V. Shaw ; ph: 555-555-5555(HOME),
-                            amy.shaw@example.com; gender: female; birthDate: 20/02/2007 
+                <b>subject</b>: Amy Shaw. Generated Summary: id: example; Medical Record Number
+                     = 1032702 (USUAL); active; Amy V. Shaw ; ph: 555-555-5555(HOME),
+                     amy.shaw@example.com; gender: female; birthDate: 20/02/2007 
             </p>
             <p>
                 <b>context</b>: GP Visit 
@@ -47,7 +47,8 @@
             </p>
             <p>
                 <b>value</b>: 36.55556 Cel 
-                <span style="background: LightGoldenRodYellow"> (Details: UCUM code Cel = 'Cel')</span>
+                <span style="background: LightGoldenRodYellow">
+                        (Details: UCUM code Cel = 'Cel')</span>
             </p>
         </div>
     </text>

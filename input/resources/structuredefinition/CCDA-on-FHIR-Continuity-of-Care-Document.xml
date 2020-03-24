@@ -3,8 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="CCDA-on-FHIR-Continuity-of-Care-Document"/>
     <meta>
-        <versionId value="40"/>
-        <lastUpdated value="2020-02-04T20:54:06.000-05:00"/>
+        <versionId value="2"/>
+        <lastUpdated value="2020-02-27T06:37:46.587+00:00"/>
+        <source value="#ukXygDXI1ahRgpaT"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ccda-r4/StructureDefinition/CCDA-on-FHIR-Continuity-of-Care-Document"/>
     <name value="CCDAonFHIRContinuityOfCareDocument"/>
@@ -205,7 +206,9 @@
             <sliceName value="medication_entry"/>
             <type>
                 <code value="Reference"/>
-                <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationstatement"/>
+                <targetProfile value="http://hl7.org/fhir/StructureDefinition/MedicationStatement"/>
+                <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-medication"/>
+                <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest"/>
             </type>
             <mustSupport value="true"/>
         </element>

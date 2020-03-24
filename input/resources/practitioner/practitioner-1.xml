@@ -3,8 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="practitioner-1"/>
     <meta>
-        <versionId value="4"/>
-        <lastUpdated value="2019-08-05T02:07:59.000-04:00"/>
+        <versionId value="1"/>
+        <lastUpdated value="2020-02-11T23:03:15.099+00:00"/>
+        <source value="#x8pXwxmr45pP0aPP"/>
         <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner"/>
     </meta>
     <identifier>

@@ -3,8 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="CCDA-on-FHIR-Consultation-Note"/>
     <meta>
-        <versionId value="27"/>
-        <lastUpdated value="2020-02-04T20:47:28.000-05:00"/>
+        <versionId value="2"/>
+        <lastUpdated value="2020-02-27T06:37:45.076+00:00"/>
+        <source value="#ukXygDXI1ahRgpaT"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ccda-r4/StructureDefinition/CCDA-on-FHIR-Consultation-Note"/>
     <name value="CCDAonFHIRConsultationNote"/>
@@ -262,7 +263,9 @@
             <sliceName value="sliceEntry"/>
             <type>
                 <code value="Reference"/>
-                <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationstatement"/>
+                <targetProfile value="http://hl7.org/fhir/StructureDefinition/MedicationStatement"/>
+                <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-medication"/>
+                <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest"/>
             </type>
         </element>
         <element id="Composition.section:physical_exam_section">

@@ -3,8 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="2.16.840.1.113883.11.20.4.1"/>
     <meta>
-        <versionId value="4"/>
-        <lastUpdated value="2019-07-25T05:45:19.000-04:00"/>
+        <versionId value="1"/>
+        <lastUpdated value="2020-02-11T22:57:18.894+00:00"/>
+        <source value="#vsRv1bxiRsTVXH4J"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ccda-r4/ValueSet/2.16.840.1.113883.11.20.4.1"/>
     <name value="DischargeSummaryDocumentTypeCode"/>

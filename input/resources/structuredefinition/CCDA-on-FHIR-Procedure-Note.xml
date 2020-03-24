@@ -3,8 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="CCDA-on-FHIR-Procedure-Note"/>
     <meta>
-        <versionId value="20"/>
-        <lastUpdated value="2020-02-04T05:03:58.000-05:00"/>
+        <versionId value="2"/>
+        <lastUpdated value="2020-02-27T06:37:45.896+00:00"/>
+        <source value="#ukXygDXI1ahRgpaT"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ccda-r4/StructureDefinition/CCDA-on-FHIR-Procedure-Note"/>
     <name value="CCDAonFHIRProcedureNote"/>
@@ -444,7 +445,9 @@
             <sliceName value="anesthesia_entry"/>
             <type>
                 <code value="Reference"/>
-                <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationstatement"/>
+                <targetProfile value="http://hl7.org/fhir/StructureDefinition/MedicationStatement"/>
+                <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-medication"/>
+                <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest"/>
                 <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-procedure"/>
             </type>
             <mustSupport value="true"/>
@@ -732,7 +735,9 @@
             <sliceName value="medications_entry"/>
             <type>
                 <code value="Reference"/>
-                <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationstatement"/>
+                <targetProfile value="http://hl7.org/fhir/StructureDefinition/MedicationStatement"/>
+                <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-medication"/>
+                <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest"/>
             </type>
             <mustSupport value="true"/>
         </element>
@@ -785,7 +790,9 @@
             <sliceName value="medications_administered_entry"/>
             <type>
                 <code value="Reference"/>
-                <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationstatement"/>
+                <targetProfile value="http://hl7.org/fhir/StructureDefinition/MedicationStatement"/>
+                <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-medication"/>
+                <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest"/>
             </type>
             <mustSupport value="true"/>
         </element>

@@ -3,8 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="CCDA-on-FHIR-Participant"/>
     <meta>
-        <versionId value="13"/>
-        <lastUpdated value="2020-02-02T21:26:07.000-05:00"/>
+        <versionId value="1"/>
+        <lastUpdated value="2020-02-11T23:00:02.045+00:00"/>
+        <source value="#7W51EozE0TT2BJ3B"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ccda-r4/StructureDefinition/CCDA-on-FHIR-Participant"/>
     <name value="CCDAonFHIRParticipant"/>

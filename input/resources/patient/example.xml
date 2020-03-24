@@ -3,8 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="example"/>
     <meta>
-        <versionId value="7"/>
-        <lastUpdated value="2020-02-04T05:03:54.000-05:00"/>
+        <versionId value="2"/>
+        <lastUpdated value="2020-02-27T06:37:45.826+00:00"/>
+        <source value="#ukXygDXI1ahRgpaT"/>
         <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"/>
     </meta>
     <text>
@@ -42,8 +43,7 @@
                 <b>address</b>: 49 Meadow St Mounds OK 74047 US 
             </p>
             <p>
-                <b>race</b>: White, American Indian or Alaska Native, Asian, Shoshone,
-                            Filipino 
+                <b>race</b>: White, American Indian or Alaska Native, Asian, Shoshone, Filipino 
             </p>
             <p>
                 <b>ethnicity</b>: Hispanic or Latino, Dominican, Mexican 

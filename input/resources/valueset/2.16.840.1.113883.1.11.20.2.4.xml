@@ -3,8 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="2.16.840.1.113883.1.11.20.2.4"/>
     <meta>
-        <versionId value="6"/>
-        <lastUpdated value="2020-02-04T05:03:53.000-05:00"/>
+        <versionId value="2"/>
+        <lastUpdated value="2020-02-27T06:37:44.716+00:00"/>
+        <source value="#ukXygDXI1ahRgpaT"/>
     </meta>
     <text>
         <status value="generated"/>
@@ -30,554 +31,484 @@
                             <td>
                                 <a href="http://details.loinc.org/LOINC/18761-7.html">18761-7</a>
                             </td>
-                            <td>Transfer summary
-                                        note</td>
+                            <td>Transfer summary note</td>
                             <td/>
                         </tr>
                         <tr>
                             <td>
                                 <a href="http://details.loinc.org/LOINC/28616-1.html">28616-1</a>
                             </td>
-                            <td>Physician Transfer
-                                        note</td>
+                            <td>Physician Transfer note</td>
                             <td/>
                         </tr>
                         <tr>
                             <td>
                                 <a href="http://details.loinc.org/LOINC/28651-8.html">28651-8</a>
                             </td>
-                            <td>Nurse Transfer
-                                        note</td>
+                            <td>Nurse Transfer note</td>
                             <td/>
                         </tr>
                         <tr>
                             <td>
                                 <a href="http://details.loinc.org/LOINC/34755-9.html">34755-9</a>
                             </td>
-                            <td>Critical care medicine Transfer
-                                            summary note</td>
+                            <td>Critical care medicine Transfer summary note</td>
                             <td/>
                         </tr>
                         <tr>
                             <td>
                                 <a href="http://details.loinc.org/LOINC/34770-8.html">34770-8</a>
                             </td>
-                            <td>General medicine Transfer
-                                            summary note</td>
+                            <td>General medicine Transfer summary note</td>
                             <td/>
                         </tr>
                         <tr>
                             <td>
                                 <a href="http://details.loinc.org/LOINC/68482-9.html">68482-9</a>
                             </td>
-                            <td>Nurse Hospital Transfer summary
-                                            note</td>
+                            <td>Nurse Hospital Transfer summary note</td>
                             <td/>
                         </tr>
                         <tr>
                             <td>
                                 <a href="http://details.loinc.org/LOINC/68565-1.html">68565-1</a>
                             </td>
-                            <td>Obstetrics and Gynecology
-                                            Transfer summary note</td>
+                            <td>Obstetrics and Gynecology Transfer summary note</td>
                             <td/>
                         </tr>
                         <tr>
                             <td>
                                 <a href="http://details.loinc.org/LOINC/68569-3.html">68569-3</a>
                             </td>
-                            <td>Occupational therapy Transfer
-                                            summary note</td>
+                            <td>Occupational therapy Transfer summary note</td>
                             <td/>
                         </tr>
                         <tr>
                             <td>
                                 <a href="http://details.loinc.org/LOINC/68583-4.html">68583-4</a>
                             </td>
-                            <td>Orthopaedic surgery Transfer
-                                            summary note</td>
+                            <td>Orthopaedic surgery Transfer summary note</td>
                             <td/>
                         </tr>
                         <tr>
                             <td>
                                 <a href="http://details.loinc.org/LOINC/68596-6.html">68596-6</a>
                             </td>
-                            <td>Plastic surgery Transfer
-                                            summary note</td>
+                            <td>Plastic surgery Transfer summary note</td>
                             <td/>
                         </tr>
                         <tr>
                             <td>
                                 <a href="http://details.loinc.org/LOINC/68618-8.html">68618-8</a>
                             </td>
-                            <td>Adolescent medicine Transfer
-                                            summary note</td>
+                            <td>Adolescent medicine Transfer summary note</td>
                             <td/>
                         </tr>
                         <tr>
                             <td>
                                 <a href="http://details.loinc.org/LOINC/68632-9.html">68632-9</a>
                             </td>
-                            <td>Allergy and immunology Transfer
-                                            summary note</td>
+                            <td>Allergy and immunology Transfer summary note</td>
                             <td/>
                         </tr>
                         <tr>
                             <td>
                                 <a href="http://details.loinc.org/LOINC/68647-7.html">68647-7</a>
                             </td>
-                            <td>Child and adolescent psychiatry
-                                            Transfer summary note</td>
+                            <td>Child and adolescent psychiatry Transfer summary note</td>
                             <td/>
                         </tr>
                         <tr>
                             <td>
                                 <a href="http://details.loinc.org/LOINC/68660-0.html">68660-0</a>
                             </td>
-                            <td>Clinical genetics Transfer
-                                            summary note</td>
+                            <td>Clinical genetics Transfer summary note</td>
                             <td/>
                         </tr>
                         <tr>
                             <td>
                                 <a href="http://details.loinc.org/LOINC/68669-1.html">68669-1</a>
                             </td>
-                            <td>Developmental-behavioral
-                                            pediatrics Transfer summary
-                                                note</td>
+                            <td>Developmental-behavioral pediatrics Transfer summary note</td>
                             <td/>
                         </tr>
                         <tr>
                             <td>
                                 <a href="http://details.loinc.org/LOINC/68680-8.html">68680-8</a>
                             </td>
-                            <td>Multi-specialty program
-                                            Transfer summary note</td>
+                            <td>Multi-specialty program Transfer summary note</td>
                             <td/>
                         </tr>
                         <tr>
                             <td>
                                 <a href="http://details.loinc.org/LOINC/68704-6.html">68704-6</a>
                             </td>
-                            <td>Neurology with special
-                                            qualifications in child neurology Transfer summary
-                                            note</td>
+                            <td>Neurology with special qualifications in child neurology Transfer
+                                 summary note</td>
                             <td/>
                         </tr>
                         <tr>
                             <td>
                                 <a href="http://details.loinc.org/LOINC/68715-2.html">68715-2</a>
                             </td>
-                            <td>Pain medicine Transfer summary
-                                            note</td>
+                            <td>Pain medicine Transfer summary note</td>
                             <td/>
                         </tr>
                         <tr>
                             <td>
                                 <a href="http://details.loinc.org/LOINC/68726-9.html">68726-9</a>
                             </td>
-                            <td>Pediatric cardiology Transfer
-                                            summary note</td>
+                            <td>Pediatric cardiology Transfer summary note</td>
                             <td/>
                         </tr>
                         <tr>
                             <td>
                                 <a href="http://details.loinc.org/LOINC/68737-6.html">68737-6</a>
                             </td>
-                            <td>Pediatric endocrinology
-                                            Transfer summary note</td>
+                            <td>Pediatric endocrinology Transfer summary note</td>
                             <td/>
                         </tr>
                         <tr>
                             <td>
                                 <a href="http://details.loinc.org/LOINC/68745-9.html">68745-9</a>
                             </td>
-                            <td>Pediatric gastroenterology
-                                            Transfer summary note</td>
+                            <td>Pediatric gastroenterology Transfer summary note</td>
                             <td/>
                         </tr>
                         <tr>
                             <td>
                                 <a href="http://details.loinc.org/LOINC/68756-6.html">68756-6</a>
                             </td>
-                            <td>Pediatric hematology-oncology
-                                            Transfer summary note</td>
+                            <td>Pediatric hematology-oncology Transfer summary note</td>
                             <td/>
                         </tr>
                         <tr>
                             <td>
                                 <a href="http://details.loinc.org/LOINC/68764-0.html">68764-0</a>
                             </td>
-                            <td>Pediatric infectious diseases
-                                            Transfer summary note</td>
+                            <td>Pediatric infectious diseases Transfer summary note</td>
                             <td/>
                         </tr>
                         <tr>
                             <td>
                                 <a href="http://details.loinc.org/LOINC/68772-3.html">68772-3</a>
                             </td>
-                            <td>Pediatric nephrology Transfer
-                                            summary note</td>
+                            <td>Pediatric nephrology Transfer summary note</td>
                             <td/>
                         </tr>
                         <tr>
                             <td>
                                 <a href="http://details.loinc.org/LOINC/68777-2.html">68777-2</a>
                             </td>
-                            <td>Pediatric otolaryngology
-                                            Transfer summary note</td>
+                            <td>Pediatric otolaryngology Transfer summary note</td>
                             <td/>
                         </tr>
                         <tr>
                             <td>
                                 <a href="http://details.loinc.org/LOINC/68786-3.html">68786-3</a>
                             </td>
-                            <td>Pediatric pulmonology Transfer
-                                            summary note</td>
+                            <td>Pediatric pulmonology Transfer summary note</td>
                             <td/>
                         </tr>
                         <tr>
                             <td>
                                 <a href="http://details.loinc.org/LOINC/68793-9.html">68793-9</a>
                             </td>
-                            <td>Pediatric rheumatology Transfer
-                                            summary note</td>
+                            <td>Pediatric rheumatology Transfer summary note</td>
                             <td/>
                         </tr>
                         <tr>
                             <td>
                                 <a href="http://details.loinc.org/LOINC/68801-0.html">68801-0</a>
                             </td>
-                            <td>Pediatric surgery Transfer
-                                            summary note</td>
+                            <td>Pediatric surgery Transfer summary note</td>
                             <td/>
                         </tr>
                         <tr>
                             <td>
                                 <a href="http://details.loinc.org/LOINC/68811-9.html">68811-9</a>
                             </td>
-                            <td>Pediatric urology Transfer
-                                            summary note</td>
+                            <td>Pediatric urology Transfer summary note</td>
                             <td/>
                         </tr>
                         <tr>
                             <td>
                                 <a href="http://details.loinc.org/LOINC/68863-0.html">68863-0</a>
                             </td>
-                            <td>Pediatric transplant hepatology
-                                            Transfer summary note</td>
+                            <td>Pediatric transplant hepatology Transfer summary note</td>
                             <td/>
                         </tr>
                         <tr>
                             <td>
                                 <a href="http://details.loinc.org/LOINC/68883-8.html">68883-8</a>
                             </td>
-                            <td>Pediatrics Transfer summary
-                                            note</td>
+                            <td>Pediatrics Transfer summary note</td>
                             <td/>
                         </tr>
                         <tr>
                             <td>
                                 <a href="http://details.loinc.org/LOINC/68884-6.html">68884-6</a>
                             </td>
-                            <td>Pediatrics Hospital Transfer
-                                            summary note</td>
+                            <td>Pediatrics Hospital Transfer summary note</td>
                             <td/>
                         </tr>
                         <tr>
                             <td>
                                 <a href="http://details.loinc.org/LOINC/68887-9.html">68887-9</a>
                             </td>
-                            <td>Ophthalmology Transfer summary
-                                            note</td>
+                            <td>Ophthalmology Transfer summary note</td>
                             <td/>
                         </tr>
                         <tr>
                             <td>
                                 <a href="http://details.loinc.org/LOINC/77406-7.html">77406-7</a>
                             </td>
-                            <td>Anesthesiology Transfer summary
-                                            note</td>
+                            <td>Anesthesiology Transfer summary note</td>
                             <td/>
                         </tr>
                         <tr>
                             <td>
                                 <a href="http://details.loinc.org/LOINC/77414-1.html">77414-1</a>
                             </td>
-                            <td>Cardiology Transfer summary
-                                            note</td>
+                            <td>Cardiology Transfer summary note</td>
                             <td/>
                         </tr>
                         <tr>
                             <td>
                                 <a href="http://details.loinc.org/LOINC/78340-7.html">78340-7</a>
                             </td>
-                            <td>Colon and rectal surgery
-                                            Transfer summary note</td>
+                            <td>Colon and rectal surgery Transfer summary note</td>
                             <td/>
                         </tr>
                         <tr>
                             <td>
                                 <a href="http://details.loinc.org/LOINC/78341-5.html">78341-5</a>
                             </td>
-                            <td>Emergency department Transfer
-                                            summary note</td>
+                            <td>Emergency department Transfer summary note</td>
                             <td/>
                         </tr>
                         <tr>
                             <td>
                                 <a href="http://details.loinc.org/LOINC/78488-4.html">78488-4</a>
                             </td>
-                            <td>Mental health Transfer summary
-                                            note</td>
+                            <td>Mental health Transfer summary note</td>
                             <td/>
                         </tr>
                         <tr>
                             <td>
                                 <a href="http://details.loinc.org/LOINC/78489-2.html">78489-2</a>
                             </td>
-                            <td>Neonatal perinatal medicine
-                                            Transfer summary note</td>
+                            <td>Neonatal perinatal medicine Transfer summary note</td>
                             <td/>
                         </tr>
                         <tr>
                             <td>
                                 <a href="http://details.loinc.org/LOINC/78490-0.html">78490-0</a>
                             </td>
-                            <td>Nephrology Transfer summary
-                                            note</td>
+                            <td>Nephrology Transfer summary note</td>
                             <td/>
                         </tr>
                         <tr>
                             <td>
                                 <a href="http://details.loinc.org/LOINC/78491-8.html">78491-8</a>
                             </td>
-                            <td>Neurology Transfer summary
-                                            note</td>
+                            <td>Neurology Transfer summary note</td>
                             <td/>
                         </tr>
                         <tr>
                             <td>
                                 <a href="http://details.loinc.org/LOINC/78492-6.html">78492-6</a>
                             </td>
-                            <td>Neurological surgery Transfer
-                                            summary note</td>
+                            <td>Neurological surgery Transfer summary note</td>
                             <td/>
                         </tr>
                         <tr>
                             <td>
                                 <a href="http://details.loinc.org/LOINC/78493-4.html">78493-4</a>
                             </td>
-                            <td>Oncology Transfer summary
-                                            note</td>
+                            <td>Oncology Transfer summary note</td>
                             <td/>
                         </tr>
                         <tr>
                             <td>
                                 <a href="http://details.loinc.org/LOINC/78502-2.html">78502-2</a>
                             </td>
-                            <td>Cardiopulmonary Transfer
-                                            summary note</td>
+                            <td>Cardiopulmonary Transfer summary note</td>
                             <td/>
                         </tr>
                         <tr>
                             <td>
                                 <a href="http://details.loinc.org/LOINC/78680-6.html">78680-6</a>
                             </td>
-                            <td>Vascular surgery Transfer
-                                            summary note</td>
+                            <td>Vascular surgery Transfer summary note</td>
                             <td/>
                         </tr>
                         <tr>
                             <td>
                                 <a href="http://details.loinc.org/LOINC/78681-4.html">78681-4</a>
                             </td>
-                            <td>Cardiothoracic surgery Transfer
-                                            summary note</td>
+                            <td>Cardiothoracic surgery Transfer summary note</td>
                             <td/>
                         </tr>
                         <tr>
                             <td>
                                 <a href="http://details.loinc.org/LOINC/78682-2.html">78682-2</a>
                             </td>
-                            <td>Palliative care Transfer
-                                            summary note</td>
+                            <td>Palliative care Transfer summary note</td>
                             <td/>
                         </tr>
                         <tr>
                             <td>
                                 <a href="http://details.loinc.org/LOINC/78683-0.html">78683-0</a>
                             </td>
-                            <td>Transplant surgery Transfer
-                                            summary note</td>
+                            <td>Transplant surgery Transfer summary note</td>
                             <td/>
                         </tr>
                         <tr>
                             <td>
                                 <a href="http://details.loinc.org/LOINC/78684-8.html">78684-8</a>
                             </td>
-                            <td>Oral and Maxillofacial Surgery
-                                            Transfer summary note</td>
+                            <td>Oral and Maxillofacial Surgery Transfer summary note</td>
                             <td/>
                         </tr>
                         <tr>
                             <td>
                                 <a href="http://details.loinc.org/LOINC/78729-1.html">78729-1</a>
                             </td>
-                            <td>Surgery Transfer summary
-                                            note</td>
+                            <td>Surgery Transfer summary note</td>
                             <td/>
                         </tr>
                         <tr>
                             <td>
                                 <a href="http://details.loinc.org/LOINC/78736-6.html">78736-6</a>
                             </td>
-                            <td>Urology Transfer summary
-                                            note</td>
+                            <td>Urology Transfer summary note</td>
                             <td/>
                         </tr>
                         <tr>
                             <td>
                                 <a href="http://details.loinc.org/LOINC/80580-4.html">80580-4</a>
                             </td>
-                            <td>Cardiac surgery Transfer
-                                            summary note</td>
+                            <td>Cardiac surgery Transfer summary note</td>
                             <td/>
                         </tr>
                         <tr>
                             <td>
                                 <a href="http://details.loinc.org/LOINC/80735-4.html">80735-4</a>
                             </td>
-                            <td>Otolaryngology Transfer summary
-                                            note</td>
+                            <td>Otolaryngology Transfer summary note</td>
                             <td/>
                         </tr>
                         <tr>
                             <td>
                                 <a href="http://details.loinc.org/LOINC/80808-9.html">80808-9</a>
                             </td>
-                            <td>Surgical oncology Transfer
-                                            summary note</td>
+                            <td>Surgical oncology Transfer summary note</td>
                             <td/>
                         </tr>
                         <tr>
                             <td>
                                 <a href="http://details.loinc.org/LOINC/80816-2.html">80816-2</a>
                             </td>
-                            <td>Geriatric medicine Transfer
-                                            summary note</td>
+                            <td>Geriatric medicine Transfer summary note</td>
                             <td/>
                         </tr>
                         <tr>
                             <td>
                                 <a href="http://details.loinc.org/LOINC/83526-4.html">83526-4</a>
                             </td>
-                            <td>Cardiology Intensive care unit
-                                            Transfer summary note</td>
+                            <td>Cardiology Intensive care unit Transfer summary note</td>
                             <td/>
                         </tr>
                         <tr>
                             <td>
                                 <a href="http://details.loinc.org/LOINC/83865-6.html">83865-6</a>
                             </td>
-                            <td>Podiatry Transfer summary
-                                            note</td>
+                            <td>Podiatry Transfer summary note</td>
                             <td/>
                         </tr>
                         <tr>
                             <td>
                                 <a href="http://details.loinc.org/LOINC/83914-2.html">83914-2</a>
                             </td>
-                            <td>Pulmonary Hospital Transfer
-                                            summary note</td>
+                            <td>Pulmonary Hospital Transfer summary note</td>
                             <td/>
                         </tr>
                         <tr>
                             <td>
                                 <a href="http://details.loinc.org/LOINC/83950-6.html">83950-6</a>
                             </td>
-                            <td>Rheumatology Transfer summary
-                                            note</td>
+                            <td>Rheumatology Transfer summary note</td>
                             <td/>
                         </tr>
                         <tr>
                             <td>
                                 <a href="http://details.loinc.org/LOINC/83981-1.html">83981-1</a>
                             </td>
-                            <td>Social work Transfer summary
-                                            note</td>
+                            <td>Social work Transfer summary note</td>
                             <td/>
                         </tr>
                         <tr>
                             <td>
                                 <a href="http://details.loinc.org/LOINC/84016-5.html">84016-5</a>
                             </td>
-                            <td>Surgery Intensive care unit
-                                            Transfer summary note</td>
+                            <td>Surgery Intensive care unit Transfer summary note</td>
                             <td/>
                         </tr>
                         <tr>
                             <td>
                                 <a href="http://details.loinc.org/LOINC/84083-5.html">84083-5</a>
                             </td>
-                            <td>Dermatology Transfer summary
-                                            note</td>
+                            <td>Dermatology Transfer summary note</td>
                             <td/>
                         </tr>
                         <tr>
                             <td>
                                 <a href="http://details.loinc.org/LOINC/84221-1.html">84221-1</a>
                             </td>
-                            <td>Nephrology Hospital Transfer
-                                            summary note</td>
+                            <td>Nephrology Hospital Transfer summary note</td>
                             <td/>
                         </tr>
                         <tr>
                             <td>
                                 <a href="http://details.loinc.org/LOINC/84228-6.html">84228-6</a>
                             </td>
-                            <td>Neurology Hospital Transfer
-                                            summary note</td>
+                            <td>Neurology Hospital Transfer summary note</td>
                             <td/>
                         </tr>
                         <tr>
                             <td>
                                 <a href="http://details.loinc.org/LOINC/85181-6.html">85181-6</a>
                             </td>
-                            <td>Custodial care facility
-                                            Transfer summary note</td>
+                            <td>Custodial care facility Transfer summary note</td>
                             <td/>
                         </tr>
                         <tr>
                             <td>
                                 <a href="http://details.loinc.org/LOINC/85184-0.html">85184-0</a>
                             </td>
-                            <td>Hospital Transfer summary
-                                            note</td>
+                            <td>Hospital Transfer summary note</td>
                             <td/>
                         </tr>
                         <tr>
                             <td>
                                 <a href="http://details.loinc.org/LOINC/85187-3.html">85187-3</a>
                             </td>
-                            <td>Long term care facility
-                                            Transfer summary note</td>
+                            <td>Long term care facility Transfer summary note</td>
                             <td/>
                         </tr>
                         <tr>
                             <td>
                                 <a href="http://details.loinc.org/LOINC/85219-4.html">85219-4</a>
                             </td>
-                            <td>Internal medicine Intensive
-                                            care unit Transfer summary note</td>
+                            <td>Internal medicine Intensive care unit Transfer summary note</td>
                             <td/>
                         </tr>
                         <tr>
                             <td>
                                 <a href="http://details.loinc.org/LOINC/85253-3.html">85253-3</a>
                             </td>
-                            <td>Internal medicine Transfer
-                                            summary note</td>
+                            <td>Internal medicine Transfer summary note</td>
                             <td/>
                         </tr>
                     </table>

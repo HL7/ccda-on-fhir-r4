@@ -3,8 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="CCDA-on-FHIR-History-and-Physical-Example"/>
     <meta>
-        <versionId value="10"/>
-        <lastUpdated value="2020-02-04T20:47:30.000-05:00"/>
+        <versionId value="1"/>
+        <lastUpdated value="2020-02-11T23:10:06.199+00:00"/>
+        <source value="#aTECqwDWVOHTFBkL"/>
         <profile value="http://hl7.org/fhir/us/ccda-r4/StructureDefinition/CCDA-on-FHIR-History-and-Physical"/>
     </meta>
     <language value="en-US"/>

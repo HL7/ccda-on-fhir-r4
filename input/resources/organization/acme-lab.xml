@@ -3,8 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="acme-lab"/>
     <meta>
-        <versionId value="5"/>
-        <lastUpdated value="2020-02-04T20:47:28.000-05:00"/>
+        <versionId value="2"/>
+        <lastUpdated value="2020-02-27T06:37:45.707+00:00"/>
+        <source value="#ukXygDXI1ahRgpaT"/>
         <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"/>
     </meta>
     <text>
@@ -28,9 +29,8 @@
             </p>
             <p>
                 <b>type</b>: Healthcare Provider 
-                <span style="background: LightGoldenRodYellow">(Details :
-                                {http://terminology.hl7.org/CodeSystem/organization-type code 'prov'
-                                = 'Healthcare Provider', given as 'Healthcare Provider'})</span>
+                <span style="background: LightGoldenRodYellow">(Details : {http://terminology.hl7.org/CodeSystem/organization-type code
+                        'prov' = 'Healthcare Provider', given as 'Healthcare Provider'})</span>
             </p>
             <p>
                 <b>name</b>: Acme Labs 
@@ -39,8 +39,7 @@
                 <b>telecom</b>: ph: (+1) 734-677-7777, hq@acme.org 
             </p>
             <p>
-                <b>address</b>: 3300 Washtenaw Avenue, Suite 227 Amherst MA 01002 USA
-						
+                <b>address</b>: 3300 Washtenaw Avenue, Suite 227 Amherst MA 01002 USA 
             </p>
         </div>
     </text>
