@@ -3,29 +3,53 @@
     xmlns="http://hl7.org/fhir">
     <id value="practitioner-1"/>
     <meta>
-        <versionId value="1"/>
-        <lastUpdated value="2020-02-11T23:03:15.099+00:00"/>
-        <source value="#x8pXwxmr45pP0aPP"/>
+        <versionId value="3"/>
+        <lastUpdated value="2020-04-13T21:10:32.571+00:00"/>
+        <source value="#8qtbIxeMdiRWrHyo"/>
         <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner"/>
     </meta>
     <identifier>
         <system value="http://hl7.org.fhir/sid/us-npi"/>
-        <value value="9941339108"/>
-    </identifier>
-    <identifier>
-        <system value="http://www.acme.org/practitioners"/>
-        <value value="25456"/>
+        <value value="1234567411"/>
     </identifier>
     <name>
-        <family value="Bone"/>
-        <given value="Ronald"/>
+        <family value="M"/>
+        <given value="John"/>
         <prefix value="Dr"/>
     </name>
-    <address>
-        <use value="home"/>
-        <line value="1003 Healthcare Drive"/>
-        <city value="Amherst"/>
-        <state value="MA"/>
-        <postalCode value="01002"/>
-    </address>
+    <telecom>
+        <system value="phone"/>
+        <value value="303-555-6443"/>
+        <use value="work"/>
+    </telecom>
+    <gender value="female"/>
+    <birthDate value="1980-11-15"/>
+    <qualification>
+        <identifier>
+            <use value="official"/>
+            <type>
+                <coding>
+                    <system value="http://terminology.hl7.org/CodeSystem/v2-0203"/>
+                    <code value="MD"/>
+                    <display value="Medical License number"/>
+                </coding>
+                <text value="Missouri Medical License"/>
+            </type>
+            <system value="http://missouri.gov/fhir/medical-license"/>
+            <value value="MO-8533"/>
+            <assigner>
+                <display value="State of Missouri"/>
+            </assigner>
+        </identifier>
+        <code>
+            <coding>
+                <system value="http://missouri.gov/license-type"/>
+                <code value="4305"/>
+                <display value="Medical Doctor"/>
+            </coding>
+        </code>
+        <issuer>
+            <display value="Missouri Department of Licensing and Regulatory Affairs"/>
+        </issuer>
+    </qualification>
 </Practitioner>

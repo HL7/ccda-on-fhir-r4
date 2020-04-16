@@ -1,16 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ImplementationGuide
     xmlns="http://hl7.org/fhir">
-    <id value="CCDA-on-FHIR-R4"/>
+    <id value="hl7.fhir.us.ccda"/>
     <meta>
-        <versionId value="7"/>
-        <lastUpdated value="2020-03-24T05:45:02.184+00:00"/>
-        <source value="#DAL095ii6bxsq0Lk"/>
+        <versionId value="4"/>
+        <lastUpdated value="2020-04-16T05:33:03.690+00:00"/>
+        <source value="#04h3f1Hf9DpVVAX8"/>
     </meta>
-    <url value="http://hl7.org/fhir/us/ccda-r4/ImplementationGuide/CCDA-on-FHIR-R4"/>
+    <contained>
+        <DocumentReference>
+            <id value="package-list"/>
+            <status value="current"/>
+            <type>
+                <coding>
+                    <code value="package-list"/>
+                </coding>
+            </type>
+            <content>
+                <attachment>
+                    <contentType value="application/json"/>
+                    <data value="ewoJInBhY2thZ2UtaWQiOiAiaGw3LmZoaXIudXMuY2NkYSIsCgkidGl0bGUiOiAiQy1DREEgb24gRkhJUiBJbXBsZW1lbnRhdGlvbiBHdWlkZSIsCgkiY2Fub25pY2FsIjogImh0dHA6Ly9obDcub3JnL2ZoaXIvdXMvY2NkYSIsCgkiaW50cm9kdWN0aW9uIjogIlRoZSBDLUNEQSBvbiBGSElSIEltcGxlbWVudGF0aW9uIEd1aWRlIGlzIGEgVVMgUmVhbG0gSW1wbGVtZW50YXRpb24gR3VpZGUgb2YgdGhlIEZISVIgU3BlY2lmaWNhdGlvbiBhZGRyZXNzaW5nIHRoZSBrZXkgYXNwZWN0cyBvZiBDb25zb2xpZGF0ZWQgQ0RBIChDLUNEQSkgcmVxdWlyZWQgZm9yIE1lYW5pbmdmdWwgVXNlIChNVSkuIFRoaXMgSUcgZm9jdXNlcyBvbiB0aGUgY2xpbmljYWwgZG9jdW1lbnQgaGVhZGVyIGFuZCBuYXJyYXRpdmUgY29uc3RyYWludHMgbmVjZXNzYXJ5IGZvciBodW1hbiByZWFkYWJpbGl0eSwgYW5kIHJlZmVyZW5jZXMgdGhlIERhdGEgQWNjZXNzIEZyYW1ld29yayAoREFGKSBpbXBsZW1lbnRhdGlvbiBndWlkZSBmb3IgY29kZWQgZGF0YSByZXByZXNlbnRhdGlvbiIsCgkibGlzdCI6IFsKCQl7CgkJCSJ2ZXJzaW9uIjogImN1cnJlbnQiLAoJCQkiZGVzYyI6ICJDb250aW51b3VzIEludGVncmF0aW9uIEJ1aWxkIChsYXRlc3QgaW4gdmVyc2lvbiBjb250cm9sKSIsCgkJCSJwYXRoIjogImh0dHA6Ly9idWlsZC5maGlyLm9yZy9pZy9ITDcvY2NkYS1vbi1maGlyLXI0IiwKCQkJInN0YXR1cyI6ICJjaS1idWlsZCIsCgkJCSJjdXJyZW50IjogdHJ1ZSwKCQkJImZoaXJ2ZXJzaW9uIjogIjQuMC4wIgoJCX0sCgkJewoJCQkidmVyc2lvbiI6ICIxLjAuMCIsCgkJCSJkYXRlIjogIjIwMTgtMDQtMDciLAoJCQkiZGVzYyI6ICJTVFUgMSBQdWJsaXNoZWQgdmVyc2lvbiAocGVybWFuZW50IGhvbWUpLiBOb3RlIHRoYXQgdGhlIHZlcnNpb24gbnVtYmVyIHdhcyByZXNldCB0byAxLjAuMCBmb3IgdGhpcyB2ZXJzaW9uIHNpbmNlIHRoZSBJRyBhY3F1aXJlZCBpdHMgb3duIHZlcnNpb24gc2VwYXJhdGUgdG8gdGhlIG1haW4gRkhJUiB2ZXJzaW9uKSIsCgkJCSJwYXRoIjogImh0dHA6Ly9obDcub3JnL2ZoaXIvdXMvY2NkYS9TVFUxIiwKCQkJInN0YXR1cyI6ICJ0cmlhbC11c2UiLAoJCQkic2VxdWVuY2UiOiAiU1RVIDEiLAoJCQkiY3VycmVudCI6IHRydWUsCgkJCSJmaGlydmVyc2lvbiI6ICIzLjAuMSIKCQl9LAoJCXsKCQkJInZlcnNpb24iOiAiMS44LjAiLAoJCQkiZGF0ZSI6ICIyMDE2LTEyLTA2IiwKCQkJImRlc2MiOiAiU1RVIDEgMm5kIEJhbGxvdCIsCgkJCSJwYXRoIjogImh0dHA6Ly9obDcub3JnL2ZoaXIvdXMvY2NkYS8yMDE3SmFuIiwKCQkJInN0YXR1cyI6ICJiYWxsb3QiLAoJCQkic2VxdWVuY2UiOiAiU1RVIDEiLAoJCQkiZmhpcnZlcnNpb24iOiAiMy4wLjAiCgkJfSwKCQl7CgkJCSJ2ZXJzaW9uIjogIjEuNi4wIiwKCQkJImRhdGUiOiAiMjAxNi0wOC0xMSIsCgkJCSJkZXNjIjogIlNUVSAxIDFzdCBCYWxsb3QiLAoJCQkicGF0aCI6ICJodHRwOi8vaGw3Lm9yZy9maGlyL3VzL2NjZGEvMjAxNlNlcCIsCgkJCSJzdGF0dXMiOiAiYmFsbG90IiwKCQkJInNlcXVlbmNlIjogIlNUVSAxIgoJCX0KCV0KfQ=="/>
+                </attachment>
+            </content>
+        </DocumentReference>
+    </contained>
+    <url value="http://hl7.org/fhir/us/ccda/ImplementationGuide/hl7.fhir.us.ccda"/>
     <version value="2.0.0"/>
-    <name value="CCDAonFHIRR4"/>
-    <title value="C-CDA on FHIR R4"/>
+    <name value="CCDAonFHIR"/>
+    <title value="C-CDA on FHIR"/>
     <status value="draft"/>
     <publisher value="HL7 Structured Documents Working Group"/>
     <contact>
