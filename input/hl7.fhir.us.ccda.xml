@@ -7,6 +7,7 @@
         <lastUpdated value="2020-04-16T05:33:03.690+00:00"/>
         <source value="#04h3f1Hf9DpVVAX8"/>
     </meta>
+	<!--
     <contained>
         <DocumentReference>
             <id value="package-list"/>
@@ -24,6 +25,7 @@
             </content>
         </DocumentReference>
     </contained>
+	-->
     <url value="http://hl7.org/fhir/us/ccda/ImplementationGuide/hl7.fhir.us.ccda"/>
     <version value="2.0.0"/>
     <name value="CCDAonFHIR"/>
