@@ -3,11 +3,11 @@
     xmlns="http://hl7.org/fhir">
     <id value="2.16.840.1.113883.1.11.20.22"/>
     <meta>
-        <versionId value="1"/>
-        <lastUpdated value="2020-02-11T22:57:17.344+00:00"/>
-        <source value="#UVTrvTrFfz8u1MJZ"/>
+        <versionId value="2"/>
+        <lastUpdated value="2020-04-16T06:33:38.359+00:00"/>
+        <source value="#iDS0uyWwvJRN9qX8"/>
     </meta>
-    <url value="http://hl7.org/fhir/us/ccda-r4/ValueSet/2.16.840.1.113883.1.11.20.22"/>
+    <url value="http://hl7.org/fhir/us/ccda/ValueSet/2.16.840.1.113883.1.11.20.22"/>
     <name value="HPDocumentType"/>
     <title value="HPDocumentType"/>
     <status value="active"/>

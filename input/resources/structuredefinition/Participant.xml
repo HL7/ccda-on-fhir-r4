@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <StructureDefinition
     xmlns="http://hl7.org/fhir">
-    <id value="CCDA-on-FHIR-Participant"/>
+    <id value="Participant"/>
     <meta>
-        <versionId value="1"/>
-        <lastUpdated value="2020-02-11T23:00:02.045+00:00"/>
-        <source value="#7W51EozE0TT2BJ3B"/>
+        <versionId value="2"/>
+        <lastUpdated value="2020-04-16T17:00:19.447+00:00"/>
+        <source value="#yEDSf5oHc7Q1z7ar"/>
     </meta>
-    <url value="http://hl7.org/fhir/us/ccda-r4/StructureDefinition/CCDA-on-FHIR-Participant"/>
-    <name value="CCDAonFHIRParticipant"/>
+    <url value="http://hl7.org/fhir/us/ccda/StructureDefinition/Participant"/>
+    <name value="Participant"/>
     <title value="C-CDA on FHIR Participant"/>
     <status value="active"/>
     <publisher value="HL7 Structured Documents Working Group"/>
@@ -42,7 +42,7 @@
         </element>
         <element id="Extension.url">
             <path value="Extension.url"/>
-            <fixedUri value="http://hl7.org/fhir/us/ccda-r4/StructureDefinition/CCDA-on-FHIR-Participant"/>
+            <fixedUri value="http://hl7.org/fhir/us/ccda/StructureDefinition/Participant"/>
         </element>
         <element id="Extension.value[x]:valueReference">
             <path value="Extension.valueReference"/>

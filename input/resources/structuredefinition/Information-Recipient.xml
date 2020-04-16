@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <StructureDefinition
     xmlns="http://hl7.org/fhir">
-    <id value="CCDA-on-FHIR-Performer"/>
+    <id value="Information-Recipient"/>
     <meta>
-        <versionId value="1"/>
-        <lastUpdated value="2020-02-11T23:00:02.586+00:00"/>
-        <source value="#kSy12k1jkVZPQRrU"/>
+        <versionId value="2"/>
+        <lastUpdated value="2020-04-16T17:00:20.356+00:00"/>
+        <source value="#yEDSf5oHc7Q1z7ar"/>
     </meta>
-    <url value="http://hl7.org/fhir/us/ccda-r4/StructureDefinition/CCDA-on-FHIR-Performer"/>
-    <name value="CCDAonFHIRPerformer"/>
-    <title value="C-CDA on FHIR Performer"/>
+    <url value="http://hl7.org/fhir/us/ccda/StructureDefinition/Information-Recipient"/>
+    <name value="InformationRecipient"/>
+    <title value="C-CDA on FHIR Information Recipient"/>
     <status value="active"/>
     <publisher value="HL7 Structured Documents Working Group"/>
     <contact>
@@ -25,7 +25,15 @@
             <use value="work"/>
         </telecom>
     </contact>
-    <description value="The C-CDA on FHIR Performer Extension represents clinicians who actually and principally carry out the clinical services being documented. In a transfer of care this represents the healthcare providers involved in the current or pertinent historical care of the patient. Preferably, the patients key healthcare care team members would be listed, particularly their primary physician and any active consulting physicians, therapists, and counselors.&#xA;&#xA;For further information see the C-CDA specification here: http://www.hl7.org/implement/standards/product_brief.cfm?product_id=408."/>
+    <contact>
+        <name value="Rick Geimer"/>
+        <telecom>
+            <system value="email"/>
+            <value value="rick.geimer@lantanagroup.com"/>
+            <use value="work"/>
+        </telecom>
+    </contact>
+    <description value="The C-CDA on FHIR Information Recipient Extension records the intended recipient of the information at the time the document was created.&#xA;&#xA;For further information see the C-CDA specification here: http://www.hl7.org/implement/standards/product_brief.cfm?product_id=408."/>
     <fhirVersion value="4.0.1"/>
     <kind value="complex-type"/>
     <abstract value="false"/>
@@ -42,7 +50,7 @@
         </element>
         <element id="Extension.url">
             <path value="Extension.url"/>
-            <fixedUri value="http://hl7.org/fhir/us/ccda-r4/StructureDefinition/CCDA-on-FHIR-Performer"/>
+            <fixedUri value="http://hl7.org/fhir/us/ccda/StructureDefinition/Information-Recipient"/>
         </element>
         <element id="Extension.value[x]:valueReference">
             <path value="Extension.valueReference"/>

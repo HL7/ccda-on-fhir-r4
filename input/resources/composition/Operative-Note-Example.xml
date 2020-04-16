@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Composition
     xmlns="http://hl7.org/fhir">
-    <id value="CCDA-on-FHIR-Procedure-Note-Example"/>
+    <id value="Operative-Note-Example"/>
     <meta>
         <versionId value="1"/>
-        <lastUpdated value="2020-02-11T23:10:07.879+00:00"/>
-        <source value="#chVBn1fiPEKztAgw"/>
-        <profile value="http://hl7.org/fhir/us/ccda-r4/StructureDefinition/CCDA-on-FHIR-Procedure-Note"/>
+        <lastUpdated value="2020-04-16T06:33:28.063+00:00"/>
+        <source value="#iDS0uyWwvJRN9qX8"/>
+        <profile value="http://hl7.org/fhir/us/ccda/StructureDefinition/Operative-Note"/>
     </meta>
     <language value="en-US"/>
     <text>
@@ -35,12 +35,12 @@
                         <td style="width: 20%; background-color: #3399ff; padding: 0.1cm 0.2cm; vertical-align: top; background-color: #ffffcc;" class="td_header_role_name">
                             <span class="td_label">Care Provision</span>
                         </td>
-                        <td class="td_header_role_value">Procedure Note for Amy
+                        <td class="td_header_role_value">Operation Note for Amy
                                         Shaw</td>
                     </tr>
                     <tr>
                         <td style="width: 20%; background-color: #3399ff; padding: 0.1cm 0.2cm; vertical-align: top; background-color: #ffffcc;" class="td_header_role_name">
-                            <span class="td_label">Performer</span>
+                            <span class="td_label">Performer </span>
                         </td>
                         <td class="td_header_role_value">Ronald Boone, MD</td>
                     </tr>
@@ -59,16 +59,10 @@
                             <span class="td_label">Contact info</span>
                         </td>
                         <td class="td_header_role_value">1003 Healthcare Drive
-
 										
-                            
                             <br/>Amherst MA 01002, US 
-										
-                            
                             <br/>Tel: +1(555)555-1003
-
 										
-                            
                             <br/>
                         </td>
                     </tr>
@@ -87,7 +81,7 @@
                         <td style="width: 20%; background-color: #3399ff; padding: 0.1cm 0.2cm; vertical-align: top; background-color: #ffffcc;" class="td_header_role_name">
                             <span class="td_label">Event Type</span>
                         </td>
-                        <td class="td_header_role_value">Outpatient Procedure</td>
+                        <td class="td_header_role_value">Surgery</td>
                     </tr>
                     <tr>
                         <td style="width: 20%; background-color: #3399ff; padding: 0.1cm 0.2cm; vertical-align: top; background-color: #ffffcc;" class="td_header_role_name">
@@ -114,16 +108,10 @@
                             <span class="td_label">Contact info</span>
                         </td>
                         <td class="td_header_role_value">1003 Healthcare Drive
-
 										
-                            
                             <br/>Amherst MA 01002, US 
-										
-                            
                             <br/>Tel: +1(555)555-1003
-
 										
-                            
                             <br/>
                         </td>
                     </tr>
@@ -136,9 +124,7 @@
                             <span class="td_label">Assigned entity</span>
                         </td>
                         <td class="td_header_role_value">Community Health and Hospitals
-
 										
-                            
                             <br/>
                         </td>
                     </tr>
@@ -147,8 +133,6 @@
                             <span class="td_label">Emergency contact</span>
                         </td>
                         <td class="td_header_role_value">Michael Shaw 
-										
-                            
                             <br/>
                             <br/>
                         </td>
@@ -158,15 +142,9 @@
                             <span class="td_label">Contact info</span>
                         </td>
                         <td class="td_header_role_value">49 Meadow St 
-										
-                            
                             <br/>Amherst MA
                                         01003, US 
-										
-                            
                             <br/>Tel: (555)555-1212 
-										
-                            
                             <br/>
                         </td>
                     </tr>
@@ -175,8 +153,6 @@
                             <span class="td_label">Care giver</span>
                         </td>
                         <td class="td_header_role_value">Mrs. Lillian White 
-										
-                            
                             <br/>
                         </td>
                     </tr>
@@ -185,15 +161,9 @@
                             <span class="td_label">Contact info</span>
                         </td>
                         <td class="td_header_role_value">49 Meadow St 
-										
-                            
                             <br/>Amherst MA
                                         01003, US 
-										
-                            
                             <br/>Tel: (555)555-1215 
-										
-                            
                             <br/>
                         </td>
                     </tr>
@@ -212,16 +182,10 @@
                             <span class="td_label">Contact info</span>
                         </td>
                         <td class="td_header_role_value">1003 Healthcare Drive
-
 										
-                            
                             <br/>Amherst MA 01002, US 
-										
-                            
                             <br/>Tel: +1(555)555-1003
-
 										
-                            
                             <br/>
                         </td>
                     </tr>
@@ -241,16 +205,10 @@
                             <span class="td_label">Contact info</span>
                         </td>
                         <td class="td_header_role_value">1003 Healthcare Drive
-
 										
-                            
                             <br/>Amherst MA 01002, US 
-										
-                            
                             <br/>Tel: +1(555)555-1003
-
 										
-                            
                             <br/>
                         </td>
                     </tr>
@@ -269,16 +227,10 @@
                             <span class="td_label">Contact info</span>
                         </td>
                         <td class="td_header_role_value">1007 Pharmacy Drive
-
 										
-                            
                             <br/>Portland, OR 99123, US 
-										
-                            
                             <br/>Tel: +1(555)555-1215
-
 										
-                            
                             <br/>
                         </td>
                     </tr>
@@ -297,16 +249,10 @@
                             <span class="td_label">Contact info</span>
                         </td>
                         <td class="td_header_role_value">1005 St. Clair Avenue
-
 										
-                            
                             <br/>Amherst MA 01002, US 
-										
-                            
                             <br/>Tel: +1(555)555-1666
-
 										
-                            
                             <br/>
                         </td>
                     </tr>
@@ -326,16 +272,10 @@
                             <span class="td_label">Contact info</span>
                         </td>
                         <td class="td_header_role_value">1003 Healthcare Drive
-
 										
-                            
                             <br/>Amherst MA 01002, US 
-										
-                            
                             <br/>Tel: +1(555)555-1003
-
 										
-                            
                             <br/>
                         </td>
                     </tr>
@@ -355,16 +295,10 @@
                             <span class="td_label">Contact info</span>
                         </td>
                         <td class="td_header_role_value">1003 Healthcare Drive
-
 										
-                            
                             <br/>Amherst MA 01002, US 
-										
-                            
                             <br/>Tel: +1(555)555-1003
-
 										
-                            
                             <br/>
                         </td>
                     </tr>
@@ -372,62 +306,31 @@
             </table>
         </div>
     </text>
-    <extension url="http://hl7.org/fhir/us/ccda-r4/StructureDefinition/CCDA-on-FHIR-In-Fulfillment-Of-Order">
-        <valueReference>
-            <reference value="ServiceRequest/colonoscopy"/>
-            <display value="Colonoscopy"/>
-        </valueReference>
-    </extension>
-    <extension url="http://hl7.org/fhir/us/ccda-r4/StructureDefinition/CCDA-on-FHIR-Performer">
-        <valueReference>
-            <reference value="PractitionerRole/ccda-practitionerrole-example"/>
-        </valueReference>
-    </extension>
-    <extension url="http://hl7.org/fhir/us/ccda-r4/StructureDefinition/CCDA-on-FHIR-Information-Recipient">
-        <valueReference>
-            <reference value="Practitioner/practitioner-1"/>
-        </valueReference>
-    </extension>
-    <extension url="http://hl7.org/fhir/us/ccda-r4/StructureDefinition/CCDA-on-FHIR-Participant">
-        <valueReference>
-            <reference value="Practitioner/practitioner-1"/>
-        </valueReference>
-    </extension>
-    <extension url="http://hl7.org/fhir/us/ccda-r4/StructureDefinition/CCDA-on-FHIR-Informant">
-        <valueReference>
-            <reference value="Practitioner/practitioner-1"/>
-        </valueReference>
-    </extension>
-    <extension url="http://hl7.org/fhir/us/ccda-r4/StructureDefinition/CCDA-on-FHIR-Authorization">
-        <valueReference>
-            <reference value="Consent/consent-example-basic"/>
-        </valueReference>
-    </extension>
     <identifier>
         <system value="urn:ietf:rfc:3986"/>
-        <value value="urn:uuid:ef152c04-068f-461e-82c0-654b7460259e"/>
+        <value value="1"/>
     </identifier>
     <status value="preliminary"/>
     <type>
         <coding>
             <system value="http://loinc.org"/>
-            <code value="28570-0"/>
-            <display value="Procedure note"/>
+            <code value="11504-8"/>
+            <display value="Surgical operation note"/>
         </coding>
     </type>
     <subject>
         <reference value="Patient/example"/>
         <display value="Amy V. Shaw"/>
     </subject>
-    <date value="2016-02-28T09:10:14Z"/>
+    <date value="2016-06-15T09:10:14Z"/>
     <author>
         <reference value="PractitionerRole/ccda-practitionerrole-example"/>
         <display value="Ronald Bone, MD"/>
     </author>
-    <title value="Procedure Note"/>
+    <title value="Operative Note"/>
     <attester>
         <mode value="legal"/>
-        <time value="2012-01-04T09:10:14Z"/>
+        <time value="2016-06-15T09:10:14Z"/>
         <party>
             <reference value="PractitionerRole/ccda-practitionerrole-example"/>
             <display value="Ronald Boone, MD"/>
@@ -512,10 +415,7 @@
             </div>
         </text>
         <entry>
-            <reference value="Procedure/procedure-rehab"/>
-        </entry>
-        <entry>
-            <reference value="MedicationStatement/medication-statement"/>
+            <reference value="Condition/condition-problem"/>
         </entry>
     </section>
     <section>
@@ -561,22 +461,73 @@
         </text>
     </section>
     <section>
-        <title value="Procedure Description Section"/>
+        <title value="Complications Section"/>
         <code>
             <coding>
                 <system value="http://loinc.org"/>
-                <code value="29554-3"/>
-                <display value="Procedure Narrative"/>
+                <code value="55109-3"/>
+                <display value="Complications Document"/>
             </coding>
         </code>
         <text>
             <status value="generated"/>
             <div
                 xmlns="http://www.w3.org/1999/xhtml">
-                <p>The patient was brought to the operating room, placed in the supine
-                                position, and general anesthesia was induced. A detailed technical
-                                narrative of a laparoscopic appendectomy from initial incision to
-                                placement of any dressings follows. </p>
+                <p>Asthmatic symptoms while under general anesthesia.</p>
+            </div>
+        </text>
+        <entry>
+            <reference value="Condition/condition-problem"/>
+        </entry>
+    </section>
+    <section>
+        <title value="Preoperative Diagnosis Section"/>
+        <code>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="10219-4"/>
+                <display value="Surgical operation note preoperative diagnosis Narrative"/>
+            </coding>
+        </code>
+        <text>
+            <status value="generated"/>
+            <div
+                xmlns="http://www.w3.org/1999/xhtml">
+                <p>Appendicitis</p>
+            </div>
+        </text>
+    </section>
+    <section>
+        <title value="Operative Note Surgical Procedure Section"/>
+        <code>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="10223-6"/>
+                <display value="Surgical operation note surgical procedure Narrative"/>
+            </coding>
+        </code>
+        <text>
+            <status value="generated"/>
+            <div
+                xmlns="http://www.w3.org/1999/xhtml">
+                <p>Laparoscopic Appendectomy</p>
+            </div>
+        </text>
+    </section>
+    <section>
+        <title value="Planned Procedure Section"/>
+        <code>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="59772-4"/>
+                <display value="Planned procedure"/>
+            </coding>
+        </code>
+        <text>
+            <status value="generated"/>
+            <div
+                xmlns="http://www.w3.org/1999/xhtml">
+                <p>Colonoscopy</p>
             </div>
         </text>
     </section>
@@ -599,37 +550,22 @@
         </text>
     </section>
     <section>
-        <title value="Planned Procedure Section"/>
+        <title value="Procedure Description Section"/>
         <code>
             <coding>
                 <system value="http://loinc.org"/>
-                <code value="59772-4"/>
-                <display value="Planned procedure"/>
+                <code value="29554-3"/>
+                <display value="Procedure Narrative"/>
             </coding>
         </code>
         <text>
             <status value="generated"/>
             <div
                 xmlns="http://www.w3.org/1999/xhtml">
-                <p>Colonoscopy</p>
-            </div>
-        </text>
-    </section>
-    <section>
-        <title value="Procedure Disposition Section"/>
-        <code>
-            <coding>
-                <system value="http://loinc.org"/>
-                <code value="59775-7"/>
-                <display value="Procedure disposition Narrative"/>
-            </coding>
-        </code>
-        <text>
-            <status value="generated"/>
-            <div
-                xmlns="http://www.w3.org/1999/xhtml">
-                <p>The patient was taken to the Endoscopy Recovery Unit in stable
-                                condition.</p>
+                <p>The patient was brought to the operating room, placed in the supine
+                                position, and general anesthesia was induced. A detailed technical
+                                narrative of a laparoscopic appendectomy from initial incision to
+                                placement of any dressings follows. </p>
             </div>
         </text>
     </section>
@@ -673,23 +609,6 @@
         </entry>
     </section>
     <section>
-        <title value="Procedure Implants Section"/>
-        <code>
-            <coding>
-                <system value="http://loinc.org"/>
-                <code value="59771-6"/>
-                <display value="Procedure implants Narrative"/>
-            </coding>
-        </code>
-        <text>
-            <status value="generated"/>
-            <div
-                xmlns="http://www.w3.org/1999/xhtml">
-                <p>No implants were placed.</p>
-            </div>
-        </text>
-    </section>
-    <section>
         <title value="Procedure Specimens Taken Section"/>
         <code>
             <coding>
@@ -707,279 +626,88 @@
         </text>
     </section>
     <section>
-        <title value="Postprocedure Diagnosis Section"/>
+        <title value="Operative Note Fluids Section"/>
         <code>
             <coding>
                 <system value="http://loinc.org"/>
-                <code value="59769-0"/>
-                <display value="Postprocedure diagnosis Narrative"/>
+                <code value="10216-0"/>
+                <display value="Operative Note Fluids"/>
             </coding>
         </code>
         <text>
             <status value="generated"/>
             <div
                 xmlns="http://www.w3.org/1999/xhtml">
-                <p>Sigmoid diverticulosis, moderate</p>
-                <p>Internal hemorrhoids</p>
-                <p>Colon polyp, 6mm, ascending colon</p>
+                <p>250 ML Ringers Lactate</p>
             </div>
         </text>
     </section>
     <section>
-        <title value="Chief Complaint and Reason for Visit Section"/>
+        <title value="Surgical Drains Section"/>
         <code>
             <coding>
                 <system value="http://loinc.org"/>
-                <code value="46239-0"/>
-                <display value="Chief complaint+Reason for visit Narrative"/>
+                <code value="11537-8"/>
+                <display value="Surgical Drains"/>
             </coding>
         </code>
         <text>
             <status value="generated"/>
             <div
                 xmlns="http://www.w3.org/1999/xhtml">
-                <p>Cramping, bloating, and constipation.</p>
+                <p>Penrose drain placed</p>
             </div>
         </text>
     </section>
     <section>
-        <title value="Chief Complaint Section"/>
+        <title value="Procedure Implants Section"/>
         <code>
             <coding>
                 <system value="http://loinc.org"/>
-                <code value="10154-3"/>
-                <display value="Chief complaint Narrative - Reported"/>
+                <code value="59771-6"/>
+                <display value="Procedure implants Narrative"/>
             </coding>
         </code>
         <text>
             <status value="generated"/>
             <div
                 xmlns="http://www.w3.org/1999/xhtml">
-                <p>Dark Stools</p>
+                <p>No implants were placed.</p>
             </div>
         </text>
     </section>
     <section>
-        <title value="Complications Section"/>
+        <title value="Procedure Disposition Section"/>
         <code>
             <coding>
                 <system value="http://loinc.org"/>
-                <code value="55109-3"/>
-                <display value="Complications Document"/>
+                <code value="59775-7"/>
+                <display value="Procedure disposition Narrative"/>
             </coding>
         </code>
         <text>
             <status value="generated"/>
             <div
                 xmlns="http://www.w3.org/1999/xhtml">
-                <p>Asthmatic symptoms while under general anesthesia.</p>
-            </div>
-        </text>
-        <entry>
-            <reference value="Observation/observation-smoker"/>
-        </entry>
-    </section>
-    <section>
-        <title value="Family History Section"/>
-        <code>
-            <coding>
-                <system value="http://loinc.org"/>
-                <code value="10157-6"/>
-                <display value="History of family member diseases Narrative"/>
-            </coding>
-        </code>
-        <text>
-            <status value="generated"/>
-            <div
-                xmlns="http://www.w3.org/1999/xhtml">
-                <table>
-                    <tr>
-                        <td>
-                            <b>Relationship</b>
-                        </td>
-                        <td>
-                            <b>Diagnosis</b>
-                        </td>
-                        <td>
-                            <b>Age at Onset</b>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>Father</td>
-                        <td>Myocardial Infarction(cause of Death)</td>
-                        <td>57</td>
-                    </tr>
-                    <tr>
-                        <td>Father</td>
-                        <td>Diabetes</td>
-                        <td>40</td>
-                    </tr>
-                </table>
+                <p>The patient was taken to the Endoscopy Recovery Unit in stable
+                                condition.</p>
             </div>
         </text>
     </section>
     <section>
-        <title value="Past Medical History Section"/>
+        <title value="Postoperative Diagnosis Section"/>
         <code>
             <coding>
                 <system value="http://loinc.org"/>
-                <code value="11348-0"/>
-                <display value="History of Past illness Narrative"/>
+                <code value="10218-6"/>
+                <display value="Surgical operation note postoperative diagnosis Narrative"/>
             </coding>
         </code>
         <text>
             <status value="generated"/>
             <div
                 xmlns="http://www.w3.org/1999/xhtml">
-                <table>
-                    <tr>
-                        <td>
-                            <b>Problem Name</b>
-                        </td>
-                        <td>
-                            <b>Type</b>
-                        </td>
-                        <td>
-                            <b>Onset Date</b>
-                        </td>
-                        <td>
-                            <b>Abatement Date</b>
-                        </td>
-                        <td>
-                            <b>Status</b>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>Fever</td>
-                        <td>Condition</td>
-                        <td>2016-04-01</td>
-                        <td>2016-04-14</td>
-                        <td>Complete</td>
-                    </tr>
-                </table>
-            </div>
-        </text>
-        <entry>
-            <reference value="Condition/condition-problem"/>
-        </entry>
-    </section>
-    <section>
-        <title value="History of Present Illness Section"/>
-        <code>
-            <coding>
-                <system value="http://loinc.org"/>
-                <code value="10164-2"/>
-                <display value="History of Present illness Narrative"/>
-            </coding>
-        </code>
-        <text>
-            <status value="generated"/>
-            <div
-                xmlns="http://www.w3.org/1999/xhtml">
-                <p>This patient was only recently discharged for a recurrent GI bleed as
-                                described below. </p>
-                <p>He presented to the ER today c/o a dark stool yesterday but a normal
-                                brown stool today. On exam he was hypotensive in the 80?s resolved
-                                after .... .... .... </p>
-                <p>Lab at discharge: Glucose 112, BUN 16, creatinine 1.1, electrolytes
-                                normal. H. pylori antibody pending. Admission hematocrit 16%,
-                                discharge hematocrit 29%. WBC 7300, platelet count 256,000.
-                                Urinalysis normal. Urine culture: No growth. INR 1.1, PTT 40. </p>
-                <p>He was transfused with 6 units of packed red blood cells with ....
-                                .... .... </p>
-                <p>GI evaluation 12 September: Colonoscopy showed single red clot in
-                                .... ........ </p>
-            </div>
-        </text>
-    </section>
-    <section>
-        <title value="Medical (General) History Section"/>
-        <code>
-            <coding>
-                <system value="http://loinc.org"/>
-                <code value="11329-0"/>
-                <display value="History general Narrative - Reported"/>
-            </coding>
-        </code>
-        <text>
-            <status value="generated"/>
-            <div
-                xmlns="http://www.w3.org/1999/xhtml">
-                <p>Stomach cramps</p>
-            </div>
-        </text>
-    </section>
-    <section>
-        <title value="Medication Section"/>
-        <code>
-            <coding>
-                <system value="http://loinc.org"/>
-                <code value="10160-0"/>
-                <display value="History of Medication use Narrative"/>
-            </coding>
-        </code>
-        <text>
-            <status value="generated"/>
-            <div
-                xmlns="http://www.w3.org/1999/xhtml">
-                <table>
-                    <tr>
-                        <td>
-                            <b>Medication</b>
-                        </td>
-                        <td>
-                            <b>Directions</b>
-                        </td>
-                        <td>
-                            <b>Start Date</b>
-                        </td>
-                        <td>
-                            <b>Status</b>
-                        </td>
-                        <td>
-                            <b>Indications</b>
-                        </td>
-                        <td>
-                            <b>Fill Instructions</b>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>Amoxicillin</td>
-                        <td>Amoxicillin Powder, for Suspension 250mg/5ml</td>
-                        <td>20160401</td>
-                        <td>Active</td>
-                        <td>Pneumonia</td>
-                        <td>Generic substitution allowed</td>
-                    </tr>
-                </table>
-            </div>
-        </text>
-        <entry>
-            <reference value="MedicationStatement/medication-statement"/>
-        </entry>
-    </section>
-    <section>
-        <title value="Physical Exam Section"/>
-        <code>
-            <coding>
-                <system value="http://loinc.org"/>
-                <code value="29545-1"/>
-                <display value="Physical findings Narrative"/>
-            </coding>
-        </code>
-        <text>
-            <status value="generated"/>
-            <div
-                xmlns="http://www.w3.org/1999/xhtml">
-                <p>HEENT: All normal to examination.</p>
-                <p>&gt;HEART: RRR, no murmur.</p>
-                <p>THORAX &amp; LUNGS: Clear without rhonchi or wheeze.</p>
-                <p>ABDOMEN: Marked distension and tenderness, slightly obese, pos
-                                bowelsounds.</p>
-                <p>BACK: Normal to inspection and palpation, without tenderness; no
-                                presacral edema.</p>
-                <p>EXTREMITIES: Doughy edema bilaterally, chronic stasis changes, no
-                                asymmetrical swelling.</p>
+                <p>Appendicitis with periappendiceal abscess</p>
             </div>
         </text>
     </section>
@@ -1010,136 +738,16 @@
                     </tr>
                     <tr>
                         <td>Colonoscopy</td>
-                        <td>2010/08/16 - 2010/08/16</td>
-                        <td>Completed</td>
+                        <td>2016/09/17 - 2010/09/17</td>
+                        <td>Planned</td>
                     </tr>
                     <tr>
                         <td>Recommendation to Exercise</td>
-                        <td>2015/10/29</td>
+                        <td>2016/06/25</td>
                         <td>Ongoing</td>
                     </tr>
                 </table>
             </div>
         </text>
-    </section>
-    <section>
-        <title value="Procedures Section"/>
-        <code>
-            <coding>
-                <system value="http://loinc.org"/>
-                <code value="47519-4"/>
-                <display value="History of Procedures Document"/>
-            </coding>
-        </code>
-        <text>
-            <status value="generated"/>
-            <div
-                xmlns="http://www.w3.org/1999/xhtml">
-                <table>
-                    <tr>
-                        <td>
-                            <b>Procedure Name</b>
-                        </td>
-                        <td>
-                            <b>Body Site</b>
-                        </td>
-                        <td>
-                            <b>Performer</b>
-                        </td>
-                        <td>
-                            <b>Date Performed</b>
-                        </td>
-                        <td>
-                            <b>Reason</b>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>Appendectomy (Procedure)</td>
-                        <td>Abdomen</td>
-                        <td>Dr. Adam Everyman</td>
-                        <td>20160615</td>
-                        <td>Generalized abdominal pain 24 hours. Localized in RIF with
-                                        rebound and guarding</td>
-                    </tr>
-                </table>
-            </div>
-        </text>
-        <entry>
-            <reference value="Procedure/procedure-rehab"/>
-        </entry>
-    </section>
-    <section>
-        <title value="Reason for Visit Section"/>
-        <code>
-            <coding>
-                <system value="http://loinc.org"/>
-                <code value="29299-5"/>
-                <display value="Reason for visit"/>
-            </coding>
-        </code>
-        <text>
-            <status value="generated"/>
-            <div
-                xmlns="http://www.w3.org/1999/xhtml">
-                <p>Tenderness of lower abdomen</p>
-            </div>
-        </text>
-    </section>
-    <section>
-        <title value="Review of Systems Section"/>
-        <code>
-            <coding>
-                <system value="http://loinc.org"/>
-                <code value="10187-3"/>
-                <display value="Review of systems"/>
-            </coding>
-        </code>
-        <text>
-            <status value="generated"/>
-            <div
-                xmlns="http://www.w3.org/1999/xhtml">
-                <p>Patient denies recent history of fever or malaise. Positive for
-                                weakness and shortness of breath. Several episodes of abdominal
-                                tenderness. No recent headaches. Positive for osteoarthritis in
-                                hips, knees and hands. </p>
-            </div>
-        </text>
-    </section>
-    <section>
-        <title value="Social History Section"/>
-        <code>
-            <coding>
-                <system value="http://loinc.org"/>
-                <code value="29762-2"/>
-                <display value="Social history Narrative"/>
-            </coding>
-        </code>
-        <text>
-            <status value="generated"/>
-            <div
-                xmlns="http://www.w3.org/1999/xhtml">
-                <table>
-                    <tr>
-                        <td>
-                            <b>Social History Element</b>
-                        </td>
-                        <td>
-                            <b>Description</b>
-                        </td>
-                        <td>
-                            <b>Effective Dates</b>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>Smoking</td>
-                        <td>1 pack tobacco per day</td>
-                        <td>2005/05/01 - 2010/02/28</td>
-                    </tr>
-                </table>
-            </div>
-        </text>
-        <entry>
-            <reference value="Observation/observation-smoker"/>
-        </entry>
     </section>
 </Composition>

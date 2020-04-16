@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="observation-lab-urine"/>
     <meta>
-        <versionId value="2"/>
-        <lastUpdated value="2020-02-27T06:37:46.394+00:00"/>
-        <source value="#ukXygDXI1ahRgpaT"/>
+        <versionId value="3"/>
+        <lastUpdated value="2020-04-16T06:33:43.794+00:00"/>
+        <source value="#iDS0uyWwvJRN9qX8"/>
         <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"/>
     </meta>
     <text>

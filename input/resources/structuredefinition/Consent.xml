@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <StructureDefinition
     xmlns="http://hl7.org/fhir">
-    <id value="CCDA-on-FHIR-Consent"/>
+    <id value="Consent"/>
     <meta>
-        <versionId value="1"/>
-        <lastUpdated value="2020-02-11T22:59:56.416+00:00"/>
-        <source value="#AuOLMZb9HMWp8qVk"/>
+        <versionId value="2"/>
+        <lastUpdated value="2020-04-16T17:00:21.203+00:00"/>
+        <source value="#yEDSf5oHc7Q1z7ar"/>
     </meta>
-    <url value="http://hl7.org/fhir/us/ccda-r4/StructureDefinition/CCDA-on-FHIR-Consent"/>
-    <name value="CCDAonFHIRConsent"/>
+    <url value="http://hl7.org/fhir/us/ccda/StructureDefinition/Consent"/>
+    <name value="Consent"/>
     <title value="C-CDA on FHIR Consent"/>
     <status value="active"/>
     <publisher value="Lantana Consulting Group"/>

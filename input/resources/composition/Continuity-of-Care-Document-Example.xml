@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Composition
     xmlns="http://hl7.org/fhir">
-    <id value="CCDA-on-FHIR-Operative-Note-Example"/>
+    <id value="Continuity-of-Care-Document-Example"/>
     <meta>
         <versionId value="1"/>
-        <lastUpdated value="2020-02-11T23:10:06.983+00:00"/>
-        <source value="#JCsVFIhvMU3b548g"/>
-        <profile value="http://hl7.org/fhir/us/ccda-r4/StructureDefinition/CCDA-on-FHIR-Operative-Note"/>
+        <lastUpdated value="2020-04-16T06:33:28.063+00:00"/>
+        <source value="#iDS0uyWwvJRN9qX8"/>
+        <profile value="http://hl7.org/fhir/us/ccda/StructureDefinition/Continuity-of-Care-Document"/>
     </meta>
     <language value="en-US"/>
     <text>
@@ -35,7 +35,7 @@
                         <td style="width: 20%; background-color: #3399ff; padding: 0.1cm 0.2cm; vertical-align: top; background-color: #ffffcc;" class="td_header_role_name">
                             <span class="td_label">Care Provision</span>
                         </td>
-                        <td class="td_header_role_value">Operation Note for Amy
+                        <td class="td_header_role_value">Summary of Episode for Amy
                                         Shaw</td>
                     </tr>
                     <tr>
@@ -81,7 +81,7 @@
                         <td style="width: 20%; background-color: #3399ff; padding: 0.1cm 0.2cm; vertical-align: top; background-color: #ffffcc;" class="td_header_role_name">
                             <span class="td_label">Event Type</span>
                         </td>
-                        <td class="td_header_role_value">Surgery</td>
+                        <td class="td_header_role_value">Summary of Episode</td>
                     </tr>
                     <tr>
                         <td style="width: 20%; background-color: #3399ff; padding: 0.1cm 0.2cm; vertical-align: top; background-color: #ffffcc;" class="td_header_role_name">
@@ -94,8 +94,8 @@
                         <td style="width: 20%; background-color: #3399ff; padding: 0.1cm 0.2cm; vertical-align: top; background-color: #ffffcc;" class="td_header_role_name">
                             <span class="td_label">Encounter Location</span>
                         </td>
-                        <td class="td_header_role_value">Perioperative Department at
-                                        Community Health and Hospitals</td>
+                        <td class="td_header_role_value">Ambulatory Care at Community
+                                        Health and Hospitals</td>
                     </tr>
                     <tr>
                         <td style="width: 20%; background-color: #3399ff; padding: 0.1cm 0.2cm; vertical-align: top; background-color: #ffffcc;" class="td_header_role_name">
@@ -308,26 +308,26 @@
     </text>
     <identifier>
         <system value="urn:ietf:rfc:3986"/>
-        <value value="1"/>
+        <value value="urn:uuid:7e63fe21-7285-46c6-b72f-e58a61341195"/>
     </identifier>
     <status value="preliminary"/>
     <type>
         <coding>
             <system value="http://loinc.org"/>
-            <code value="11504-8"/>
-            <display value="Surgical operation note"/>
+            <code value="34133-9"/>
+            <display value="Summary of episode note"/>
         </coding>
     </type>
     <subject>
         <reference value="Patient/example"/>
         <display value="Amy V. Shaw"/>
     </subject>
-    <date value="2016-06-15T09:10:14Z"/>
+    <date value="2016-02-28T09:10:14Z"/>
     <author>
         <reference value="PractitionerRole/ccda-practitionerrole-example"/>
         <display value="Ronald Bone, MD"/>
     </author>
-    <title value="Operative Note"/>
+    <title value="Continuity of Care Document"/>
     <attester>
         <mode value="legal"/>
         <time value="2016-06-15T09:10:14Z"/>
@@ -337,20 +337,20 @@
         </party>
     </attester>
     <custodian>
-        <reference value="Organization/organization-1"/>
-        <display value="Community Health and Hospitals"/>
+        <reference value="Organization/organization-2"/>
+        <display value="Acme Clinic"/>
     </custodian>
     <event>
         <code>
             <coding>
-                <system value="http://snomed.info/sct"/>
-                <code value="73761001"/>
-                <display value="Colonoscopy"/>
+                <system value="http://terminology.hl7.org/CodeSystem/v3-ActClass"/>
+                <code value="PCPR"/>
+                <display value="Care Provision"/>
             </coding>
         </code>
         <period>
             <start value="2016-06-15"/>
-            <end value="2016-06-15"/>
+            <end value="2016-08-20"/>
         </period>
     </event>
     <section>
@@ -399,19 +399,93 @@
         </entry>
     </section>
     <section>
-        <title value="Anesthesia Section"/>
+        <title value="Medication Section"/>
         <code>
             <coding>
                 <system value="http://loinc.org"/>
-                <code value="59774-0"/>
-                <display value="Anesthesia"/>
+                <code value="10160-0"/>
+                <display value="History of Medication use Narrative"/>
             </coding>
         </code>
         <text>
             <status value="generated"/>
             <div
                 xmlns="http://www.w3.org/1999/xhtml">
-                <p>Conscious sedation with propofol 200 mg IV</p>
+                <table>
+                    <tr>
+                        <td>
+                            <b>Medication</b>
+                        </td>
+                        <td>
+                            <b>Directions</b>
+                        </td>
+                        <td>
+                            <b>Start Date</b>
+                        </td>
+                        <td>
+                            <b>Status</b>
+                        </td>
+                        <td>
+                            <b>Indications</b>
+                        </td>
+                        <td>
+                            <b>Fill Instructions</b>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Amoxicillin</td>
+                        <td>Amoxicillin Powder, for Suspension 250mg/5ml</td>
+                        <td>2016/02/28</td>
+                        <td>Active</td>
+                        <td>Pneumonia</td>
+                        <td>Generic substitution allowed</td>
+                    </tr>
+                </table>
+            </div>
+        </text>
+        <entry>
+            <reference value="MedicationStatement/medication-statement"/>
+        </entry>
+    </section>
+    <section>
+        <title value="Problem Section"/>
+        <code>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="11450-4"/>
+                <display value="Problem list - Reported"/>
+            </coding>
+        </code>
+        <text>
+            <status value="generated"/>
+            <div
+                xmlns="http://www.w3.org/1999/xhtml">
+                <table>
+                    <tr>
+                        <td>
+                            <b>Problem Name</b>
+                        </td>
+                        <td>
+                            <b>Type</b>
+                        </td>
+                        <td>
+                            <b>Onset Date</b>
+                        </td>
+                        <td>
+                            <b>Abatement Date</b>
+                        </td>
+                        <td>
+                            <b>Status</b>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Fever</td>
+                        <td>Condition</td>
+                        <td>2016/02/28</td>
+                        <td>2016/03/01</td>
+                        <td>Complete</td>
+                    </tr>
+                </table>
             </div>
         </text>
         <entry>
@@ -419,297 +493,400 @@
         </entry>
     </section>
     <section>
-        <title value="Assessment Section"/>
+        <title value="Procedures Section"/>
         <code>
             <coding>
                 <system value="http://loinc.org"/>
-                <code value="51848-0"/>
-                <display value="Evaluation note"/>
+                <code value="47519-4"/>
+                <display value="History of Procedures Document"/>
             </coding>
         </code>
         <text>
             <status value="generated"/>
             <div
                 xmlns="http://www.w3.org/1999/xhtml">
-                <p>Obesity.</p>
-                <p>Uncontrolled brittle Type II diabetic.</p>
-                <p>Shortness of breath, mild wheezing.</p>
-                <p>Pressure ulder on left knee.</p>
-            </div>
-        </text>
-    </section>
-    <section>
-        <title value="Assessment and Plan Section"/>
-        <code>
-            <coding>
-                <system value="http://loinc.org"/>
-                <code value="51847-2"/>
-                <display value="Evaluation + Plan note"/>
-            </coding>
-        </code>
-        <text>
-            <status value="generated"/>
-            <div
-                xmlns="http://www.w3.org/1999/xhtml">
-                <p>Recurrent GI bleed of unknown etiology; hypotension perhaps secondary
-                                to this but as likely secondary to polypharmacy</p>
-                <p>Acute on chronic anemia secondary to #1.</p>
-                <p>Azotemia, acute renal failure with volume loss secondary tom#1.</p>
-                <p>Hyperkalemia secondary to #3 and on ACE and K+ supplement.</p>
-                <p>Other chronic diagnoses as noted above, currently stable.</p>
-            </div>
-        </text>
-    </section>
-    <section>
-        <title value="Complications Section"/>
-        <code>
-            <coding>
-                <system value="http://loinc.org"/>
-                <code value="55109-3"/>
-                <display value="Complications Document"/>
-            </coding>
-        </code>
-        <text>
-            <status value="generated"/>
-            <div
-                xmlns="http://www.w3.org/1999/xhtml">
-                <p>Asthmatic symptoms while under general anesthesia.</p>
+                <table>
+                    <tr>
+                        <td>
+                            <b>Procedure Name</b>
+                        </td>
+                        <td>
+                            <b>Body Site</b>
+                        </td>
+                        <td>
+                            <b>Performer</b>
+                        </td>
+                        <td>
+                            <b>Date Performed</b>
+                        </td>
+                        <td>
+                            <b>Reason</b>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Appendectomy (Procedure)</td>
+                        <td>Abdomen</td>
+                        <td>Dr. Adam Everyman</td>
+                        <td>2016/06/15</td>
+                        <td>Generalized abdominal pain 24 hours. Localized in RIF with
+                                        rebound and guarding</td>
+                    </tr>
+                </table>
             </div>
         </text>
         <entry>
-            <reference value="Condition/condition-problem"/>
+            <reference value="Procedure/procedure-rehab"/>
         </entry>
     </section>
     <section>
-        <title value="Preoperative Diagnosis Section"/>
+        <title value="Results Section"/>
         <code>
             <coding>
                 <system value="http://loinc.org"/>
-                <code value="10219-4"/>
-                <display value="Surgical operation note preoperative diagnosis Narrative"/>
+                <code value="30954-2"/>
+                <display value="Relevant diagnostic tests/laboratory data Narrative"/>
             </coding>
         </code>
         <text>
             <status value="generated"/>
             <div
                 xmlns="http://www.w3.org/1999/xhtml">
-                <p>Appendicitis</p>
-            </div>
-        </text>
-    </section>
-    <section>
-        <title value="Operative Note Surgical Procedure Section"/>
-        <code>
-            <coding>
-                <system value="http://loinc.org"/>
-                <code value="10223-6"/>
-                <display value="Surgical operation note surgical procedure Narrative"/>
-            </coding>
-        </code>
-        <text>
-            <status value="generated"/>
-            <div
-                xmlns="http://www.w3.org/1999/xhtml">
-                <p>Laparoscopic Appendectomy</p>
-            </div>
-        </text>
-    </section>
-    <section>
-        <title value="Planned Procedure Section"/>
-        <code>
-            <coding>
-                <system value="http://loinc.org"/>
-                <code value="59772-4"/>
-                <display value="Planned procedure"/>
-            </coding>
-        </code>
-        <text>
-            <status value="generated"/>
-            <div
-                xmlns="http://www.w3.org/1999/xhtml">
-                <p>Colonoscopy</p>
-            </div>
-        </text>
-    </section>
-    <section>
-        <title value="Procedure Indications Section"/>
-        <code>
-            <coding>
-                <system value="http://loinc.org"/>
-                <code value="59768-2"/>
-                <display value="Procedure indications [Interpretation] Narrative"/>
-            </coding>
-        </code>
-        <text>
-            <status value="generated"/>
-            <div
-                xmlns="http://www.w3.org/1999/xhtml">
-                <p>The procedure is performed for screening in a low risk
-                                individual.</p>
-            </div>
-        </text>
-    </section>
-    <section>
-        <title value="Procedure Description Section"/>
-        <code>
-            <coding>
-                <system value="http://loinc.org"/>
-                <code value="29554-3"/>
-                <display value="Procedure Narrative"/>
-            </coding>
-        </code>
-        <text>
-            <status value="generated"/>
-            <div
-                xmlns="http://www.w3.org/1999/xhtml">
-                <p>The patient was brought to the operating room, placed in the supine
-                                position, and general anesthesia was induced. A detailed technical
-                                narrative of a laparoscopic appendectomy from initial incision to
-                                placement of any dressings follows. </p>
-            </div>
-        </text>
-    </section>
-    <section>
-        <title value="Procedure Estimated Blood Loss Section"/>
-        <code>
-            <coding>
-                <system value="http://loinc.org"/>
-                <code value="59770-8"/>
-                <display value="Procedure estimated blood loss Narrative"/>
-            </coding>
-        </code>
-        <text>
-            <status value="generated"/>
-            <div
-                xmlns="http://www.w3.org/1999/xhtml">
-                <p>Minimal</p>
-            </div>
-        </text>
-    </section>
-    <section>
-        <title value="Procedure Findings Section"/>
-        <code>
-            <coding>
-                <system value="http://loinc.org"/>
-                <code value="59776-5"/>
-                <display value="Procedure findings Narrative"/>
-            </coding>
-        </code>
-        <text>
-            <status value="generated"/>
-            <div
-                xmlns="http://www.w3.org/1999/xhtml">
-                <p>A 6 mm sessile polyp was found in the ascending colon and removed by
-                                snare, no cautery. Bleeding was controlled. Moderate diverticulosis
-                                and hemorrhoids were incidentally noted.</p>
+                <table>
+                    <tr>
+                        <td>
+                            <b>Result Type</b>
+                        </td>
+                        <td>
+                            <b>Quantity Value</b>
+                        </td>
+                        <td>
+                            <b>Date</b>
+                        </td>
+                        <td>
+                            <b>Status</b>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Glucose [Moles/volume] in Blood</td>
+                        <td>6.3 mmol/l</td>
+                        <td>2016/06/15</td>
+                        <td>Final</td>
+                    </tr>
+                </table>
             </div>
         </text>
         <entry>
-            <reference value="Condition/condition-problem"/>
+            <reference value="Observation/observation-lab-urine"/>
         </entry>
     </section>
     <section>
-        <title value="Procedure Specimens Taken Section"/>
+        <title value="Advance Directives Section"/>
         <code>
             <coding>
                 <system value="http://loinc.org"/>
-                <code value="59773-2"/>
-                <display value="Procedure specimens taken Narrative"/>
+                <code value="42348-3"/>
+                <display value="Advance directives"/>
             </coding>
         </code>
         <text>
             <status value="generated"/>
             <div
                 xmlns="http://www.w3.org/1999/xhtml">
-                <p>Ascending colon polyp</p>
+                <table>
+                    <tr>
+                        <td>
+                            <b>Name</b>
+                        </td>
+                        <td>
+                            <b>Applies Period</b>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Resuscitation</td>
+                        <td>2010/01/01 - 2025/01/01</td>
+                    </tr>
+                </table>
             </div>
         </text>
     </section>
     <section>
-        <title value="Operative Note Fluids Section"/>
+        <title value="Encounters Section"/>
         <code>
             <coding>
                 <system value="http://loinc.org"/>
-                <code value="10216-0"/>
-                <display value="Operative Note Fluids"/>
+                <code value="46240-8"/>
+                <display value="History of Hospitalizations+Outpatient visits Narrative"/>
             </coding>
         </code>
         <text>
             <status value="generated"/>
             <div
                 xmlns="http://www.w3.org/1999/xhtml">
-                <p>250 ML Ringers Lactate</p>
+                <table>
+                    <tr>
+                        <td>
+                            <b>Encounter</b>
+                        </td>
+                        <td>
+                            <b>Performer</b>
+                        </td>
+                        <td>
+                            <b>Location</b>
+                        </td>
+                        <td>
+                            <b>Date</b>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Checkup Examination</td>
+                        <td>Dr. S. Steene</td>
+                        <td>Community Urgent Care Center</td>
+                        <td>2016/04/18</td>
+                    </tr>
+                </table>
             </div>
         </text>
     </section>
     <section>
-        <title value="Surgical Drains Section"/>
+        <title value="Family History Section"/>
         <code>
             <coding>
                 <system value="http://loinc.org"/>
-                <code value="11537-8"/>
-                <display value="Surgical Drains"/>
+                <code value="10157-6"/>
+                <display value="History of family member diseases Narrative"/>
             </coding>
         </code>
         <text>
             <status value="generated"/>
             <div
                 xmlns="http://www.w3.org/1999/xhtml">
-                <p>Penrose drain placed</p>
+                <table>
+                    <tr>
+                        <td>
+                            <b>Relationship</b>
+                        </td>
+                        <td>
+                            <b>Diagnosis</b>
+                        </td>
+                        <td>
+                            <b>Age at Onset</b>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Father</td>
+                        <td>Myocardial Infarction(cause of Death)</td>
+                        <td>57</td>
+                    </tr>
+                    <tr>
+                        <td>Father</td>
+                        <td>Diabetes</td>
+                        <td>40</td>
+                    </tr>
+                </table>
             </div>
         </text>
     </section>
     <section>
-        <title value="Procedure Implants Section"/>
+        <title value="Functional Status Section"/>
         <code>
             <coding>
                 <system value="http://loinc.org"/>
-                <code value="59771-6"/>
-                <display value="Procedure implants Narrative"/>
+                <code value="47420-5"/>
+                <display value="Functional status assessment note"/>
             </coding>
         </code>
         <text>
             <status value="generated"/>
             <div
                 xmlns="http://www.w3.org/1999/xhtml">
-                <p>No implants were placed.</p>
+                <table>
+                    <tr>
+                        <td>
+                            <b>Functional or Cognitive Finding</b>
+                        </td>
+                        <td>
+                            <b>Observation</b>
+                        </td>
+                        <td>
+                            <b>Observation Date</b>
+                        </td>
+                        <td>
+                            <b>Condition Status</b>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Ambulation (Dependent to Independent</td>
+                        <td>Independently able</td>
+                        <td>2016/06/15</td>
+                        <td>Active</td>
+                    </tr>
+                    <tr>
+                        <td>Finding of Functional Performance and Activity</td>
+                        <td>Dyspnea</td>
+                        <td>2016/06/15</td>
+                        <td>Active</td>
+                    </tr>
+                    <tr>
+                        <td>Cognitive Function Finding</td>
+                        <td>Memory Impairment</td>
+                        <td>2010/04/17</td>
+                        <td>Active</td>
+                    </tr>
+                </table>
             </div>
         </text>
     </section>
     <section>
-        <title value="Procedure Disposition Section"/>
+        <title value="Immunizations Section"/>
         <code>
             <coding>
                 <system value="http://loinc.org"/>
-                <code value="59775-7"/>
-                <display value="Procedure disposition Narrative"/>
+                <code value="11369-6"/>
+                <display value="History of Immunization Narrative"/>
             </coding>
         </code>
         <text>
             <status value="generated"/>
             <div
                 xmlns="http://www.w3.org/1999/xhtml">
-                <p>The patient was taken to the Endoscopy Recovery Unit in stable
-                                condition.</p>
+                <table>
+                    <tr>
+                        <td>
+                            <b>Vaccine</b>
+                        </td>
+                        <td>
+                            <b>Date</b>
+                        </td>
+                        <td>
+                            <b>Status</b>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Fluvax (Influenza)</td>
+                        <td>2014/05/29</td>
+                        <td>Completed</td>
+                    </tr>
+                </table>
+            </div>
+        </text>
+        <entry>
+            <reference value="Immunization/immunization"/>
+        </entry>
+    </section>
+    <section>
+        <title value="Nutrition Section"/>
+        <code>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="61144-2"/>
+                <display value="Diet and nutrition Narrative"/>
+            </coding>
+        </code>
+        <text>
+            <status value="generated"/>
+            <div
+                xmlns="http://www.w3.org/1999/xhtml">
+                <table>
+                    <tr>
+                        <td>
+                            <b>Date</b>
+                        </td>
+                        <td>
+                            <b>Nutritional Status</b>
+                        </td>
+                        <td>
+                            <b>Diet</b>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>2016/06/15</td>
+                        <td>Well nourished</td>
+                        <td>Low sodium diet, excessive carbohydrate</td>
+                    </tr>
+                    <tr>
+                        <td>2016/06/15</td>
+                        <td>Slight dehydration</td>
+                        <td>High protein, low fibre</td>
+                    </tr>
+                </table>
             </div>
         </text>
     </section>
     <section>
-        <title value="Postoperative Diagnosis Section"/>
+        <title value="Mental Status Section"/>
         <code>
             <coding>
                 <system value="http://loinc.org"/>
-                <code value="10218-6"/>
-                <display value="Surgical operation note postoperative diagnosis Narrative"/>
+                <code value="10190-7"/>
+                <display value="Mental status"/>
             </coding>
         </code>
         <text>
             <status value="generated"/>
             <div
                 xmlns="http://www.w3.org/1999/xhtml">
-                <p>Appendicitis with periappendiceal abscess</p>
+                <table>
+                    <tr>
+                        <td>
+                            <b>Date</b>
+                        </td>
+                        <td>
+                            <b>Mental Status</b>
+                        </td>
+                        <td>
+                            <b>Support System</b>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>2016/06/15</td>
+                        <td>Good</td>
+                        <td>Not required</td>
+                    </tr>
+                    <tr>
+                        <td>2012/04/29</td>
+                        <td>Dimentia</td>
+                        <td>Daily Home Care</td>
+                    </tr>
+                </table>
             </div>
         </text>
+    </section>
+    <section>
+        <title value="Social History Section"/>
+        <code>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="29762-2"/>
+                <display value="Social history Narrative"/>
+            </coding>
+        </code>
+        <text>
+            <status value="generated"/>
+            <div
+                xmlns="http://www.w3.org/1999/xhtml">
+                <table>
+                    <tr>
+                        <td>
+                            <b>Social History Element</b>
+                        </td>
+                        <td>
+                            <b>Description</b>
+                        </td>
+                        <td>
+                            <b>Effective Dates</b>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Smoking</td>
+                        <td>1 pack tobacco per day</td>
+                        <td>2010/01/01 - 2016/06/15</td>
+                    </tr>
+                </table>
+            </div>
+        </text>
+        <entry>
+            <reference value="Observation/observation-smoker"/>
+        </entry>
     </section>
     <section>
         <title value="Plan of Treatment Section"/>
@@ -738,16 +915,126 @@
                     </tr>
                     <tr>
                         <td>Colonoscopy</td>
-                        <td>2016/09/17 - 2010/09/17</td>
-                        <td>Planned</td>
+                        <td>2016/06/15 - 2015/06/15</td>
+                        <td>Completed</td>
                     </tr>
                     <tr>
                         <td>Recommendation to Exercise</td>
-                        <td>2016/06/25</td>
+                        <td>2016/06/15</td>
                         <td>Ongoing</td>
                     </tr>
                 </table>
             </div>
         </text>
+    </section>
+    <section>
+        <title value="Payers Section"/>
+        <code>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="48768-6"/>
+                <display value="Payment sources Document"/>
+            </coding>
+        </code>
+        <text>
+            <status value="generated"/>
+            <div
+                xmlns="http://www.w3.org/1999/xhtml">
+                <table>
+                    <tr>
+                        <td>
+                            <b>Payer Name</b>
+                        </td>
+                        <td>
+                            <b>Policy ID</b>
+                        </td>
+                        <td>
+                            <b>Policy Holder</b>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>United Healthcare</td>
+                        <td>12341</td>
+                        <td>Self</td>
+                    </tr>
+                    <tr>
+                        <td>Cigna</td>
+                        <td>53123</td>
+                        <td>Spouse</td>
+                    </tr>
+                </table>
+            </div>
+        </text>
+    </section>
+    <section>
+        <title value="Medical Equipment Section"/>
+        <code>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="46264-8"/>
+                <display value="History of medical device use"/>
+            </coding>
+        </code>
+        <text>
+            <status value="generated"/>
+            <div
+                xmlns="http://www.w3.org/1999/xhtml">
+                <table>
+                    <tr>
+                        <td>
+                            <b>Supply/Device</b>
+                        </td>
+                        <td>
+                            <b>Date Supplied</b>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Automatic Implantable cardioverter/defbrillator</td>
+                        <td>2015/05/29</td>
+                    </tr>
+                    <tr>
+                        <td>Wheelchair</td>
+                        <td>2016/06/15</td>
+                    </tr>
+                </table>
+            </div>
+        </text>
+    </section>
+    <section>
+        <title value="Vital Signs Section"/>
+        <code>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="8716-3"/>
+                <display value="Vital signs"/>
+            </coding>
+        </code>
+        <text>
+            <status value="generated"/>
+            <div
+                xmlns="http://www.w3.org/1999/xhtml">
+                <table>
+                    <tr>
+                        <td>
+                            <b>Vital Sign</b>
+                        </td>
+                        <td>
+                            <b>Date</b>
+                        </td>
+                        <td>
+                            <b>Value</b>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Temperature</td>
+                        <td>2016/06/15</td>
+                        <td>39 Degrees Celcius</td>
+                    </tr>
+                </table>
+            </div>
+        </text>
+        <entry>
+            <reference value="Observation/observation-vitals-temp"/>
+        </entry>
     </section>
 </Composition>

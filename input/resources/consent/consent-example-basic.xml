@@ -4,9 +4,9 @@
     <id value="consent-example-basic"/>
     <meta>
         <versionId value="2"/>
-        <lastUpdated value="2020-03-10T17:53:01.897+00:00"/>
-        <source value="#Rsp71oVNaaah9xY6"/>
-        <profile value="http://hl7.org/fhir/us/ccda-r4/StructureDefinition/CCDA-on-FHIR-Consent"/>
+        <lastUpdated value="2020-04-16T06:33:36.775+00:00"/>
+        <source value="#iDS0uyWwvJRN9qX8"/>
+        <profile value="http://hl7.org/fhir/us/ccda/StructureDefinition/Consent"/>
     </meta>
     <status value="active"/>
     <scope>

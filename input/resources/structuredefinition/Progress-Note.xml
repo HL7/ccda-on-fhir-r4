@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <StructureDefinition
     xmlns="http://hl7.org/fhir">
-    <id value="CCDA-on-FHIR-Progress-Note"/>
+    <id value="Progress-Note"/>
     <meta>
         <versionId value="2"/>
-        <lastUpdated value="2020-02-27T06:37:45.947+00:00"/>
-        <source value="#ukXygDXI1ahRgpaT"/>
+        <lastUpdated value="2020-04-16T17:00:19.059+00:00"/>
+        <source value="#yEDSf5oHc7Q1z7ar"/>
     </meta>
-    <url value="http://hl7.org/fhir/us/ccda-r4/StructureDefinition/CCDA-on-FHIR-Progress-Note"/>
-    <name value="CCDAonFHIRProgressNote"/>
+    <url value="http://hl7.org/fhir/us/ccda/StructureDefinition/Progress-Note"/>
+    <name value="ProgressNote"/>
     <title value="C-CDA on FHIR Progress Note"/>
     <status value="active"/>
     <publisher value="Lantana Consulting Group"/>
@@ -30,7 +30,7 @@
     <kind value="resource"/>
     <abstract value="false"/>
     <type value="Composition"/>
-    <baseDefinition value="http://hl7.org/fhir/us/ccda-r4/StructureDefinition/CCDA-on-FHIR-US-Realm-Header"/>
+    <baseDefinition value="http://hl7.org/fhir/us/ccda/StructureDefinition/US-Realm-Header"/>
     <derivation value="constraint"/>
     <differential>
         <element id="Composition">

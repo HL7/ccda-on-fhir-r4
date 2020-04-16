@@ -3,29 +3,10 @@
     xmlns="http://hl7.org/fhir">
     <id value="hl7.fhir.us.ccda"/>
     <meta>
-        <versionId value="4"/>
-        <lastUpdated value="2020-04-16T05:33:03.690+00:00"/>
-        <source value="#04h3f1Hf9DpVVAX8"/>
+        <versionId value="1"/>
+        <lastUpdated value="2020-04-16T06:33:28.063+00:00"/>
+        <source value="#iDS0uyWwvJRN9qX8"/>
     </meta>
-	<!--
-    <contained>
-        <DocumentReference>
-            <id value="package-list"/>
-            <status value="current"/>
-            <type>
-                <coding>
-                    <code value="package-list"/>
-                </coding>
-            </type>
-            <content>
-                <attachment>
-                    <contentType value="application/json"/>
-                    <data value="ewoJInBhY2thZ2UtaWQiOiAiaGw3LmZoaXIudXMuY2NkYSIsCgkidGl0bGUiOiAiQy1DREEgb24gRkhJUiBJbXBsZW1lbnRhdGlvbiBHdWlkZSIsCgkiY2Fub25pY2FsIjogImh0dHA6Ly9obDcub3JnL2ZoaXIvdXMvY2NkYSIsCgkiaW50cm9kdWN0aW9uIjogIlRoZSBDLUNEQSBvbiBGSElSIEltcGxlbWVudGF0aW9uIEd1aWRlIGlzIGEgVVMgUmVhbG0gSW1wbGVtZW50YXRpb24gR3VpZGUgb2YgdGhlIEZISVIgU3BlY2lmaWNhdGlvbiBhZGRyZXNzaW5nIHRoZSBrZXkgYXNwZWN0cyBvZiBDb25zb2xpZGF0ZWQgQ0RBIChDLUNEQSkgcmVxdWlyZWQgZm9yIE1lYW5pbmdmdWwgVXNlIChNVSkuIFRoaXMgSUcgZm9jdXNlcyBvbiB0aGUgY2xpbmljYWwgZG9jdW1lbnQgaGVhZGVyIGFuZCBuYXJyYXRpdmUgY29uc3RyYWludHMgbmVjZXNzYXJ5IGZvciBodW1hbiByZWFkYWJpbGl0eSwgYW5kIHJlZmVyZW5jZXMgdGhlIERhdGEgQWNjZXNzIEZyYW1ld29yayAoREFGKSBpbXBsZW1lbnRhdGlvbiBndWlkZSBmb3IgY29kZWQgZGF0YSByZXByZXNlbnRhdGlvbiIsCgkibGlzdCI6IFsKCQl7CgkJCSJ2ZXJzaW9uIjogImN1cnJlbnQiLAoJCQkiZGVzYyI6ICJDb250aW51b3VzIEludGVncmF0aW9uIEJ1aWxkIChsYXRlc3QgaW4gdmVyc2lvbiBjb250cm9sKSIsCgkJCSJwYXRoIjogImh0dHA6Ly9idWlsZC5maGlyLm9yZy9pZy9ITDcvY2NkYS1vbi1maGlyLXI0IiwKCQkJInN0YXR1cyI6ICJjaS1idWlsZCIsCgkJCSJjdXJyZW50IjogdHJ1ZSwKCQkJImZoaXJ2ZXJzaW9uIjogIjQuMC4wIgoJCX0sCgkJewoJCQkidmVyc2lvbiI6ICIxLjAuMCIsCgkJCSJkYXRlIjogIjIwMTgtMDQtMDciLAoJCQkiZGVzYyI6ICJTVFUgMSBQdWJsaXNoZWQgdmVyc2lvbiAocGVybWFuZW50IGhvbWUpLiBOb3RlIHRoYXQgdGhlIHZlcnNpb24gbnVtYmVyIHdhcyByZXNldCB0byAxLjAuMCBmb3IgdGhpcyB2ZXJzaW9uIHNpbmNlIHRoZSBJRyBhY3F1aXJlZCBpdHMgb3duIHZlcnNpb24gc2VwYXJhdGUgdG8gdGhlIG1haW4gRkhJUiB2ZXJzaW9uKSIsCgkJCSJwYXRoIjogImh0dHA6Ly9obDcub3JnL2ZoaXIvdXMvY2NkYS9TVFUxIiwKCQkJInN0YXR1cyI6ICJ0cmlhbC11c2UiLAoJCQkic2VxdWVuY2UiOiAiU1RVIDEiLAoJCQkiY3VycmVudCI6IHRydWUsCgkJCSJmaGlydmVyc2lvbiI6ICIzLjAuMSIKCQl9LAoJCXsKCQkJInZlcnNpb24iOiAiMS44LjAiLAoJCQkiZGF0ZSI6ICIyMDE2LTEyLTA2IiwKCQkJImRlc2MiOiAiU1RVIDEgMm5kIEJhbGxvdCIsCgkJCSJwYXRoIjogImh0dHA6Ly9obDcub3JnL2ZoaXIvdXMvY2NkYS8yMDE3SmFuIiwKCQkJInN0YXR1cyI6ICJiYWxsb3QiLAoJCQkic2VxdWVuY2UiOiAiU1RVIDEiLAoJCQkiZmhpcnZlcnNpb24iOiAiMy4wLjAiCgkJfSwKCQl7CgkJCSJ2ZXJzaW9uIjogIjEuNi4wIiwKCQkJImRhdGUiOiAiMjAxNi0wOC0xMSIsCgkJCSJkZXNjIjogIlNUVSAxIDFzdCBCYWxsb3QiLAoJCQkicGF0aCI6ICJodHRwOi8vaGw3Lm9yZy9maGlyL3VzL2NjZGEvMjAxNlNlcCIsCgkJCSJzdGF0dXMiOiAiYmFsbG90IiwKCQkJInNlcXVlbmNlIjogIlNUVSAxIgoJCX0KCV0KfQ=="/>
-                </attachment>
-            </content>
-        </DocumentReference>
-    </contained>
-	-->
     <url value="http://hl7.org/fhir/us/ccda/ImplementationGuide/hl7.fhir.us.ccda"/>
     <version value="2.0.0"/>
     <name value="CCDAonFHIR"/>
@@ -92,7 +73,7 @@
     <definition>
         <resource>
             <reference>
-                <reference value="StructureDefinition/CCDA-on-FHIR-Consent"/>
+                <reference value="StructureDefinition/Consent"/>
                 <display value="C-CDA on FHIR Consent"/>
             </reference>
             <name value="C-CDA on FHIR Consent"/>
@@ -101,7 +82,7 @@
         </resource>
         <resource>
             <reference>
-                <reference value="StructureDefinition/CCDA-on-FHIR-Participant"/>
+                <reference value="StructureDefinition/Participant"/>
                 <display value="C-CDA on FHIR Participant"/>
             </reference>
             <name value="C-CDA on FHIR Participant"/>
@@ -110,7 +91,7 @@
         </resource>
         <resource>
             <reference>
-                <reference value="StructureDefinition/CCDA-on-FHIR-Performer"/>
+                <reference value="StructureDefinition/Performer"/>
                 <display value="C-CDA on FHIR Performer"/>
             </reference>
             <name value="C-CDA on FHIR Performer"/>
@@ -119,7 +100,7 @@
         </resource>
         <resource>
             <reference>
-                <reference value="StructureDefinition/CCDA-on-FHIR-Procedure-Note"/>
+                <reference value="StructureDefinition/Procedure-Note"/>
                 <display value="C-CDA on FHIR Procedure Note"/>
             </reference>
             <name value="C-CDA on FHIR Procedure Note"/>
@@ -128,7 +109,7 @@
         </resource>
         <resource>
             <reference>
-                <reference value="StructureDefinition/CCDA-on-FHIR-Informant"/>
+                <reference value="StructureDefinition/Informant"/>
                 <display value="C-CDA on FHIR Informant"/>
             </reference>
             <name value="C-CDA on FHIR Informant"/>
@@ -137,7 +118,7 @@
         </resource>
         <resource>
             <reference>
-                <reference value="StructureDefinition/CCDA-on-FHIR-Information-Recipient"/>
+                <reference value="StructureDefinition/Information-Recipient"/>
                 <display value="C-CDA on FHIR Information Recipient"/>
             </reference>
             <name value="C-CDA on FHIR Information Recipient"/>
@@ -146,7 +127,7 @@
         </resource>
         <resource>
             <reference>
-                <reference value="StructureDefinition/CCDA-on-FHIR-In-Fulfillment-Of-Order"/>
+                <reference value="StructureDefinition/In-Fulfillment-Of-Order"/>
                 <display value="C-CDA on FHIR In Fulfillment Of Order"/>
             </reference>
             <name value="C-CDA on FHIR In Fulfillment Of Order"/>
@@ -155,7 +136,7 @@
         </resource>
         <resource>
             <reference>
-                <reference value="StructureDefinition/CCDA-on-FHIR-Data-Enterer"/>
+                <reference value="StructureDefinition/Data-Enterer"/>
                 <display value="C-CDA on FHIR Data Enterer"/>
             </reference>
             <name value="C-CDA on FHIR Data Enterer"/>
@@ -164,7 +145,7 @@
         </resource>
         <resource>
             <reference>
-                <reference value="StructureDefinition/CCDA-on-FHIR-Authorization"/>
+                <reference value="StructureDefinition/Authorization"/>
                 <display value="C-CDA on FHIR Authorization"/>
             </reference>
             <name value="C-CDA on FHIR Authorization"/>
@@ -173,7 +154,7 @@
         </resource>
         <resource>
             <reference>
-                <reference value="StructureDefinition/CCDA-on-FHIR-US-Realm-Header"/>
+                <reference value="StructureDefinition/US-Realm-Header"/>
                 <display value="C-CDA on FHIR US Realm Header"/>
             </reference>
             <name value="C-CDA on FHIR US Realm Header"/>
@@ -182,7 +163,7 @@
         </resource>
         <resource>
             <reference>
-                <reference value="StructureDefinition/CCDA-on-FHIR-Care-Plan"/>
+                <reference value="StructureDefinition/Care-Plan"/>
                 <display value="C-CDA on FHIR Care Plan"/>
             </reference>
             <name value="C-CDA on FHIR Care Plan"/>
@@ -191,7 +172,7 @@
         </resource>
         <resource>
             <reference>
-                <reference value="StructureDefinition/CCDA-on-FHIR-Consultation-Note"/>
+                <reference value="StructureDefinition/Consultation-Note"/>
                 <display value="C-CDA on FHIR Consultation Note"/>
             </reference>
             <name value="C-CDA on FHIR Consultation Note"/>
@@ -200,7 +181,7 @@
         </resource>
         <resource>
             <reference>
-                <reference value="StructureDefinition/CCDA-on-FHIR-Continuity-of-Care-Document"/>
+                <reference value="StructureDefinition/Continuity-of-Care-Document"/>
                 <display value="C-CDA on FHIR Continuity of Care Document"/>
             </reference>
             <name value="C-CDA on FHIR Continuity of Care Document"/>
@@ -209,7 +190,7 @@
         </resource>
         <resource>
             <reference>
-                <reference value="StructureDefinition/CCDA-on-FHIR-Diagnostic-Imaging-Report"/>
+                <reference value="StructureDefinition/Diagnostic-Imaging-Report"/>
                 <display value="C-CDA on FHIR Diagnostic Imaging Report"/>
             </reference>
             <name value="C-CDA on FHIR Diagnostic Imaging Report"/>
@@ -218,7 +199,7 @@
         </resource>
         <resource>
             <reference>
-                <reference value="StructureDefinition/CCDA-on-FHIR-Discharge-Summary"/>
+                <reference value="StructureDefinition/Discharge-Summary"/>
                 <display value="C-CDA on FHIR Discharge Summary"/>
             </reference>
             <name value="C-CDA on FHIR Discharge Summary"/>
@@ -227,7 +208,7 @@
         </resource>
         <resource>
             <reference>
-                <reference value="StructureDefinition/CCDA-on-FHIR-History-and-Physical"/>
+                <reference value="StructureDefinition/History-and-Physical"/>
                 <display value="C-CDA on FHIR History and Physical"/>
             </reference>
             <name value="C-CDA on FHIR History and Physical"/>
@@ -236,7 +217,7 @@
         </resource>
         <resource>
             <reference>
-                <reference value="StructureDefinition/CCDA-on-FHIR-Operative-Note"/>
+                <reference value="StructureDefinition/Operative-Note"/>
                 <display value="C-CDA on FHIR Operative Note"/>
             </reference>
             <name value="C-CDA on FHIR Operative Note"/>
@@ -245,7 +226,7 @@
         </resource>
         <resource>
             <reference>
-                <reference value="StructureDefinition/CCDA-on-FHIR-Progress-Note"/>
+                <reference value="StructureDefinition/Progress-Note"/>
                 <display value="C-CDA on FHIR Progress Note"/>
             </reference>
             <name value="C-CDA on FHIR Progress Note"/>
@@ -254,7 +235,7 @@
         </resource>
         <resource>
             <reference>
-                <reference value="StructureDefinition/CCDA-on-FHIR-Referral-Note"/>
+                <reference value="StructureDefinition/Referral-Note"/>
                 <display value="C-CDA on FHIR Referral Note"/>
             </reference>
             <name value="C-CDA on FHIR Referral Note"/>
@@ -263,7 +244,7 @@
         </resource>
         <resource>
             <reference>
-                <reference value="StructureDefinition/CCDA-on-FHIR-Transfer-Summary"/>
+                <reference value="StructureDefinition/Transfer-Summary"/>
                 <display value="C-CDA on FHIR Transfer Summary"/>
             </reference>
             <name value="C-CDA on FHIR Transfer Summary"/>
@@ -362,7 +343,7 @@
         </resource>
         <resource>
             <reference>
-                <reference value="Composition/CCDA-on-FHIR-Care-Plan-Example"/>
+                <reference value="Composition/Care-Plan-Example"/>
                 <display value="Care Plan"/>
             </reference>
             <name value="Care Plan"/>
@@ -407,7 +388,7 @@
         </resource>
         <resource>
             <reference>
-                <reference value="Composition/CCDA-on-FHIR-Consultation-Note-Example"/>
+                <reference value="Composition/Consultation-Note-Example"/>
                 <display value="Consultation Note"/>
             </reference>
             <name value="Consultation Note"/>
@@ -416,7 +397,7 @@
         </resource>
         <resource>
             <reference>
-                <reference value="Composition/CCDA-on-FHIR-Continuity-of-Care-Document-Example"/>
+                <reference value="Composition/Continuity-of-Care-Document-Example"/>
                 <display value="Continuity of Care Document"/>
             </reference>
             <name value="Continuity of Care Document"/>
@@ -425,7 +406,7 @@
         </resource>
         <resource>
             <reference>
-                <reference value="Composition/CCDA-on-FHIR-Diagnostic-Imaging-Report-Example"/>
+                <reference value="Composition/Diagnostic-Imaging-Report-Example"/>
                 <display value="Diagnostic Imaging Report"/>
             </reference>
             <name value="Diagnostic Imaging Report"/>
@@ -434,16 +415,16 @@
         </resource>
         <resource>
             <reference>
-                <reference value="Composition/CCDA-on-FHIR-Discharge-Summary-Example"/>
-                <display value="Discharge Summary(CCoF)"/>
+                <reference value="Composition/Discharge-Summary-Example"/>
+                <display value="Discharge Summary"/>
             </reference>
-            <name value="Discharge Summary(CCoF)"/>
-            <description value="Discharge Summary(CCoF)"/>
+            <name value="Discharge Summary"/>
+            <description value="Discharge Summary"/>
             <exampleBoolean value="true"/>
         </resource>
         <resource>
             <reference>
-                <reference value="Composition/CCDA-on-FHIR-History-and-Physical-Example"/>
+                <reference value="Composition/History-and-Physical-Example"/>
                 <display value="History and Physical Note"/>
             </reference>
             <name value="History and Physical Note"/>
@@ -452,7 +433,7 @@
         </resource>
         <resource>
             <reference>
-                <reference value="Composition/CCDA-on-FHIR-Operative-Note-Example"/>
+                <reference value="Composition/Operative-Note-Example"/>
                 <display value="Operative Note"/>
             </reference>
             <name value="Operative Note"/>
@@ -461,7 +442,7 @@
         </resource>
         <resource>
             <reference>
-                <reference value="Composition/CCDA-on-FHIR-Procedure-Note-Example"/>
+                <reference value="Composition/Procedure-Note-Example"/>
                 <display value="Procedure Note"/>
             </reference>
             <name value="Procedure Note"/>
@@ -470,7 +451,7 @@
         </resource>
         <resource>
             <reference>
-                <reference value="Composition/CCDA-on-FHIR-Progress-Note-Example"/>
+                <reference value="Composition/Progress-Note-Example"/>
                 <display value="Progress Note"/>
             </reference>
             <name value="Progress Note"/>
@@ -479,7 +460,7 @@
         </resource>
         <resource>
             <reference>
-                <reference value="Composition/CCDA-on-FHIR-Referral-Note-Example"/>
+                <reference value="Composition/Referral-Note-Example"/>
                 <display value="Referral Note"/>
             </reference>
             <name value="Referral Note"/>
@@ -488,7 +469,7 @@
         </resource>
         <resource>
             <reference>
-                <reference value="Composition/CCDA-on-FHIR-Transfer-Summary-Example"/>
+                <reference value="Composition/Transfer-Summary-Example"/>
                 <display value="Transfer Summary"/>
             </reference>
             <name value="Transfer Summary"/>

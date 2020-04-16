@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Composition
     xmlns="http://hl7.org/fhir">
-    <id value="CCDA-on-FHIR-Discharge-Summary-Example"/>
+    <id value="History-and-Physical-Example"/>
     <meta>
         <versionId value="1"/>
-        <lastUpdated value="2020-02-11T23:10:05.385+00:00"/>
-        <source value="#LFnCrSjIS1ktTPbM"/>
-        <profile value="http://hl7.org/fhir/us/ccda-r4/StructureDefinition/CCDA-on-FHIR-Discharge-Summary"/>
+        <lastUpdated value="2020-04-16T06:33:28.063+00:00"/>
+        <source value="#iDS0uyWwvJRN9qX8"/>
+        <profile value="http://hl7.org/fhir/us/ccda/StructureDefinition/History-and-Physical"/>
     </meta>
     <language value="en-US"/>
     <text>
@@ -33,10 +33,10 @@
                 <tbody>
                     <tr>
                         <td style="width: 20%; background-color: #3399ff; padding: 0.1cm 0.2cm; vertical-align: top; background-color: #ffffcc;" class="td_header_role_name">
-                            <span class="td_label">Discharge Summary</span>
+                            <span class="td_label">Care Provision</span>
                         </td>
-                        <td class="td_header_role_value">Discharge Summary for Amy
-                                        Shaw</td>
+                        <td class="td_header_role_value">History and Physical Note for
+                                        Amy Shaw</td>
                     </tr>
                     <tr>
                         <td style="width: 20%; background-color: #3399ff; padding: 0.1cm 0.2cm; vertical-align: top; background-color: #ffffcc;" class="td_header_role_name">
@@ -79,9 +79,9 @@
                     </tr>
                     <tr>
                         <td style="width: 20%; background-color: #3399ff; padding: 0.1cm 0.2cm; vertical-align: top; background-color: #ffffcc;" class="td_header_role_name">
-                            <span class="td_label">Encounter Type</span>
+                            <span class="td_label">Event Type</span>
                         </td>
-                        <td class="td_header_role_value">Discharge</td>
+                        <td class="td_header_role_value">History and Physical</td>
                     </tr>
                     <tr>
                         <td style="width: 20%; background-color: #3399ff; padding: 0.1cm 0.2cm; vertical-align: top; background-color: #ffffcc;" class="td_header_role_name">
@@ -94,7 +94,7 @@
                         <td style="width: 20%; background-color: #3399ff; padding: 0.1cm 0.2cm; vertical-align: top; background-color: #ffffcc;" class="td_header_role_name">
                             <span class="td_label">Encounter Location</span>
                         </td>
-                        <td class="td_header_role_value">Inpatient Unit at Community
+                        <td class="td_header_role_value">Ambulatory Care at Community
                                         Health and Hospitals</td>
                     </tr>
                     <tr>
@@ -314,24 +314,45 @@
     <type>
         <coding>
             <system value="http://loinc.org"/>
-            <code value="18842-5"/>
-            <display value="Discharge Summary"/>
+            <code value="34117-2"/>
+            <display value="History and Physical Note"/>
         </coding>
     </type>
     <subject>
         <reference value="Patient/example"/>
         <display value="Amy V. Shaw"/>
     </subject>
-    <date value="2016-02-28T09:10:14Z"/>
+    <date value="2016-06-15T09:10:14Z"/>
     <author>
         <reference value="PractitionerRole/ccda-practitionerrole-example"/>
         <display value="Ronald Bone, MD"/>
     </author>
-    <title value="Discharge Summary(CCoF)"/>
+    <title value="History and Physical Note"/>
+    <attester>
+        <mode value="legal"/>
+        <time value="2012-01-04T09:10:14Z"/>
+        <party>
+            <reference value="PractitionerRole/ccda-practitionerrole-example"/>
+            <display value="Ronald Boone, MD"/>
+        </party>
+    </attester>
     <custodian>
         <reference value="Organization/organization-1"/>
         <display value="Community Health and Hospitals"/>
     </custodian>
+    <event>
+        <code>
+            <coding>
+                <system value="http://terminology.hl7.org/CodeSystem/v3-ActClass"/>
+                <code value="PCPR"/>
+                <display value="Care Provision"/>
+            </coding>
+        </code>
+        <period>
+            <start value="2016-06-15"/>
+            <end value="2016-06-15"/>
+        </period>
+    </event>
     <section>
         <title value="Allergies and Intolerances Section"/>
         <code>
@@ -378,6 +399,48 @@
         </entry>
     </section>
     <section>
+        <title value="Assessment Section"/>
+        <code>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="51848-0"/>
+                <display value="Evaluation note"/>
+            </coding>
+        </code>
+        <text>
+            <status value="generated"/>
+            <div
+                xmlns="http://www.w3.org/1999/xhtml">
+                <p>Obesity.</p>
+                <p>Uncontrolled brittle Type II diabetic.</p>
+                <p>Shortness of breath, mild wheezing.</p>
+                <p>Pressure ulder on left knee.</p>
+            </div>
+        </text>
+    </section>
+    <section>
+        <title value="Assessment and Plan Section"/>
+        <code>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="51847-2"/>
+                <display value="Evaluation + Plan note"/>
+            </coding>
+        </code>
+        <text>
+            <status value="generated"/>
+            <div
+                xmlns="http://www.w3.org/1999/xhtml">
+                <p>Recurrent GI bleed of unknown etiology; hypotension perhaps secondary
+                                to this but as likely secondary to polypharmacy</p>
+                <p>Acute on chronic anemia secondary to #1.</p>
+                <p>Azotemia, acute renal failure with volume loss secondary tom#1.</p>
+                <p>Hyperkalemia secondary to #3 and on ACE and K+ supplement.</p>
+                <p>Other chronic diagnoses as noted above, currently stable.</p>
+            </div>
+        </text>
+    </section>
+    <section>
         <title value="Chief Complaint and Reason for Visit Section"/>
         <code>
             <coding>
@@ -408,180 +471,6 @@
             <div
                 xmlns="http://www.w3.org/1999/xhtml">
                 <p>Dark Stools</p>
-            </div>
-        </text>
-    </section>
-    <section>
-        <title value="Reason for Visit Section"/>
-        <code>
-            <coding>
-                <system value="http://loinc.org"/>
-                <code value="29299-5"/>
-                <display value="Reason for visit"/>
-            </coding>
-        </code>
-        <text>
-            <status value="generated"/>
-            <div
-                xmlns="http://www.w3.org/1999/xhtml">
-                <p>Tenderness of lower abdomen</p>
-            </div>
-        </text>
-    </section>
-    <section>
-        <title value="Admission Diagnosis Section"/>
-        <code>
-            <coding>
-                <system value="http://loinc.org"/>
-                <code value="46241-6"/>
-                <display value="Hospital admission diagnosis Narrative - Reported"/>
-            </coding>
-        </code>
-        <text>
-            <status value="generated"/>
-            <div
-                xmlns="http://www.w3.org/1999/xhtml">
-                <p>Appendicitis</p>
-            </div>
-        </text>
-    </section>
-    <section>
-        <title value="Admission Medications Section"/>
-        <code>
-            <coding>
-                <system value="http://loinc.org"/>
-                <code value="42346-7"/>
-                <display value="Medications on admission (narrative)"/>
-            </coding>
-        </code>
-        <text>
-            <status value="generated"/>
-            <div
-                xmlns="http://www.w3.org/1999/xhtml">
-                <table>
-                    <tr>
-                        <td>
-                            <b>Medication</b>
-                        </td>
-                        <td>
-                            <b>Directions</b>
-                        </td>
-                        <td>
-                            <b>Start Date</b>
-                        </td>
-                        <td>
-                            <b>Status</b>
-                        </td>
-                        <td>
-                            <b>Indications</b>
-                        </td>
-                        <td>
-                            <b>Fill Instructions</b>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>Pepcid Complete (MAGNESIUM HYDROXIDE0</td>
-                        <td>Chew one tablet completely and swallow as needed </td>
-                        <td>20160615</td>
-                        <td>Active</td>
-                        <td>Bloating</td>
-                        <td>Generic substitution allowed</td>
-                    </tr>
-                </table>
-            </div>
-        </text>
-    </section>
-    <section>
-        <title value="Past Medical History Section"/>
-        <code>
-            <coding>
-                <system value="http://loinc.org"/>
-                <code value="11348-0"/>
-                <display value="History of Past illness Narrative"/>
-            </coding>
-        </code>
-        <text>
-            <status value="generated"/>
-            <div
-                xmlns="http://www.w3.org/1999/xhtml">
-                <table>
-                    <tr>
-                        <td>
-                            <b>Problem Name</b>
-                        </td>
-                        <td>
-                            <b>Type</b>
-                        </td>
-                        <td>
-                            <b>Onset Date</b>
-                        </td>
-                        <td>
-                            <b>Abatement Date</b>
-                        </td>
-                        <td>
-                            <b>Status</b>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>Fever</td>
-                        <td>Condition</td>
-                        <td>2016-06-15</td>
-                        <td>2016-06-15</td>
-                        <td>Complete</td>
-                    </tr>
-                </table>
-            </div>
-        </text>
-        <entry>
-            <reference value="Condition/condition-problem"/>
-        </entry>
-    </section>
-    <section>
-        <title value="History of Present Illness Section"/>
-        <code>
-            <coding>
-                <system value="http://loinc.org"/>
-                <code value="10164-2"/>
-                <display value="History of Present illness Narrative"/>
-            </coding>
-        </code>
-        <text>
-            <status value="generated"/>
-            <div
-                xmlns="http://www.w3.org/1999/xhtml">
-                <p>This patient was only recently discharged for a recurrent GI bleed as
-                                described below. </p>
-                <p>He presented to the ER today c/o a dark stool yesterday but a normal
-                                brown stool today. On exam he was hypotensive in the 80?s resolved
-                                after .... .... .... </p>
-                <p>Lab at discharge: Glucose 112, BUN 16, creatinine 1.1, electrolytes
-                                normal. H. pylori antibody pending. Admission hematocrit 16%,
-                                discharge hematocrit 29%. WBC 7300, platelet count 256,000.
-                                Urinalysis normal. Urine culture: No growth. INR 1.1, PTT 40. </p>
-                <p>He was transfused with 6 units of packed red blood cells with ....
-                                .... .... </p>
-                <p>GI evaluation 12 September: Colonoscopy showed single red clot in
-                                .... ........ </p>
-            </div>
-        </text>
-    </section>
-    <section>
-        <title value="Review of Systems Section"/>
-        <code>
-            <coding>
-                <system value="http://loinc.org"/>
-                <code value="10187-3"/>
-                <display value="Review of systems"/>
-            </coding>
-        </code>
-        <text>
-            <status value="generated"/>
-            <div
-                xmlns="http://www.w3.org/1999/xhtml">
-                <p>Patient denies recent history of fever or malaise. Positive for
-                                weakness and shortness of breath. One episode of melena. No recent
-                                headaches. Positive for osteoarthritis in hips, knees and hands.
-							</p>
             </div>
         </text>
     </section>
@@ -625,12 +514,29 @@
         </text>
     </section>
     <section>
-        <title value="Social History Section"/>
+        <title value="General Status Section"/>
         <code>
             <coding>
                 <system value="http://loinc.org"/>
-                <code value="29762-2"/>
-                <display value="Social history Narrative"/>
+                <code value="10210-3"/>
+                <display value="Physical findings of General status Narrative"/>
+            </coding>
+        </code>
+        <text>
+            <status value="generated"/>
+            <div
+                xmlns="http://www.w3.org/1999/xhtml">
+                <p>Alert and in good spirits, no acute distress.</p>
+            </div>
+        </text>
+    </section>
+    <section>
+        <title value="Past Medical History Section"/>
+        <code>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="11348-0"/>
+                <display value="History of Past illness Narrative"/>
             </coding>
         </code>
         <text>
@@ -640,34 +546,123 @@
                 <table>
                     <tr>
                         <td>
-                            <b>Social History Element</b>
+                            <b>Problem Name</b>
                         </td>
                         <td>
-                            <b>Description</b>
+                            <b>Type</b>
                         </td>
                         <td>
-                            <b>Effective Dates</b>
+                            <b>Onset Date</b>
+                        </td>
+                        <td>
+                            <b>Abatement Date</b>
+                        </td>
+                        <td>
+                            <b>Status</b>
                         </td>
                     </tr>
                     <tr>
-                        <td>Smoking</td>
-                        <td>1 pack tobacco per day</td>
-                        <td>2005/05/01 - 2010/02/28</td>
+                        <td>Fever</td>
+                        <td>Condition</td>
+                        <td>2016-04-01</td>
+                        <td>2016-04-14</td>
+                        <td>Complete</td>
+                    </tr>
+                </table>
+            </div>
+        </text>
+    </section>
+    <section>
+        <title value="History of Present Illness Section"/>
+        <code>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="10164-2"/>
+                <display value="History of Present illness Narrative"/>
+            </coding>
+        </code>
+        <text>
+            <status value="generated"/>
+            <div
+                xmlns="http://www.w3.org/1999/xhtml">
+                <p>This patient was only recently discharged for a recurrent GI bleed as
+                                described below. </p>
+                <p>He presented to the ER today c/o a dark stool yesterday but a normal
+                                brown stool today. On exam he was hypotensive in the 80?s resolved
+                                after .... .... .... </p>
+                <p>Lab at discharge: Glucose 112, BUN 16, creatinine 1.1, electrolytes
+                                normal. H. pylori antibody pending. Admission hematocrit 16%,
+                                discharge hematocrit 29%. WBC 7300, platelet count 256,000.
+                                Urinalysis normal. Urine culture: No growth. INR 1.1, PTT 40. </p>
+                <p>He was transfused with 6 units of packed red blood cells with ....
+                                .... .... </p>
+                <p>GI evaluation 12 September: Colonoscopy showed single red clot in
+                                .... ........ </p>
+            </div>
+        </text>
+    </section>
+    <section>
+        <title value="Immunizations Section"/>
+        <code>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="11369-6"/>
+                <display value="History of Immunization Narrative"/>
+            </coding>
+        </code>
+        <text>
+            <status value="generated"/>
+            <div
+                xmlns="http://www.w3.org/1999/xhtml">
+                <table>
+                    <tr>
+                        <td>
+                            <b>Vaccine</b>
+                        </td>
+                        <td>
+                            <b>Date</b>
+                        </td>
+                        <td>
+                            <b>Status</b>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Fluvax (Influenza)</td>
+                        <td>2016-04-05</td>
+                        <td>Completed</td>
                     </tr>
                 </table>
             </div>
         </text>
         <entry>
-            <reference value="Observation/observation-smoker"/>
+            <reference value="Immunization/immunization"/>
         </entry>
     </section>
     <section>
-        <title value="Functional Status Section"/>
+        <title value="Instructions Section"/>
         <code>
             <coding>
                 <system value="http://loinc.org"/>
-                <code value="47420-5"/>
-                <display value="Functional status assessment note"/>
+                <code value="69730-0"/>
+                <display value="Instructions"/>
+            </coding>
+        </code>
+        <text>
+            <status value="generated"/>
+            <div
+                xmlns="http://www.w3.org/1999/xhtml">
+                <p>Patient may have low grade fever, mild joint pain and injection area
+                                tenderness.</p>
+            </div>
+        </text>
+    </section>
+    <section>
+        <title value="Medication Section"/>
+        <code>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="10160-0"/>
+                <display value="History of Medication use Narrative"/>
             </coding>
         </code>
         <text>
@@ -677,81 +672,61 @@
                 <table>
                     <tr>
                         <td>
-                            <b>Functional or Cognitive Finding</b>
+                            <b>Medication</b>
                         </td>
                         <td>
-                            <b>Observation</b>
+                            <b>Directions</b>
                         </td>
                         <td>
-                            <b>Observation Date</b>
+                            <b>Start Date</b>
                         </td>
                         <td>
-                            <b>Condition Status</b>
+                            <b>Status</b>
+                        </td>
+                        <td>
+                            <b>Indications</b>
+                        </td>
+                        <td>
+                            <b>Fill Instructions</b>
                         </td>
                     </tr>
                     <tr>
-                        <td>Ambulation (Dependent to Independent</td>
-                        <td>Independently able</td>
-                        <td>2010/03/11</td>
+                        <td>Amoxicillin</td>
+                        <td>Amoxicillin Powder, for Suspension 250mg/5ml</td>
+                        <td>20160401</td>
                         <td>Active</td>
-                    </tr>
-                    <tr>
-                        <td>Finding of Functional Performance and Activity</td>
-                        <td>Dyspnea</td>
-                        <td>2008/02/16</td>
-                        <td>Active</td>
-                    </tr>
-                    <tr>
-                        <td>Cognitive Function Finding</td>
-                        <td>Memory Impairment</td>
-                        <td>2014/04/29</td>
-                        <td>Active</td>
+                        <td>Pneumonia</td>
+                        <td>Generic substitution allowed</td>
                     </tr>
                 </table>
             </div>
         </text>
+        <entry>
+            <reference value="MedicationStatement/medication-statement"/>
+        </entry>
     </section>
     <section>
-        <title value="Hospital Course Section"/>
+        <title value="Physical Exam Section"/>
         <code>
             <coding>
                 <system value="http://loinc.org"/>
-                <code value="8648-8"/>
-                <display value="Hospital course"/>
+                <code value="29545-1"/>
+                <display value="Physical findings Narrative"/>
             </coding>
         </code>
         <text>
             <status value="generated"/>
             <div
                 xmlns="http://www.w3.org/1999/xhtml">
-                <p>Following a colonoscopy, the patient was admitted and started on
-                                Lovenox and nitroglycerin paste. The patient had serial cardiac
-                                enzymes and was ruled out for myocardial infarction. The patient
-                                underwent a dual isotope stress test. There was no evidence of
-                                reversible ischemia on the Cardiolite scan. The patient has been
-                                ambulated. The patient had a Holter monitor placed but the report is
-                                not available at this time. The patient has remained hemodynamically
-                                stable. Will discharge.</p>
-            </div>
-        </text>
-    </section>
-    <section>
-        <title value="Hospital Consultations Section"/>
-        <code>
-            <coding>
-                <system value="http://loinc.org"/>
-                <code value="18841-7"/>
-                <display value="Hospital consultations Document"/>
-            </coding>
-        </code>
-        <text>
-            <status value="generated"/>
-            <div
-                xmlns="http://www.w3.org/1999/xhtml">
-                <p>listType="ordered"</p>
-                <p>Gastroenterology</p>
-                <p>Cardiology</p>
-                <p>Dietitian</p>
+                <p>HEENT: All normal to examination.</p>
+                <p>&gt;HEART: RRR, no murmur.</p>
+                <p>THORAX &amp; LUNGS: Clear without rhonchi or wheeze.</p>
+                <p>ABDOMEN: Marked distension and tenderness, slightly obese, pos
+                                bowelsounds.</p>
+                <p>BACK: Normal to inspection and palpation, without tenderness; no
+                                presacral edema.</p>
+                <p>EXTREMITIES: Doughy edema bilaterally, chronic stasis changes, no
+                                asymmetrical swelling.</p>
             </div>
         </text>
     </section>
@@ -782,12 +757,12 @@
                     </tr>
                     <tr>
                         <td>Colonoscopy</td>
-                        <td>2016/08/16 - 2016/08/16</td>
+                        <td>2010/08/16 - 2010/08/16</td>
                         <td>Completed</td>
                     </tr>
                     <tr>
                         <td>Recommendation to Exercise</td>
-                        <td>2016/06/29</td>
+                        <td>2015/10/29</td>
                         <td>Ongoing</td>
                     </tr>
                 </table>
@@ -886,29 +861,29 @@
         </entry>
     </section>
     <section>
-        <title value="Discharge Diagnosis Section"/>
+        <title value="Reason for Visit Section"/>
         <code>
             <coding>
                 <system value="http://loinc.org"/>
-                <code value="11535-2"/>
-                <display value="Hospital discharge Dx Narrative"/>
+                <code value="29299-5"/>
+                <display value="Reason for visit"/>
             </coding>
         </code>
         <text>
             <status value="generated"/>
             <div
                 xmlns="http://www.w3.org/1999/xhtml">
-                <p>Diverticula of intestine</p>
+                <p>Tenderness of lower abdomen</p>
             </div>
         </text>
     </section>
     <section>
-        <title value="Discharge Medications Section (entries required)"/>
+        <title value="Results Section"/>
         <code>
             <coding>
                 <system value="http://loinc.org"/>
-                <code value="10183-2"/>
-                <display value="Hospital discharge medications"/>
+                <code value="30954-2"/>
+                <display value="Relevant diagnostic tests/laboratory data Narrative"/>
             </coding>
         </code>
         <text>
@@ -918,160 +893,10 @@
                 <table>
                     <tr>
                         <td>
-                            <b>Medication</b>
+                            <b>Result Type</b>
                         </td>
                         <td>
-                            <b>Directions</b>
-                        </td>
-                        <td>
-                            <b>Start Date</b>
-                        </td>
-                        <td>
-                            <b>Status</b>
-                        </td>
-                        <td>
-                            <b>Indications</b>
-                        </td>
-                        <td>
-                            <b>Fill Instructions</b>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>Acetaminophen Tab 325 mg</td>
-                        <td>Take 2 tablet(s) every four hours if needed</td>
-                        <td>20160618</td>
-                        <td>Active</td>
-                        <td>Pain management</td>
-                        <td>Generic substitution allowed</td>
-                    </tr>
-                </table>
-            </div>
-        </text>
-    </section>
-    <section>
-        <title value="Hospital Discharge Instructions Section"/>
-        <code>
-            <coding>
-                <system value="http://loinc.org"/>
-                <code value="8653-8"/>
-                <display value="Hospital discharge instructions"/>
-            </coding>
-        </code>
-        <text>
-            <status value="generated"/>
-            <div
-                xmlns="http://www.w3.org/1999/xhtml">
-                <p>Take all of your prescription medication as directed. </p>
-                <p>Make an appointment with your doctor to be seen two weeks from the
-                                date of your procedure. </p>
-                <p>You may feel slightly bloated after the procedure because of air that
-                                was introduced during the examination. </p>
-                <p> Call your physician if you notice: 
-                    <br/> Bleeding or black stools.
-								
-                    <br/> Abdominal pain. 
-                    <br/> Fever or chills. 
-                    <br/> Nausea or
-                                vomiting. 
-                    <br/> Any unusual pain or problem. 
-                    <br/> Pain or redness
-                                at the site where the intravenous needle was placed. 
-                    <br/>
-                </p>
-                <p>Do not drink alcohol for 24 hours. Alcohol amplifies the effect of
-                                the sedatives given. </p>
-                <p>Do not drive or operate machinery for 24 hours.</p>
-            </div>
-        </text>
-    </section>
-    <section>
-        <title value="Hospital Discharge Physical Section"/>
-        <code>
-            <coding>
-                <system value="http://loinc.org"/>
-                <code value="10184-0"/>
-                <display value="Hospital discharge physical findings Narrative"/>
-            </coding>
-        </code>
-        <text>
-            <status value="generated"/>
-            <div
-                xmlns="http://www.w3.org/1999/xhtml">
-                <p>GENERAL: Well-developed, slightly obese man. </p>
-                <p>NECK: Supple, with no jugular venous distension.</p>
-                <p>HEART: Intermittent tachycardia without murmurs or gallops. </p>
-                <p>PULMONARY: Decreased breath sounds, but no clear-cut rales or
-                                wheezes.</p>
-                <p>EXTREMITIES: Free of edema.</p>
-            </div>
-        </text>
-    </section>
-    <section>
-        <title value="Hospital Discharge Studies Section"/>
-        <code>
-            <coding>
-                <system value="http://loinc.org"/>
-                <code value="11493-4"/>
-                <display value="Hospital discharge studies summary"/>
-            </coding>
-        </code>
-        <text>
-            <status value="generated"/>
-            <div
-                xmlns="http://www.w3.org/1999/xhtml">
-                <table border="1" width="100%">
-                    <thead>
-                        <tr>
-                            <th>Laboratory Information</th>
-                            <th>Chemistries and drug levels</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Potasium</td>
-                            <td>4.0</td>
-                        </tr>
-                        <tr>
-                            <td>NA (135-145meq/l)</td>
-                            <td>140</td>
-                        </tr>
-                    </tbody>
-                </table>
-                <br/>
-                <table border="1" width="100%">
-                    <thead>
-                        <tr>
-                            <th>Other Tests</th>
-                            <th>Results</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>EKG</td>
-                            <td>Sinus rhythm without acute changes.</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </text>
-    </section>
-    <section>
-        <title value="Immunizations Section"/>
-        <code>
-            <coding>
-                <system value="http://loinc.org"/>
-                <code value="11369-6"/>
-                <display value="History of Immunization Narrative"/>
-            </coding>
-        </code>
-        <text>
-            <status value="generated"/>
-            <div
-                xmlns="http://www.w3.org/1999/xhtml">
-                <table>
-                    <tr>
-                        <td>
-                            <b>Vaccine</b>
+                            <b>Quantity Value</b>
                         </td>
                         <td>
                             <b>Date</b>
@@ -1081,24 +906,45 @@
                         </td>
                     </tr>
                     <tr>
-                        <td>Fluvax (Influenza)</td>
-                        <td>2016-04-05</td>
-                        <td>Completed</td>
+                        <td>Glucose [Moles/volume] in Blood</td>
+                        <td>6.3 mmol/l</td>
+                        <td>2016/04/01</td>
+                        <td>Final</td>
                     </tr>
                 </table>
             </div>
         </text>
         <entry>
-            <reference value="Immunization/immunization"/>
+            <reference value="Observation/observation-lab-urine"/>
         </entry>
     </section>
     <section>
-        <title value="Nutrition Section"/>
+        <title value="Review of Systems Section"/>
         <code>
             <coding>
                 <system value="http://loinc.org"/>
-                <code value="61144-2"/>
-                <display value="Diet and nutrition Narrative"/>
+                <code value="10187-3"/>
+                <display value="Review of systems"/>
+            </coding>
+        </code>
+        <text>
+            <status value="generated"/>
+            <div
+                xmlns="http://www.w3.org/1999/xhtml">
+                <p>Patient denies recent history of fever or malaise. Positive for
+                                weakness and shortness of breath. Several episodes of abdominal
+                                tenderness. No recent headaches. Positive for osteoarthritis in
+                                hips, knees and hands. </p>
+            </div>
+        </text>
+    </section>
+    <section>
+        <title value="Social History Section"/>
+        <code>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="29762-2"/>
+                <display value="Social history Narrative"/>
             </coding>
         </code>
         <text>
@@ -1108,28 +954,26 @@
                 <table>
                     <tr>
                         <td>
-                            <b>Date</b>
+                            <b>Social History Element</b>
                         </td>
                         <td>
-                            <b>Nutritional Status</b>
+                            <b>Description</b>
                         </td>
                         <td>
-                            <b>Diet</b>
+                            <b>Effective Dates</b>
                         </td>
                     </tr>
                     <tr>
-                        <td>2016/06/15</td>
-                        <td>Well nourished</td>
-                        <td>Low sodium diet, excessive carbohydrate</td>
-                    </tr>
-                    <tr>
-                        <td>2016/06/15</td>
-                        <td>Slight dehydration</td>
-                        <td>High protein, low fibre</td>
+                        <td>Smoking</td>
+                        <td>1 pack tobacco per day</td>
+                        <td>2005/05/01 - 2010/02/28</td>
                     </tr>
                 </table>
             </div>
         </text>
+        <entry>
+            <reference value="Observation/observation-smoker"/>
+        </entry>
     </section>
     <section>
         <title value="Vital Signs Section"/>

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Composition
     xmlns="http://hl7.org/fhir">
-    <id value="CCDA-on-FHIR-Referral-Note-Example"/>
+    <id value="Referral-Note-Example"/>
     <meta>
         <versionId value="1"/>
-        <lastUpdated value="2020-02-11T23:10:09.350+00:00"/>
-        <source value="#6d3bLpKzRmQOIdBc"/>
-        <profile value="http://hl7.org/fhir/us/ccda-r4/StructureDefinition/CCDA-on-FHIR-Referral-Note"/>
+        <lastUpdated value="2020-04-16T06:33:28.063+00:00"/>
+        <source value="#iDS0uyWwvJRN9qX8"/>
+        <profile value="http://hl7.org/fhir/us/ccda/StructureDefinition/Referral-Note"/>
     </meta>
     <language value="en-US"/>
     <text>

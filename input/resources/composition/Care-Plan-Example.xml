@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Composition
     xmlns="http://hl7.org/fhir">
-    <id value="CCDA-on-FHIR-Care-Plan-Example"/>
+    <id value="Care-Plan-Example"/>
     <meta>
         <versionId value="1"/>
-        <lastUpdated value="2020-02-11T23:10:02.120+00:00"/>
-        <source value="#C5H1f1YkvohATs7F"/>
-        <profile value="http://hl7.org/fhir/us/ccda-r4/StructureDefinition/CCDA-on-FHIR-Care-Plan"/>
+        <lastUpdated value="2020-04-16T06:33:28.063+00:00"/>
+        <source value="#iDS0uyWwvJRN9qX8"/>
+        <profile value="http://hl7.org/fhir/us/ccda/StructureDefinition/Care-Plan"/>
     </meta>
-    <language value="en-US"/> 
+    <language value="en-US"/>
     <text>
         <status value="generated"/>
         <div
-            xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+            xmlns="http://www.w3.org/1999/xhtml">
             <table style="border: 1pt inset #00008b; line-height: 10pt; width: 100%;" class="header_table">
                 <tbody>
                     <tr>
@@ -59,10 +59,13 @@
                         </td>
                         <td class="td_header_role_value">1003 Healthcare Drive
 
+
 										
                             <br/>Amherst MA 01002, US 
+
 										
                             <br/>Tel: +1(555)555-1003
+
 
 										
                             <br/>
@@ -111,10 +114,13 @@
                         </td>
                         <td class="td_header_role_value">1003 Healthcare Drive
 
+
 										
                             <br/>Amherst MA 01002, US 
+
 										
                             <br/>Tel: +1(555)555-1003
+
 
 										
                             <br/>
@@ -129,6 +135,7 @@
                             <span class="td_label">Assigned entity</span>
                         </td>
                         <td class="td_header_role_value">Acme Laboratories 
+
 										
                             <br/>
                         </td>
@@ -138,6 +145,7 @@
                             <span class="td_label">Emergency contact</span>
                         </td>
                         <td class="td_header_role_value">Michael Shaw 
+
 										
                             <br/>
                             <br/>
@@ -148,11 +156,14 @@
                             <span class="td_label">Contact info</span>
                         </td>
                         <td class="td_header_role_value">49 Meadow St 
+
 										
                             <br/>Amherst MA
                                         01003, US 
+
 										
                             <br/>Tel: (555)555-1212 
+
 										
                             <br/>
                         </td>
@@ -162,6 +173,7 @@
                             <span class="td_label">Care giver</span>
                         </td>
                         <td class="td_header_role_value">Mrs. Lillian White 
+
 										
                             <br/>
                         </td>
@@ -171,11 +183,14 @@
                             <span class="td_label">Contact info</span>
                         </td>
                         <td class="td_header_role_value">49 Meadow St 
+
 										
                             <br/>Amherst MA
                                         01003, US 
+
 										
                             <br/>Tel: (555)555-1215 
+
 										
                             <br/>
                         </td>
@@ -196,10 +211,13 @@
                         </td>
                         <td class="td_header_role_value">1003 Healthcare Drive
 
+
 										
                             <br/>Amherst MA 01002, US 
+
 										
                             <br/>Tel: +1(555)555-1003
+
 
 										
                             <br/>
@@ -222,10 +240,13 @@
                         </td>
                         <td class="td_header_role_value">1003 Healthcare Drive
 
+
 										
                             <br/>Amherst MA 01002, US 
+
 										
                             <br/>Tel: +1(555)555-1003
+
 
 										
                             <br/>
@@ -247,10 +268,13 @@
                         </td>
                         <td class="td_header_role_value">1007 Pharmacy Drive
 
+
 										
                             <br/>Portland, OR 99123, US 
+
 										
                             <br/>Tel: +1(555)555-1215
+
 
 										
                             <br/>
@@ -272,10 +296,13 @@
                         </td>
                         <td class="td_header_role_value">1005 St. Clair Avenue
 
+
 										
                             <br/>Amherst MA 01002, US 
+
 										
                             <br/>Tel: +1(555)555-1666
+
 
 										
                             <br/>
@@ -298,10 +325,13 @@
                         </td>
                         <td class="td_header_role_value">1003 Healthcare Drive
 
+
 										
                             <br/>Amherst MA 01002, US 
+
 										
                             <br/>Tel: +1(555)555-1003
+
 
 										
                             <br/>
@@ -323,10 +353,13 @@
                         </td>
                         <td class="td_header_role_value">1003 Healthcare Drive
 
+
 										
                             <br/>Amherst MA 01002, US 
+
 										
                             <br/>Tel: +1(555)555-1003
+
 
 										
                             <br/>
@@ -336,7 +369,7 @@
             </table>
         </div>
     </text>
-    <extension url="http://hl7.org/fhir/us/ccda-r4/StructureDefinition/CCDA-on-FHIR-Data-Enterer">
+    <extension url="http://hl7.org/fhir/us/ccda/StructureDefinition/Data-Enterer">
         <valueReference>
             <reference value="PractitionerRole/ccda-practitionerrole-example"/>
         </valueReference>
