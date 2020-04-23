@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="Participant"/>
     <meta>
-        <versionId value="2"/>
-        <lastUpdated value="2020-04-16T17:00:19.447+00:00"/>
-        <source value="#yEDSf5oHc7Q1z7ar"/>
+        <versionId value="3"/>
+        <lastUpdated value="2020-04-23T05:47:12.071+00:00"/>
+        <source value="#9il1pgDVzfdXSPRD"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ccda/StructureDefinition/Participant"/>
     <name value="Participant"/>
@@ -26,6 +26,12 @@
         </telecom>
     </contact>
     <description value="The C-CDA on FHIR Participant Extension identifies supporting entities, including parents, relatives, caregivers, insurance policyholders, guarantors, and others related in some way to the patient. A supporting person or organization is an individual or an organization with a relationship to the patient. A supporting person who is playing multiple roles would be recorded in multiple participants (e.g., emergency contact and next-of-kin).&#xA;&#xA;For further information see the C-CDA specification here: http://www.hl7.org/implement/standards/product_brief.cfm?product_id=408."/>
+    <jurisdiction>
+        <coding>
+            <system value="urn:iso:std:iso:3166:-2"/>
+            <code value="US"/>
+        </coding>
+    </jurisdiction>
     <fhirVersion value="4.0.1"/>
     <kind value="complex-type"/>
     <abstract value="false"/>

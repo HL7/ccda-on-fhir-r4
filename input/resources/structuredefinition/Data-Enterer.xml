@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="Data-Enterer"/>
     <meta>
-        <versionId value="2"/>
-        <lastUpdated value="2020-04-16T17:00:21.669+00:00"/>
-        <source value="#yEDSf5oHc7Q1z7ar"/>
+        <versionId value="3"/>
+        <lastUpdated value="2020-04-23T05:36:27.507+00:00"/>
+        <source value="#zgaCfNJLYSjkUWvM"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ccda/StructureDefinition/Data-Enterer"/>
     <name value="DataEnterer"/>
@@ -34,6 +34,12 @@
         </telecom>
     </contact>
     <description value="The C-CDA on FHIR Data Enterer Extension represents the person who transferred the content, written or dictated, into the clinical document. To clarify, an author provides the content, subject to their own interpretation; a dataEnterer adds an author's information to the electronic system.&#xA;&#xA;For further information see the C-CDA specification here: http://www.hl7.org/implement/standards/product_brief.cfm?product_id=408."/>
+    <jurisdiction>
+        <coding>
+            <system value="urn:iso:std:iso:3166:-2"/>
+            <code value="US"/>
+        </coding>
+    </jurisdiction>
     <fhirVersion value="4.0.1"/>
     <kind value="complex-type"/>
     <abstract value="false"/>

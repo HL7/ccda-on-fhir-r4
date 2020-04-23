@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="Performer"/>
     <meta>
-        <versionId value="2"/>
-        <lastUpdated value="2020-04-16T17:00:19.015+00:00"/>
-        <source value="#yEDSf5oHc7Q1z7ar"/>
+        <versionId value="3"/>
+        <lastUpdated value="2020-04-23T05:48:08.067+00:00"/>
+        <source value="#dsWefjJpAxKMg5zi"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ccda/StructureDefinition/Performer"/>
     <name value="Performer"/>
@@ -26,6 +26,12 @@
         </telecom>
     </contact>
     <description value="The C-CDA on FHIR Performer Extension represents clinicians who actually and principally carry out the clinical services being documented. In a transfer of care this represents the healthcare providers involved in the current or pertinent historical care of the patient. Preferably, the patients key healthcare care team members would be listed, particularly their primary physician and any active consulting physicians, therapists, and counselors.&#xA;&#xA;For further information see the C-CDA specification here: http://www.hl7.org/implement/standards/product_brief.cfm?product_id=408."/>
+    <jurisdiction>
+        <coding>
+            <system value="urn:iso:std:iso:3166:-2"/>
+            <code value="US"/>
+        </coding>
+    </jurisdiction>
     <fhirVersion value="4.0.1"/>
     <kind value="complex-type"/>
     <abstract value="false"/>
