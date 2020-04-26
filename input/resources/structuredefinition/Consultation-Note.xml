@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="Consultation-Note"/>
     <meta>
-        <versionId value="3"/>
-        <lastUpdated value="2020-04-23T05:33:48.531+00:00"/>
-        <source value="#wX0tfjA4vMNfpZTZ"/>
+        <versionId value="2"/>
+        <lastUpdated value="2020-04-25T19:35:45.042+00:00"/>
+        <source value="#XUiTdiiRTUQeaipy"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ccda/StructureDefinition/Consultation-Note"/>
     <name value="ConsultationNote"/>
@@ -1131,6 +1131,7 @@
             <min value="1"/>
             <patternCodeableConcept>
                 <coding>
+                    <system value="http://loinc.org"/>
                     <code value="29762-2"/>
                 </coding>
             </patternCodeableConcept>

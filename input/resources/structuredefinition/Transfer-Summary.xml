@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="Transfer-Summary"/>
     <meta>
-        <versionId value="3"/>
-        <lastUpdated value="2020-04-23T06:59:35.435+00:00"/>
-        <source value="#Juh2cA9pJh7IMl5j"/>
+        <versionId value="2"/>
+        <lastUpdated value="2020-04-25T20:31:11.368+00:00"/>
+        <source value="#d9QgLwiiYHWmcLWF"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ccda/StructureDefinition/Transfer-Summary"/>
     <name value="TransferSummary"/>
@@ -749,6 +749,7 @@
             <min value="1"/>
             <patternCodeableConcept>
                 <coding>
+                    <system value="http://loinc.org"/>
                     <code value="10164-2"/>
                 </coding>
             </patternCodeableConcept>

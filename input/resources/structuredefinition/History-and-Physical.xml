@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="History-and-Physical"/>
     <meta>
-        <versionId value="3"/>
-        <lastUpdated value="2020-04-23T05:40:15.230+00:00"/>
-        <source value="#nVGLd40beOHCTEl9"/>
+        <versionId value="2"/>
+        <lastUpdated value="2020-04-25T19:35:41.964+00:00"/>
+        <source value="#XUiTdiiRTUQeaipy"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ccda/StructureDefinition/History-and-Physical"/>
     <name value="HistoryAndPhysical"/>
@@ -474,6 +474,7 @@
             <min value="1"/>
             <patternCodeableConcept>
                 <coding>
+                    <system value="http://loinc.org"/>
                     <code value="29762-2"/>
                 </coding>
             </patternCodeableConcept>

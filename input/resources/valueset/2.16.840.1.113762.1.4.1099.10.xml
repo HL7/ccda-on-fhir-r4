@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="2.16.840.1.113762.1.4.1099.10"/>
     <meta>
-        <versionId value="3"/>
-        <lastUpdated value="2020-04-16T06:33:30.228+00:00"/>
-        <source value="#iDS0uyWwvJRN9qX8"/>
+        <versionId value="2"/>
+        <lastUpdated value="2020-04-24T23:19:37.077+00:00"/>
+        <source value="#Do0IzaxShRkSdnDI"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ccda/ValueSet/2.16.840.1.113762.1.4.1099.10"/>
     <name value="CarePlanDocumentType"/>

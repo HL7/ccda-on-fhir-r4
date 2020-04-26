@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="Data-Enterer"/>
     <meta>
-        <versionId value="3"/>
-        <lastUpdated value="2020-04-23T05:36:27.507+00:00"/>
-        <source value="#zgaCfNJLYSjkUWvM"/>
+        <versionId value="1"/>
+        <lastUpdated value="2020-04-24T23:19:36.061+00:00"/>
+        <source value="#Do0IzaxShRkSdnDI"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ccda/StructureDefinition/Data-Enterer"/>
     <name value="DataEnterer"/>

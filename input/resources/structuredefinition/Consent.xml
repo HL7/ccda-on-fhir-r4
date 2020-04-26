@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="Consent"/>
     <meta>
-        <versionId value="3"/>
-        <lastUpdated value="2020-04-23T05:32:53.347+00:00"/>
-        <source value="#Rf3LD70te6Jm2vEu"/>
+        <versionId value="1"/>
+        <lastUpdated value="2020-04-24T23:19:36.061+00:00"/>
+        <source value="#Do0IzaxShRkSdnDI"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ccda/StructureDefinition/Consent"/>
     <name value="Consent"/>

@@ -4,8 +4,8 @@
     <id value="example-1"/>
     <meta>
         <versionId value="3"/>
-        <lastUpdated value="2020-04-16T06:33:31.104+00:00"/>
-        <source value="#iDS0uyWwvJRN9qX8"/>
+        <lastUpdated value="2020-04-24T23:19:37.208+00:00"/>
+        <source value="#Do0IzaxShRkSdnDI"/>
         <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter"/>
     </meta>
     <status value="finished"/>

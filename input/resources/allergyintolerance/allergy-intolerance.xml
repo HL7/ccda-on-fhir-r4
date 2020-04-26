@@ -3,14 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="allergy-intolerance"/>
     <meta>
-        <versionId value="6"/>
-        <lastUpdated value="2020-04-16T06:33:33.481+00:00"/>
-        <source value="#iDS0uyWwvJRN9qX8"/>
-        <tag>
-            <system value="http://terminology.hl7.org/CodeSystem/v3-ObservationValue"/>
-            <code value="SUBSETTED"/>
-            <display value="Resource encoded in summary mode"/>
-        </tag>
+        <versionId value="5"/>
+        <lastUpdated value="2020-04-24T23:19:38.668+00:00"/>
+        <source value="#Do0IzaxShRkSdnDI"/>
     </meta>
     <clinicalStatus>
         <coding>

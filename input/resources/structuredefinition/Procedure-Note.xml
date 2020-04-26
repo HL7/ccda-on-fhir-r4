@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="Procedure-Note"/>
     <meta>
-        <versionId value="3"/>
-        <lastUpdated value="2020-04-23T05:49:10.522+00:00"/>
-        <source value="#KT4s9ArXh2vt43e6"/>
+        <versionId value="2"/>
+        <lastUpdated value="2020-04-25T19:35:44.336+00:00"/>
+        <source value="#XUiTdiiRTUQeaipy"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ccda/StructureDefinition/Procedure-Note"/>
     <name value="ProcedureNote"/>
@@ -1257,6 +1257,7 @@
             <min value="1"/>
             <patternCodeableConcept>
                 <coding>
+                    <system value="http://loinc.org"/>
                     <code value="29762-2"/>
                 </coding>
             </patternCodeableConcept>

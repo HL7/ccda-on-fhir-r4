@@ -4,8 +4,8 @@
     <id value="Transfer-Summary-Example"/>
     <meta>
         <versionId value="1"/>
-        <lastUpdated value="2020-04-16T06:33:28.063+00:00"/>
-        <source value="#iDS0uyWwvJRN9qX8"/>
+        <lastUpdated value="2020-04-24T23:19:36.061+00:00"/>
+        <source value="#Do0IzaxShRkSdnDI"/>
         <profile value="http://hl7.org/fhir/us/ccda/StructureDefinition/Transfer-Summary"/>
     </meta>
     <language value="en-US"/>

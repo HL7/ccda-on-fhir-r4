@@ -4,8 +4,8 @@
     <id value="2.16.840.1.113883.1.11.20.22"/>
     <meta>
         <versionId value="2"/>
-        <lastUpdated value="2020-04-16T06:33:38.359+00:00"/>
-        <source value="#iDS0uyWwvJRN9qX8"/>
+        <lastUpdated value="2020-04-24T23:19:40.949+00:00"/>
+        <source value="#Do0IzaxShRkSdnDI"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ccda/ValueSet/2.16.840.1.113883.1.11.20.22"/>
     <name value="HPDocumentType"/>

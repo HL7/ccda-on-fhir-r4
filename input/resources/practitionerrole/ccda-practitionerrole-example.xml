@@ -4,8 +4,8 @@
     <id value="ccda-practitionerrole-example"/>
     <meta>
         <versionId value="3"/>
-        <lastUpdated value="2020-04-16T06:33:32.262+00:00"/>
-        <source value="#iDS0uyWwvJRN9qX8"/>
+        <lastUpdated value="2020-04-24T23:19:38.060+00:00"/>
+        <source value="#Do0IzaxShRkSdnDI"/>
         <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitionerrole"/>
     </meta>
     <text>
