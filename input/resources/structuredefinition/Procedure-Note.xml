@@ -3,13 +3,13 @@
     xmlns="http://hl7.org/fhir">
     <id value="Procedure-Note"/>
     <meta>
-        <versionId value="2"/>
-        <lastUpdated value="2020-04-25T19:35:44.336+00:00"/>
-        <source value="#XUiTdiiRTUQeaipy"/>
+        <versionId value="3"/>
+        <lastUpdated value="2020-05-13T05:20:54.596+00:00"/>
+        <source value="#4uWUT2O08hateDZM"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ccda/StructureDefinition/Procedure-Note"/>
     <name value="ProcedureNote"/>
-    <title value="C-CDA on FHIR Procedure Note"/>
+    <title value="Procedure Note"/>
     <status value="active"/>
     <publisher value="Lantana Consulting Group"/>
     <contact>

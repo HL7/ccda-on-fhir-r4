@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="hl7.fhir.us.ccda"/>
     <meta>
-        <versionId value="9"/>
-        <lastUpdated value="2020-04-25T19:24:30.374+00:00"/>
-        <source value="#S7RMcY9lDoaxlC6B"/>
+        <versionId value="10"/>
+        <lastUpdated value="2020-05-13T05:20:52.554+00:00"/>
+        <source value="#4uWUT2O08hateDZM"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ccda/ImplementationGuide/hl7.fhir.us.ccda"/>
     <version value="2.0.0"/>
@@ -169,92 +169,92 @@
         </resource>
         <resource>
             <reference>
-                <reference value="StructureDefinition/Care-Plan"/>
-                <display value="C-CDA on FHIR Care Plan"/>
+                <reference value="StructureDefinition/Care-Plan-Document"/>
+                <display value="Care Plan Document"/>
             </reference>
-            <name value="Care Plan"/>
-            <description value="C-CDA on FHIR Care Plan"/>
+            <name value="Care Plan Document"/>
+            <description value="Care Plan Document"/>
             <exampleBoolean value="false"/>
         </resource>
         <resource>
             <reference>
                 <reference value="StructureDefinition/Consultation-Note"/>
-                <display value="C-CDA on FHIR Consultation Note"/>
+                <display value="Consultation Note"/>
             </reference>
             <name value="Consultation Note"/>
-            <description value="C-CDA on FHIR Consultation Note"/>
+            <description value="Consultation Note"/>
             <exampleBoolean value="false"/>
         </resource>
         <resource>
             <reference>
                 <reference value="StructureDefinition/Continuity-of-Care-Document"/>
-                <display value="C-CDA on FHIR Continuity of Care Document"/>
+                <display value="Continuity of Care Document"/>
             </reference>
             <name value="Continuity of Care Document"/>
-            <description value="C-CDA on FHIR Continuity of Care Document"/>
+            <description value="Continuity of Care Document"/>
             <exampleBoolean value="false"/>
         </resource>
         <resource>
             <reference>
                 <reference value="StructureDefinition/Diagnostic-Imaging-Report"/>
-                <display value="C-CDA on FHIR Diagnostic Imaging Report"/>
+                <display value="Diagnostic Imaging Report"/>
             </reference>
             <name value="Diagnostic Imaging Report"/>
-            <description value="C-CDA on FHIR Diagnostic Imaging Report"/>
+            <description value="Diagnostic Imaging Report"/>
             <exampleBoolean value="false"/>
         </resource>
         <resource>
             <reference>
                 <reference value="StructureDefinition/Discharge-Summary"/>
-                <display value="C-CDA on FHIR Discharge Summary"/>
+                <display value="Discharge Summary"/>
             </reference>
             <name value="Discharge Summary"/>
-            <description value="C-CDA on FHIR Discharge Summary"/>
+            <description value="Discharge Summary"/>
             <exampleBoolean value="false"/>
         </resource>
         <resource>
             <reference>
                 <reference value="StructureDefinition/History-and-Physical"/>
-                <display value="C-CDA on FHIR History and Physical"/>
+                <display value="History and Physical"/>
             </reference>
             <name value="History and Physical"/>
-            <description value="C-CDA on FHIR History and Physical"/>
+            <description value="History and Physical"/>
             <exampleBoolean value="false"/>
         </resource>
         <resource>
             <reference>
                 <reference value="StructureDefinition/Operative-Note"/>
-                <display value="C-CDA on FHIR Operative Note"/>
+                <display value="Operative Note"/>
             </reference>
             <name value="Operative Note"/>
-            <description value="C-CDA on FHIR Operative Note"/>
+            <description value="Operative Note"/>
             <exampleBoolean value="false"/>
         </resource>
         <resource>
             <reference>
                 <reference value="StructureDefinition/Progress-Note"/>
-                <display value="C-CDA on FHIR Progress Note"/>
+                <display value="Progress Note"/>
             </reference>
             <name value="Progress Note"/>
-            <description value="C-CDA on FHIR Progress Note"/>
+            <description value="Progress Note"/>
             <exampleBoolean value="false"/>
         </resource>
         <resource>
             <reference>
                 <reference value="StructureDefinition/Referral-Note"/>
-                <display value="C-CDA on FHIR Referral Note"/>
+                <display value="Referral Note"/>
             </reference>
             <name value="Referral Note"/>
-            <description value="C-CDA on FHIR Referral Note"/>
+            <description value="Referral Note"/>
             <exampleBoolean value="false"/>
         </resource>
         <resource>
             <reference>
                 <reference value="StructureDefinition/Transfer-Summary"/>
-                <display value="C-CDA on FHIR Transfer Summary"/>
+                <display value="Transfer Summary"/>
             </reference>
             <name value="Transfer Summary"/>
-            <description value="C-CDA on FHIR Transfer Summary"/>
+            <description value="Transfer Summary"/>
             <exampleBoolean value="false"/>
         </resource>
         <resource>

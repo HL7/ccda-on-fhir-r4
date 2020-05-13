@@ -3,13 +3,13 @@
     xmlns="http://hl7.org/fhir">
     <id value="Consultation-Note"/>
     <meta>
-        <versionId value="2"/>
-        <lastUpdated value="2020-04-25T19:35:45.042+00:00"/>
-        <source value="#XUiTdiiRTUQeaipy"/>
+        <versionId value="3"/>
+        <lastUpdated value="2020-05-13T05:20:55.350+00:00"/>
+        <source value="#4uWUT2O08hateDZM"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ccda/StructureDefinition/Consultation-Note"/>
     <name value="ConsultationNote"/>
-    <title value="C-CDA on FHIR Consultation Note"/>
+    <title value="Consultation Note"/>
     <status value="active"/>
     <publisher value="Lantana Consulting Group"/>
     <contact>

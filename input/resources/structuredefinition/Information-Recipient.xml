@@ -3,13 +3,13 @@
     xmlns="http://hl7.org/fhir">
     <id value="Information-Recipient"/>
     <meta>
-        <versionId value="1"/>
-        <lastUpdated value="2020-04-24T23:19:36.061+00:00"/>
-        <source value="#Do0IzaxShRkSdnDI"/>
+        <versionId value="2"/>
+        <lastUpdated value="2020-05-13T05:20:52.862+00:00"/>
+        <source value="#4uWUT2O08hateDZM"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ccda/StructureDefinition/Information-Recipient"/>
     <name value="InformationRecipient"/>
-    <title value="C-CDA on FHIR Information Recipient"/>
+    <title value="Information Recipient"/>
     <status value="active"/>
     <publisher value="HL7 Structured Documents Working Group"/>
     <contact>
@@ -33,7 +33,7 @@
             <use value="work"/>
         </telecom>
     </contact>
-    <description value="The C-CDA on FHIR Information Recipient Extension records the intended recipient of the information at the time the document was created.&#xA;&#xA;For further information see the C-CDA specification here: http://www.hl7.org/implement/standards/product_brief.cfm?product_id=408."/>
+    <description value="The Information Recipient Extension records the intended recipient of the information at the time the document was created.&#xA;&#xA;For further information see the C-CDA specification here: http://www.hl7.org/implement/standards/product_brief.cfm?product_id=408."/>
     <jurisdiction>
         <coding>
             <system value="urn:iso:std:iso:3166:-2"/>

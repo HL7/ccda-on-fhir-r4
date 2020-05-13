@@ -3,13 +3,13 @@
     xmlns="http://hl7.org/fhir">
     <id value="Performer"/>
     <meta>
-        <versionId value="1"/>
-        <lastUpdated value="2020-04-24T23:19:36.061+00:00"/>
-        <source value="#Do0IzaxShRkSdnDI"/>
+        <versionId value="2"/>
+        <lastUpdated value="2020-05-13T05:20:51.674+00:00"/>
+        <source value="#4uWUT2O08hateDZM"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ccda/StructureDefinition/Performer"/>
     <name value="Performer"/>
-    <title value="C-CDA on FHIR Performer"/>
+    <title value="Performer"/>
     <status value="active"/>
     <publisher value="HL7 Structured Documents Working Group"/>
     <contact>
@@ -25,7 +25,7 @@
             <use value="work"/>
         </telecom>
     </contact>
-    <description value="The C-CDA on FHIR Performer Extension represents clinicians who actually and principally carry out the clinical services being documented. In a transfer of care this represents the healthcare providers involved in the current or pertinent historical care of the patient. Preferably, the patients key healthcare care team members would be listed, particularly their primary physician and any active consulting physicians, therapists, and counselors.&#xA;&#xA;For further information see the C-CDA specification here: http://www.hl7.org/implement/standards/product_brief.cfm?product_id=408."/>
+    <description value="The Performer Extension represents clinicians who actually and principally carry out the clinical services being documented. In a transfer of care this represents the healthcare providers involved in the current or pertinent historical care of the patient. Preferably, the patients key healthcare care team members would be listed, particularly their primary physician and any active consulting physicians, therapists, and counselors.&#xA;&#xA;For further information see the C-CDA specification here: http://www.hl7.org/implement/standards/product_brief.cfm?product_id=408."/>
     <jurisdiction>
         <coding>
             <system value="urn:iso:std:iso:3166:-2"/>

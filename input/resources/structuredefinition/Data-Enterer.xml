@@ -3,13 +3,13 @@
     xmlns="http://hl7.org/fhir">
     <id value="Data-Enterer"/>
     <meta>
-        <versionId value="1"/>
-        <lastUpdated value="2020-04-24T23:19:36.061+00:00"/>
-        <source value="#Do0IzaxShRkSdnDI"/>
+        <versionId value="2"/>
+        <lastUpdated value="2020-05-13T05:20:54.202+00:00"/>
+        <source value="#4uWUT2O08hateDZM"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ccda/StructureDefinition/Data-Enterer"/>
     <name value="DataEnterer"/>
-    <title value="C-CDA on FHIR Data Enterer"/>
+    <title value="Data Enterer"/>
     <status value="active"/>
     <publisher value="Lantana Consulting Group"/>
     <contact>
@@ -33,7 +33,7 @@
             <use value="work"/>
         </telecom>
     </contact>
-    <description value="The C-CDA on FHIR Data Enterer Extension represents the person who transferred the content, written or dictated, into the clinical document. To clarify, an author provides the content, subject to their own interpretation; a dataEnterer adds an author's information to the electronic system.&#xA;&#xA;For further information see the C-CDA specification here: http://www.hl7.org/implement/standards/product_brief.cfm?product_id=408."/>
+    <description value="The Data Enterer Extension represents the person who transferred the content, written or dictated, into the clinical document. To clarify, an author provides the content, subject to their own interpretation; a dataEnterer adds an author's information to the electronic system.&#xA;&#xA;For further information see the C-CDA specification here: http://www.hl7.org/implement/standards/product_brief.cfm?product_id=408."/>
     <jurisdiction>
         <coding>
             <system value="urn:iso:std:iso:3166:-2"/>

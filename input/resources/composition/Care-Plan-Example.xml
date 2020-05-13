@@ -3,10 +3,10 @@
     xmlns="http://hl7.org/fhir">
     <id value="Care-Plan-Example"/>
     <meta>
-        <versionId value="1"/>
-        <lastUpdated value="2020-04-24T23:19:36.061+00:00"/>
-        <source value="#Do0IzaxShRkSdnDI"/>
-        <profile value="http://hl7.org/fhir/us/ccda/StructureDefinition/Care-Plan"/>
+        <versionId value="2"/>
+        <lastUpdated value="2020-05-13T05:20:53.767+00:00"/>
+        <source value="#4uWUT2O08hateDZM"/>
+        <profile value="http://hl7.org/fhir/us/ccda/StructureDefinition/Care-Plan-Document"/>
     </meta>
     <language value="en-US"/>
     <text>

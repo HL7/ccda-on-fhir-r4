@@ -3,13 +3,13 @@
     xmlns="http://hl7.org/fhir">
     <id value="Diagnostic-Imaging-Report"/>
     <meta>
-        <versionId value="1"/>
-        <lastUpdated value="2020-04-24T23:19:36.061+00:00"/>
-        <source value="#Do0IzaxShRkSdnDI"/>
+        <versionId value="2"/>
+        <lastUpdated value="2020-05-13T05:20:56.014+00:00"/>
+        <source value="#4uWUT2O08hateDZM"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ccda/StructureDefinition/Diagnostic-Imaging-Report"/>
     <name value="DiagnosticImagingReport"/>
-    <title value="C-CDA on FHIR Diagnostic Imaging Report"/>
+    <title value="Diagnostic Imaging Report"/>
     <status value="active"/>
     <publisher value="Lantana Consulting Group"/>
     <contact>

@@ -3,13 +3,13 @@
     xmlns="http://hl7.org/fhir">
     <id value="In-Fulfillment-Of-Order"/>
     <meta>
-        <versionId value="1"/>
-        <lastUpdated value="2020-04-24T23:19:36.061+00:00"/>
-        <source value="#Do0IzaxShRkSdnDI"/>
+        <versionId value="2"/>
+        <lastUpdated value="2020-05-13T05:20:55.945+00:00"/>
+        <source value="#4uWUT2O08hateDZM"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ccda/StructureDefinition/In-Fulfillment-Of-Order"/>
     <name value="InFulfillmentOfOrder"/>
-    <title value="C-CDA on FHIR In Fulfillment Of Order"/>
+    <title value="In Fulfillment Of Order"/>
     <status value="active"/>
     <publisher value="Lantana Consulting Group"/>
     <contact>
@@ -33,7 +33,7 @@
             <use value="work"/>
         </telecom>
     </contact>
-    <description value="The C-CDA on FHIR In Fulfillment Of Order Extension represents orders that are fulfilled by this document such as a radiologists report of an x-ray.&#xA;&#xA;For further information see the C-CDA specification here: http://www.hl7.org/implement/standards/product_brief.cfm?product_id=408."/>
+    <description value="The In Fulfillment Of Order Extension represents orders that are fulfilled by this document such as a radiologists report of an x-ray.&#xA;&#xA;For further information see the C-CDA specification here: http://www.hl7.org/implement/standards/product_brief.cfm?product_id=408."/>
     <jurisdiction>
         <coding>
             <system value="urn:iso:std:iso:3166:-2"/>

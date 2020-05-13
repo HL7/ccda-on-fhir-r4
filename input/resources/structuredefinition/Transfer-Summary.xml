@@ -3,13 +3,13 @@
     xmlns="http://hl7.org/fhir">
     <id value="Transfer-Summary"/>
     <meta>
-        <versionId value="2"/>
-        <lastUpdated value="2020-04-25T20:31:11.368+00:00"/>
-        <source value="#d9QgLwiiYHWmcLWF"/>
+        <versionId value="3"/>
+        <lastUpdated value="2020-05-13T05:20:51.648+00:00"/>
+        <source value="#4uWUT2O08hateDZM"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ccda/StructureDefinition/Transfer-Summary"/>
     <name value="TransferSummary"/>
-    <title value="C-CDA on FHIR Transfer Summary"/>
+    <title value="Transfer Summary"/>
     <status value="active"/>
     <publisher value="Lantana Consulting Group"/>
     <contact>
