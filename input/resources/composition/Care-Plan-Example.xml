@@ -1,18 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?> 
+<?xml version="1.0" encoding="UTF-8"?>
 <Composition
     xmlns="http://hl7.org/fhir">
     <id value="Care-Plan-Example"/>
     <meta>
-        <versionId value="2"/>
-        <lastUpdated value="2020-05-13T05:20:53.767+00:00"/>
-        <source value="#4uWUT2O08hateDZM"/>
+        <versionId value="3"/>
+        <lastUpdated value="2020-06-24T20:59:56.555+00:00"/>
+        <source value="#7pT7ztVuHu6RkeFa"/>
         <profile value="http://hl7.org/fhir/us/ccda/StructureDefinition/Care-Plan-Document"/>
     </meta>
     <language value="en-US"/>
     <text>
         <status value="generated"/>
         <div
-            xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+            xmlns="http://www.w3.org/1999/xhtml">
             <table style="border: 1pt inset #00008b; line-height: 10pt; width: 100%;" class="header_table">
                 <tbody>
                     <tr>
@@ -369,7 +369,7 @@
             </table>
         </div>
     </text>
-    <extension url="http://hl7.org/fhir/us/ccda/StructureDefinition/Data-Enterer">
+    <extension url="http://hl7.org/fhir/us/ccda/StructureDefinition/DataEntererExtension">
         <valueReference>
             <reference value="PractitionerRole/ccda-practitionerrole-example"/>
         </valueReference>

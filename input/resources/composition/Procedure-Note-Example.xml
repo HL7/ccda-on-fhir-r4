@@ -3,16 +3,16 @@
     xmlns="http://hl7.org/fhir">
     <id value="Procedure-Note-Example"/>
     <meta>
-        <versionId value="1"/>
-        <lastUpdated value="2020-04-24T23:19:36.061+00:00"/>
-        <source value="#Do0IzaxShRkSdnDI"/>
+        <versionId value="2"/>
+        <lastUpdated value="2020-06-24T20:59:53.490+00:00"/>
+        <source value="#7pT7ztVuHu6RkeFa"/>
         <profile value="http://hl7.org/fhir/us/ccda/StructureDefinition/Procedure-Note"/>
     </meta>
     <language value="en-US"/>
     <text>
         <status value="generated"/>
         <div
-            xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+            xmlns="http://www.w3.org/1999/xhtml">
             <table style="border: 1pt inset #00008b; line-height: 10pt; width: 100%;" class="header_table">
                 <tbody>
                     <tr>
@@ -372,33 +372,33 @@
             </table>
         </div>
     </text>
-    <extension url="http://hl7.org/fhir/us/ccda/StructureDefinition/In-Fulfillment-Of-Order">
+    <extension url="http://hl7.org/fhir/us/ccda/StructureDefinition/OrderExtension">
         <valueReference>
             <reference value="ServiceRequest/colonoscopy"/>
             <display value="Colonoscopy"/>
         </valueReference>
     </extension>
-    <extension url="http://hl7.org/fhir/us/ccda/StructureDefinition/Performer">
+    <extension url="http://hl7.org/fhir/us/ccda/StructureDefinition/PerformerExtension">
         <valueReference>
             <reference value="PractitionerRole/ccda-practitionerrole-example"/>
         </valueReference>
     </extension>
-    <extension url="http://hl7.org/fhir/us/ccda/StructureDefinition/Information-Recipient">
+    <extension url="http://hl7.org/fhir/us/ccda/StructureDefinition/InformationRecipientExtension">
         <valueReference>
             <reference value="Practitioner/practitioner-1"/>
         </valueReference>
     </extension>
-    <extension url="http://hl7.org/fhir/us/ccda/StructureDefinition/Participant">
+    <extension url="http://hl7.org/fhir/us/ccda/StructureDefinition/ParticipantExtension">
         <valueReference>
             <reference value="Practitioner/practitioner-1"/>
         </valueReference>
     </extension>
-    <extension url="http://hl7.org/fhir/us/ccda/StructureDefinition/Informant">
+    <extension url="http://hl7.org/fhir/us/ccda/StructureDefinition/InformantExtension">
         <valueReference>
             <reference value="Practitioner/practitioner-1"/>
         </valueReference>
     </extension>
-    <extension url="http://hl7.org/fhir/us/ccda/StructureDefinition/Authorization">
+    <extension url="http://hl7.org/fhir/us/ccda/StructureDefinition/AuthorizationExtension">
         <valueReference>
             <reference value="Consent/consent-example-basic"/>
         </valueReference>

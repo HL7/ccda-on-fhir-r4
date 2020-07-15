@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="Continuity-of-Care-Document"/>
     <meta>
-        <versionId value="2"/>
-        <lastUpdated value="2020-05-13T05:20:55.534+00:00"/>
-        <source value="#4uWUT2O08hateDZM"/>
+        <versionId value="8"/>
+        <lastUpdated value="2020-07-10T19:19:26.303+00:00"/>
+        <source value="#kD0yQhc7oquBLcLy"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ccda/StructureDefinition/Continuity-of-Care-Document"/>
     <name value="ContinuityOfCareDocument"/>
@@ -36,7 +36,7 @@
     <description value="This profile was originally based on the Continuity of Care Document (CCD) Release 1.1 which itself was derived from HITSP C32 and CCD Release 1.0.&#xA;&#xA;The Continuity of Care Document (CCD) profile represents a core data set of the most relevant administrative, demographic, and clinical information facts about a patient's healthcare, covering one or more healthcare encounters. It provides a means for one healthcare practitioner, system, or setting to aggregate all of the pertinent data about a patient and forward it to another to support the continuity of care.  &#xA;&#xA;The primary use case for the CCD is to provide a snapshot in time containing the germane clinical, demographic, and administrative data for a specific patient. The key characteristic of a CCD is that the Composition.event.code is constrained to &quot;PCPR&quot;. This means it does not function to report new services associated with performing care. It reports on care that has already been provided. The CCD provides a historical tally of the care over a range of time and is not a record of new services delivered.&#xA;&#xA;More specific use cases, such as a Discharge Summary, Transfer Summary, Referral Note, Consultation Note, or Progress Note, are available as alternative profiles."/>
     <jurisdiction>
         <coding>
-            <system value="urn:iso:std:iso:3166:-2"/>
+            <system value="urn:iso:std:iso:3166"/>
             <code value="US"/>
         </coding>
     </jurisdiction>
@@ -657,13 +657,12 @@
                 <rules value="open"/>
             </slicing>
         </element>
-        <element id="Composition.section:advance_directives_section.entry:consent_entry">
+        <element id="Composition.section:advance_directives_section.entry:advance_directive_entry">
             <path value="Composition.section.entry"/>
-            <sliceName value="consent_entry"/>
-            <short value="This section contains unprofiled resources not covered by US Core. Please refer to C-CDA R2.1 for guidance on terminology, etc."/>
+            <sliceName value="advance_directive_entry"/>
             <type>
                 <code value="Reference"/>
-                <targetProfile value="http://hl7.org/fhir/StructureDefinition/Consent"/>
+                <targetProfile value="http://hl7.org/fhir/us/ccda/StructureDefinition/AdvanceDirective"/>
             </type>
             <mustSupport value="true"/>
         </element>

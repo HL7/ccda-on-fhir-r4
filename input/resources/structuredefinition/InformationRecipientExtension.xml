@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <StructureDefinition
     xmlns="http://hl7.org/fhir">
-    <id value="Participant"/>
+    <id value="InformationRecipientExtension"/>
     <meta>
         <versionId value="2"/>
-        <lastUpdated value="2020-05-13T05:20:52.039+00:00"/>
-        <source value="#4uWUT2O08hateDZM"/>
+        <lastUpdated value="2020-07-10T18:47:21.769+00:00"/>
+        <source value="#yCTFg12Et9XD0rJc"/>
     </meta>
-    <url value="http://hl7.org/fhir/us/ccda/StructureDefinition/Participant"/>
-    <name value="Participant"/>
-    <title value="Participant"/>
+    <url value="http://hl7.org/fhir/us/ccda/StructureDefinition/InformationRecipientExtension"/>
+    <name value="InformationRecipientExtension"/>
+    <title value="Information Recipient Extension"/>
     <status value="active"/>
     <publisher value="HL7 Structured Documents Working Group"/>
     <contact>
@@ -25,10 +25,18 @@
             <use value="work"/>
         </telecom>
     </contact>
-    <description value="The Participant Extension identifies supporting entities, including parents, relatives, caregivers, insurance policyholders, guarantors, and others related in some way to the patient. A supporting person or organization is an individual or an organization with a relationship to the patient. A supporting person who is playing multiple roles would be recorded in multiple participants (e.g., emergency contact and next-of-kin).&#xA;&#xA;For further information see the C-CDA specification here: http://www.hl7.org/implement/standards/product_brief.cfm?product_id=408."/>
+    <contact>
+        <name value="Rick Geimer"/>
+        <telecom>
+            <system value="email"/>
+            <value value="rick.geimer@lantanagroup.com"/>
+            <use value="work"/>
+        </telecom>
+    </contact>
+    <description value="The Information Recipient Extension records the intended recipient of the information at the time the document was created.&#xA;&#xA;For further information see the C-CDA specification here: http://www.hl7.org/implement/standards/product_brief.cfm?product_id=408."/>
     <jurisdiction>
         <coding>
-            <system value="urn:iso:std:iso:3166:-2"/>
+            <system value="urn:iso:std:iso:3166"/>
             <code value="US"/>
         </coding>
     </jurisdiction>
@@ -48,7 +56,7 @@
         </element>
         <element id="Extension.url">
             <path value="Extension.url"/>
-            <fixedUri value="http://hl7.org/fhir/us/ccda/StructureDefinition/Participant"/>
+            <fixedUri value="http://hl7.org/fhir/us/ccda/StructureDefinition/InformationRecipientExtension"/>
         </element>
         <element id="Extension.value[x]:valueReference">
             <path value="Extension.valueReference"/>
@@ -59,7 +67,6 @@
                 <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner"/>
                 <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitionerrole"/>
                 <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"/>
-                <targetProfile value="http://hl7.org/fhir/StructureDefinition/RelatedPerson"/>
             </type>
             <mustSupport value="true"/>
         </element>

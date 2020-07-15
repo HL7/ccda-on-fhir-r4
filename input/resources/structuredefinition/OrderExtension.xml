@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <StructureDefinition
     xmlns="http://hl7.org/fhir">
-    <id value="In-Fulfillment-Of-Order"/>
+    <id value="OrderExtension"/>
     <meta>
         <versionId value="2"/>
-        <lastUpdated value="2020-05-13T05:20:55.945+00:00"/>
-        <source value="#4uWUT2O08hateDZM"/>
+        <lastUpdated value="2020-07-10T18:47:25.707+00:00"/>
+        <source value="#yCTFg12Et9XD0rJc"/>
     </meta>
-    <url value="http://hl7.org/fhir/us/ccda/StructureDefinition/In-Fulfillment-Of-Order"/>
-    <name value="InFulfillmentOfOrder"/>
-    <title value="In Fulfillment Of Order"/>
+    <url value="http://hl7.org/fhir/us/ccda/StructureDefinition/OrderExtension"/>
+    <name value="OrderExtension"/>
+    <title value="Order Extension"/>
     <status value="active"/>
     <publisher value="Lantana Consulting Group"/>
     <contact>
@@ -33,10 +33,10 @@
             <use value="work"/>
         </telecom>
     </contact>
-    <description value="The In Fulfillment Of Order Extension represents orders that are fulfilled by this document such as a radiologists report of an x-ray.&#xA;&#xA;For further information see the C-CDA specification here: http://www.hl7.org/implement/standards/product_brief.cfm?product_id=408."/>
+    <description value="The Order Extension represents orders that are fulfilled by this document such as a radiologists report of an x-ray."/>
     <jurisdiction>
         <coding>
-            <system value="urn:iso:std:iso:3166:-2"/>
+            <system value="urn:iso:std:iso:3166"/>
             <code value="US"/>
         </coding>
     </jurisdiction>
@@ -56,7 +56,7 @@
         </element>
         <element id="Extension.url">
             <path value="Extension.url"/>
-            <fixedUri value="http://hl7.org/fhir/us/ccda/StructureDefinition/In-Fulfillment-Of-Order"/>
+            <fixedUri value="http://hl7.org/fhir/us/ccda/StructureDefinition/OrderExtension"/>
         </element>
         <element id="Extension.value[x]:valueReference">
             <path value="Extension.valueReference"/>

@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <StructureDefinition
     xmlns="http://hl7.org/fhir">
-    <id value="Authorization"/>
+    <id value="PerformerExtension"/>
     <meta>
         <versionId value="2"/>
-        <lastUpdated value="2020-05-13T05:20:54.136+00:00"/>
-        <source value="#4uWUT2O08hateDZM"/>
+        <lastUpdated value="2020-07-10T18:47:22.035+00:00"/>
+        <source value="#yCTFg12Et9XD0rJc"/>
     </meta>
-    <url value="http://hl7.org/fhir/us/ccda/StructureDefinition/Authorization"/>
-    <name value="Authorization"/>
-    <title value="Authorization"/>
+    <url value="http://hl7.org/fhir/us/ccda/StructureDefinition/PerformerExtension"/>
+    <name value="PerformerExtension"/>
+    <title value="Performer Extension"/>
     <status value="active"/>
     <publisher value="HL7 Structured Documents Working Group"/>
     <contact>
@@ -25,18 +25,10 @@
             <use value="work"/>
         </telecom>
     </contact>
-    <contact>
-        <name value="Rick Geimer"/>
-        <telecom>
-            <system value="email"/>
-            <value value="rick.geimer@lantanagroup.com"/>
-            <use value="work"/>
-        </telecom>
-    </contact>
-    <description value="The Authorization Extension contains the Consent profile which represents information about a patient's consent.&#xA;&#xA;For further information see the C-CDA specification here: http://www.hl7.org/implement/standards/product_brief.cfm?product_id=408."/>
+    <description value="The Performer Extension represents clinicians who actually and principally carry out the clinical services being documented. In a transfer of care this represents the healthcare providers involved in the current or pertinent historical care of the patient. Preferably, the patients key healthcare care team members would be listed, particularly their primary physician and any active consulting physicians, therapists, and counselors."/>
     <jurisdiction>
         <coding>
-            <system value="urn:iso:std:iso:3166:-2"/>
+            <system value="urn:iso:std:iso:3166"/>
             <code value="US"/>
         </coding>
     </jurisdiction>
@@ -56,8 +48,7 @@
         </element>
         <element id="Extension.url">
             <path value="Extension.url"/>
-            <fixedUri value="http://hl7.org/fhir/us/ccda/StructureDefinition/Authorization"/>
-            <mustSupport value="true"/>
+            <fixedUri value="http://hl7.org/fhir/us/ccda/StructureDefinition/PerformerExtension"/>
         </element>
         <element id="Extension.value[x]:valueReference">
             <path value="Extension.valueReference"/>
@@ -65,7 +56,8 @@
             <min value="1"/>
             <type>
                 <code value="Reference"/>
-                <targetProfile value="http://hl7.org/fhir/us/ccda/StructureDefinition/Consent"/>
+                <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner"/>
+                <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitionerrole"/>
             </type>
             <mustSupport value="true"/>
         </element>

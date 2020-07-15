@@ -31,6 +31,8 @@ Implementers moving from C-CDA to FHIR need to be aware that the goal of this pr
 
 We encourage implementers to refer to the ongoing C-CDA to FHIR mapping work that is described on the C-CDA on FHIR wiki page for assistance when moving from C-CDA to FHIR.
 
+For further information see the C-CDA specification here: http://www.hl7.org/implement/standards/product_brief.cfm?product_id=408.
+
 
 
 
@@ -77,3 +79,6 @@ We encourage implementers to refer to the ongoing C-CDA to FHIR mapping work tha
 </table>
 
 
+
+
+[Next Page - Downloads](downloads.html)

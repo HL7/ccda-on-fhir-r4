@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="Procedure-Note"/>
     <meta>
-        <versionId value="3"/>
-        <lastUpdated value="2020-05-13T05:20:54.596+00:00"/>
-        <source value="#4uWUT2O08hateDZM"/>
+        <versionId value="4"/>
+        <lastUpdated value="2020-07-10T18:47:24.895+00:00"/>
+        <source value="#yCTFg12Et9XD0rJc"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ccda/StructureDefinition/Procedure-Note"/>
     <name value="ProcedureNote"/>
@@ -28,7 +28,7 @@
     <description value="A Procedure Note encompasses many types of non-operative procedures including interventional cardiology, gastrointestinal endoscopy, osteopathic manipulation, and many other specialty fields. Procedure Notes are differentiated from Operative Notes because they do not involve incision or excision as the primary act.&#xA;&#xA;The Procedure Note is created immediately following a non-operative procedure. It records the indications for the procedure and, when applicable, postprocedure diagnosis, pertinent events of the procedure, and the patients tolerance for the procedure. It should be detailed enough to justify the procedure, describe the course of the procedure, and provide continuity of care."/>
     <jurisdiction>
         <coding>
-            <system value="urn:iso:std:iso:3166:-2"/>
+            <system value="urn:iso:std:iso:3166"/>
             <code value="US"/>
         </coding>
     </jurisdiction>

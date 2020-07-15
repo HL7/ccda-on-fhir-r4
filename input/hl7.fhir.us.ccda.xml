@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="hl7.fhir.us.ccda"/>
     <meta>
-        <versionId value="10"/>
-        <lastUpdated value="2020-05-13T05:20:52.554+00:00"/>
-        <source value="#4uWUT2O08hateDZM"/>
+        <versionId value="53"/>
+        <lastUpdated value="2020-07-14T20:50:02.634+00:00"/>
+        <source value="#emEA7carl1fSGG3L"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ccda/ImplementationGuide/hl7.fhir.us.ccda"/>
     <version value="2.0.0"/>
@@ -62,10 +62,10 @@
             <value value="http://www.hl7.org/Special/committees/structure"/>
         </telecom>
     </contact>
-    <description value="Consolidated CDA (C-CDA) is one of the most widely implemented implementation guides for CDA and covers a significant scope of clinical care. Its target of the 'common/essential' elements of healthcare is closely aligned with FHIR's focus on the '80%'. There is significant interest in industry and government in the ability to interoperate between CDA and FHIR and C-CDA is a logical starting point. Implementers and regulators have both expressed an interest in the ability to map between FHIR and C-CDA.&#xA;&#xA;This Implementation Guide (IG) defines a series of FHIR profiles on the Composition resource to represent the various document types in C-CDA. This release does not directly map every C-CDA template to FHIR profiles, rather tries to accomplish the C-CDA use case using Composition resource profiles created under this project (the equivalent of Level 2 CDA documents), and begins by linking to the profiles created under the US Core project for any coded entries that would normally be included in C-CDA sections. To have a simpler, more streamlined standard that reuses existing work and focuses on the 80% that implementers actually need in production systems, the resources of US Core represents a portion of the 80% needed for coded entries for coded entries of CCD, Care Plan &amp; Discharge Summary).&#xA;&#xA;The Composition profiles in this IG do not require coded data in any section. This is a departure from C-CDA, which requires coded data for Problems, Results, Medications, etc. This departure is intentional, as the C-CDA requirement for one or more coded entries in these sections resulted in some very complicated workarounds using nullFlavors to handle the fact that sometimes a patient is not on any medications, or has no current problems. In general, FHIR takes the approach that if something is nullable, it should simply be optional to ease the burden on implementers, thus C-CDA on FHIR does not require any coded entries, but rather uses the &quot;required if known&quot; approach, meaning that if an implementer's system has data for a section that requires data under Meaningful Use, they need to send it, but if they have no data there is no need for a null entry.&#xA;&#xA;We encourage feedback on these Composition profiles, and the general approach to the project as a whole. We also encourage implementers who wish to see more of the coded data from C-CDA mapped to FHIR to comment on the US Core project and make their requests known there. Once US Core creates new profiles, this project can reference them.&#xA;&#xA;## Scope&#xA;&#xA;To represent Consolidated CDA Templates for Clinical Notes (C-CDA) 2.1 templates using FHIR profiles.&#xA;&#xA;This first stage of the project defines all the C-CDA document-level profiles on the Composition resource and contained sections.&#xA;&#xA;Any coded data used by sections will be represented using relevant U.S. Core FHIR profiles where they exist. FHIR profiles defined by other work groups or unconstrained FHIR resources may also be referenced if no appropriate US Core Profile exist.&#xA;&#xA;## Implementation Notes&#xA;&#xA;Implementers moving from C-CDA to FHIR need to be aware that the goal of this project is to address the same use case as Consolidated CDA (clinical documentation for primary and transfer of care scenarios in the US), but the syntax, methodologies, and value sets in FHIR are often quite different from those in C-CDA. In particular, implementers need to be aware of the issues listed below:&#xA;&#xA;* The value sets used in US Core and FHIR in general are not fully aligned with those in C-CDA.&#xA;* The approaches for negation used in C-CDA and the Core FHIR specification are quite different.&#xA;* The level of granularity between C-CDA templates and FHIR resources/profiles is often different, so there will not be a 1:1 mapping between templates and profiles. Some examples include:&#xA;* Multiple templates like Health Concern and Problem Observation map to a single US Core Condition&#xA;* C-CDA has 3 kinds of procedure templates that all map to the single US Core Procedure profile&#xA;* In C-CDA the use the moodCode attribute can differentiate between events and planned acts using a single template but in FHIR these are often separate resources (event vs. request resources)&#xA;* In C-CDA multiple observations such as lab results are wrapped in an Organizer, whereas in FHIR the Observation resource itself can contain multiple Observations as subcomponents&#xA;* Implementers need to follow the rules and apply the value sets used by the target specification, and this will often require significant data and vocabulary mapping. implementers moving from C-CDA to C-CDA on FHIR will need to review the US Core profiles and value sets in core FHIR resources and ensure that their instances FHIR instances are compliant. We hope that ongoing work in HL7 will better align US Core, C-CDA, and the Core FHIR specifications in the future.&#xA;&#xA;We encourage implementers to refer to the ongoing C-CDA to FHIR mapping work that is described on the C-CDA on FHIR wiki page for assistance when moving from C-CDA to FHIR.&#xA;&#xA;"/>
+    <description value="Consolidated CDA (C-CDA) is one of the most widely implemented implementation guides for CDA and covers a significant scope of clinical care. Its target of the 'common/essential' elements of healthcare is closely aligned with FHIR's focus on the '80%'. There is significant interest in industry and government in the ability to interoperate between CDA and FHIR and C-CDA is a logical starting point. Implementers and regulators have both expressed an interest in the ability to map between FHIR and C-CDA.&#xA;&#xA;This Implementation Guide (IG) defines a series of FHIR profiles on the Composition resource to represent the various document types in C-CDA. This release does not directly map every C-CDA template to FHIR profiles, rather tries to accomplish the C-CDA use case using Composition resource profiles created under this project (the equivalent of Level 2 CDA documents), and begins by linking to the profiles created under the US Core project for any coded entries that would normally be included in C-CDA sections. To have a simpler, more streamlined standard that reuses existing work and focuses on the 80% that implementers actually need in production systems, the resources of US Core represents a portion of the 80% needed for coded entries for coded entries of CCD, Care Plan &amp; Discharge Summary).&#xA;&#xA;The Composition profiles in this IG do not require coded data in any section. This is a departure from C-CDA, which requires coded data for Problems, Results, Medications, etc. This departure is intentional, as the C-CDA requirement for one or more coded entries in these sections resulted in some very complicated workarounds using nullFlavors to handle the fact that sometimes a patient is not on any medications, or has no current problems. In general, FHIR takes the approach that if something is nullable, it should simply be optional to ease the burden on implementers, thus C-CDA on FHIR does not require any coded entries, but rather uses the &quot;required if known&quot; approach, meaning that if an implementer's system has data for a section that requires data under Meaningful Use, they need to send it, but if they have no data there is no need for a null entry.&#xA;&#xA;We encourage feedback on these Composition profiles, and the general approach to the project as a whole. We also encourage implementers who wish to see more of the coded data from C-CDA mapped to FHIR to comment on the US Core project and make their requests known there. Once US Core creates new profiles, this project can reference them.&#xA;&#xA;## Scope&#xA;&#xA;To represent Consolidated CDA Templates for Clinical Notes (C-CDA) 2.1 templates using FHIR profiles.&#xA;&#xA;This first stage of the project defines all the C-CDA document-level profiles on the Composition resource and contained sections.&#xA;&#xA;Any coded data used by sections will be represented using relevant U.S. Core FHIR profiles where they exist. FHIR profiles defined by other work groups or unconstrained FHIR resources may also be referenced if no appropriate US Core Profile exist.&#xA;&#xA;## Implementation Notes&#xA;&#xA;Implementers moving from C-CDA to FHIR need to be aware that the goal of this project is to address the same use case as Consolidated CDA (clinical documentation for primary and transfer of care scenarios in the US), but the syntax, methodologies, and value sets in FHIR are often quite different from those in C-CDA. In particular, implementers need to be aware of the issues listed below:&#xA;&#xA;* The value sets used in US Core and FHIR in general are not fully aligned with those in C-CDA.&#xA;* The approaches for negation used in C-CDA and the Core FHIR specification are quite different.&#xA;* The level of granularity between C-CDA templates and FHIR resources/profiles is often different, so there will not be a 1:1 mapping between templates and profiles. Some examples include:&#xA;* Multiple templates like Health Concern and Problem Observation map to a single US Core Condition&#xA;* C-CDA has 3 kinds of procedure templates that all map to the single US Core Procedure profile&#xA;* In C-CDA the use the moodCode attribute can differentiate between events and planned acts using a single template but in FHIR these are often separate resources (event vs. request resources)&#xA;* In C-CDA multiple observations such as lab results are wrapped in an Organizer, whereas in FHIR the Observation resource itself can contain multiple Observations as subcomponents&#xA;* Implementers need to follow the rules and apply the value sets used by the target specification, and this will often require significant data and vocabulary mapping. implementers moving from C-CDA to C-CDA on FHIR will need to review the US Core profiles and value sets in core FHIR resources and ensure that their instances FHIR instances are compliant. We hope that ongoing work in HL7 will better align US Core, C-CDA, and the Core FHIR specifications in the future.&#xA;&#xA;We encourage implementers to refer to the ongoing C-CDA to FHIR mapping work that is described on the C-CDA on FHIR wiki page for assistance when moving from C-CDA to FHIR.&#xA;&#xA;For further information see the C-CDA specification here: http://www.hl7.org/implement/standards/product_brief.cfm?product_id=408.&#xA;&#xA;"/>
     <jurisdiction>
         <coding>
-            <system value="urn:iso:std:iso:3166:-2"/>
+            <system value="urn:iso:std:iso:3166"/>
             <code value="US"/>
         </coding>
     </jurisdiction>
@@ -79,83 +79,11 @@
     <definition>
         <resource>
             <reference>
-                <reference value="StructureDefinition/Consent"/>
-                <display value="C-CDA on FHIR Consent"/>
-            </reference>
-            <name value="Consent"/>
-            <description value="C-CDA on FHIR Consent"/>
-            <exampleBoolean value="false"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="StructureDefinition/Participant"/>
-                <display value="C-CDA on FHIR Participant"/>
-            </reference>
-            <name value="Participant"/>
-            <description value="C-CDA on FHIR Participant"/>
-            <exampleBoolean value="false"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="StructureDefinition/Performer"/>
-                <display value="C-CDA on FHIR Performer"/>
-            </reference>
-            <name value="Performer"/>
-            <description value="C-CDA on FHIR Performer"/>
-            <exampleBoolean value="false"/>
-        </resource>
-        <resource>
-            <reference>
                 <reference value="StructureDefinition/Procedure-Note"/>
                 <display value="C-CDA on FHIR Procedure Note"/>
             </reference>
             <name value="Procedure Note"/>
             <description value="C-CDA on FHIR Procedure Note"/>
-            <exampleBoolean value="false"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="StructureDefinition/Informant"/>
-                <display value="C-CDA on FHIR Informant"/>
-            </reference>
-            <name value="Informant"/>
-            <description value="C-CDA on FHIR Informant"/>
-            <exampleBoolean value="false"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="StructureDefinition/Information-Recipient"/>
-                <display value="C-CDA on FHIR Information Recipient"/>
-            </reference>
-            <name value="Information Recipient"/>
-            <description value="C-CDA on FHIR Information Recipient"/>
-            <exampleBoolean value="false"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="StructureDefinition/In-Fulfillment-Of-Order"/>
-                <display value="C-CDA on FHIR In Fulfillment Of Order"/>
-            </reference>
-            <name value="In Fulfillment Of Order"/>
-            <description value="C-CDA on FHIR Fulfillment Of Order"/>
-            <exampleBoolean value="false"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="StructureDefinition/Data-Enterer"/>
-                <display value="C-CDA on FHIR Data Enterer"/>
-            </reference>
-            <name value="Data Enterer"/>
-            <description value="C-CDA on FHIR Data Enterer"/>
-            <exampleBoolean value="false"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="StructureDefinition/Authorization"/>
-                <display value="C-CDA on FHIR Authorization"/>
-            </reference>
-            <name value="Authorization"/>
-            <description value="C-CDA on FHIR Authorization"/>
             <exampleBoolean value="false"/>
         </resource>
         <resource>
@@ -520,15 +448,6 @@
         </resource>
         <resource>
             <reference>
-                <reference value="Immunization/imm-1"/>
-                <display value="imm-1"/>
-            </reference>
-            <name value="imm-1"/>
-            <description value="imm-1"/>
-            <exampleBoolean value="true"/>
-        </resource>
-        <resource>
-            <reference>
                 <reference value="Immunization/immunization"/>
                 <display value="immunization"/>
             </reference>
@@ -631,18 +550,118 @@
             <description value="Basic consent"/>
             <exampleBoolean value="true"/>
         </resource>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/AdvanceDirective"/>
+                <display value="Advance Directive"/>
+            </reference>
+            <name value="Advance Directive"/>
+            <description value="This profile represents information about the patients advance directives, represented as a FHIR Consent resource. "/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/AuthorizationConsent"/>
+                <display value="Authorization Consent"/>
+            </reference>
+            <name value="Authorization Consent"/>
+            <description value="This profile represents information about the patients consent.The type of consent is conveyed in type. Consents in the header have been finalized and should be on file. The authorization consent is used for referring to consents that are documented elsewhere in the EHR or medical record for a health condition and/or treatment that is described in the document."/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/AuthorizationExtension"/>
+                <display value="Authorization Extension"/>
+            </reference>
+            <name value="Authorization Extension"/>
+            <description value="The C-CDA on FHIR Authorization Extension contains the C-CDA on FHIR Consent profile which represents information about a patient's consents."/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/InformantExtension"/>
+                <display value="Informant Extension"/>
+            </reference>
+            <name value="Informant Extension"/>
+            <description value="The C-CDA on FHIR Informant Extension describes an information source for any content within the clinical document. This informant is constrained for use when the source of information is an assigned health care provider for the patient."/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/ParticipantExtension"/>
+                <display value="Participant Extension"/>
+            </reference>
+            <name value="Participant Extension"/>
+            <description value="The C-CDA on FHIR Participant Extension identifies supporting entities, including parents, relatives, caregivers, insurance policyholders, guarantors, and others related in some way to the patient. A supporting person or organization is an individual or an organization with a relationship to the patient. A supporting person who is playing multiple roles would be recorded in multiple participants (e.g., emergency contact and next-of-kin)."/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/PerformerExtension"/>
+                <display value="Performer Extension"/>
+            </reference>
+            <name value="Performer Extension"/>
+            <description value="The Performer Extension represents clinicians who actually and principally carry out the clinical services being documented. In a transfer of care this represents the healthcare providers involved in the current or pertinent historical care of the patient. Preferably, the patients key healthcare care team members would be listed, particularly their primary physician and any active consulting physicians, therapists, and counselors."/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/DataEntererExtension"/>
+                <display value="Data Enterer Extension"/>
+            </reference>
+            <name value="Data Enterer Extension"/>
+            <description value="The Data Enterer Extension represents the person who transferred the content, written or dictated, into the clinical document. To clarify, an author provides the content, subject to their own interpretation; a dataEnterer adds an author's information to the electronic system.&#xA;&#xA;For further information see the C-CDA specification here: http://www.hl7.org/implement/standards/product_brief.cfm?product_id=408."/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/InformationRecipientExtension"/>
+                <display value="Information Recipient Extension"/>
+            </reference>
+            <name value="Information Recipient Extension"/>
+            <description value="The Information Recipient Extension records the intended recipient of the information at the time the document was created.&#xA;&#xA;For further information see the C-CDA specification here: http://www.hl7.org/implement/standards/product_brief.cfm?product_id=408."/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/OrderExtension"/>
+                <display value="Order Extension"/>
+            </reference>
+            <name value="Order Extension"/>
+            <description value="The Order Extension represents orders that are fulfilled by this document such as a radiologists report of an x-ray."/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/VersionNumber"/>
+                <display value="Version Number"/>
+            </reference>
+            <name value="Version Number"/>
+            <description value="The CCDA on FHIR VersionNumber Extension represents a numeric value used to version successive replacement documents.&#xA;&#xA;For further information see the C-CDA specification here: http://www.hl7.org/implement/standards/product_brief.cfm?product_id=408."/>
+            <exampleBoolean value="false"/>
+        </resource>
         <page>
             <nameUrl value="index.html"/>
-            <title value="IG Home Page"/>
+            <title value="Home Page"/>
             <generation value="markdown"/>
+            <page>
+                <nameUrl value="downloads.html"/>
+                <title value="Downloads"/>
+                <generation value="markdown"/>
+            </page>
+            <page>
+                <nameUrl value="specification.html"/>
+                <title value="The Specification"/>
+                <generation value="markdown"/>
+            </page>
         </page>
-        <parameter>
-            <code value="copyrightyear"/>
-            <value value="2020+"/>
-        </parameter>
         <parameter>
             <code value="releaselabel"/>
             <value value="CI Build"/>
+        </parameter>
+        <parameter>
+            <code value="copyrightyear"/>
+            <value value="2020+"/>
         </parameter>
     </definition>
 </ImplementationGuide>

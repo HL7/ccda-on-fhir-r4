@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="Diagnostic-Imaging-Report"/>
     <meta>
-        <versionId value="2"/>
-        <lastUpdated value="2020-05-13T05:20:56.014+00:00"/>
-        <source value="#4uWUT2O08hateDZM"/>
+        <versionId value="3"/>
+        <lastUpdated value="2020-07-10T18:47:26.437+00:00"/>
+        <source value="#yCTFg12Et9XD0rJc"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ccda/StructureDefinition/Diagnostic-Imaging-Report"/>
     <name value="DiagnosticImagingReport"/>
@@ -28,7 +28,7 @@
     <description value="A Diagnostic Imaging Report (DIR) is a document that contains a consulting specialist's interpretation of image data. It conveys the interpretation to the referring (ordering) physician and becomes part of the patient's medical record. It is for use in Radiology, Endoscopy, Cardiology, and other imaging specialties. Note: this document type overlaps with the FHIR DiagnosticReport resource. Most use cases will want to use the specific resource type, but this document type is still useful for CDA to FHIR conversion and other such use cases."/>
     <jurisdiction>
         <coding>
-            <system value="urn:iso:std:iso:3166:-2"/>
+            <system value="urn:iso:std:iso:3166"/>
             <code value="US"/>
         </coding>
     </jurisdiction>

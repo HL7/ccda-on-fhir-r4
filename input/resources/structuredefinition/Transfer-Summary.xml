@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="Transfer-Summary"/>
     <meta>
-        <versionId value="3"/>
-        <lastUpdated value="2020-05-13T05:20:51.648+00:00"/>
-        <source value="#4uWUT2O08hateDZM"/>
+        <versionId value="6"/>
+        <lastUpdated value="2020-07-10T19:19:22.072+00:00"/>
+        <source value="#kD0yQhc7oquBLcLy"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ccda/StructureDefinition/Transfer-Summary"/>
     <name value="TransferSummary"/>
@@ -31,7 +31,7 @@
     <description value="This profile describes constraints for a Transfer Summary. The Transfer Summary standardizes critical information for exchange of information between providers of care when a patient moves between health care settings. Standardization of information used in this form will promote interoperability; create information suitable for reuse in quality measurement, public health, research, and for reimbursement."/>
     <jurisdiction>
         <coding>
-            <system value="urn:iso:std:iso:3166:-2"/>
+            <system value="urn:iso:std:iso:3166"/>
             <code value="US"/>
         </coding>
     </jurisdiction>
@@ -407,6 +407,8 @@
             <sliceName value="advance_directives_section"/>
             <label value="Advance Directives Section"/>
             <short value="Advance Directives Section"/>
+            <comment value="Advance Directives Section"/>
+            <max value="1"/>
             <mustSupport value="true"/>
         </element>
         <element id="Composition.section:advance_directives_section.title">
@@ -417,7 +419,8 @@
         </element>
         <element id="Composition.section:advance_directives_section.code">
             <path value="Composition.section.code"/>
-            <short value="code"/>
+            <label value="Advance directives"/>
+            <short value="Advance directives"/>
             <min value="1"/>
             <patternCodeableConcept>
                 <coding>
@@ -442,16 +445,13 @@
                 </discriminator>
                 <rules value="open"/>
             </slicing>
-            <short value="entry"/>
-            <mustSupport value="true"/>
         </element>
-        <element id="Composition.section:advance_directives_section.entry:advance_directives_entry">
+        <element id="Composition.section:advance_directives_section.entry:advance_directive_entry">
             <path value="Composition.section.entry"/>
-            <sliceName value="advance_directives_entry"/>
-            <short value="This section contains unprofiled resources not covered by US Core. Please refer to C-CDA R2.1 for guidance on terminology, etc."/>
+            <sliceName value="advance_directive_entry"/>
             <type>
                 <code value="Reference"/>
-                <targetProfile value="http://hl7.org/fhir/StructureDefinition/Consent"/>
+                <targetProfile value="http://hl7.org/fhir/us/ccda/StructureDefinition/AdvanceDirective"/>
             </type>
             <mustSupport value="true"/>
         </element>

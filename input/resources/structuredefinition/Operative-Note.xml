@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="Operative-Note"/>
     <meta>
-        <versionId value="2"/>
-        <lastUpdated value="2020-05-13T05:20:52.372+00:00"/>
-        <source value="#4uWUT2O08hateDZM"/>
+        <versionId value="3"/>
+        <lastUpdated value="2020-07-10T18:47:22.269+00:00"/>
+        <source value="#yCTFg12Et9XD0rJc"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ccda/StructureDefinition/Operative-Note"/>
     <name value="OperativeNote"/>
@@ -28,7 +28,7 @@
     <description value="The Operative Note is a frequently used type of procedure note with specific requirements set forth by regulatory agencies.&#xA;&#xA;The Operative Note is created immediately following a surgical or other high-risk procedure. It records the pre- and post-surgical diagnosis, pertinent events of the procedure, as well as the condition of the patient following the procedure. The report should be sufficiently detailed to support the diagnoses, justify the treatment, document the course of the procedure, and provide continuity of care."/>
     <jurisdiction>
         <coding>
-            <system value="urn:iso:std:iso:3166:-2"/>
+            <system value="urn:iso:std:iso:3166"/>
             <code value="US"/>
         </coding>
     </jurisdiction>

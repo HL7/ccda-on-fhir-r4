@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <StructureDefinition
     xmlns="http://hl7.org/fhir">
-    <id value="Information-Recipient"/>
+    <id value="AuthorizationExtension"/>
     <meta>
         <versionId value="2"/>
-        <lastUpdated value="2020-05-13T05:20:52.862+00:00"/>
-        <source value="#4uWUT2O08hateDZM"/>
+        <lastUpdated value="2020-06-24T18:45:37.919+00:00"/>
+        <source value="#neGIwXw174wF67QD"/>
     </meta>
-    <url value="http://hl7.org/fhir/us/ccda/StructureDefinition/Information-Recipient"/>
-    <name value="InformationRecipient"/>
-    <title value="Information Recipient"/>
+    <url value="http://hl7.org/fhir/us/ccda/StructureDefinition/AuthorizationExtension"/>
+    <name value="AuthorizationExtension"/>
+    <title value="Authorization Extension"/>
     <status value="active"/>
     <publisher value="HL7 Structured Documents Working Group"/>
     <contact>
@@ -33,13 +33,7 @@
             <use value="work"/>
         </telecom>
     </contact>
-    <description value="The Information Recipient Extension records the intended recipient of the information at the time the document was created.&#xA;&#xA;For further information see the C-CDA specification here: http://www.hl7.org/implement/standards/product_brief.cfm?product_id=408."/>
-    <jurisdiction>
-        <coding>
-            <system value="urn:iso:std:iso:3166:-2"/>
-            <code value="US"/>
-        </coding>
-    </jurisdiction>
+    <description value="The C-CDA on FHIR Authorization Extension contains the C-CDA on FHIR Consent profile which represents information about a patient's consents."/>
     <fhirVersion value="4.0.1"/>
     <kind value="complex-type"/>
     <abstract value="false"/>
@@ -56,7 +50,8 @@
         </element>
         <element id="Extension.url">
             <path value="Extension.url"/>
-            <fixedUri value="http://hl7.org/fhir/us/ccda/StructureDefinition/Information-Recipient"/>
+            <fixedUri value="http://hl7.org/fhir/us/ccda/StructureDefinition/AuthorizationExtension"/>
+            <mustSupport value="true"/>
         </element>
         <element id="Extension.value[x]:valueReference">
             <path value="Extension.valueReference"/>
@@ -64,8 +59,7 @@
             <min value="1"/>
             <type>
                 <code value="Reference"/>
-                <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner"/>
-                <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitionerrole"/>
+                <targetProfile value="http://hl7.org/fhir/us/ccda/StructureDefinition/AuthorizationConsent"/>
             </type>
             <mustSupport value="true"/>
         </element>
