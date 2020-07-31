@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="Progress-Note"/>
     <meta>
-        <versionId value="3"/>
-        <lastUpdated value="2020-07-10T18:47:21.382+00:00"/>
-        <source value="#yCTFg12Et9XD0rJc"/>
+        <versionId value="4"/>
+        <lastUpdated value="2020-07-30T23:38:34.377+00:00"/>
+        <source value="#sk9muNXrakKwaMgh"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ccda/StructureDefinition/Progress-Note"/>
     <name value="ProgressNote"/>
@@ -566,12 +566,13 @@
         </element>
         <element id="Composition.section:plan_of_treatment_section.entry:plan_of_treatment_entry">
             <path value="Composition.section.entry"/>
-            <sliceName value="plan_of_treatment_entry"/>
+            <sliceName value="sliceEntry"/>
             <short value="This section contains unprofiled resources not covered by US Core. Please refer to C-CDA R2.1 for guidance on terminology, etc."/>
             <type>
                 <code value="Reference"/>
                 <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-goal"/>
                 <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest"/>
+                <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter"/>
                 <targetProfile value="http://hl7.org/fhir/StructureDefinition/Communication"/>
                 <targetProfile value="http://hl7.org/fhir/StructureDefinition/Appointment"/>
                 <targetProfile value="http://hl7.org/fhir/StructureDefinition/CommunicationRequest"/>
@@ -582,7 +583,6 @@
                 <targetProfile value="http://hl7.org/fhir/StructureDefinition/VisionPrescription"/>
                 <targetProfile value="http://hl7.org/fhir/StructureDefinition/RequestGroup"/>
             </type>
-            <mustSupport value="true"/>
         </element>
         <element id="Composition.section:problems_section">
             <path value="Composition.section"/>

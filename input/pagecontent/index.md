@@ -43,13 +43,13 @@ For further information see the C-CDA specification here: http://www.hl7.org/imp
 <thead>
 <tr>
 <th>Name</th>
-<th>Email</th>
+<th>Email/URL</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>HL7 Structured Documents Working Group</td>
-<td></td>
+<td><a href="http://hl7.org/Special/committees/structure/index.cfm" target="_new">http://hl7.org/Special/committees/structure/index.cfm</a></td>
 </tr>
 <tr>
 <td>Rick Geimer</td>
@@ -73,7 +73,7 @@ For further information see the C-CDA specification here: http://www.hl7.org/imp
 </tr>
 <tr>
 <td>HL7 International - Structured Documents</td>
-<td></td>
+<td><a href="http://www.hl7.org/Special/committees/structure" target="_new">http://www.hl7.org/Special/committees/structure</a></td>
 </tr>
 </tbody>
 </table>

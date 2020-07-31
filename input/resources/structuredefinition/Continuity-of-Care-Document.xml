@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="Continuity-of-Care-Document"/>
     <meta>
-        <versionId value="8"/>
-        <lastUpdated value="2020-07-10T19:19:26.303+00:00"/>
-        <source value="#kD0yQhc7oquBLcLy"/>
+        <versionId value="12"/>
+        <lastUpdated value="2020-07-31T00:08:14.035+00:00"/>
+        <source value="#kGYwhfralsm1qi7G"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ccda/StructureDefinition/Continuity-of-Care-Document"/>
     <name value="ContinuityOfCareDocument"/>
@@ -486,12 +486,13 @@
         </element>
         <element id="Composition.section:plan_of_treatment_section.entry:plan_of_treatment_entry">
             <path value="Composition.section.entry"/>
-            <sliceName value="plan_of_treatment_entry"/>
+            <sliceName value="sliceEntry"/>
             <short value="This section contains unprofiled resources not covered by US Core. Please refer to C-CDA R2.1 for guidance on terminology, etc."/>
             <type>
                 <code value="Reference"/>
                 <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-goal"/>
                 <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest"/>
+                <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter"/>
                 <targetProfile value="http://hl7.org/fhir/StructureDefinition/Communication"/>
                 <targetProfile value="http://hl7.org/fhir/StructureDefinition/Appointment"/>
                 <targetProfile value="http://hl7.org/fhir/StructureDefinition/CommunicationRequest"/>
@@ -502,7 +503,6 @@
                 <targetProfile value="http://hl7.org/fhir/StructureDefinition/VisionPrescription"/>
                 <targetProfile value="http://hl7.org/fhir/StructureDefinition/RequestGroup"/>
             </type>
-            <mustSupport value="true"/>
         </element>
         <element id="Composition.section:procedures_section">
             <path value="Composition.section"/>
@@ -662,7 +662,7 @@
             <sliceName value="advance_directive_entry"/>
             <type>
                 <code value="Reference"/>
-                <targetProfile value="http://hl7.org/fhir/us/ccda/StructureDefinition/AdvanceDirective"/>
+                <targetProfile value="http://hl7.org/fhir/StructureDefinition/Consent"/>
             </type>
             <mustSupport value="true"/>
         </element>
@@ -988,13 +988,14 @@
             <short value="entry"/>
             <mustSupport value="true"/>
         </element>
-        <element id="Composition.section:medical_equipment_section.entry:device_entry">
+        <element id="Composition.section:medical_equipment_section.entry:medical_equipment_entry">
             <path value="Composition.section.entry"/>
-            <sliceName value="device_entry"/>
+            <sliceName value="medical_equipment_entry"/>
             <short value="This section contains unprofiled resources not covered by US Core. Please refer to C-CDA R2.1 for guidance on terminology, etc."/>
             <type>
                 <code value="Reference"/>
                 <targetProfile value="http://hl7.org/fhir/StructureDefinition/Device"/>
+                <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-procedure"/>
             </type>
             <mustSupport value="true"/>
         </element>

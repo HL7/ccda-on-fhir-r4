@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="Consultation-Note"/>
     <meta>
-        <versionId value="10"/>
-        <lastUpdated value="2020-07-10T19:19:25.963+00:00"/>
-        <source value="#kD0yQhc7oquBLcLy"/>
+        <versionId value="14"/>
+        <lastUpdated value="2020-07-31T00:08:13.685+00:00"/>
+        <source value="#kGYwhfralsm1qi7G"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ccda/StructureDefinition/Consultation-Note"/>
     <name value="ConsultationNote"/>
@@ -422,7 +422,7 @@
             <sliceName value="advance_directive_entry"/>
             <type>
                 <code value="Reference"/>
-                <targetProfile value="http://hl7.org/fhir/us/ccda/StructureDefinition/AdvanceDirective"/>
+                <targetProfile value="http://hl7.org/fhir/StructureDefinition/Consent"/>
             </type>
             <mustSupport value="true"/>
         </element>
@@ -836,14 +836,16 @@
             </slicing>
             <short value="entry"/>
         </element>
-        <element id="Composition.section:medical_equipment_section.entry:sliceEntry">
+        <element id="Composition.section:medical_equipment_section.entry:medical_equipment_entry">
             <path value="Composition.section.entry"/>
-            <sliceName value="sliceEntry"/>
+            <sliceName value="medical_equipment_entry"/>
             <short value="This section contains unprofiled resources not covered by US Core. Please refer to C-CDA R2.1 for guidance on terminology, etc."/>
             <type>
                 <code value="Reference"/>
                 <targetProfile value="http://hl7.org/fhir/StructureDefinition/Device"/>
+                <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-procedure"/>
             </type>
+            <mustSupport value="true"/>
         </element>
         <element id="Composition.section:mental_status_section">
             <path value="Composition.section"/>
@@ -987,7 +989,7 @@
             </slicing>
             <short value="entry"/>
         </element>
-        <element id="Composition.section:plan_of_treatment_section.entry:sliceEntry">
+        <element id="Composition.section:plan_of_treatment_section.entry:plan_of_treatment_entry">
             <path value="Composition.section.entry"/>
             <sliceName value="sliceEntry"/>
             <short value="This section contains unprofiled resources not covered by US Core. Please refer to C-CDA R2.1 for guidance on terminology, etc."/>
@@ -995,6 +997,7 @@
                 <code value="Reference"/>
                 <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-goal"/>
                 <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest"/>
+                <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter"/>
                 <targetProfile value="http://hl7.org/fhir/StructureDefinition/Communication"/>
                 <targetProfile value="http://hl7.org/fhir/StructureDefinition/Appointment"/>
                 <targetProfile value="http://hl7.org/fhir/StructureDefinition/CommunicationRequest"/>

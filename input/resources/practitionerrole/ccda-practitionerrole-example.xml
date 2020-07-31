@@ -3,49 +3,11 @@
     xmlns="http://hl7.org/fhir">
     <id value="ccda-practitionerrole-example"/>
     <meta>
-        <versionId value="3"/>
-        <lastUpdated value="2020-04-24T23:19:38.060+00:00"/>
-        <source value="#Do0IzaxShRkSdnDI"/>
+        <versionId value="4"/>
+        <lastUpdated value="2020-07-31T00:02:41.826+00:00"/>
+        <source value="#FB7Z7wnQvdephsBB"/>
         <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitionerrole"/>
     </meta>
-    <text>
-        <status value="generated"/>
-        <div
-            xmlns="http://www.w3.org/1999/xhtml">
-            <p>
-                <b>Generated Narrative with Details</b>
-            </p>
-            <p>
-                <b>id</b>: ccda-practitionerrole-example 
-            </p>
-            <p>
-                <b>meta</b>: 
-            </p>
-            <p>
-                <b>practitioner</b>: Brenda Jennings Richard MD 
-            </p>
-            <p>
-                <b>organization</b>: 
-                <a href="Organization-acme-lab.html">Acme Lab. Generated
-                        Summary: id: acme-lab; 1144221847, 2523423456; active; 
-                    <span title="Codes: {http://terminology.hl7.org/CodeSystem/organization-type prov}">Healthcare Provider</span>; name: Acme Labs; ph: (+1) 734-677-7777,
-                        hq@acme.org 
-                </a>
-            </p>
-            <p>
-                <b>code</b>: Doctor 
-                <span style="background: LightGoldenRodYellow">(Details :
-                        {http://nucc.org/provider-taxonomy code '261QP2300X' = 'Primary Care', given
-                        as 'Doctor'})</span>
-            </p>
-            <p>
-                <b>specialty</b>: General Practice 
-                <span style="background: LightGoldenRodYellow">(Details :
-                        {http://nucc.org/provider-taxonomy code '208D00000X' = 'General Practice',
-                        given as 'General Practice'})</span>
-            </p>
-        </div>
-    </text>
     <practitioner>
         <reference value="Practitioner/ccda-practitioner-example"/>
         <display value="Brenda Jennings Richard MD"/>
@@ -54,20 +16,6 @@
         <reference value="Organization/acme-lab"/>
         <display value="Acme Lab"/>
     </organization>
-    <code>
-        <coding>
-            <system value="http://nucc.org/provider-taxonomy"/>
-            <code value="261QP2300X"/>
-            <display value="Primary Care"/>
-        </coding>
-    </code>
-    <specialty>
-        <coding>
-            <system value="http://nucc.org/provider-taxonomy"/>
-            <code value="208D00000X"/>
-            <display value="General Practice"/>
-        </coding>
-    </specialty>
     <telecom>
         <system value="phone"/>
         <value value="313-555-6868"/>

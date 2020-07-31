@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="hl7.fhir.us.ccda"/>
     <meta>
-        <versionId value="53"/>
-        <lastUpdated value="2020-07-14T20:50:02.634+00:00"/>
-        <source value="#emEA7carl1fSGG3L"/>
+        <versionId value="57"/>
+        <lastUpdated value="2020-07-31T00:27:17.210+00:00"/>
+        <source value="#1RSdbLBDIGg9R2vp"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ccda/ImplementationGuide/hl7.fhir.us.ccda"/>
     <version value="2.0.0"/>
@@ -549,24 +549,6 @@
             <name value="Consent Example Basic"/>
             <description value="Basic consent"/>
             <exampleBoolean value="true"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="StructureDefinition/AdvanceDirective"/>
-                <display value="Advance Directive"/>
-            </reference>
-            <name value="Advance Directive"/>
-            <description value="This profile represents information about the patients advance directives, represented as a FHIR Consent resource. "/>
-            <exampleBoolean value="false"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="StructureDefinition/AuthorizationConsent"/>
-                <display value="Authorization Consent"/>
-            </reference>
-            <name value="Authorization Consent"/>
-            <description value="This profile represents information about the patients consent.The type of consent is conveyed in type. Consents in the header have been finalized and should be on file. The authorization consent is used for referring to consents that are documented elsewhere in the EHR or medical record for a health condition and/or treatment that is described in the document."/>
-            <exampleBoolean value="false"/>
         </resource>
         <resource>
             <reference>
