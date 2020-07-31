@@ -14,8 +14,6 @@ It is used:
 * by the IG publisher if you declare that one IG depends on another
 * by a FHIR server, if you add the IG to server load list
 
-You may [download the validator.pack](validator.pack) file here.
-
 In addition there are format specific definitions files.
 
 * [XML](definitions.xml.zip)
