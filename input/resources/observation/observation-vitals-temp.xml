@@ -10,7 +10,7 @@
     </meta>
     <status value="final"/>  <category>
     <coding>
-      <system value="http://terminology.hl7.org/CodeSystem/v2-0074"/>
+      <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
       <code value="vital-signs"/>
       <display value="Vital Signs"/>
     </coding>
