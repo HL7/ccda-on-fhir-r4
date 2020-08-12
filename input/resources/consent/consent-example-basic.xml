@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="consent-example-basic"/>
     <meta>
-        <versionId value="3"/>
-        <lastUpdated value="2020-04-24T23:19:40.217+00:00"/>
-        <source value="#Do0IzaxShRkSdnDI"/>
+        <versionId value="5"/>
+        <lastUpdated value="2020-08-12T19:18:13.362+00:00"/>
+        <source value="#iXZxDXavp5lIFziN"/>
     </meta>
     <status value="active"/>
     <scope>
@@ -28,6 +28,7 @@
         <reference value="Organization/organization-2"/>
     </organization>
     <sourceAttachment>
+        <url value="http://example.org/example-consent"/>
         <title value="The terms of the consent in lawyer speak."/>
     </sourceAttachment>
     <policyRule>

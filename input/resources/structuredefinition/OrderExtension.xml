@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="OrderExtension"/>
     <meta>
-        <versionId value="2"/>
-        <lastUpdated value="2020-07-10T18:47:25.707+00:00"/>
-        <source value="#yCTFg12Et9XD0rJc"/>
+        <versionId value="3"/>
+        <lastUpdated value="2020-08-12T19:18:13.466+00:00"/>
+        <source value="#Ymo9Z5ep4Kixijty"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ccda/StructureDefinition/OrderExtension"/>
     <name value="OrderExtension"/>
@@ -33,7 +33,6 @@
             <use value="work"/>
         </telecom>
     </contact>
-    <description value="The Order Extension represents orders that are fulfilled by this document such as a radiologists report of an x-ray."/>
     <jurisdiction>
         <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -50,23 +49,4 @@
     <type value="Extension"/>
     <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension"/>
     <derivation value="constraint"/>
-    <differential>
-        <element id="Extension">
-            <path value="Extension"/>
-        </element>
-        <element id="Extension.url">
-            <path value="Extension.url"/>
-            <fixedUri value="http://hl7.org/fhir/us/ccda/StructureDefinition/OrderExtension"/>
-        </element>
-        <element id="Extension.value[x]:valueReference">
-            <path value="Extension.valueReference"/>
-            <sliceName value="valueReference"/>
-            <min value="1"/>
-            <type>
-                <code value="Reference"/>
-                <targetProfile value="http://hl7.org/fhir/StructureDefinition/ServiceRequest"/>
-            </type>
-            <mustSupport value="true"/>
-        </element>
-    </differential>
 </StructureDefinition>

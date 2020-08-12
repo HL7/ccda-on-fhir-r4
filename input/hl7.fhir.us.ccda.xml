@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="hl7.fhir.us.ccda"/>
     <meta>
-        <versionId value="73"/>
-        <lastUpdated value="2020-08-07T19:29:11.320+00:00"/>
-        <source value="#SjEHbdh7Rasu8zoF"/>
+        <versionId value="94"/>
+        <lastUpdated value="2020-08-12T18:25:41.126+00:00"/>
+        <source value="#i4DkXC8rbQHrqnaX"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ccda/ImplementationGuide/hl7.fhir.us.ccda"/>
     <version value="2.0.0"/>
@@ -556,7 +556,6 @@
                 <display value="Authorization Extension"/>
             </reference>
             <name value="Authorization Extension"/>
-            <description value="The C-CDA on FHIR Authorization Extension contains the C-CDA on FHIR Consent profile which represents information about a patient's consents."/>
             <exampleBoolean value="false"/>
         </resource>
         <resource>
@@ -565,7 +564,6 @@
                 <display value="Informant Extension"/>
             </reference>
             <name value="Informant Extension"/>
-            <description value="The C-CDA on FHIR Informant Extension describes an information source for any content within the clinical document. This informant is constrained for use when the source of information is an assigned health care provider for the patient."/>
             <exampleBoolean value="false"/>
         </resource>
         <resource>
@@ -574,7 +572,6 @@
                 <display value="Participant Extension"/>
             </reference>
             <name value="Participant Extension"/>
-            <description value="The C-CDA on FHIR Participant Extension identifies supporting entities, including parents, relatives, caregivers, insurance policyholders, guarantors, and others related in some way to the patient. A supporting person or organization is an individual or an organization with a relationship to the patient. A supporting person who is playing multiple roles would be recorded in multiple participants (e.g., emergency contact and next-of-kin)."/>
             <exampleBoolean value="false"/>
         </resource>
         <resource>
@@ -583,7 +580,6 @@
                 <display value="Performer Extension"/>
             </reference>
             <name value="Performer Extension"/>
-            <description value="The Performer Extension represents clinicians who actually and principally carry out the clinical services being documented. In a transfer of care this represents the healthcare providers involved in the current or pertinent historical care of the patient. Preferably, the patients key healthcare care team members would be listed, particularly their primary physician and any active consulting physicians, therapists, and counselors."/>
             <exampleBoolean value="false"/>
         </resource>
         <resource>
@@ -592,7 +588,6 @@
                 <display value="Data Enterer Extension"/>
             </reference>
             <name value="Data Enterer Extension"/>
-            <description value="The Data Enterer Extension represents the person who transferred the content, written or dictated, into the clinical document. To clarify, an author provides the content, subject to their own interpretation; a dataEnterer adds an author's information to the electronic system.&#xA;&#xA;For further information see the C-CDA specification here: http://www.hl7.org/implement/standards/product_brief.cfm?product_id=408."/>
             <exampleBoolean value="false"/>
         </resource>
         <resource>
@@ -601,7 +596,6 @@
                 <display value="Information Recipient Extension"/>
             </reference>
             <name value="Information Recipient Extension"/>
-            <description value="The Information Recipient Extension records the intended recipient of the information at the time the document was created.&#xA;&#xA;For further information see the C-CDA specification here: http://www.hl7.org/implement/standards/product_brief.cfm?product_id=408."/>
             <exampleBoolean value="false"/>
         </resource>
         <resource>
@@ -610,7 +604,6 @@
                 <display value="Order Extension"/>
             </reference>
             <name value="Order Extension"/>
-            <description value="The Order Extension represents orders that are fulfilled by this document such as a radiologists report of an x-ray."/>
             <exampleBoolean value="false"/>
         </resource>
         <resource>
@@ -619,7 +612,14 @@
                 <display value="Version Number"/>
             </reference>
             <name value="Version Number"/>
-            <description value="The CCDA on FHIR VersionNumber Extension represents a numeric value used to version successive replacement documents.&#xA;&#xA;For further information see the C-CDA specification here: http://www.hl7.org/implement/standards/product_brief.cfm?product_id=408."/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="CapabilityStatement/CcdaOnFhirServer"/>
+                <display value="CCDA on FHIR Server"/>
+            </reference>
+            <name value="CCDA on FHIR Server"/>
             <exampleBoolean value="false"/>
         </resource>
         <page>
@@ -635,26 +635,6 @@
                 <nameUrl value="background.html"/>
                 <title value="Background"/>
                 <generation value="markdown"/>
-                <page>
-                    <nameUrl value="key_characteristics_of_clinical_documents.html"/>
-                    <title value="Key Characteristics of Clinical Documents"/>
-                    <generation value="markdown"/>
-                </page>
-                <page>
-                    <nameUrl value="clinical_document_architecture.html"/>
-                    <title value="Clinical Document Architecture"/>
-                    <generation value="markdown"/>
-                </page>
-                <page>
-                    <nameUrl value="consolidated_cda.html"/>
-                    <title value="Consolidated CDA"/>
-                    <generation value="markdown"/>
-                </page>
-                <page>
-                    <nameUrl value="c-cda_on_fhir.html"/>
-                    <title value="C-CDA on FHIR"/>
-                    <generation value="markdown"/>
-                </page>
             </page>
             <page>
                 <nameUrl value="the_specification.html"/>

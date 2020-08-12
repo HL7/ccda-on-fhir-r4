@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="ccda-practitionerrole-example"/>
     <meta>
-        <versionId value="4"/>
-        <lastUpdated value="2020-07-31T00:02:41.826+00:00"/>
-        <source value="#FB7Z7wnQvdephsBB"/>
+        <versionId value="5"/>
+        <lastUpdated value="2020-08-12T19:18:13.336+00:00"/>
+        <source value="#kub40Eilc2HLDH2p"/>
         <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitionerrole"/>
     </meta>
     <practitioner>

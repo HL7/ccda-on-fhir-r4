@@ -3,20 +3,12 @@
     xmlns="http://hl7.org/fhir">
     <id value="observation-vitals-temp"/>
     <meta>
-        <versionId value="4"/>
-        <lastUpdated value="2020-08-07T19:55:35.465+00:00"/>
-        <source value="#8xV1cohCKNCgaZlx"/>
+        <versionId value="5"/>
+        <lastUpdated value="2020-08-12T19:18:12.756+00:00"/>
+        <source value="#opUkyRznAetQYQbv"/>
         <profile value="http://hl7.org/fhir/StructureDefinition/vitalsigns"/>
     </meta>
     <status value="final"/>
-    <category>
-        <coding>
-            <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
-            <code value="vital-signs"/>
-            <display value="Vital Signs"/>
-        </coding>
-        <text value="Vital Signs"/>
-    </category>
     <code>
         <coding>
             <system value="http://loinc.org"/>

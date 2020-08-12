@@ -1,32 +1,4 @@
-[Previous Page - C-CDA on FHIR](c-cda_on_fhir.html)
-
-# Actors
-
-The following actors are part of the US Core IG:
-
-Document Source: An application that exposes a clinical document to a consumer. This actor may also be the creator of the document, but could also me an intermediary. This can be thought of as the server in a client/server interaction. 
-Document Consumer: An application that consumes a clinical document. This can be thought of as the client in a client/server interaction. 
-
-The C-CDA on FHIR specification does not define additional rules for sending/receiving documents beyond what is already defined in the FHIR core spec and US Core, though it is recommended that implementers consider using the US Core DocumentReference profile as a way to index any kind of document, including those compliant with C-CDA on FHIR. 
-
-# Profiles
-
-To claim conformance to a C-CDA on FHIR Profile, servers SHALL:
-
-* Be able to populate all profile data elements that have a minimum cardinality >= 1 and/or flagged as Must Support as defined by that profile’s StructureDefinition.
-* Conform to the C-CDA on FHIR Server Capability Statement expectations for that profile’s type. 
-
-# Extensions
-
-TBD
-
-# Document Bundles
-
-TBD
-
-# General Guidance
-
-This section outlines important definitions, interpretations, and requirements common to all C-CDA on FHIR actors used in this guide. The conformance verbs - SHALL, SHOULD, MAY - used in this guide are defined in FHIR Conformance Rules.
+[Previous Page - Background](background.html)
 
 ## FHIR Documents
 
@@ -34,9 +6,69 @@ C-CDA on FHIR relies on the FHIR Documents paradigm. Implementers need to be awa
 
 [http://hl7.org/fhir/documents.html](http://hl7.org/fhir/documents.html)
 
+# Actors
+
+The following actors are part of the US Core IG:
+
+* Document Source: An application that exposes a clinical document to a consumer. This actor may also be the creator of the document, but could also me an intermediary. This can be thought of as the server in a client/server interaction. 
+* Document Consumer: An application that consumes a clinical document. This can be thought of as the client in a client/server interaction. 
+
+The C-CDA on FHIR specification does not define additional rules for sending/receiving documents beyond what is already defined in the FHIR core spec and US Core, though it is recommended that implementers consider using the US Core DocumentReference profile as a way to index any kind of document, including those compliant with C-CDA on FHIR. 
+
+# Profiles and Extensions
+
+To claim conformance to a C-CDA on FHIR Profile, servers SHALL:
+
+* Be able to populate all profile data elements that have a minimum cardinality >= 1 and/or flagged as Must Support as defined by that profile’s StructureDefinition.
+* Conform to the C-CDA on FHIR Server Capability Statement expectations for that profile’s type. 
+
+The following profiles and extensions are present in the specification. Details on these profiles and extensions are available on the [Artifact Index page](artifacts.html). 
+
+## Composition Resource Profiles
+
+
+* US Realm Header
+* Procedure Note
+* Care Plan Document
+* Consultation Note
+* Continuity of Care Document
+* Diagnostic Imaging Report
+* Discharge Summary
+* History and Physical
+* Operative Note
+* Progress Note
+* Referral Note
+* Transfer Summary
+
+Note: the C-CDA Unstructured Document profile is not included in this specification since it's use case is covered by the [US Core DocumentReference profile](https://www.hl7.org/fhir/us/core/StructureDefinition-us-core-documentreference.html). 
+
+## Extensions
+
+* Authorization Extension
+* Informant Extension
+* Participant Extension
+* Performer Extension
+* Data Enterer Extension
+* Information Recipient Extension
+* Order Extension
+* Version Number Extension
+
+# Document Bundles
+
+Per the FHIR Document's paradigm, the Composition resource and all references resources must be packaged in a FHIR Bundle resource where Bundle.type = document in order for the content in the Composition resource to be considered a "document". Un-bundled Composition resources are useful while a document is being edited, but until it has been bundled it does not meet the key characteristics of a clinical document (persistence, potential for authentication, etc.). The FHIR specification includes a $document operation on the Composition resource, and FHIR servers that support that operation can handle the task of bundling Composition and other resources. 
+
+See the documentation on the [FHIR Bundle resource](http://hl7.org/fhir/bundle.html) and the [FHIR $document operation](http://hl7.org/fhir/composition-operation-document.html) for more information. 
+
+# General Guidance
+
+This section outlines important definitions, interpretations, and requirements common to all C-CDA on FHIR actors used in this guide. The conformance verbs - SHALL, SHOULD, MAY - used in this guide are defined in FHIR Conformance Rules.
+
+
 ## US Core and C-CDA on FHIR
 
-TBD
+The C-CDA on FHIR specification relies on the US Core specification for all Composition.section.entry content. If a US Core profile does not exist for the expected content of a given section, then unprofiled resources are referenced instead. This was an intentional choice, representing a separation of concerns between the document-level profiles on the Composition resource (C-CDA on FHIR scope) and definition of discrete data needed for the exchange of coded information (US Core scope). It is expected that US Core will evolve over time, and as it does the C-CDA on FHIR specification will be updated to include new US Core Profiles. 
+
+More information on US Core can be found [here](https://www.hl7.org/fhir/us/core/). 
 
 ## Must Support
 
@@ -49,7 +81,7 @@ For querying and reading C-CDA on FHIR Profiles, Must Support on any profile dat
 * In situations where information on a particular data element is missing and the Document Source knows the precise reason for the absence of data, Document Sources SHALL send the reason for the missing information using values (such as nullFlavors) from the value set where they exist or using the dataAbsentReason extension.
 * Document Consumers SHALL be able to process resource instances containing data elements asserting missing information.
 
-## Implementation Notes
+## Implementation Notes when Moving from C-CDA to C-CDA on FHIR
 
 Implementers moving from C-CDA to FHIR need to be aware that the goal of this project is to address the same use case as Consolidated CDA (clinical documentation for primary and transfer of care scenarios in the US), but the syntax, methodologies, and value sets in FHIR are often quite different from those in C-CDA. In particular, implementers need to be aware of the issues listed below:
 

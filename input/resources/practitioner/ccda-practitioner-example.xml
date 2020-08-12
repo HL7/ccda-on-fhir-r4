@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="ccda-practitioner-example"/>
     <meta>
-        <versionId value="4"/>
-        <lastUpdated value="2020-08-12T03:48:32.333+00:00"/>
-        <source value="#AbJMmMiH9PAUAtEo"/>
+        <versionId value="5"/>
+        <lastUpdated value="2020-08-12T19:18:12.757+00:00"/>
+        <source value="#sDyQngLbHUXJ7nG3"/>
         <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner"/>
     </meta>
     <identifier>
@@ -72,32 +72,4 @@
     </address>
     <gender value="female"/>
     <birthDate value="1976-11-15"/>
-    <qualification>
-        <identifier>
-            <use value="official"/>
-            <type>
-                <coding>
-                    <system value="http://terminology.hl7.org/CodeSystem/v2-0203"/>
-                    <code value="MD"/>
-                    <display value="Medical License number"/>
-                </coding>
-                <text value="Michigan Medical License"/>
-            </type>
-            <system value="http://michigan.gov/fhir/medical-license"/>
-            <value value="LARA-1011"/>
-            <assigner>
-                <display value="State of Michigan"/>
-            </assigner>
-        </identifier>
-        <code>
-            <coding>
-                <system value="http://michigan.gov/lara/license-type"/>
-                <code value="4305"/>
-                <display value="Medical Doctor"/>
-            </coding>
-        </code>
-        <issuer>
-            <display value="Michigan Department of Licensing and Regulatory Affairs"/>
-        </issuer>
-    </qualification>
 </Practitioner>
