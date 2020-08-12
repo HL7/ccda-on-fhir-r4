@@ -8,7 +8,13 @@
         <source value="#mQy793LJ2vPMliG9"/>
         <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"/>
     </meta>
-    <status value="final"/>
+    <status value="final"/>  <category>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/v2-0074"/>
+      <code value="LAB"/>
+      <display value="Laboratory"/>
+    </coding>
+  </category>
     <code>
         <coding>
             <system value="http://loinc.org"/>

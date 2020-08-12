@@ -8,7 +8,13 @@
         <source value="#opUkyRznAetQYQbv"/>
         <profile value="http://hl7.org/fhir/StructureDefinition/vitalsigns"/>
     </meta>
-    <status value="final"/>
+    <status value="final"/>  <category>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/v2-0074"/>
+      <code value="vital-signs"/>
+      <display value="Vital Signs"/>
+    </coding>
+  </category>
     <code>
         <coding>
             <system value="http://loinc.org"/>

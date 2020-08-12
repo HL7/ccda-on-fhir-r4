@@ -8,6 +8,14 @@
         <source value="#P47w9lYSh1Nv0W8D"/>
         <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition"/>
     </meta>
+	<category>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/condition-category"/>
+      <code value="problem-list-item"/>
+      <display value="Problem List Item"/>
+    </coding>
+    <text value="Problem"/>
+  </category>
     <code>
         <coding>
             <system value="http://snomed.info/sct"/>
