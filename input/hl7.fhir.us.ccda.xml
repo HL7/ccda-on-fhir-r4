@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="hl7.fhir.us.ccda"/>
     <meta>
-        <versionId value="94"/>
-        <lastUpdated value="2020-08-12T18:25:41.126+00:00"/>
-        <source value="#i4DkXC8rbQHrqnaX"/>
+        <versionId value="95"/>
+        <lastUpdated value="2020-08-12T20:10:02.055+00:00"/>
+        <source value="#geREGB8qrv0w08xC"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ccda/ImplementationGuide/hl7.fhir.us.ccda"/>
     <version value="2.0.0"/>
@@ -620,6 +620,15 @@
                 <display value="CCDA on FHIR Server"/>
             </reference>
             <name value="CCDA on FHIR Server"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="CapabilityStatement/CcdaOnFhirClient"/>
+                <display value="CCDA on FHIR Client"/>
+            </reference>
+            <name value="CCDA on FHIR Client"/>
+            <description value="This section describes the expected capabilities of the C-CDA on FHIR Document Consumer (aka client) actor which is responsible for creating and initiating the queries for clinical documents provided by a C-CDA on FHIR Document Source (aka server) actors."/>
             <exampleBoolean value="false"/>
         </resource>
         <page>

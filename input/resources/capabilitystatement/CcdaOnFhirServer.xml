@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CapabilityStatement
+    xmlns="http://hl7.org/fhir">
+    <id value="CcdaOnFhirServer"/>
+    <meta>
+        <versionId value="7"/>
+        <lastUpdated value="2020-08-12T19:18:13.104+00:00"/>
+        <source value="#pOItrwAhGnDw4qJC"/>
+    </meta>
+    <url value="http://hl7.org/fhir/us/ccda/CapabilityStatement/CcdaOnFhirServer"/>
+    <version value="1.0"/>
+    <name value="CcdaOnFhirServer"/>
+    <title value="CCDA on FHIR Server"/>
+    <status value="active"/>
+    <experimental value="false"/>
+    <date value="2020-08-12"/>
+    <publisher value="HL7 International - Structured Documents Working Group"/>
+    <kind value="requirements"/>
+    <imports value="http://hl7.org/fhir/us/core/CapabilityStatement/us-core-server"/>
+    <fhirVersion value="4.0.1"/>
+    <format value="xml"/>
+    <format value="json"/>
+    <rest>
+        <mode value="server"/>
+        <resource>
+            <type value="Bundle"/>
+        </resource>
+        <resource>
+            <type value="Composition"/>
+            <supportedProfile value="http://hl7.org/fhir/us/ccda/StructureDefinition/Care-Plan-Document"/>
+            <supportedProfile value="http://hl7.org/fhir/us/ccda/StructureDefinition/Consultation-Note"/>
+            <supportedProfile value="http://hl7.org/fhir/us/ccda/StructureDefinition/Continuity-of-Care-Document"/>
+            <supportedProfile value="http://hl7.org/fhir/us/ccda/StructureDefinition/Diagnostic-Imaging-Report"/>
+            <supportedProfile value="http://hl7.org/fhir/us/ccda/StructureDefinition/Discharge-Summary"/>
+            <supportedProfile value="http://hl7.org/fhir/us/ccda/StructureDefinition/Operative-Note"/>
+            <supportedProfile value="http://hl7.org/fhir/us/ccda/StructureDefinition/Procedure-Note"/>
+            <supportedProfile value="http://hl7.org/fhir/us/ccda/StructureDefinition/Progress-Note"/>
+            <supportedProfile value="http://hl7.org/fhir/us/ccda/StructureDefinition/Referral-Note"/>
+            <supportedProfile value="http://hl7.org/fhir/us/ccda/StructureDefinition/Transfer-Summary"/>
+        </resource>
+    </rest>
+</CapabilityStatement>
