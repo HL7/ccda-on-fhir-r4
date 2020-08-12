@@ -10,10 +10,16 @@ The entire implementation guide (including the HTML files, definitions, validati
 * [JSON](definitions.json.zip)
 * [TTL](definitions.ttl.zip)
 
-**Examples:** all the examples that are used in this Implementation Guide available for download:
+**Examples:** 
+
+All the examples that are used in this Implementation Guide available for download:
 
 * [XML](examples.xml.zip)
 * [JSON](examples.json.zip)
 * [TTl](examples.ttl.zip)
 
-[Next Page - The Specification](specification.html)
+**Validation**
+
+Implementers should use the [FHIR Validator](https://confluence.hl7.org/display/FHIR/Using+the+FHIR+Validator) for validating profiles and other resources in this guide. 
+
+[Next Page - Background](background.html)

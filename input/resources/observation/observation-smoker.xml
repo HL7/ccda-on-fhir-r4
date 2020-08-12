@@ -3,55 +3,11 @@
     xmlns="http://hl7.org/fhir">
     <id value="observation-smoker"/>
     <meta>
-        <versionId value="3"/>
-        <lastUpdated value="2020-04-24T23:19:38.779+00:00"/>
-        <source value="#Do0IzaxShRkSdnDI"/>
+        <versionId value="4"/>
+        <lastUpdated value="2020-08-07T19:55:14.198+00:00"/>
+        <source value="#JSm97BEReI8Az4UV"/>
         <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-smokingstatus"/>
     </meta>
-    <text>
-        <status value="generated"/>
-        <div
-            xmlns="http://www.w3.org/1999/xhtml">
-            <p>
-                <b>Generated Narrative with Details</b>
-            </p>
-            <p>
-                <b>id</b>: observation-smoker 
-            </p>
-            <p>
-                <b>meta</b>: 
-            </p>
-            <p>
-                <b>status</b>: final 
-            </p>
-            <p>
-                <b>category</b>: Social History 
-                <span style="background: LightGoldenRodYellow">(Details : {http://terminology.hl7.org/CodeSystem/observation-category code
-                        'social-history' = 'Social History', given as 'Social History'})</span>
-            </p>
-            <p>
-                <b>code</b>: Tobacco smoking status NHIS 
-                <span style="background: LightGoldenRodYellow">(Details : {LOINC code '72166-2' =
-                        'Tobacco smoking status NHIS', given as 'Tobacco smoking status
-                        NHIS'})</span>
-            </p>
-            <p>
-                <b>subject</b>: 
-                <a href="Patient-example.html">Amy Shaw. Generated Summary: id:
-                        example; Medical Record Number = 1032702 (USUAL); active; Amy V. Shaw ; ph:
-                        555-555-5555(HOME), amy.shaw@example.com; gender: female; birthDate: Feb 20,
-                        2007</a>
-            </p>
-            <p>
-                <b>issued</b>: Mar 18, 2016 1:27:04 AM 
-            </p>
-            <p>
-                <b>value</b>: Current some day smoker 
-                <span style="background: LightGoldenRodYellow">(Details : {SNOMED CT code
-                        '428041000124106' = 'Occasional tobacco smoker)</span>
-            </p>
-        </div>
-    </text>
     <status value="final"/>
     <category>
         <coding>

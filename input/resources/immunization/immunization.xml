@@ -3,50 +3,11 @@
     xmlns="http://hl7.org/fhir">
     <id value="immunization"/>
     <meta>
-        <versionId value="2"/>
-        <lastUpdated value="2020-04-24T23:19:43.051+00:00"/>
-        <source value="#Do0IzaxShRkSdnDI"/>
+        <versionId value="3"/>
+        <lastUpdated value="2020-08-07T19:50:14.725+00:00"/>
+        <source value="#ENjlCb2Qz1p1d1El"/>
         <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-immunization"/>
     </meta>
-    <text>
-        <status value="generated"/>
-        <div
-            xmlns="http://www.w3.org/1999/xhtml">
-            <p>
-                <b>Generated Narrative with Details</b>
-            </p>
-            <p>
-                <b>id</b>: imm-1 
-            </p>
-            <p>
-                <b>meta</b>: 
-            </p>
-            <p>
-                <b>status</b>: completed 
-            </p>
-            <p>
-                <b>vaccineCode</b>: influenza, injectable, quadrivalent, contains
-                            preservative 
-                <span style="background: LightGoldenRodYellow">(Details :
-                                {http://hl7.org/fhir/sid/cvx code '158' = 'influenza, injectable,
-                                quadrivalent', given as 'influenza, injectable, quadrivalent,
-                                contains preservative'};)</span>
-            </p>
-            <p>
-                <b>patient</b>: 
-                <a href="Patient-example.html">Amy Shaw. Generated
-                                Summary: id: example; Medical Record Number = 1032702 (USUAL);
-                                active; Amy V. Shaw ; ph: 555-555-5555(HOME), amy.shaw@example.com;
-                                gender: female; birthDate: Feb 20, 2007</a>
-            </p>
-            <p>
-                <b>occurrence</b>: Jan 8, 2016 12:00:00 AM 
-            </p>
-            <p>
-                <b>primarySource</b>: false 
-            </p>
-        </div>
-    </text>
     <status value="completed"/>
     <vaccineCode>
         <coding>

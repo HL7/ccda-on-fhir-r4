@@ -3,51 +3,41 @@
     xmlns="http://hl7.org/fhir">
     <id value="example"/>
     <meta>
-        <versionId value="4"/>
-        <lastUpdated value="2020-04-24T23:19:38.522+00:00"/>
-        <source value="#Do0IzaxShRkSdnDI"/>
-        <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"/>
+        <versionId value="6"/>
+        <lastUpdated value="2020-08-12T03:48:30.175+00:00"/>
+        <source value="#AbJMmMiH9PAUAtEo"/>
     </meta>
     <text>
         <status value="generated"/>
         <div
             xmlns="http://www.w3.org/1999/xhtml">
-            <p>
-                <b>Generated Narrative with Details</b>
-            </p>
-            <p>
-                <b>id</b>: example
-            </p>
-            <p>
-                <b>identifier</b>: Medical Record Number = 1032702 (USUAL)
-            </p>
-            <p>
-                <b>active</b>: true
-            </p>
-            <p>
-                <b>name</b>: Amy V. Shaw 
-            </p>
-            <p>
-                <b>telecom</b>: ph: 555-555-5555(HOME), amy.shaw@example.com
-            </p>
-            <p>
-                <b>gender</b>: 
-            </p>
-            <p>
-                <b>birthsex</b>: Female
-            </p>
-            <p>
-                <b>birthDate</b>: Feb 20, 2007
-            </p>
-            <p>
-                <b>address</b>: 49 Meadow St Mounds OK 74047 US 
-            </p>
-            <p>
-                <b>race</b>: White, American Indian or Alaska Native, Asian, Shoshone, Filipino
-            </p>
-            <p>
-                <b>ethnicity</b>: Hispanic or Latino, Dominican, Mexican
-            </p>
+            <div class="hapiHeaderText">Amy V. 
+                <b>SHAW </b>
+            </div>
+            <table class="hapiPropertyTable">
+                <tbody>
+                    <tr>
+                        <td>Identifier</td>
+                        <td>1032702</td>
+                    </tr>
+                    <tr>
+                        <td>Address</td>
+                        <td>
+                            <span>49 Meadow St </span>
+                            <br/>
+                            <span>Mounds </span>
+                            <span>OK </span>
+                            <span>US </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Date of birth</td>
+                        <td>
+                            <span>20 February 2007</span>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
     </text>
     <extension url="http://hl7.org/fhir/us/core/StructureDefinition/us-core-race">

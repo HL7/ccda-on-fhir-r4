@@ -16,21 +16,6 @@ This first stage of the project defines all the C-CDA document-level profiles on
 
 Any coded data used by sections will be represented using relevant U.S. Core FHIR profiles where they exist. FHIR profiles defined by other work groups or unconstrained FHIR resources may also be referenced if no appropriate US Core Profile exist.
 
-## Implementation Notes
-
-Implementers moving from C-CDA to FHIR need to be aware that the goal of this project is to address the same use case as Consolidated CDA (clinical documentation for primary and transfer of care scenarios in the US), but the syntax, methodologies, and value sets in FHIR are often quite different from those in C-CDA. In particular, implementers need to be aware of the issues listed below:
-
-* The value sets used in US Core and FHIR in general are not fully aligned with those in C-CDA.
-* The approaches for negation used in C-CDA and the Core FHIR specification are quite different.
-* The level of granularity between C-CDA templates and FHIR resources/profiles is often different, so there will not be a 1:1 mapping between templates and profiles. Some examples include:
-* Multiple templates like Health Concern and Problem Observation map to a single US Core Condition
-* C-CDA has 3 kinds of procedure templates that all map to the single US Core Procedure profile
-* In C-CDA the use the moodCode attribute can differentiate between events and planned acts using a single template but in FHIR these are often separate resources (event vs. request resources)
-* In C-CDA multiple observations such as lab results are wrapped in an Organizer, whereas in FHIR the Observation resource itself can contain multiple Observations as subcomponents
-* Implementers need to follow the rules and apply the value sets used by the target specification, and this will often require significant data and vocabulary mapping. implementers moving from C-CDA to C-CDA on FHIR will need to review the US Core profiles and value sets in core FHIR resources and ensure that their instances FHIR instances are compliant. We hope that ongoing work in HL7 will better align US Core, C-CDA, and the Core FHIR specifications in the future.
-
-We encourage implementers to refer to the ongoing C-CDA to FHIR mapping work that is described on the C-CDA on FHIR wiki page for assistance when moving from C-CDA to FHIR.
-
 For further information see the C-CDA specification here: http://www.hl7.org/implement/standards/product_brief.cfm?product_id=408.
 
 

@@ -3,71 +3,11 @@
     xmlns="http://hl7.org/fhir">
     <id value="ccda-practitioner-example"/>
     <meta>
-        <versionId value="3"/>
-        <lastUpdated value="2020-04-24T23:19:40.807+00:00"/>
-        <source value="#Do0IzaxShRkSdnDI"/>
+        <versionId value="4"/>
+        <lastUpdated value="2020-08-12T03:48:32.333+00:00"/>
+        <source value="#AbJMmMiH9PAUAtEo"/>
         <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner"/>
     </meta>
-    <text>
-        <status value="generated"/>
-        <div
-            xmlns="http://www.w3.org/1999/xhtml">
-            <p>
-                <b>Generated Narrative with Details</b>
-            </p>
-            <p>
-                <b>id</b>: Practitioner-1011 
-            </p>
-            <p>
-                <b>meta</b>: 
-            </p>
-            <p>
-                <b>identifier</b>: US Social Security Number = 000001011 (OFFICIAL), US
-                     National Provider Identifier = 9999991011 (OFFICIAL), Michigan Common Key
-                     Service Identifier = d46f70565a1042f6a6ece48dd81b408f (OFFICIAL) 
-            </p>
-            <p>
-                <b>name</b>: Brenda Jennings Richard 
-            </p>
-            <p>
-                <b>telecom</b>: ph: 313-555-6868(HOME), ph: 313-555-6443(WORK) 
-            </p>
-            <p>
-                <b>address</b>: 346 W Plum Avenu Dearborn MI 48123 
-            </p>
-            <p>
-                <b>gender</b>: female 
-            </p>
-            <p>
-                <b>birthDate</b>: Nov 15, 1976 
-            </p>
-            <h3>Qualifications</h3>
-            <table class="grid">
-                <tr>
-                    <td>-</td>
-                    <td>
-                        <b>Identifier</b>
-                    </td>
-                    <td>
-                        <b>Code</b>
-                    </td>
-                    <td>
-                        <b>Issuer</b>
-                    </td>
-                </tr>
-                <tr>
-                    <td>*</td>
-                    <td>Michigan Medical License = LARA-1011 (OFFICIAL)</td>
-                    <td>Medical Doctor 
-                        <span style="background: LightGoldenRodYellow">(Details :
-                              {http://michigan.gov/lara/license-type code '4305' = '4305', given as
-                              'Medical Doctor'})</span>
-                    </td>
-                    <td>Michigan Department of Licensing and Regulatory Affairs</td>
-                </tr>
-            </table>
-        </div>
-    </text>
     <identifier>
         <use value="official"/>
         <type>
