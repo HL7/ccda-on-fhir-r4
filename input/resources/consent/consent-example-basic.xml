@@ -28,6 +28,7 @@
         <reference value="Organization/organization-2"/>
     </organization>
     <sourceAttachment>
+		<url value="http://example.org/not-a-real-consent-just-an-example-url.pdf"/>
         <title value="The terms of the consent in lawyer speak."/>
     </sourceAttachment>
     <policyRule>
