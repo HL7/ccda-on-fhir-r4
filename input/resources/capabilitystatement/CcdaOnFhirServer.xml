@@ -6,7 +6,83 @@
         <versionId value="8"/>
         <lastUpdated value="2020-08-13T00:23:30.756+00:00"/>
         <source value="#vUIiylS3jYjSpjJ5"/>
-    </meta>
+    </meta>	<text>
+		<status value="extensions"/>
+		<div xmlns="http://www.w3.org/1999/xhtml">
+			<h2>CcdaOnFhirServer</h2>
+			<div>
+				<p>This section describes the expected capabilities of the C-CDA on FHIR Document Consumer (aka client) actor which is responsible for creating and initiating the queries for clinical documents provided by a C-CDA on FHIR Document Source (aka server) actors. This CapabilityStatement imports and extends the <a href="https://www.hl7.org/fhir/us/core/CapabilityStatement-us-core-server.html">us-core-server CapabilityStatement</a>
+				</p>
+			</div>
+			<table>
+				<tr>
+					<td>Mode</td>
+					<td>SERVER</td>
+				</tr>
+			</table>
+			<table>
+				<tr>
+					<th>
+						<b>Resource Type</b>
+					</th>
+					<th>
+						<b>Profile</b>
+					</th>
+					<th>
+						<b title="GET a resource (read interaction)">Read</b>
+					</th>
+					<th>
+						<b title="GET past versions of resources (vread interaction)">V-Read</b>
+					</th>
+					<th>
+						<b title="GET all set of resources of the type (search interaction)">Search</b>
+					</th>
+					<th>
+						<b title="PUT a new resource version (update interaction)">Update</b>
+					</th>
+					<th>
+						<b title="PATCH a new resource version (patch interaction)">Patch</b>
+					</th>
+					<th>
+						<b title="POST a new resource (create interaction)">Create</b>
+					</th>
+					<th>
+						<b title="DELETE a resource (delete interaction)">Delete</b>
+					</th>
+					<th>
+						<b title="GET changes to a resource (history interaction on instance)">Updates</b>
+					</th>
+					<th>
+						<b title="GET changes for all resources of the type (history interaction on type)">History</b>
+					</th>
+				</tr>
+				<tr>
+					<td>Bundle</td>
+					<td>y</td>
+					<td>y</td>
+					<td>y</td>
+					<td>y</td>
+					<td>y</td>
+					<td>y</td>
+					<td>y</td>
+					<td>y</td>
+					<td>y</td>
+				</tr>
+				<tr>
+					<td>Composition</td>
+					<td>y</td>
+					<td>y</td>
+					<td>y</td>
+					<td>y</td>
+					<td>y</td>
+					<td>y</td>
+					<td>y</td>
+					<td>y</td>
+					<td>y</td>
+				</tr>
+			</table>
+		</div>
+	</text>
     <url value="http://hl7.org/fhir/us/ccda/CapabilityStatement/CcdaOnFhirServer"/>
     <version value="1.0"/>
     <name value="CcdaOnFhirServer"/>
