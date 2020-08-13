@@ -25,6 +25,33 @@
         <mode value="server"/>
         <resource>
             <type value="Bundle"/>
+			<interaction>
+                <code value="create"/>
+            </interaction>
+            <interaction>
+                <code value="search-type"/>
+            </interaction>
+            <interaction>
+                <code value="read"/>
+            </interaction>
+            <interaction>
+                <code value="vread"/>
+            </interaction>
+            <interaction>
+                <code value="update"/>
+            </interaction>
+            <interaction>
+                <code value="patch"/>
+            </interaction>
+            <interaction>
+                <code value="delete"/>
+            </interaction>
+            <interaction>
+                <code value="history-instance"/>
+            </interaction>
+            <interaction>
+                <code value="history-type"/>
+            </interaction>
         </resource>
         <resource>
             <type value="Composition"/>
@@ -38,6 +65,33 @@
             <supportedProfile value="http://hl7.org/fhir/us/ccda/StructureDefinition/Progress-Note"/>
             <supportedProfile value="http://hl7.org/fhir/us/ccda/StructureDefinition/Referral-Note"/>
             <supportedProfile value="http://hl7.org/fhir/us/ccda/StructureDefinition/Transfer-Summary"/>
+			<interaction>
+                <code value="create"/>
+            </interaction>
+            <interaction>
+                <code value="search-type"/>
+            </interaction>
+            <interaction>
+                <code value="read"/>
+            </interaction>
+            <interaction>
+                <code value="vread"/>
+            </interaction>
+            <interaction>
+                <code value="update"/>
+            </interaction>
+            <interaction>
+                <code value="patch"/>
+            </interaction>
+            <interaction>
+                <code value="delete"/>
+            </interaction>
+            <interaction>
+                <code value="history-instance"/>
+            </interaction>
+            <interaction>
+                <code value="history-type"/>
+            </interaction>
         </resource>
     </rest>
 </CapabilityStatement>
