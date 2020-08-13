@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?> 
+<?xml version="1.0" encoding="UTF-8"?>
 <ImplementationGuide
     xmlns="http://hl7.org/fhir">
     <id value="hl7.fhir.us.ccda"/>
     <meta>
-        <versionId value="101"/>
-        <lastUpdated value="2020-08-12T22:44:33.241+00:00"/>
-        <source value="#tg0TKjhJfnaQ1Oug"/>
+        <versionId value="103"/>
+        <lastUpdated value="2020-08-13T14:38:26.829+00:00"/>
+        <source value="#me0XleFMXOirf0Dj"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ccda/ImplementationGuide/hl7.fhir.us.ccda"/>
     <version value="2.0.0"/>
@@ -620,6 +620,24 @@
             </reference>
             <name value="Version Number"/>
             <description value="The CCDA on FHIR VersionNumber Extension represents a numeric value used to version successive replacement documents.&#xA;&#xA;For further information see the C-CDA specification here: http://www.hl7.org/implement/standards/product_brief.cfm?product_id=408."/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="CapabilityStatement/CcdaOnFhirClient"/>
+                <display value="CCDA on FHIR Client"/>
+            </reference>
+            <name value="CCDA on FHIR Client"/>
+            <description value="This section describes the expected capabilities of the C-CDA on FHIR Document Consumer (aka client) actor which is responsible for creating and initiating the queries for clinical documents provided by a C-CDA on FHIR Document Source (aka server) actors."/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="CapabilityStatement/CcdaOnFhirServer"/>
+                <display value="CCDA on FHIR Server"/>
+            </reference>
+            <name value="CCDA on FHIR Server"/>
+            <description value="This section describes the expected capabilities of the C-CDA on FHIR Document Consumer (aka client) actor which is responsible for creating and initiating the queries for clinical documents provided by a C-CDA on FHIR Document Source (aka server) actors."/>
             <exampleBoolean value="false"/>
         </resource>
         <page>
