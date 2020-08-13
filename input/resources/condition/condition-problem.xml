@@ -3,19 +3,19 @@
     xmlns="http://hl7.org/fhir">
     <id value="condition-problem"/>
     <meta>
-        <versionId value="4"/>
-        <lastUpdated value="2020-08-12T19:18:13.366+00:00"/>
-        <source value="#P47w9lYSh1Nv0W8D"/>
+        <versionId value="5"/>
+        <lastUpdated value="2020-08-12T21:30:13.114+00:00"/>
+        <source value="#csn482LCsnDWyxbW"/>
         <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition"/>
     </meta>
-	<category>
-    <coding>
-      <system value="http://terminology.hl7.org/CodeSystem/condition-category"/>
-      <code value="problem-list-item"/>
-      <display value="Problem List Item"/>
-    </coding>
-    <text value="Problem"/>
-  </category>
+    <category>
+        <coding>
+            <system value="http://hl7.org/fhir/us/core/CodeSystem/condition-category"/>
+            <code value="problem"/>
+            <display value="Problem"/>
+        </coding>
+        <text value="Problem"/>
+    </category>
     <code>
         <coding>
             <system value="http://snomed.info/sct"/>

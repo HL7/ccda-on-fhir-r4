@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="Referral-Note-Example"/>
     <meta>
-        <versionId value="2"/>
-        <lastUpdated value="2020-06-24T20:59:52.514+00:00"/>
-        <source value="#7pT7ztVuHu6RkeFa"/>
+        <versionId value="4"/>
+        <lastUpdated value="2020-08-12T21:30:11.629+00:00"/>
+        <source value="#csn482LCsnDWyxbW"/>
         <profile value="http://hl7.org/fhir/us/ccda/StructureDefinition/Referral-Note"/>
     </meta>
     <language value="en-US"/>

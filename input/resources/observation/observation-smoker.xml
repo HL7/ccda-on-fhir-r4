@@ -3,12 +3,20 @@
     xmlns="http://hl7.org/fhir">
     <id value="observation-smoker"/>
     <meta>
-        <versionId value="5"/>
-        <lastUpdated value="2020-08-12T19:18:12.729+00:00"/>
-        <source value="#G0Ow6QjlwrYDauZy"/>
+        <versionId value="6"/>
+        <lastUpdated value="2020-08-12T21:30:13.468+00:00"/>
+        <source value="#csn482LCsnDWyxbW"/>
         <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-smokingstatus"/>
     </meta>
     <status value="final"/>
+    <category>
+        <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+            <code value="social-history"/>
+            <display value="Social History"/>
+        </coding>
+        <text value="Social History"/>
+    </category>
     <code>
         <coding>
             <system value="http://loinc.org"/>

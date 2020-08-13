@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="Discharge-Summary-Example"/>
     <meta>
-        <versionId value="2"/>
-        <lastUpdated value="2020-06-24T20:59:57.607+00:00"/>
-        <source value="#7pT7ztVuHu6RkeFa"/>
+        <versionId value="4"/>
+        <lastUpdated value="2020-08-12T21:30:18.557+00:00"/>
+        <source value="#csn482LCsnDWyxbW"/>
         <profile value="http://hl7.org/fhir/us/ccda/StructureDefinition/Discharge-Summary"/>
     </meta>
     <language value="en-US"/>

@@ -1,5 +1,6 @@
 [Previous Page - Background](background.html)
 
+
 ## FHIR Documents
 
 C-CDA on FHIR relies on the FHIR Documents paradigm. Implementers need to be aware of and follow all the rules required for FHIR Documents. Please refer to that section of the core FHIR spec.

@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="organization-1"/>
     <meta>
-        <versionId value="5"/>
-        <lastUpdated value="2020-08-12T19:18:13.090+00:00"/>
-        <source value="#NEG2cngEWNT0xhLQ"/>
+        <versionId value="6"/>
+        <lastUpdated value="2020-08-12T21:30:18.994+00:00"/>
+        <source value="#csn482LCsnDWyxbW"/>
         <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"/>
     </meta>
     <identifier>
@@ -25,4 +25,19 @@
         </coding>
     </type>
     <name value="Acme Labs"/>
+    <telecom>
+        <system value="phone"/>
+        <value value="(+1) 734-677-7777"/>
+    </telecom>
+    <telecom>
+        <system value="email"/>
+        <value value="hq@acme.org"/>
+    </telecom>
+    <address>
+        <line value="3300 Washtenaw Avenue, Suite 227"/>
+        <city value="Amherst"/>
+        <state value="MA"/>
+        <postalCode value="01002"/>
+        <country value="USA"/>
+    </address>
 </Organization>
