@@ -1,20 +1,4 @@
 == Suppressed Messages ==
 
 # The following are because of terminology not supported by terminology server
-ValueSet https://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1099.10 not found by validator
-ValueSet https://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.11.20.9.31 not found by validator
-ValueSet https://cts.nlm.nih.gov/fhir/ValueSet/1.3.6.1.4.1.12009.10.2.5 not found by validator
-ValueSet https://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.11.20.4.1 not found by validator
-ValueSet https://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.1.11.20.22 not found by validator
-ValueSet https://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.11.20.1.1 not found by validator
-ValueSet https://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.11.20.6.1 not found by validator
-ValueSet https://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.11.20.8.1 not found by validator
-ValueSet https://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.1.11.20.2.3 not found by validator
-ValueSet https://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.1.11.20.2.4 not found by validator
 Internal error: Unknown Code http://hl7.org/fhir/sid/cvx#158 in http://hl7.org/fhir/sid/cvx - note that the code system is labelled as a fragment, so the code may be valid in some other fragment
-
-# The following error is due to a bug in HAPI that strips the lang and xml:lang attributes, and since Trifolia on FHIR uses HAPI this reappears each time a Composition instance is exported. Will be the last thing fixed before publication. as is a manual fix before committing. 
-Resource has a language, but the XHTML does not have an lang or an xml:lang tag (needs both - see https://www.w3.org/TR/i18n-html-tech-lang/#langvalues)
-
-# Will add this final example shortly (version number extension)
-The Implementation Guide contains no examples for this extension

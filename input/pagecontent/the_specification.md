@@ -28,31 +28,31 @@ The following profiles and extensions are present in the specification. Details 
 ## Composition Resource Profiles
 
 
-* US Realm Header
-* Procedure Note
-* Care Plan Document
-* Consultation Note
-* Continuity of Care Document
-* Diagnostic Imaging Report
-* Discharge Summary
-* History and Physical
-* Operative Note
-* Progress Note
-* Referral Note
-* Transfer Summary
+* [US Realm Header](StructureDefinition-US-Realm-Header.html)
+* [Procedure Note](StructureDefinition-Procedure-Note.html)
+* [Care Plan Document](StructureDefinition-Care-Plan-Document.html)
+* [Consultation Note](StructureDefinition-Consultation-Note.html)
+* [Continuity of Care Document](StructureDefinition-Continuity-of-Care-Document.html)
+* [Diagnostic Imaging Report](StructureDefinition-Diagnostic-Imaging-Report.html)
+* [Discharge Summary](StructureDefinition-Discharge-Summary.html)
+* [History and Physical](StructureDefinition-History-and-Physical.html)
+* [Operative Note](StructureDefinition-Operative-Note.html)
+* [Progress Note](StructureDefinition-Progress-Note.html)
+* [Referral Note](StructureDefinition-Referral-Note.html)
+* [Transfer Summary](StructureDefinition-Transfer-Summary.html)
 
 Note: the C-CDA Unstructured Document profile is not included in this specification since it's use case is covered by the [US Core DocumentReference profile](https://www.hl7.org/fhir/us/core/StructureDefinition-us-core-documentreference.html). 
 
 ## Extensions
 
-* Authorization Extension
-* Informant Extension
-* Participant Extension
-* Performer Extension
-* Data Enterer Extension
-* Information Recipient Extension
-* Order Extension
-* Version Number Extension
+* [Authorization Extension](StructureDefinition-AuthorizationExtension.html)
+* [Informant Extension](StructureDefinition-InformantExtension.html)
+* [Participant Extension](StructureDefinition-ParticipantExtension.html)
+* [Performer Extension](StructureDefinition-PerformerExtension.html)
+* [Data Enterer Extension](StructureDefinition-DataEntererExtension.html)
+* [Information Recipient Extension](StructureDefinition-InformationRecipientExtension.html)
+* [Order Extension](StructureDefinition-OrderExtension.html)
+* [Version Number Extension](StructureDefinition-VersionNumber.html)
 
 # Document Bundles
 

@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="example-1"/>
     <meta>
-        <versionId value="17"/>
-        <lastUpdated value="2020-08-12T21:30:11.845+00:00"/>
-        <source value="#csn482LCsnDWyxbW"/>
+        <versionId value="19"/>
+        <lastUpdated value="2020-08-19T05:30:01.023+00:00"/>
+        <source value="#GNI3ZHMkjDg95t5Z"/>
         <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter"/>
     </meta>
     <status value="finished"/>

@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="Care-Plan-Example"/>
     <meta>
-        <versionId value="5"/>
-        <lastUpdated value="2020-08-12T21:30:17.918+00:00"/>
-        <source value="#csn482LCsnDWyxbW"/>
+        <versionId value="6"/>
+        <lastUpdated value="2020-08-19T04:55:46.030+00:00"/>
+        <source value="#jOiomrQ69OIQipUi"/>
         <profile value="http://hl7.org/fhir/us/ccda/StructureDefinition/Care-Plan-Document"/>
     </meta>
     <language value="en-US"/>
@@ -61,13 +61,16 @@
 
 
 										
+                            
                             <br/>Amherst MA 01002, US 
 
 										
+                            
                             <br/>Tel: +1(555)555-1003
 
 
 										
+                            
                             <br/>
                         </td>
                     </tr>
@@ -116,13 +119,16 @@
 
 
 										
+                            
                             <br/>Amherst MA 01002, US 
 
 										
+                            
                             <br/>Tel: +1(555)555-1003
 
 
 										
+                            
                             <br/>
                         </td>
                     </tr>
@@ -137,6 +143,7 @@
                         <td class="td_header_role_value">Acme Laboratories 
 
 										
+                            
                             <br/>
                         </td>
                     </tr>
@@ -147,6 +154,7 @@
                         <td class="td_header_role_value">Michael Shaw 
 
 										
+                            
                             <br/>
                             <br/>
                         </td>
@@ -158,13 +166,16 @@
                         <td class="td_header_role_value">49 Meadow St 
 
 										
+                            
                             <br/>Amherst MA
                                         01003, US 
 
 										
+                            
                             <br/>Tel: (555)555-1212 
 
 										
+                            
                             <br/>
                         </td>
                     </tr>
@@ -175,6 +186,7 @@
                         <td class="td_header_role_value">Mrs. Lillian White 
 
 										
+                            
                             <br/>
                         </td>
                     </tr>
@@ -185,13 +197,16 @@
                         <td class="td_header_role_value">49 Meadow St 
 
 										
+                            
                             <br/>Amherst MA
                                         01003, US 
 
 										
+                            
                             <br/>Tel: (555)555-1215 
 
 										
+                            
                             <br/>
                         </td>
                     </tr>
@@ -213,13 +228,16 @@
 
 
 										
+                            
                             <br/>Amherst MA 01002, US 
 
 										
+                            
                             <br/>Tel: +1(555)555-1003
 
 
 										
+                            
                             <br/>
                         </td>
                     </tr>
@@ -242,13 +260,16 @@
 
 
 										
+                            
                             <br/>Amherst MA 01002, US 
 
 										
+                            
                             <br/>Tel: +1(555)555-1003
 
 
 										
+                            
                             <br/>
                         </td>
                     </tr>
@@ -270,13 +291,16 @@
 
 
 										
+                            
                             <br/>Portland, OR 99123, US 
 
 										
+                            
                             <br/>Tel: +1(555)555-1215
 
 
 										
+                            
                             <br/>
                         </td>
                     </tr>
@@ -298,13 +322,16 @@
 
 
 										
+                            
                             <br/>Amherst MA 01002, US 
 
 										
+                            
                             <br/>Tel: +1(555)555-1666
 
 
 										
+                            
                             <br/>
                         </td>
                     </tr>
@@ -327,13 +354,16 @@
 
 
 										
+                            
                             <br/>Amherst MA 01002, US 
 
 										
+                            
                             <br/>Tel: +1(555)555-1003
 
 
 										
+                            
                             <br/>
                         </td>
                     </tr>
@@ -355,13 +385,16 @@
 
 
 										
+                            
                             <br/>Amherst MA 01002, US 
 
 										
+                            
                             <br/>Tel: +1(555)555-1003
 
 
 										
+                            
                             <br/>
                         </td>
                     </tr>
@@ -373,6 +406,9 @@
         <valueReference>
             <reference value="PractitionerRole/ccda-practitionerrole-example"/>
         </valueReference>
+    </extension>
+    <extension url="http://hl7.org/fhir/us/ccda/StructureDefinition/VersionNumber">
+        <valueInteger value="1"/>
     </extension>
     <identifier>
         <system value="urn:ietf:rfc:3986"/>
