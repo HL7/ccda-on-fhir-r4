@@ -8,7 +8,7 @@ The Composition profiles in this IG do not require coded data in any section. Th
 
 We encourage feedback on these Composition profiles, and the general approach to the project as a whole. We also encourage implementers who wish to see more of the coded data from C-CDA mapped to FHIR to comment on the US Core project and make their requests known there. Once US Core creates new profiles, this project can reference them.
 
-## Scope
+### Scope
 
 To represent Consolidated CDA Templates for Clinical Notes (C-CDA) 2.1 templates using FHIR profiles.
 

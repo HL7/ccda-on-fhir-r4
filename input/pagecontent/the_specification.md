@@ -1,12 +1,12 @@
 [Previous Page - Background](background.html)
 
-## FHIR Documents
+### FHIR Documents
 
 C-CDA on FHIR relies on the FHIR Documents paradigm. Implementers need to be aware of and follow all the rules required for FHIR Documents. Please refer to that section of the core FHIR spec.
 
 [http://hl7.org/fhir/documents.html](http://hl7.org/fhir/documents.html)
 
-# Actors
+### Actors
 
 The following actors are part of the US Core IG:
 
@@ -15,7 +15,7 @@ The following actors are part of the US Core IG:
 
 The C-CDA on FHIR specification does not define additional rules for sending/receiving documents beyond what is already defined in the FHIR core spec and US Core, though it is recommended that implementers consider using the US Core DocumentReference profile as a way to index any kind of document, including those compliant with C-CDA on FHIR. 
 
-# Profiles and Extensions
+### Profiles and Extensions
 
 To claim conformance to a C-CDA on FHIR Profile, servers SHALL:
 
@@ -24,7 +24,7 @@ To claim conformance to a C-CDA on FHIR Profile, servers SHALL:
 
 The following profiles and extensions are present in the specification. Details on these profiles and extensions are available on the [Artifact Index page](artifacts.html). 
 
-## Composition Resource Profiles
+#### Composition Resource Profiles
 
 
 * [US Realm Header](StructureDefinition-US-Realm-Header.html)
@@ -42,7 +42,7 @@ The following profiles and extensions are present in the specification. Details 
 
 Note: the C-CDA Unstructured Document profile is not included in this specification since it's use case is covered by the [US Core DocumentReference profile](https://www.hl7.org/fhir/us/core/StructureDefinition-us-core-documentreference.html). 
 
-## Extensions
+#### Extensions
 
 * [Authorization Extension](StructureDefinition-AuthorizationExtension.html)
 * [Informant Extension](StructureDefinition-InformantExtension.html)
@@ -53,24 +53,24 @@ Note: the C-CDA Unstructured Document profile is not included in this specificat
 * [Order Extension](StructureDefinition-OrderExtension.html)
 * [Version Number Extension](StructureDefinition-VersionNumber.html)
 
-# Document Bundles
+### Document Bundles
 
 Per the FHIR Document's paradigm, the Composition resource and all references resources must be packaged in a FHIR Bundle resource where Bundle.type = document in order for the content in the Composition resource to be considered a "document". Un-bundled Composition resources are useful while a document is being edited, but until it has been bundled it does not meet the key characteristics of a clinical document (persistence, potential for authentication, etc.). The FHIR specification includes a $document operation on the Composition resource, and FHIR servers that support that operation can handle the task of bundling Composition and other resources. 
 
 See the documentation on the [FHIR Bundle resource](http://hl7.org/fhir/bundle.html) and the [FHIR $document operation](http://hl7.org/fhir/composition-operation-document.html) for more information. 
 
-# General Guidance
+### General Guidance
 
 This section outlines important definitions, interpretations, and requirements common to all C-CDA on FHIR actors used in this guide. The conformance verbs - SHALL, SHOULD, MAY - used in this guide are defined in FHIR Conformance Rules.
 
 
-## US Core and C-CDA on FHIR
+#### US Core and C-CDA on FHIR
 
 The C-CDA on FHIR specification relies on the US Core specification for all Composition.section.entry content. If a US Core profile does not exist for the expected content of a given section, then unprofiled resources are referenced instead. This was an intentional choice, representing a separation of concerns between the document-level profiles on the Composition resource (C-CDA on FHIR scope) and definition of discrete data needed for the exchange of coded information (US Core scope). It is expected that US Core will evolve over time, and as it does the C-CDA on FHIR specification will be updated to include new US Core Profiles. 
 
 More information on US Core can be found [here](https://www.hl7.org/fhir/us/core/). 
 
-## Must Support
+#### Must Support
 
 For querying and reading C-CDA on FHIR Profiles, Must Support on any profile data element SHALL be interpreted as follows:
 
@@ -81,7 +81,7 @@ For querying and reading C-CDA on FHIR Profiles, Must Support on any profile dat
 * In situations where information on a particular data element is missing and the Document Source knows the precise reason for the absence of data, Document Sources SHALL send the reason for the missing information using values (such as nullFlavors) from the value set where they exist or using the dataAbsentReason extension.
 * Document Consumers SHALL be able to process resource instances containing data elements asserting missing information.
 
-## Implementation Notes when Moving from C-CDA to C-CDA on FHIR
+#### Implementation Notes when Moving from C-CDA to C-CDA on FHIR
 
 Implementers moving from C-CDA to FHIR need to be aware that the goal of this project is to address the same use case as Consolidated CDA (clinical documentation for primary and transfer of care scenarios in the US), but the syntax, methodologies, and value sets in FHIR are often quite different from those in C-CDA. In particular, implementers need to be aware of the issues listed below:
 
@@ -94,7 +94,7 @@ Implementers moving from C-CDA to FHIR need to be aware that the goal of this pr
 * In C-CDA multiple observations such as lab results are wrapped in an Organizer, whereas in FHIR the Observation resource itself can contain multiple Observations as subcomponents
 * Implementers need to follow the rules and apply the value sets used by the target specification, and this will often require significant data and vocabulary mapping. implementers moving from C-CDA to C-CDA on FHIR will need to review the US Core profiles and value sets in core FHIR resources and ensure that their instances FHIR instances are compliant. We hope that ongoing work in HL7 will better align US Core, C-CDA, and the Core FHIR specifications in the future.
 
-# Mapping between C-CDA and C-CDA on FHIR
+#### Mapping between C-CDA and C-CDA on FHIR
 We encourage implementers to refer to the ongoing C-CDA to FHIR mapping work that is described on the [Model Based Transformation Service](https://confluence.hl7.org/display/SOA/Model-Based+Transformation+Service) project page.
 
 [Next Page - Downloads](downloads.html)
