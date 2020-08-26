@@ -408,7 +408,7 @@
                         </coding>
                     </code>
                     <text>
-                        <status value="generated"/>
+                        <status value="additional"/>
                         <div
                             xmlns="http://www.w3.org/1999/xhtml">
                             <table>
@@ -452,7 +452,7 @@
                         </coding>
                     </code>
                     <text>
-                        <status value="generated"/>
+                        <status value="additional"/>
                         <div
                             xmlns="http://www.w3.org/1999/xhtml">
                             <table>
@@ -486,7 +486,7 @@
                         </coding>
                     </code>
                     <text>
-                        <status value="generated"/>
+                        <status value="additional"/>
                         <div
                             xmlns="http://www.w3.org/1999/xhtml">
                             <table>
@@ -530,7 +530,7 @@
                         </coding>
                     </code>
                     <text>
-                        <status value="generated"/>
+                        <status value="additional"/>
                         <div
                             xmlns="http://www.w3.org/1999/xhtml">
                             <table>
