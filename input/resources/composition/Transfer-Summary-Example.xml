@@ -440,7 +440,7 @@
             </div>
         </text>
     </section>
-    <!--<section>
+    <section>
         <title value="Assessment and Plan Section"/>
         <code>
             <coding>
@@ -461,8 +461,8 @@
                 <p>Other chronic diagnoses as noted above, currently stable.</p>
             </div>
         </text>
-    </section>-->
-    <section>
+    </section>
+	<!-- <section>
         <title value="Chief Complaint and Reason for Visit Section"/>
         <code>
             <coding>
@@ -478,7 +478,7 @@
                 <p>Cramping, bloating, and constipation.</p>
             </div>
         </text>
-    </section>
+    </section> -->
     <section>
         <title value="Admission Diagnosis Section"/>
         <code>
@@ -1122,7 +1122,7 @@
             </div>
         </text>
     </section>
-    <section>
+    <!-- <section>
         <title value="Discharge Medications Section (entries required)"/>
         <code>
             <coding>
@@ -1167,7 +1167,7 @@
                 </table>
             </div>
         </text>
-    </section>
+    </section> -->
     <section>
         <title value="Immunizations Section"/>
         <code>
