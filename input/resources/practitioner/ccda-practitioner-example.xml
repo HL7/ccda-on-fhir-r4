@@ -12,19 +12,6 @@
         <use value="official"/>
         <type>
             <coding>
-                <system value="http://terminology.hl7.org/CodeSystem/identifier-type"/>
-                <code value="SB"/>
-                <display value="Social Beneficiary Identifier"/>
-            </coding>
-            <text value="US Social Security Number"/>
-        </type>
-        <system value="http://hl7.org/fhir/sid/us-ssn"/>
-        <value value="000001011"/>
-    </identifier>
-    <identifier>
-        <use value="official"/>
-        <type>
-            <coding>
                 <system value="http://terminology.hl7.org/CodeSystem/v2-0203"/>
                 <code value="PRN"/>
                 <display value="Provider number"/>
@@ -33,19 +20,6 @@
         </type>
         <system value="http://hl7.org/fhir/sid/us-npi"/>
         <value value="9999991011"/>
-    </identifier>
-    <identifier>
-        <use value="official"/>
-        <type>
-            <coding>
-                <system value="http://terminology.hl7.org/CodeSystem/identifier-type"/>
-                <code value="SB"/>
-                <display value="Social Beneficiary Identifier"/>
-            </coding>
-            <text value="Michigan Common Key Service Identifier"/>
-        </type>
-        <system value="http://mihin.org/fhir/cks"/>
-        <value value="d46f70565a1042f6a6ece48dd81b408f"/>
     </identifier>
     <name>
         <family value="Richard"/>
@@ -73,22 +47,6 @@
     <gender value="female"/>
     <birthDate value="1976-11-15"/>
     <qualification>
-        <identifier>
-            <use value="official"/>
-            <type>
-                <coding>
-                    <system value="http://terminology.hl7.org/CodeSystem/v2-0203"/>
-                    <code value="MD"/>
-                    <display value="Medical License number"/>
-                </coding>
-                <text value="Michigan Medical License"/>
-            </type>
-            <system value="http://michigan.gov/fhir/medical-license"/>
-            <value value="LARA-1011"/>
-            <assigner>
-                <display value="State of Michigan"/>
-            </assigner>
-        </identifier>
         <code>
             <coding>
                 <system value="http://michigan.gov/lara/license-type"/>
