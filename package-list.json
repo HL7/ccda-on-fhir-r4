@@ -5,6 +5,7 @@
 			"desc": "Continuous Integration Build (latest in version control)",
 			"path": "http://build.fhir.org/ig/HL7/ccda-on-fhir-r4",
 			"status": "ci-build",
+			"sequence": "STU 2",
 			"current": true,
 			"fhirversion": "4.0.1"
 		},
@@ -38,11 +39,13 @@
 		},
 		{
 			"version": "2.0.0",
+			"date": "2020-08-26",
 			"current": false,
 			"desc": "STU 2 Published version",
 			"path": "http://hl7.org/fhir/us/ccda",
 			"fhirversion": "4.0.1",
 			"status": "trial-use"
+			"sequence": "STU 2",
 		}
 	],
 	"package-id": "hl7.fhir.us.ccda",
