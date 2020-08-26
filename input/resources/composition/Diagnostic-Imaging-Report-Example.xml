@@ -392,6 +392,7 @@
             </div>
         </text>
     </section>
+	<!--
     <section>
         <title value="Indications for Procedure Section"/>
         <code>
@@ -409,4 +410,5 @@
             </div>
         </text>
     </section>
+	-->
 </Composition>
