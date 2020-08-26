@@ -652,11 +652,6 @@
             <title value="Home Page"/>
             <generation value="markdown"/>
             <page>
-                <nameUrl value="downloads.html"/>
-                <title value="Downloads"/>
-                <generation value="markdown"/>
-            </page>
-            <page>
                 <nameUrl value="background.html"/>
                 <title value="Background"/>
                 <generation value="markdown"/>
@@ -664,6 +659,11 @@
             <page>
                 <nameUrl value="the_specification.html"/>
                 <title value="The Specification"/>
+                <generation value="markdown"/>
+            </page>
+            <page>
+                <nameUrl value="downloads.html"/>
+                <title value="Downloads"/>
                 <generation value="markdown"/>
             </page>
         </page>
