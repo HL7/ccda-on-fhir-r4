@@ -20,8 +20,6 @@ For further information see the C-CDA specification here: http://www.hl7.org/imp
 
 
 
-
-
 ### Authors
 
 <table>
@@ -66,4 +64,4 @@ For further information see the C-CDA specification here: http://www.hl7.org/imp
 
 
 
-[Next Page - Downloads](downloads.html)
+[Next Page - Background](background.html)

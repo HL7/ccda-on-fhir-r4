@@ -1,5 +1,4 @@
-[Previous Page - Downloads](downloads.html)
-
+[Previous Page - Home Page](index.html)
 
 # Clinical Documents
 
@@ -46,6 +45,6 @@ One of the earliest efforts of the Argonaut Project was a comparison of C-CDA te
 
 The C-CDA on FHIR Project is a volunteer effort that picked up where the Argonaut analytical mappings left off. The initial goal of the project was to represent Consolidated CDA Templates for Clinical Notes (C-CDA) 2.1 templates using FHIR profiles. The first stage of the project defined C-CDA document-level profiles on the Composition resource and contained sections. All coded data used by sections was accomplished by referencing relevant US-Core FHIR profiles. This work was completed and the IG was published in April 2018. 
 
-The current work represented in this implementation guide has proceeded as an unballoted STU update to upgrade the FHIR STU 3 profiles to FHIR R4 and make any other necessary changes to comply with the latest FHIR quality criteria. 
+The current work represented in this implementation guide has proceeded as an unballoted STU update to upgrade the FHIR STU 3 profiles to FHIR R4 and make any other necessary changes to comply with the latest FHIR quality criteria.
 
 [Next Page - The Specification](the_specification.html)

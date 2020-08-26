@@ -1,6 +1,5 @@
 [Previous Page - Background](background.html)
 
-
 ## FHIR Documents
 
 C-CDA on FHIR relies on the FHIR Documents paradigm. Implementers need to be aware of and follow all the rules required for FHIR Documents. Please refer to that section of the core FHIR spec.
@@ -97,3 +96,5 @@ Implementers moving from C-CDA to FHIR need to be aware that the goal of this pr
 
 # Mapping between C-CDA and C-CDA on FHIR
 We encourage implementers to refer to the ongoing C-CDA to FHIR mapping work that is described on the [Model Based Transformation Service](https://confluence.hl7.org/display/SOA/Model-Based+Transformation+Service) project page.
+
+[Next Page - Downloads](downloads.html)

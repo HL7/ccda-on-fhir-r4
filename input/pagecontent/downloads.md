@@ -1,4 +1,4 @@
-[Previous Page - Home Page](index.html)
+[Previous Page - The Specification](the_specification.html)
 
 **Full Implementation Guide**
 
@@ -20,6 +20,4 @@ All the examples that are used in this Implementation Guide available for downlo
 
 **Validation**
 
-Implementers should use the [FHIR Validator](https://confluence.hl7.org/display/FHIR/Using+the+FHIR+Validator) for validating profiles and other resources in this guide. 
-
-[Next Page - Background](background.html)
+Implementers should use the [FHIR Validator](https://confluence.hl7.org/display/FHIR/Using+the+FHIR+Validator) for validating profiles and other resources in this guide.
