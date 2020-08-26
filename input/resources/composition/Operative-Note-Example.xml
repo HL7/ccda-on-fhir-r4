@@ -353,6 +353,7 @@
             <end value="2016-06-15"/>
         </period>
     </event>
+	<!--
     <section>
         <title value="Allergies and Intolerances Section"/>
         <code>
@@ -398,6 +399,7 @@
             <reference value="AllergyIntolerance/allergy-intolerance"/>
         </entry>
     </section>
+	-->
     <section>
         <title value="Anesthesia Section"/>
         <code>
@@ -414,10 +416,13 @@
                 <p>Conscious sedation with propofol 200 mg IV</p>
             </div>
         </text>
+		<!--
         <entry>
             <reference value="Condition/condition-problem"/>
         </entry>
+		-->
     </section>
+	<!--
     <section>
         <title value="Assessment Section"/>
         <code>
@@ -460,6 +465,7 @@
             </div>
         </text>
     </section>
+	-->
     <section>
         <title value="Complications Section"/>
         <code>
