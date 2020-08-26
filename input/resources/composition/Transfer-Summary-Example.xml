@@ -440,7 +440,7 @@
             </div>
         </text>
     </section>
-    <section>
+    <!--<section>
         <title value="Assessment and Plan Section"/>
         <code>
             <coding>
@@ -461,7 +461,7 @@
                 <p>Other chronic diagnoses as noted above, currently stable.</p>
             </div>
         </text>
-    </section>
+    </section>-->
     <section>
         <title value="Chief Complaint and Reason for Visit Section"/>
         <code>
