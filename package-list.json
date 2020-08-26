@@ -10,6 +10,16 @@
 			"fhirversion": "4.0.1"
 		},
 		{
+			"version": "2.0.0",
+			"date": "2020-08-26",
+			"current": true,
+			"desc": "STU 2 Published version",
+			"path": "http://hl7.org/fhir/us/ccda",
+			"fhirversion": "4.0.1",
+			"status": "trial-use",
+			"sequence": "STU 2"
+		},
+		{
 			"version": "1.0.0",
 			"date": "2018-04-07",
 			"desc": "STU 1 Published version (permanent home). Note that the version number was reset to 1.0.0 for this version since the IG acquired its own version separate to the main FHIR version)",
@@ -38,16 +48,6 @@
 			"sequence": "STU 1",
 			"current": false,
 			"fhirversion": "3.0.0"
-		},
-		{
-			"version": "2.0.0",
-			"date": "2020-08-26",
-			"current": false,
-			"desc": "STU 2 Published version",
-			"path": "http://hl7.org/fhir/us/ccda",
-			"fhirversion": "4.0.1",
-			"status": "trial-use",
-			"sequence": "STU 2"
 		}
 	],
 	"package-id": "hl7.fhir.us.ccda",
