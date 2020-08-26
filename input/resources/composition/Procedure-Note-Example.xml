@@ -775,9 +775,11 @@
                 <p>Asthmatic symptoms while under general anesthesia.</p>
             </div>
         </text>
+		<!--
         <entry>
             <reference value="Observation/observation-smoker"/>
         </entry>
+		-->
     </section>
     <section>
         <title value="Family History Section"/>
