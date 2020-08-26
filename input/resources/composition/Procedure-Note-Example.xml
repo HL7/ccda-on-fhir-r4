@@ -1138,8 +1138,10 @@
                 </table>
             </div>
         </text>
+		<!--
         <entry>
             <reference value="Observation/observation-smoker"/>
         </entry>
+		-->
     </section>
 </Composition>
