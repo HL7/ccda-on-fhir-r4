@@ -46,16 +46,4 @@
     </address>
     <gender value="female"/>
     <birthDate value="1976-11-15"/>
-    <qualification>
-        <code>
-            <coding>
-                <system value="http://michigan.gov/lara/license-type"/>
-                <code value="4305"/>
-                <display value="Medical Doctor"/>
-            </coding>
-        </code>
-        <issuer>
-            <display value="Michigan Department of Licensing and Regulatory Affairs"/>
-        </issuer>
-    </qualification>
 </Practitioner>
