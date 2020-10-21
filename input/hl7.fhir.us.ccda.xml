@@ -667,12 +667,12 @@
                 <generation value="markdown"/>
             </page>
         </page>
-		<!--
+		
         <parameter>
             <code value="releaselabel"/>
-            <value value="CI Build"/>
+            <value value="(FHIR R4) STU Release 1.1"/>
         </parameter>
-		-->
+		
         <parameter>
             <code value="copyrightyear"/>
             <value value="2020+"/>
